@@ -1,0 +1,17 @@
+h1. Textpattern CMS help files
+
+*Currently under development.*
+
+h2. Specification
+
+Structure:
+
+bc. help/
+    {language}/
+        {article}.textile
+
+Contents:
+
+bc.. h1. Article title
+
+Body.
