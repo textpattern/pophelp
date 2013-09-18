@@ -1,0 +1,3 @@
+h1. Default status
+
+Here you can choose the status articles will have once imported into Textpattern.

@@ -1,0 +1,5 @@
+h1. Record mentions
+
+Mentions are simply a list of incoming referrers to specific articles - a quick way to get a feel for who's linking to your work.
+
+Mechanisms for displaying mentions on a Textpattern site are still in development.

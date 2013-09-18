@@ -1,0 +1,5 @@
+h1. Diagnostics: The following PHP functions... are disabled on your server
+
+This means your hosting company or server administrator has disabled one or more PHP functions, some of which may affect the running of Textpattern.
+
+Please consult <a href="http://textpattern.com/faq/266/the-following-php-functions-are-disabled" target="_blank">this FAQ entry</a> for further information.

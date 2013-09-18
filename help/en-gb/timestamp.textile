@@ -1,0 +1,10 @@
+h1. Timestamp
+
+The time an article or file is published or revised. It can either be (re)set to the moment the item is saved, or to any other time.
+
+The boxes correspond to the following information:
+
+Year / Month / Day
+Hour(24hr) : Minute : Second
+
+Content with timestamps greater than the current time (i.e. in the future) will not appear on the site until that time passes.

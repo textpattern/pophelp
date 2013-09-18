@@ -1,0 +1,62 @@
+h1. About privileges
+
+h3. Publisher
+
+* can manage articles, comments and links
+* can use PHP in articles if admin preference 'Allow PHP in articles?' is set to 'Yes'
+* can manage images and files
+* can manage sections and categories
+* can manage pages, forms and style
+* can view diagnostic information
+* can manage site preferences
+* can manage users
+* can manage visitor logs
+* can manage plugins
+* can import data
+
+h3. Managing Editor
+
+* can manage articles, comments and links
+* can use PHP in articles if admin preference 'Allow PHP in articles?' is set to 'Yes'
+* can manage images and files
+* can manage sections and categories
+* can manage pages, forms and style
+* can view diagnostic information
+* can manage site preferences
+* can view users
+* can manage visitor logs
+* can manage plugins
+* can import data
+
+h3. Copy Editor
+
+* can manage articles with some limitation:
+* cannot delete those belonging to other users
+* can manage comments and links
+* can manage images and files
+* can manage sections and categories
+* can manage pages and forms
+* can view users
+* can manage visitor logs
+
+h3. Staff Writer
+
+* can manage own articles, view other users' articles
+* can manage images and files
+
+h3. Freelancer
+
+* can manage own articles in a limited sense:
+** can only modify article until is published
+** can apply status of _only_ Draft, Hidden or Pending
+* can view other users' articles
+
+h3. Designer
+
+* can manage own articles in a limited sense:
+** can only modify article until is published
+** can apply status of _only_ Draft, Hidden or Pending
+* can view other users' articles
+* can manage images and files
+* can manage sections
+* can manage pages, forms and style

@@ -1,0 +1,3 @@
+h1. Diagnostics: Missing files
+
+Some essential files are missing from your Textpattern installation. Ensure that all the listed files are present on your server and are in the correct locations.

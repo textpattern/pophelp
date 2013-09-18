@@ -1,0 +1,9 @@
+h1. Turn register_globals off or update to a newer PHP version.
+
+A severe vulnerability was discovered in certain versions of PHP. <a href="http://www.hardened-php.net/advisory_202005.79.html" target="_blank">The security advisory</a> says: "can lead to unexpected behaviour of PHP applications, which can lead to execution of remote PHP code in many situations".
+
+Vulnerable versions are PHP4-versions <= 4.4.0 and PHP5-versions <= 5.0.5. You should either update to newer versions or make sure that @register_globals@ is turned off.
+
+You can turn off @register_globals@ in the @php.ini@ file. If you are in a hosted environment, you may have an option in your hosting control panel for it (ask your host). When using @mod_php@ (php as an apache module), it is also possible to turn @register_globals@ off via @.htaccess@. Uncomment the following line from your @.htaccess@ file:
+
+@php_value register_globals off@

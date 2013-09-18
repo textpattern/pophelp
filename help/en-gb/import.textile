@@ -1,0 +1,10 @@
+h1. Importing into Textpattern
+
+You can import your data into Textpattern CMS from the following publishing tools:
+
+* Movable Type
+* Blogger
+* WordPress (including custom prefixes for your databases, if you're using them)
+* b2
+
+If you choose to import from a file - that is, MovableType or Blogger - you must place it under the @/include/import@ directory of your textpattern install directory, and call it @import.txt@.

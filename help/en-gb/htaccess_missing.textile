@@ -1,0 +1,9 @@
+h1. .htaccess file missing
+
+You are using a permanent link mode which requires an @.htaccess@ file to be placed in your site root directory. The recommended directives to place in this .htaccess file are:
+
+bc. RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^(.+) - [PT,L]
+RewriteRule ^(.*) index.php

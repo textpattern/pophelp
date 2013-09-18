@@ -1,0 +1,3 @@
+h1. Override default form
+
+If on occasion you wish for an article to use a form different from that assigned by default - for example if you want to show only an article excerpt with @<txp:excerpt />@ where you normally show the entire article with @<txp:body />@ - this can be set here.

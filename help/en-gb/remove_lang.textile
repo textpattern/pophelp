@@ -1,0 +1,5 @@
+h1. Languages: Remove language
+
+You can remove this language completely and thus free the database resources that are associated with it. 
+
+If you inadvertently remove a language you can re-install it any time later.

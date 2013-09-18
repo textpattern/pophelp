@@ -1,0 +1,35 @@
+h1. Article tags
+
+These tags are replaced with their corresponding values every time an article is output. 
+
+h3. Author
+
+The full name of the article's author.
+
+h3. Body
+
+The body of the article. Note that the body of articles processed with Textile will already have @<p>@ tags around each paragraph. Thus it is superfluous to use additional paragraph tags. 
+
+h3. Excerpt
+
+Text, if any, that was entered in the article's 'Excerpt' field.
+
+h3. Category 1, Category 2
+
+Categories, if any, assigned to the article.
+
+h3. Comments invite
+
+Will be replaced by the invitation for comments, if any, assigned to the article, as well as the current count of comments received.
+
+h3. Permanent link
+
+Text, article date or graphic that represents a permanent link to the article.
+
+h3. Posted
+
+The time associated with the article, in the format specified in the 'date format' items on the Texpattern preferences page. If this tag is placed between 'permanent link' tags, then the article's date becomes its clickable permanent link.
+
+h3. Title
+
+Guess.

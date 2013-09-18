@@ -1,0 +1,3 @@
+h1. Diagnostics: DNS fails
+
+It appears the URI you specified as the address of your site is unreachable on the web.

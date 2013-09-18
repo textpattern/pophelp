@@ -1,0 +1,7 @@
+h1. Minimum version requirements
+
+Textpattern requires certain functionality present in the PHP programming language and MySQL database. Please consult the following table to determine the minimum system requirements for the version of Textpattern you have downloaded:
+
+|_. Textpattern version |_. PHP version |_. MySQL version |
+| 4.5.x | 5.2 | 5 |
+| 4.0.1 - 4.4.1 | 4.3 | 3.23 |

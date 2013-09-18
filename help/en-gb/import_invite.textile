@@ -1,0 +1,3 @@
+h1. Default comments invite for imported articles
+
+Here you can set comments invite for the articles you're about to import.

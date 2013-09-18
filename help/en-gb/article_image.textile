@@ -1,0 +1,9 @@
+h1. Article image
+
+If you would like to associate a single image with this article, place one of the following here:
+
+# a Textpattern image ID
+# a relative URL to the image -- e.g. @/images/my_pic.jpg@
+# a fully-qualified URL e.g. @http://site.com/path/to/images/my_pic.jpg@
+
+The image can be displayed by placing a @<txp:article_image />@ tag inside an article form. It will output a complete HTML @<img>@ tag to your chosen image.

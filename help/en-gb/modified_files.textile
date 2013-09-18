@@ -1,0 +1,3 @@
+h1. Diagnostics: Modified files
+
+If any files in the Textpattern installation are different to those expected, the files will be highlighted here. This is not necessarily a problem, but may be worth checking out if you are having problems with the functionality of your site.

@@ -1,0 +1,3 @@
+h1. Languages: Install Textpack from server
+
+To install or update language 'Textpacks' from the Textpattern server, just click the 'Install' or 'Update' links from this column against the language you wish to use.

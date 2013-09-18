@@ -1,0 +1,3 @@
+h1. Diagnostics: Old files
+
+Some Textpattern files are out of date and should be replaced with the latest versions from the relevant stable release.

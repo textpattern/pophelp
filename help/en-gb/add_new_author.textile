@@ -1,0 +1,3 @@
+h1. Add new author
+
+A password, welcome message and login instructions will be emailed to the new author.

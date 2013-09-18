@@ -1,0 +1,3 @@
+h1. No temp directory defined
+
+While Textpattern will run without a temporary directory, some parts may not work as expected if this preference is not set. Please visit Admin Preferences and set up the 'Temporary directory path'.
