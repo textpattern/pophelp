@@ -14,6 +14,6 @@ bc. <abbr title="American Civil Liberties Union">ACLU</abbr>
 
 Which, when displayed in a browser, will look like this (move your cursor over the text):
 
-bq. ACLU(American Civil Liberties Union)
+ACLU(American Civil Liberties Union)
 
 *Note:* In Textile versions prior to v2.5, the older @<acronym>@ tag is used for abbreviations. This tag has been deprecated in HTML5 in favour of the @<abbr>@ tag.
