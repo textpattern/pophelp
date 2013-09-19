@@ -1,4 +1,4 @@
-h1. Block quotes
+h1. Block quotations
 
 To make an entire paragraph into a block quotation, place @bq.@ before it.
 
@@ -23,3 +23,11 @@ bq. A block quotation.
 Any old text.
 
 *Note:* Unmodified paragraphs will be wrapped in @<p>@ tags.
+
+h3. Textile documentation
+
+<a href="http://txstyle.org/doc/3/block-quotations" target="_blank">More information on block quotations in Textile</a>.
+
+h3. HTML documentation (via MDN)
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote" target="_blank">The @<blockquote>@ HTML element</a>.

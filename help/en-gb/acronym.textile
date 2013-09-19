@@ -1,6 +1,6 @@
 h1. Defining abbreviations
 
-HTML(HyperText Markup Language) allows authors to define abbreviations via the @<abbr>@ tag. The definition appears as a tooltip when a cursor hovers over the abbreviation. A crucial aid to clear writing, this should be used at least once for each abbreviation in documents where they appear. 
+HTML allows authors to define abbreviations via the @<abbr>@ tag. The definition appears as a tooltip when a cursor hovers over the abbreviation. A crucial aid to clear writing, this should be used at least once for each abbreviation in documents where they appear. 
 
 To quickly define an abbreviation in Textile, place the full text in (parentheses) immediately following the abbreviation.
 
@@ -17,3 +17,13 @@ Which, when displayed in a browser, will look like this (move your cursor over t
 ACLU(American Civil Liberties Union)
 
 *Note:* In Textile versions prior to v2.5.0, the older @<acronym>@ tag is used for abbreviations. This tag has been deprecated in HTML5 in favour of the @<abbr>@ tag.
+
+h3. Textile documentation
+
+<a href="http://txstyle.org/doc/32/acronyms" target="_blank">More information on abbreviations in Textile</a>.
+
+h3. HTML documentation (via MDN)
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr" target="_blank">The @<abbr>@ HTML element</a>.
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/acronym" target="_blank">The (obsolete) @<acronym>@ HTML element</a>.
