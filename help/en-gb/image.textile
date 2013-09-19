@@ -1,0 +1,41 @@
+h1. Images
+
+To insert an image, put the URL for the image inside exclamation marks.
+
+*Optional:* text that immediately follows the URL in (parentheses) will be used as the @alt@ text for the image. Images on the web should always have descriptive @alt@ text for the benefit of readers using non-graphical browsers.
+
+*Optional:* place a colon followed by a URL immediately after the closing @!@ to make the image into a link.
+
+h3. Examples
+
+bc. !http://textpattern.com/assets/img/textpattern.png(Textpattern)!
+
+Will become:
+
+bc. <img src="http://textpattern.com/assets/img/textpattern.png" alt="Textpattern" />
+
+Which the browser will use to render the image:
+
+<img src="http://www.textpattern.com/assets/img/textpattern.png" alt="Textpattern" />
+
+With a link:
+
+bc. !http://textpattern.com/assets/img/textpattern.png(Textpattern)!:http://textpattern.com
+
+Will become:
+
+bc. <a href="http://textpattern.com"><img src="http://textpattern.com/assets/img/textpattern.png" alt="Textpattern" /></a>
+
+Which the browser will use to render the image:
+
+<a href="http://textpattern.com"><img src="http://www.textpattern.com/assets/img/textpattern.png" alt="Textpattern" /></a>
+
+h3. Textile documentation
+
+<a href="http://txstyle.org/doc/14/images" target="_blank">More information on images in Textile</a>.
+
+h3. HTML documentation (via MDN)
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Img" target="_blank">The @<img>@ HTML element</a>.
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank">The @<a>@ HTML element</a>.
