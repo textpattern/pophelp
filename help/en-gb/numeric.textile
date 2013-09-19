@@ -1,6 +1,6 @@
-h1. Numerical lists
+h1. Numeric lists
 
-To make a numbered list, place each item in its own paragraph, preceded by @#@.
+To make a numeric list, place each item in its own paragraph, preceded by @#@.
 
 h3. Example
 
@@ -38,7 +38,7 @@ Which, when rendered by a browser, will appear like this:
 
 h3. Textile documentation
 
-<a href="http://txstyle.org/doc/9/numbered-lists" target="_blank">More information on numerical lists in Textile</a>.
+<a href="http://txstyle.org/doc/9/numbered-lists" target="_blank">More information on numeric lists in Textile</a>.
 
 h3. HTML documentation (via MDN)
 
