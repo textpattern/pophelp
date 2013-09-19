@@ -1,0 +1,37 @@
+h1. Bulleted lists
+
+To make a bulleted (point form) list, place each item in its own paragraph, preceded by @*@.
+
+h3. Example
+
+bc. * A first item
+* A second item
+** A second item first sub item
+** A second item second sub item
+* A third item
+* A fourth item
+
+Will become:
+
+bc. <ul>
+  <li>A first item</li>
+  <li>A second item
+  <ul>
+    <li>A second item first sub item</li>
+    <li>A second item second sub item</li>
+  </ul>
+  </li>
+  <li>A third item</li>
+  <li>A fourth item</li>
+</ul>
+
+Which, when rendered by a browser, will appear like this:
+
+* A first item
+* A second item
+** A second item first sub item
+** A second item second sub item
+* A third item
+* A fourth item
+
+*Note:* Unmodified paragraphs will be wrapped in @<p>@ tags.

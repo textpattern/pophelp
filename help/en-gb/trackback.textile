@@ -1,6 +1,6 @@
 h1. Trackback
 
-Many content management systems offer trackbacks to individual articles or postings. 
+Many content management systems offer trackbacks to individual articles or postings.
 
 At their simplest, trackbacks offer a way to say, "I've said something about this article; here's the name of my site, a link to the mention, and a brief excerpt". The other site's owner can then use the trackback information however she wishes.
 

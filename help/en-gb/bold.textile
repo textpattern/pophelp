@@ -1,0 +1,13 @@
+h1. Strong emphasis
+
+Use ==*asterisks*== for text to be *strongly emphasised*.
+
+The @<strong>@ HTML(Hypertext Markup Language) tag is applied:
+
+bc. *a phrase* → <strong>a phrase</strong>
+
+If the text is not meant to have *structural* emphasis, but simply to be styled in **bold** (e.g., as a design element) use double asterisks:
+
+bc. **a phrase** → <b>a phrase</b>
+
+*Note:* Quick tags must open and close within a single paragraph to produce valid markup.

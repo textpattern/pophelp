@@ -1,7 +1,7 @@
 h1. Diagnostics: Site URL mismatch
 
-The Site URL as set in the preferences tab does not match the actual URL you use to visit your website at this very moment. 
+The Site URL as set in the preferences tab does not match the actual URL you use to visit your website at this very moment.
 
-If your website can be reached through multiple different URLs, or if the links on your Textpattern powered website all function correctly, you can ignore this warning. 
+If your website can be reached through multiple different URLs, or if the links on your Textpattern powered website all function correctly, you can ignore this warning.
 
 Otherwise, you are advised to correct the 'Site URL' setting in Admin Preferences. An educated guess of the correct Site URL is shown in the pre-flight warning message on the diagnostics tab.

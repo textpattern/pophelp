@@ -1,0 +1,25 @@
+h1. Block quotes
+
+To make an entire paragraph into a block quotation, place @bq.@ before it.
+
+h3. Example
+
+bc.. Any old text.
+bq. A block quotation.
+Any old text.
+
+p. Will become:
+
+bc. <p>Any old text.</p>
+<blockquote>A block quotation.</blockquote>
+<p>Any old text.</p>
+
+Which, when rendered by a browser, will appear like this:
+
+Any old text.
+
+bq. A block quotation.
+
+Any old text.
+
+*Note:* Unmodified paragraphs will be wrapped in @<p>@ tags.
