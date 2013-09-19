@@ -4,7 +4,7 @@ Use ==+pluses+== around text that has been +inserted+. This is useful in marking
 
 The @<ins>@ HTML tag is applied:
 
-bc. ==+a phrase+== → <ins>a phrase</ins>
+bc. +a phrase+ → <ins>a phrase</ins>
 
 *Note:* Quick tags must open and close within a single paragraph to produce valid markup.
 

@@ -4,7 +4,7 @@ Use ==??double question marks??== around ??citations??, such as the title of a w
 
 The @<cite>@ HTML tag is applied:
 
-bc. Nabokov's ==??Pnin??== → Nabokov's <cite>Pnin</cite>
+bc. Nabokov's ??Pnin?? → Nabokov's <cite>Pnin</cite>
 
 *Note:* quick tags must open and close within a single paragraph to produce valid markup.
 

@@ -1,0 +1,16 @@
+h1. What Textile does
+
+Some of the many ways Textile makes markup easier:
+
+* Replace single and double primes (@'@ and @"@) used as quotation marks with HTML entities for opening and closing quotation marks (@‘’@ and @“”@) in readable text, while leaving untouched the primes required within HTML tags.
+* Replace double hyphens (==--==) with an em-dash (—) entity.
+* Replace single hyphens surrounded by spaces with an en-dash (–) entity.
+* Replace triplets of periods (==...==) with an ellipsis (…) entity.
+* Convert many nonstandard characters (ŸúßŠπŒ) to browser-safe entities corresponding to keyboard input.
+* Apply block- and phrase-level structural tags automatically and at the discretion of the writer via quick tags.
+* Allow the quick creation of simple and complex tables.
+* Allow the simple application of @style@, @class@, @id@ and @lang@ attributes to elements.
+* Create hyperlinks and insert images via quick tags.
+* Define abbreviations via quick tags.
+* Convert @(TM)@, @(R)@, and @(C)@ to ™, ®, and ©.
+* Convert the letter x to a dimension sign: @2x4@ to 2×4 and @8x10@ to 8×10.

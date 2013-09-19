@@ -4,11 +4,11 @@ To make an entire paragraph into a heading, place @hn.@ at its beginning, where 
 
 h3. Examples
 
-bc. ==h1. Header 1==
+bc. h1. Header 1
 
-bc. ==h2. Header 2==
+bc. h2. Header 2
 
-bc. ==h3. Header 3==
+bc. h3. Header 3
 
 Will become:
 

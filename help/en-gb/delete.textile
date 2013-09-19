@@ -4,7 +4,7 @@ Use ==-hyphens-== around text that has been -deleted-. This is useful in marking
 
 The @<del>@ HTML tag is applied:
 
-bc. ==-a phrase-== → <del>a phrase</del>
+bc. -a phrase- → <del>a phrase</del>
 
 *Note:* Quick tags must open and close within a single paragraph to produce valid markup.
 

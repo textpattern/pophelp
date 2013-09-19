@@ -1,0 +1,24 @@
+h1. Textile shortcuts
+
+h3. Formatting
+
+bc. _emphasis_
+*strong*
+??citation??
+-deleted text-
++inserted text+
+^superscript^
+
+h3. Hyperlink
+
+bc. "link text":http://link.com/
+
+h3. Image
+
+bc. !http://image.url!
+
+h3. Abbreviation
+
+bc. ABC(Always Be Closing)
+
+*Note:* All HTML tags will be escaped.
