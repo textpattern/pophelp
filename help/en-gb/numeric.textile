@@ -1,0 +1,47 @@
+h1. Numerical lists
+
+To make a numbered list, place each item in its own paragraph, preceded by @#@.
+
+h3. Example
+
+bc. # A first item
+# A second item
+## A second item first sub item
+## A second item second sub item
+# A third item
+# A fourth item
+
+Will become:
+
+bc. <ol>
+  <li>A first item</li>
+  <li>A second item
+  <ul>
+    <li>A second item first sub item</li>
+    <li>A second item second sub item</li>
+  </ul>
+  </li>
+  <li>A third item</li>
+  <li>A fourth item</li>
+</ol>
+
+Which, when rendered by a browser, will appear like this:
+
+# A first item
+# A second item
+## A second item first sub item
+## A second item second sub item
+# A third item
+# A fourth item
+
+*Note:* Unmodified paragraphs will be wrapped in @<p>@ tags.
+
+h3. Textile documentation
+
+<a href="http://txstyle.org/doc/9/numbered-lists" target="_blank">More information on numerical lists in Textile</a>.
+
+h3. HTML documentation (via MDN)
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol" target="_blank">The @<ol>@ HTML element</a>.
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li" target="_blank">The @<li>@ HTML element</a>.
