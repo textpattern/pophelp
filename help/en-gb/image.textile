@@ -36,6 +36,6 @@ h3. Textile documentation
 
 h3. HTML documentation (via MDN)
 
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Img" target="_blank">The @<img>@ HTML element</a>.
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img" target="_blank">The @<img>@ HTML element</a>.
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank">The @<a>@ HTML element</a>.

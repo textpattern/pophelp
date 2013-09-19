@@ -1,0 +1,73 @@
+h1. Definition lists
+
+To make a definition list, place the term in its own paragraph, preceded by @;@. Each definition can then be written on subsequent lines preceded by @:@.
+
+h3. Examples
+
+bc. ; Textpattern
+: An open source CMS
+: Elegant and simple to use
+: Friendly community
+
+Will become:
+
+bc. <dl>
+  <dt>Textpattern</dt>
+  <dd>An open source CMS</dd>
+  <dd>Elegant and simple to use</dd>
+  <dd>Friendly community</dd>
+</dl>
+
+Which, when rendered by a browser, will appear like this:
+
+; Textpattern
+: An open source CMS
+: Elegant and simple to use
+: Friendly community
+
+Just like bulleted and numeric lists, terms and definitions may be nested by using more than one colon / semicolon:
+
+bc. ; Textpattern
+: An open source CMS
+: Has many sister sites, for example:
+;; Plugins
+:: Plugin repository
+;; Documentation
+:: User guides and docs (wiki)
+;; Themes
+:: Customise the admin-side or public site with themes
+: Elegant and simple to use
+: Friendly community
+
+Will become:
+
+bc. <dl>
+  <dt>Textpattern</dt>
+  <dd>An open source CMS</dd>
+  <dd>Has many sister sites, for example:
+  <dl>
+    <dt>Plugins</dt>
+    <dd>Plugin repository</dd>
+    <dt>Documentation</dt>
+    <dd>User guides and docs (wiki)</dd>
+    <dt>Themes</dt>
+    <dd>Customise the admin-side or public site with themes</dd>
+  </dl>
+  </dd>
+  <dd>Elegant and simple to use</dd>
+  <dd>Friendly community</dd>
+</dl>
+
+*Note:* Unmodified paragraphs will be wrapped in @<p>@ tags.
+
+h3. Textile documentation
+
+<a href="http://txstyle.org/doc/10/definition-lists" target="_blank">More information on definition lists in Textile</a>.
+
+h3. HTML documentation (via MDN)
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl" target="_blank">The @<dl>@ HTML element</a>.
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt" target="_blank">The @<dt>@ HTML element</a>.
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd" target="_blank">The @<dd>@ HTML element</a>.

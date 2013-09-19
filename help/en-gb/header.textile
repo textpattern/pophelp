@@ -1,0 +1,37 @@
+h1. Headings
+
+To make an entire paragraph into a heading, place @hn.@ at its beginning, where _n_ is a number from 1Ð6.
+
+h3. Examples
+
+bc. ==h1. Header 1==
+
+bc. ==h2. Header 2==
+
+bc. ==h3. Header 3==
+
+Will become:
+
+bc. <h1>Header 1</h1>
+
+bc. <h2>Header 2</h2>
+
+bc. <h3>Header 3</h3>
+
+Which, when rendered by a browser, will appear like this:
+
+h1. Header 1
+
+h2. Header 2
+
+h3. Header 3
+
+*Note:* Quick tags must open and close within a single paragraph to produce valid markup.
+
+h3. Textile documentation
+
+<a href="http://txstyle.org/doc/7/headings" target="_blank">More information on headings in Textile</a>.
+
+h3. HTML documentation (via MDN)
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements" target="_blank">The @h1@ - @h6@ HTML elements</a>.
