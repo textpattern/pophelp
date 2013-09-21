@@ -28,7 +28,7 @@ Which, when rendered by a browser, will appear like this:
 
 h3. Textile documentation
 
-<a href="http://txstyle.org/doc/11/footnotes" target="_blank">More information on footnotes in Textile</a>.
+<a href="http://textpattern.com/textile-footnote" target="_blank">More information on footnotes in Textile</a>.
 
 h3. HTML documentation (via MDN)
 

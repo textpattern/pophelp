@@ -6,11 +6,11 @@ The @<cite>@ HTML tag is applied:
 
 bc. Nabokov's ??Pnin?? → Nabokov's <cite>Pnin</cite>
 
-*Note:* quick tags must open and close within a single paragraph to produce valid markup.
+p(alert-block information). *Note:* quick tags must open and close within a single paragraph to produce valid markup.
 
 h3. Textile documentation
 
-<a href="http://txstyle.org/doc/20/citation" target="_blank">More information on citation in Textile</a>.
+<a href="http://textpattern.com/textile-cite" target="_blank">More information on citation in Textile</a>.
 
 h3. HTML documentation (via MDN)
 

@@ -21,4 +21,4 @@ h3. Abbreviation
 
 bc. ABC(Always Be Closing)
 
-*Note:* All HTML tags will be escaped.
+p(alert-block information). *Note:* All HTML tags will be escaped.

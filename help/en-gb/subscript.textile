@@ -6,11 +6,11 @@ The @<sub>@ HTML tag is applied:
 
 bc. ~a phrase~ → <sub>a phrase</sub>
 
-*Note:* Quick tags must open and close within a single paragraph to produce valid markup.
+p(alert-block information). *Note:* Quick tags must open and close within a single paragraph to produce valid markup.
 
 h3. Textile documentation
 
-<a href="http://txstyle.org/doc/18/subscript-and-superscript-text" target="_blank">More information on superscript and subscript text in Textile</a>.
+<a href="http://textpattern.com/textile-sub-and-sup" target="_blank">More information on superscript and subscript text in Textile</a>.
 
 h3. HTML documentation (via MDN)
 

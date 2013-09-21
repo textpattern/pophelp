@@ -6,11 +6,11 @@ The @<ins>@ HTML tag is applied:
 
 bc. +a phrase+ → <ins>a phrase</ins>
 
-*Note:* Quick tags must open and close within a single paragraph to produce valid markup.
+p(alert-block information). *Note:* Quick tags must open and close within a single paragraph to produce valid markup.
 
 h3. Textile documentation
 
-<a href="http://txstyle.org/doc/19/insertions-and-deletions" target="_blank">More information on insertions and deletions in Textile</a>.
+<a href="http://textpattern.com/textile-ins-and-del" target="_blank">More information on insertions and deletions in Textile</a>.
 
 h3. HTML documentation (via MDN)
 

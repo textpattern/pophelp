@@ -36,7 +36,7 @@ bc. This is a <a href="http://example.com/index.html">link</a> to my website.
 
 h3. Textile documentation
 
-<a href="http://txstyle.org/doc/12/links" target="_blank">More information on links in Textile</a>.
+<a href="http://textpattern.com/textile-link" target="_blank">More information on links in Textile</a>.
 
 h3. HTML documentation (via MDN)
 

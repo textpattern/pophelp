@@ -44,7 +44,7 @@ bc. |>. Right-aligned cell|
 
 h3. Textile documentation
 
-<a href="http://txstyle.org/doc/15/tables" target="_blank">More information on tables in Textile</a>.
+<a href="http://textpattern.com/textile-table" target="_blank">More information on tables in Textile</a>.
 
 h3. HTML documentation (via MDN)
 

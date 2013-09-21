@@ -58,11 +58,11 @@ bc. <dl>
   <dd>Friendly community</dd>
 </dl>
 
-*Note:* Unmodified paragraphs will be wrapped in @<p>@ tags.
+p(alert-block information). *Note:* Unmodified paragraphs will be wrapped in @<p>@ tags.
 
 h3. Textile documentation
 
-<a href="http://txstyle.org/doc/10/definition-lists" target="_blank">More information on definition lists in Textile</a>.
+<a href="http://textpattern.com/textile-dl-list" target="_blank">More information on definition lists in Textile</a>.
 
 h3. HTML documentation (via MDN)
 

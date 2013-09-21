@@ -8,11 +8,11 @@ bc. %(caps)SPAN% → <span class="caps">SPAN</span>
 
 bc. %{color:red}some red text% → <span style="color:red">some red text</span>
 
-*Note:* Span tags must open and close within a their parent block-class element to produce valid markup.
+p(alert-block information). *Note:* Span tags must open and close within a their parent block-class element to produce valid markup.
 
 h3. Textile documentation
 
-<a href="http://txstyle.org/doc/33/span" target="_blank">More information on spans in Textile</a>.
+<a href="http://textpattern.com/textile-span" target="_blank">More information on spans in Textile</a>.
 
 h3. HTML documentation (via MDN)
 

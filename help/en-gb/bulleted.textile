@@ -34,11 +34,11 @@ Which, when rendered by a browser, will appear like this:
 * A third item
 * A fourth item
 
-*Note:* Unmodified paragraphs will be wrapped in @<p>@ tags.
+p(alert-block information). *Note:* Unmodified paragraphs will be wrapped in @<p>@ tags.
 
 h3. Textile documentation
 
-<a href="http://txstyle.org/doc/8/bullet-list" target="_blank">More information on bulleted lists in Textile</a>.
+<a href="http://textpattern.com/textile-ul-list" target="_blank">More information on bulleted lists in Textile</a>.
 
 h3. HTML documentation (via MDN)
 

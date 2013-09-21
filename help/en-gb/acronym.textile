@@ -16,11 +16,11 @@ Which, when displayed in a browser, will look like this (move your cursor over t
 
 ACLU(American Civil Liberties Union)
 
-*Note:* In Textile versions prior to v2.5.0, the older @<acronym>@ tag is used for abbreviations. This tag has been deprecated in HTML5 in favour of the @<abbr>@ tag.
+p(alert-block information). *Note:* In Textile versions prior to v2.5.0, the older @<acronym>@ tag is used for abbreviations. This tag has been deprecated in HTML5 in favour of the @<abbr>@ tag.
 
 h3. Textile documentation
 
-<a href="http://txstyle.org/doc/32/acronyms" target="_blank">More information on abbreviations in Textile</a>.
+<a href="http://textpattern.com/textile-abbr" target="_blank">More information on abbreviations in Textile</a>.
 
 h3. HTML documentation (via MDN)
 

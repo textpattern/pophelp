@@ -32,7 +32,7 @@ Which the browser will use to render the image:
 
 h3. Textile documentation
 
-<a href="http://txstyle.org/doc/14/images" target="_blank">More information on images in Textile</a>.
+<a href="http://textpattern.com/textile-image" target="_blank">More information on images in Textile</a>.
 
 h3. HTML documentation (via MDN)
 
