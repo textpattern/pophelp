@@ -1,4 +1,4 @@
-h1. Superscript
+h1. Textile: Superscript
 
 Use ==^carets^== for text to be rendered ^superscript^.
 

@@ -1,4 +1,4 @@
-h1. Defining abbreviations
+h1. Textile: Abbreviations
 
 HTML allows authors to define abbreviations via the @<abbr>@ tag. The definition appears as a tooltip when a cursor hovers over the abbreviation. A crucial aid to clear writing, this should be used at least once for each abbreviation in documents where they appear. 
 

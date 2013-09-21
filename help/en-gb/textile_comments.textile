@@ -1,4 +1,4 @@
-h1. Textile shortcuts
+h1. Textile: Shortcuts
 
 h3. Formatting
 

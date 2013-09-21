@@ -1,4 +1,4 @@
-h1. Strong emphasis
+h1. Textile: Strong emphasis
 
 Use ==*asterisks*== for text to be *strongly emphasised*.
 

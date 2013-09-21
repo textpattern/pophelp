@@ -1,4 +1,4 @@
-h1. Tables
+h1. Textile: Tables
 
 Table cells are divided with a 'pipe' @|@ symbol.
 

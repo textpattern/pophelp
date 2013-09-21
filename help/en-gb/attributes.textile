@@ -1,4 +1,4 @@
-h1. Attributes
+h1. Textile: Attributes
 
 h3. Syntax
 

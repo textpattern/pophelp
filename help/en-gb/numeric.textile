@@ -1,4 +1,4 @@
-h1. Numeric lists
+h1. Textile: Numeric lists
 
 To make a numeric list, place each item in its own paragraph, preceded by @#@.
 

@@ -1,4 +1,4 @@
-h1. Deleted text
+h1. Textile: Deleted text
 
 Use ==-hyphens-== around text that has been -deleted-. This is useful in marking changes from one version of a document to the next.
 

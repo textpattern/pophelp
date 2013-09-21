@@ -1,4 +1,4 @@
-h1. Images
+h1. Textile: Images
 
 To insert an image, put the URL for the image inside exclamation marks.
 

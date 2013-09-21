@@ -1,4 +1,4 @@
-h1. Spans
+h1. Textile: Spans
 
 Use the @%@ percent symbol to indicate a span.
 

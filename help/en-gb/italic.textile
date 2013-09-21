@@ -1,4 +1,4 @@
-h1. Emphasis
+h1. Textile: Emphasis
 
 Use ==_underscores_== around text to be _emphasised._
 

@@ -1,4 +1,4 @@
-h1. Block quotations
+h1. Textile: Block quotations
 
 To make an entire paragraph into a block quotation, place @bq.@ before it.
 

@@ -1,4 +1,4 @@
-h1. What Textile does
+h1. Textile: What it does
 
 Some of the many ways Textile makes markup easier:
 

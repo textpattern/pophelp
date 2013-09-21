@@ -1,4 +1,4 @@
-h1. Definition lists
+h1. Textile: Definition lists
 
 To make a definition list, place the term in its own paragraph, preceded by @;@. Each definition can then be written on subsequent lines preceded by @:@.
 

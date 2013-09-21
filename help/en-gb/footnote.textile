@@ -1,4 +1,4 @@
-h1. Footnotes
+h1. Textile: Footnotes
 
 Numeric references within text to footnotes appear between square brackets. Don't forget the corresponding footnote at the bottom of the page.
 

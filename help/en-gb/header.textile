@@ -1,4 +1,4 @@
-h1. Headings
+h1. Textile: Headings
 
 To make an entire paragraph into a heading, place @hn.@ at its beginning, where _n_ is a number from 1 - 6.
 

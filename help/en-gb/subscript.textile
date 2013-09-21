@@ -1,4 +1,4 @@
-h1. Subscript
+h1. Textile: Subscript
 
 Use ==~tildes~== for text to be rendered ~subscript~.
 

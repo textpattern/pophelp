@@ -1,4 +1,4 @@
-h1. Links
+h1. Textile: Links
 
 To make a hypertext link, put the link text in =="quotation marks"== followed immediately by a colon and the URL of the link.
 
