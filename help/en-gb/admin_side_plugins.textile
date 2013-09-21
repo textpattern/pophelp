@@ -1,0 +1,5 @@
+h1. Preferences: Use admin-side plugins?
+
+Admin-side plugins are those which can change the operation of the administration interface. They might hook into already existing actions, like editing or publishing articles, or they might add new panels for added/extended functionality.
+
+If you would like to learn more about admin-side plugins, please see the <a href="http://www.textpattern.net/wiki/index.php?title=Extending_Textpattern" target="_blank">Extending Textpattern</a> page in <a href="http://www.textpattern.net/wiki/" target="_blank">Textpattern CMS User Documentation</a>. Plugins of all sorts are listed in the <a href="http://textpattern.org/" target="_blank">Textpattern Resources</a> site.
