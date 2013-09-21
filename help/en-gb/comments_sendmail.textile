@@ -1,0 +1,3 @@
+h1. Preferences: Email comments to author?
+
+If set to 'Yes', whenever a new comment is received on an article, a copy will be sent via email to that article's author.

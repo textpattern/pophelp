@@ -1,0 +1,5 @@
+h1. Preferences: Present comments as a numbered list?
+
+Determines whether article comments will be wrapped with the HTML @<ol>@ tag and individual comments will be wrapped in the @<li>@ tag (causing comments to be presented as a numbered list), or whether individual comments will be wrapped with the @<div>@ tag instead.
+
+With either value, you can override the tags used on an individual form basis by modifying the <a href="http://www.textpattern.net/wiki/index.php?title=comments" target="_blank">@<txp:comments />@ tag</a>, found in the <a href="http://www.textpattern.net/wiki/index.php?title=Default_Forms" target="_blank">@comments_display@ form template</a>.

@@ -1,0 +1,3 @@
+h1. Preferences: Moderate comments
+
+With this set to 'Yes', every new comment will have its visibility turned off until it has been reviewed. You must manually make each comment visible (a message will be emailed to the article author when a new comment has been received for moderation).

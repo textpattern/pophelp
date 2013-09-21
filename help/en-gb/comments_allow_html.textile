@@ -1,0 +1,5 @@
+h1. Preferences: Comments allow HTML
+
+Toggles whether or not commenters may use any HTML tags. 
+
+Note that you can limit which specific tags are allowable in the next field.
