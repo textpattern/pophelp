@@ -1,0 +1,5 @@
+h1. Assigning a 'Style' to a 'Section'
+
+If you wish to override the 'default' stylesheet for a particular 'Section', this can be set here.
+
+Obviosuly this is only relevant to stylesheets held within Textpattern 'Styles' - if you host your CSS externally of Textpattern (which is highly recommended), this options has no effect.

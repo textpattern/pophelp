@@ -1,0 +1,3 @@
+h1. Include in site search?
+
+This governs whether articles belonging to this 'Section' should appear as part of site-wide search results.
