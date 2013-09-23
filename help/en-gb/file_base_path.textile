@@ -1,0 +1,3 @@
+h1. Preferences: File directory path
+
+This sets the *absolute path* to the directory where file uploads will be permanently saved. PHP needs to have write access to this directory (which sometimes requires chmod 777).

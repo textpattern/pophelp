@@ -1,0 +1,3 @@
+h1. Preferences: DST enabled?
+
+Whether DST(Daylight Saving Time) is currently active for your time zone.

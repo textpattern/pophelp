@@ -1,0 +1,3 @@
+Preferences: Time zone
+
+In order to display dates in your local time zone, please indicate where you are in relation to Greenwich Mean Time/Universal Coordinated Time (by 'Standard' *not* 'Daylight' time - another preference enables/disables Daylight Saving Time).
