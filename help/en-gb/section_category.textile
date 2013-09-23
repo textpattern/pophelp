@@ -1,6 +1,6 @@
 h1. What are Textpattern 'Sections'?
 
-'Sections' in Textpattern are perhaps best thought of as analogous to sections in a newspaper: each belong to the same publication, but each might feature a different layout, or a different style of article, and so on. 
+'Sections' in Textpattern are perhaps best thought of as analogous to sections in a newspaper: each belong to the same publication, but each might feature a different layout, or a different style of article, and so on.
 
 For most websites, only a bare minimum of sections need be created.
 
