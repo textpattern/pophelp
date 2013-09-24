@@ -1,5 +1,0 @@
-h1. Sections: Section articles appear on front page?
-
-The articles in some sections, such as those resembling more 'static' web pages, may seem out of place in the time-sensitive flow of your site's front page.
-
-Setting this to 'No' will prevent articles assigned to this 'Section' from appearing on the front page.

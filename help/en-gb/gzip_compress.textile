@@ -1,3 +1,0 @@
-h1. Preferences: Use page compression
-
-When enabled, pages are GZIP(Gnu Zip) compressed at the server before being sent to the visitor. This can mean faster page loads and reduced bandwidth consumption.

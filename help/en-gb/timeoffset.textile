@@ -1,3 +1,0 @@
-h1. Preferences: Server time offset
-
-If your web host is in a different time zone than where you live, use this to adjust displayed times to reflect your local time rather than that of the server.

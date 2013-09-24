@@ -1,3 +1,0 @@
-h1. Preferences: Textile links description by default?
-
-This allows you to set whether the link descriptions you can enter in the admin 'Links' page will be run through the light version of Textile. If set to 'No', descriptions will be displayed as entered.

@@ -1,7 +1,0 @@
-h1. Preferences: Allow raw PHP?
-
-p(alert-block warning). This preference has been removed as of Textpattern v4.5.0 onwards for security reasons - use <a href="http://www.textpattern.net/wiki/index.php?title=php" target="_blank">@<txp:php>@ tags</a> instead.
-
-When enabled, this setting allows raw PHP code to be used.
-
-Normally this isn't allowed, and PHP code must be *without* both opening and closing PHP tags, and enclosed within <a href="http://www.textpattern.net/wiki/index.php?title=php" target="_blank">@<txp:php>@ tags</a>. This setting is for backwards compatible purposes only, and it is recommended to be set to 'No'.

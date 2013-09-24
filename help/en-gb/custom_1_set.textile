@@ -1,5 +1,0 @@
-h1. Preferences: Custom fields
-
-Custom fields are used to store additional data along with each article. For example, on a shopping site you might wish to store _Product code_, _Product price_ and _Delivery cost_.
-
-By naming a custom field in preferences, it automatically appears on the 'Write' tab (any custom fields that are empty will not appear).

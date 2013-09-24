@@ -1,3 +1,0 @@
-h1. Preferences: Link template
-
-This is the default template used when outputting lists of links. This can be overriden when generating a list of links via a PHP snippet.

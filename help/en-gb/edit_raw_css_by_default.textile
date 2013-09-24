@@ -1,7 +1,0 @@
-h1. Preferences: Edit raw CSS by default?
-
-p(alert-clock information). *Please note:* As of Textpattern CMS v4.3.0 the 'Automatic CSS mode' feature has been removed. The information is provided for historical legacy.
-
-This selects the default method of editing CSS in the 'Styles' page.
-
-If set to 'Yes', you will see one large text-area with all the content of the CSS by default ('Manual CSS' mode). If set to 'No', you will see the CSS editor by default ('Automatic CSS' mode).

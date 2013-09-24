@@ -1,3 +1,0 @@
-h1. Preferences: Comments date case
-
-The case of the date displayed for individual comments.

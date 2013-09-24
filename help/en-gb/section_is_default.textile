@@ -1,3 +1,0 @@
-h1. Default publishing section
-
-This option governs which 'Section' will be the default when wrting new articles. You can be override this per article in the 'Write' tab by selecting a different 'Section' in the 'Sort and display' pane.

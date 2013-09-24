@@ -1,3 +1,0 @@
-h1. Assigning a 'Page' to a 'Section'
-
-In Textpattern, 'Sections' are married to 'Page' templates. It's kind of sweet, really...

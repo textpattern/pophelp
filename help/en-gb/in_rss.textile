@@ -1,3 +1,0 @@
-h1. Sections: Syndicate articles in this section?
-
-Governs whether or not articles in this section will appear in the site's RSS or Atom XML feeds.

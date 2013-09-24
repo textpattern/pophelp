@@ -1,5 +1,0 @@
-h1. Preferences: Subsection date case
-
-Use this if you want dates for articles in subsections to appear in UPPERCASE, Upper and lowercase, or lowercase.
-
-Upper and lowercase is the default.

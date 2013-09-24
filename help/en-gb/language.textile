@@ -1,8 +1,0 @@
-h1. Languages
-
-Textpattern CMS is available in various languages, you can always check for updates either via your 'Languages' tab or by visiting <a href="http://rpc.textpattern.com/lang/" target="_blank">http://rpc.textpattern.com/lang/</a>. After you have updated to a new Textpattern version, it is generally a good idea to check wether there were any updates for your installed languages.
-
-Switching to a new language is always a two step process:
-
-# Install the language
-# Select the language as the currently active one

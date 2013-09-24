@@ -1,5 +1,0 @@
-h1. Preferences: Using Categories?
-
-Attaching categories to articles adds a level of organisation and searchability to your site, however those publishing a simple site may find categorisation to be an unnecessary or unwanted step in the publishing of an article.
-
-When set to 'No', category options will be removed from the article 'Write' tab, as well as from the navigation options above.

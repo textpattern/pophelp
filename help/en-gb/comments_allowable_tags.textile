@@ -1,3 +1,0 @@
-h1. Preferences: Allowable HTML tags
-
-If you allow commenters to use simple HTML, these are the tags they may use.
