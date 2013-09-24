@@ -1,4 +1,4 @@
-h1. Preferences: Expire logs after X number of days
+h1. Preferences: Logs expire after how many days?
 
 When you are using Textpattern for logging, you can set how long (in days) those logs should be kept. '7' will keep the logs available for seven days.
 
