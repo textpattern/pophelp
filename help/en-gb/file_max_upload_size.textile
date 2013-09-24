@@ -1,5 +1,3 @@
-h1. Preferences: Maximum upload size
+h1. Preferences: Maximum file size of uploads (in bytes)
 
 You can restrict the maximim size (in bytes) for file uploads. Note that this value is also limited by the configuration of PHP. If Textpattern detects that your PHP configuration only allows smaller downloads, it will automatically correct this value downwards. If you want to allow larger file uploads via upload from the browser you have to talk with your host (the relevant values in @php.ini@ are @post_max_size@, @upload_max_filesize@ and @memory_limit@).
-
-p(alert-block information). *Note:* Image uploads are *not* restricted by this value. The maximum allowed size for images is always ~1MB (unless restricted by PHP as explained above).
