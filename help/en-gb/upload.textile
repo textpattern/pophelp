@@ -1,4 +1,4 @@
-h1. File upload
+h1. Files: Upload file
 
 Use this form to upload files or images to your server.
 

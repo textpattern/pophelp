@@ -1,4 +1,4 @@
-h1. Timestamp
+h1. Articles: Timestamp
 
 The time an article or file is published or revised. It can either be (re)set to the moment the item is saved, or to any other time.
 

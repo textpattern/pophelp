@@ -1,4 +1,4 @@
-h1. Create thumbnail
+h1. Images: Create thumbnail
 
 Allows you to (re)create a thumbnail of the specified dimensions from the full size image.
 

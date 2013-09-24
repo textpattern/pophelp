@@ -1,4 +1,4 @@
-h1. Default publishing section
+h1. Sections: Default publishing section
 
 This option governs which section will be preselected in the 'Section' menu when creating a new article on the 'Write' tab.
 

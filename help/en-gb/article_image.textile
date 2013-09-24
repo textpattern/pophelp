@@ -1,4 +1,4 @@
-h1. Article image
+h1. Articles: Article image
 
 If you would like to associate a single image with this article, place one of the following here:
 

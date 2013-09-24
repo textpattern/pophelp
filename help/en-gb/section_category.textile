@@ -1,4 +1,4 @@
-h1. What are Textpattern 'Sections'?
+h1. Sections: Introduction
 
 'Sections' in Textpattern are perhaps best thought of as analogous to sections in a newspaper: each belong to the same publication, but each might feature a different layout, or a different style of article, and so on.
 

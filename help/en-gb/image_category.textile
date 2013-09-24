@@ -1,3 +1,3 @@
-h1. Image categories
+h1. Images: Categories
 
 Image categories are useful both for internal organisation, and for defining image sets that can be displayed using the @<txp:image_index />@ and @<txp:image_display />@ tags.

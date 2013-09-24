@@ -1,4 +1,4 @@
-h1. Keywords
+h1. Articles: Keywords
 
 Keywords are useful for refining the relationships between articles beyond those provided by categories.
 

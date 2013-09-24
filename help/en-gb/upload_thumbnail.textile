@@ -1,4 +1,4 @@
-h1. Upload thumbnail
+h1. Images: Upload thumbnail
 
 Full-size images can be assigned their own thumbnails. These are useful for linking to and indexing full-size images.
 

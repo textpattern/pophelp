@@ -1,3 +1,3 @@
-h1. Clean URL support
+h1. Diagnostics: Clean URL support
 
 Clean URLs are only supported by Apache. If you are using another server technology, use these at your own risk.

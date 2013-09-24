@@ -1,4 +1,4 @@
-h1. .htaccess file missing
+h1. Diagnostics: .htaccess file missing
 
 You are using a permanent link mode which requires an @.htaccess@ file to be placed in your site root directory. The recommended directives to place in this .htaccess file are:
 

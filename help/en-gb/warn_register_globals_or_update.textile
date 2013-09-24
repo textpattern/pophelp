@@ -1,4 +1,4 @@
-h1. Turn register_globals off or update to a newer PHP version.
+h1. Diagnostics: Turn register_globals off or update to a newer PHP version
 
 A severe vulnerability was discovered in certain versions of PHP. <a href="http://www.hardened-php.net/advisory_202005.79.html" target="_blank">The security advisory</a> says: "can lead to unexpected behaviour of PHP applications, which can lead to execution of remote PHP code in many situations".
 

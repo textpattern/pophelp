@@ -1,4 +1,4 @@
-h1. Upload image
+h1. Images: Upload image
 
 Upload graphics to your server.
 

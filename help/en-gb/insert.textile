@@ -1,4 +1,4 @@
-h1. Inserted text
+h1. Textile: Inserted text
 
 Use ==+pluses+== around text that has been +inserted+. This is useful in marking changes from one version of a document to the next.
 

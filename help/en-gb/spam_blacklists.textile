@@ -1,4 +1,4 @@
-h1. Preferences: Spam blacklists
+h1. Preferences: Spam blacklists (comma-separated)
 
 The <a href="http://en.wikipedia.org/wiki/Blacklist" target="_blank">blacklist</a> providers entered here will be contacted when a comment is posted to your blog, and the IP of the comment poster will be checked. If the IP is listed it means there have been spamming complaints made about this IP in the past, and a comment will be rejected.
 

@@ -1,3 +1,3 @@
-h1. File uploads are disabled
+h1. Diagnostics: File uploads are disabled
 
 Your current server configuration shows that file uploads are disabled so you will not be able to use Textpattern's 'Files' panel. Please check and alter the @file_uploads@ setting in @php.ini@ (or ask your host to alter it).

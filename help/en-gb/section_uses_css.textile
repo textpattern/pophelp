@@ -1,4 +1,4 @@
-h1. Assigning a 'Style' to a 'Section'
+h1. Sections: Uses style
 
 If you wish to override the 'default' stylesheet for a particular 'Section', this can be set here.
 

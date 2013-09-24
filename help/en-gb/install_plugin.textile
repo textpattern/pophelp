@@ -1,4 +1,4 @@
-h1. Install Plugin
+h1. Plugins: Install Plugin
 
 Paste the Plugin text file here and click 'Upload' to begin installation. Any Plugin you upload with the same name as one you have previously installed will be overwritten with the uploaded version.
 
