@@ -1,0 +1,3 @@
+h1. Preferences: Max URL length
+
+This prevents URLs that are longer than the specified length from functioning. It could be helpful in damage limitation and site security.

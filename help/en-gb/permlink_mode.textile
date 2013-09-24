@@ -1,0 +1,3 @@
+h1. Preferences: Permanent link mode
+
+This defines the method by which individual articles are reached via the URL displayed using the @<txp:permlink>@ tag.

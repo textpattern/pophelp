@@ -1,0 +1,3 @@
+h1. Preferences: Permanent link
+
+This is text or the URL of a graphic that will be the clickable link to the permanent address of an article.

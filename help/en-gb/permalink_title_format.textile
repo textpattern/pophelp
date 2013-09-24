@@ -1,0 +1,6 @@
+h1. Preferences: Permalink titles with hyphens or in CamelCase
+
+This setting only has an effect when 'Attach titles to permalinks?' is set to 'Yes'. When generating 'article-titles' for use in URLs, you have the option of:
+
+# Using all lowercase letters, and replacing spaces with hyphens
+# Completely removing spaces, and using CamelCase, which means that the beginning of new words will be marked by uppercase letters
