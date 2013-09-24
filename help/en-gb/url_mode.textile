@@ -1,0 +1,28 @@
+h1. Preferences: URL mode
+
+Governs how permanent links to archived articles will appear.
+
+'?=messy' mode is the most straightforward; it will work without you having to do much configuration. In this mode URLs for archived articles on your site would look like this:
+
+bc. http://example.com/index.php?id=123
+
+'/clean/' mode is a little trickier, but it makes URLs that are elegant and easier to remember. Here are the steps to make /clean/ mode work (you must also have 'Use sections' set in site preferences):
+
+Your site must be on a Unix-based server running Apache, or on a Windows server running PHP as an Apache module.
+
+For every section you have on your site (including the default section called 'article'), place a text file with the exact same name in your root web directory, containing the following bit of code, replacing @SECTION_NAME@ with the section's actual name:
+
+bc. <?php
+  include "./textpattern/config.php";
+  $s = "SECTION_NAME";
+  include $txpcfg["txpath"]."/publish.php";
+  textpattern();
+?>
+
+Next, with a text editor create or open an existing file in your web root called @.htaccess@ and paste the following inside (again, replace @SECTION_NAME@ with the section's actual name):
+
+bc. <Files SECTION_NAME>
+  ForceType application/x-httpd-php
+</Files>
+
+Once you select '/clean/' url mode in preferences, your permanent link URLs will look more familiar, for example @http://example.com/article/123/@.

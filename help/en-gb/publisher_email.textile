@@ -1,0 +1,5 @@
+h1. Preferences: Send login info from this email address?
+
+Specify an email address which is used as the sender's 'From:' address on messages with login information for new users.
+
+If this preference is left blank or contains an invalid email address, Textpattern uses the name and address of the currently logged-in user instead.

@@ -1,0 +1,3 @@
+h1. Preferences: Admin-side theme
+
+The default admin-side theme that will be used when anybody logs into Textpattern. The system ships with a number of pre-built admin themes, and you can also add custom theme packages to the @textpattern/theme@ folder to make them available for selection.

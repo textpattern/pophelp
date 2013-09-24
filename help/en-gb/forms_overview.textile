@@ -1,4 +1,4 @@
-h1. Forms
+h1. What are Textpattern 'Forms'?
 
 In Textpattern, a 'Form' differs from its usual meaning of _a series of fields to be completed_, such as in a contact form or search form. Instead, it is a snippet or chunk of text, HTML, and Textpattern tags that can be reused to display content.
 

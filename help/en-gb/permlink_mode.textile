@@ -1,3 +1,9 @@
 h1. Preferences: Permanent link mode
 
 This defines the method by which individual articles are reached via the URL displayed using the @<txp:permlink>@ tag.
+
+'?=messy' mode is the most compatible - it will work without you having to do much configuration - but least beneficial in terms of readability and SEO. In this mode URLs for archived articles on your site would look like this:
+
+bc. http://example.com/index.php?id=123
+
+All other modes require the 'mod_rewrite' Apache module to be installed on your server. If your server does not support that then either contact your web host or use the '?=messy' mode outlined above.

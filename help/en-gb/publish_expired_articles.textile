@@ -1,0 +1,7 @@
+h1. Preferences: Publish expired articles?
+
+When set to 'Yes', expired articles will continue to show on your site after their expiry date has elapsed. You can use @<txp:if_expired />@ to show alternate content or markup for expired articles.
+
+When set to 'No', expired articles will be removed from the public site and return a "410 Gone" HTTP status instead. Visiors to an expired article will be shown a custom page template named 'error_410' if it's present.
+
+The default setting is 'No'.

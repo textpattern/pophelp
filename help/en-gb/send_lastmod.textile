@@ -1,0 +1,5 @@
+h1. Preferences: Send "Last-Modified" Header?
+
+When set, Textpattern will read a visitor's HTTP @If-Modified-Since@ header (if one exists) and compare it to the last site update. If nothing has changed since the visitor last loaded the page (i.e., if the timestamp the browser sends is the same as the last site update), then a header is sent back instructing the visitor's browser to use its cached version of the page.
+
+This can reduce bandwidth consumption, page load times, and reduce the load on the webserver.

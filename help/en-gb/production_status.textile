@@ -1,0 +1,28 @@
+h1. Preferences: Production status
+
+A Textpattern site can exist in one of three modes:
+
+# 'Debugging'
+# 'Testing'
+# 'Live'
+
+h3. Debugging mode
+
+All PHP error reporting on your live site will be visible, as will warnings about malfunctioning code and plugins. In addition, the following information will be visible when you view the HTML source of live pages:
+
+* the time it took the server to build the page ('Runtime')
+* the number of MySQL queries executed
+* approximate peak memory usage
+* all Textpattern tags encountered while building the page
+
+h3. Testing mode
+
+All PHP error reporting on your live site will be visible, as will warnings about malfunctioning code and plugins. The following information will be visible when you view the HTML source of live pages:
+
+* the time it took the server to build the page ('Runtime')
+* the number of MySQL queries executed
+* approximate peak memory usage
+
+h3. Live mode
+
+No error reporting or diagnostic information will be sent to the page. Generally, Live mode is preferred, as it imposes the least overhead on the server.

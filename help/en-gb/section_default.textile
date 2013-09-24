@@ -1,0 +1,7 @@
+h1. Default publishing section
+
+This option governs which section will be preselected in the 'Section' menu when creating a new article on the 'Write' tab.
+
+If most of your articles end up belonging to a particular section, select it from the list here. Changes will be reflected immediately.
+
+You can be override this per article in the 'Write' tab by selecting a different 'Section' in the 'Sort and display' pane.

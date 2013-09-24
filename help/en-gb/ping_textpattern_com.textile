@@ -1,0 +1,3 @@
+h1. Preferences: Ping textpattern.com?
+
+This will send a <a href="http://en.wikipedia.org/wiki/Ping_(blogging)" target="_blank">ping</a> to textpattern.com whenever you publish a new article. We may use this data for statistical reports.
