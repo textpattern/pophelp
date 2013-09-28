@@ -12,9 +12,9 @@ Will become:
 
 bc. <a href="http://textpattern.com" title="This is a title">This is a link</a>
 
-Which, when displayed in a browser, will look like this:
+Which, when rendered by a browser, will appear like this:
 
-<a href="http://textpattern.com" title="This is a title">This is a link</a>
+"This is a link (This is a title)":http://textpattern.com
 
 h3. Example (aliased links)
 
@@ -36,8 +36,8 @@ bc. This is a <a href="http://example.com/index.html">link</a> to my website.
 
 h3. Textile documentation
 
-<a href="http://textpattern.com/textile-link" target="_blank">More information on links in Textile</a>.
+"(link-external)More information on links in Textile":http://textpattern.com/textile-link.
 
 h3. HTML documentation (via MDN)
 
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank">The @<a>@ HTML element</a>.
+"(link-external)The @<a>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a.

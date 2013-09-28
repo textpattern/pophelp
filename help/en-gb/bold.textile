@@ -14,10 +14,10 @@ p(alert-block information). *Note:* Quick tags must open and close within a sing
 
 h3. Textile documentation
 
-<a href="http://textpattern.com/textile-strong-and-b" target="_blank">More information on strong and bold text in Textile</a>.
+"(link-external)More information on strong and bold text in Textile":http://textpattern.com/textile-strong-and-b.
 
 h3. HTML documentation (via MDN)
 
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong" target="_blank">The @<strong>@ HTML element</a>.
+"(link-external)The @<strong>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong.
 
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b" target="_blank">The @<bold>@ HTML element</a>.
+"(link-external)The @<bold>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b.

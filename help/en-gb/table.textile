@@ -44,14 +44,14 @@ bc. |>. Right-aligned cell|
 
 h3. Textile documentation
 
-<a href="http://textpattern.com/textile-table" target="_blank">More information on tables in Textile</a>.
+"(link-external)More information on tables in Textile":http://textpattern.com/textile-table.
 
 h3. HTML documentation (via MDN)
 
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table" target="_blank">The @<table>@ HTML element</a>.
+"(link-external)The @<table>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table.
 
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr" target="_blank">The @<tr>@ HTML element</a>.
+"(link-external)The @<tr>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr.
 
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th" target="_blank">The @<th>@ HTML element</a>.
+"(link-external)The @<th>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th.
 
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td" target="_blank">The @<td>@ HTML element</a>.
+"(link-external)The @<td>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td.

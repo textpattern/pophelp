@@ -10,8 +10,8 @@ p(alert-block information). *Note:* Quick tags must open and close within a sing
 
 h3. Textile documentation
 
-<a href="http://textpattern.com/textile-sub-and-sup" target="_blank">More information on superscript and subscript text in Textile</a>.
+"(link-external)More information on superscript and subscript text in Textile":http://textpattern.com/textile-sub-and-sup.
 
 h3. HTML documentation (via MDN)
 
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub" target="_blank">The @<sub>@ HTML element</a>.
+"(link-external)The @<sub>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub.

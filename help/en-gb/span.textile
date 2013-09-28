@@ -12,8 +12,8 @@ p(alert-block information). *Note:* Span tags must open and close within a their
 
 h3. Textile documentation
 
-<a href="http://textpattern.com/textile-span" target="_blank">More information on spans in Textile</a>.
+"(link-external)More information on spans in Textile":http://textpattern.com/textile-span.
 
 h3. HTML documentation (via MDN)
 
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span" target="_blank">The @<span>@ HTML element</a>.
+"(link-external)The @<span>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span.

@@ -1,7 +1,7 @@
 h1. Preferences: Automatically append comments to articles?
 
-This setting determines whether comments and the comment form are automatically appended to all individual articles (by automatically including the contents of the <a href="http://www.textpattern.net/wiki/index.php?title=Default_Forms" target="_blank">@comments_display@ form</a>).
+This setting determines whether comments and the comment form are automatically appended to all individual articles (by automatically including the contents of the "(link-external)@comments_display@ form":http://www.textpattern.net/wiki/index.php?title=Default_Forms).
 
-The majority of the time, you will want this setting left 'No', as this allows greater flexibility to the positioning of your comments in your site design. You will need to add the <a href="http://www.textpattern.net/wiki/index.php?title=comments" target="_blank">@<txp:comments />@ tag</a> manually in any article-based templates where you want comments to appear.
+The majority of the time, you will want this setting left 'No', as this allows greater flexibility to the positioning of your comments in your site design. You will need to add the "(link-external)@<txp:comments />@ tag":http://www.textpattern.net/wiki/index.php?title=comments manually in any article-based templates where you want comments to appear.
 
-If you are experiencing duplicate display of comments in an article, then chances are your templates have the @<txp:comments />@ tag in a template but also have 'Automatically append comments to articles?' set to 'Yes' too - see <a href="http://textpattern.com/faq/95/comment-display-confusion" target="_blank">the related FAQ entry</a> for more information.
+If you are experiencing duplicate display of comments in an article, then chances are your templates have the @<txp:comments />@ tag in a template but also have 'Automatically append comments to articles?' set to 'Yes' too - see "(link-external)the related FAQ entry":http://textpattern.com/faq/95/comment-display-confusion for more information.

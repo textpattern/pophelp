@@ -1,6 +1,6 @@
 h1. Preferences: Use Textile?
 
-<a href="http://textpattern.com/textile-sandbox" target="_blank">Textile</a> is a utility intended to simplify the conversion of plain text to HTML. When enabled, Textile will process the body text of articles and return a structurally sound HTML version.
+"(link-external)Textile":http://textpattern.com/textile-sandbox is a utility intended to simplify the conversion of plain text to HTML. When enabled, Textile will process the body text of articles and return a structurally sound HTML version.
 
 Textile also offers a powerful but easy-to-learn set of commands with which to format text, define structures such as lists, headers and blockquotes, and insert links and images.
 

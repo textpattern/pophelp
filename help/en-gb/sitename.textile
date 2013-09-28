@@ -1,3 +1,3 @@
 h1. Preferences: Site name
 
-The <a href="http://www.textpattern.net/wiki/index.php?title=site_name" target="_blank">name or title of your site</a>. This will appear in the title bar of a visitor's browser or syndication feed reader, and any number of other places throughout your site, at your discretion.
+The "(link-external)name or title of your site":http://www.textpattern.net/wiki/index.php?title=site_name. This will appear in the title bar of a visitor's browser or syndication feed reader, and any number of other places throughout your site, at your discretion.

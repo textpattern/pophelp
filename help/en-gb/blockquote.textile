@@ -26,8 +26,8 @@ p(alert-block information). *Note:* Unmodified paragraphs will be wrapped in @<p
 
 h3. Textile documentation
 
-<a href="http://textpattern.com/textile-blockquote" target="_blank">More information on block quotations in Textile</a>.
+"(link-external)More information on block quotations in Textile":http://textpattern.com/textile-blockquote.
 
 h3. HTML documentation (via MDN)
 
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote" target="_blank">The @<blockquote>@ HTML element</a>.
+"(link-external)The @<blockquote>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote.

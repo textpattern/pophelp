@@ -2,40 +2,40 @@ h1. Textile: Images
 
 To insert an image, put the URL for the image inside exclamation marks.
 
-*Optional:* text that immediately follows the URL in (parentheses) will be used as the @alt@ text for the image. Images on the web should always have descriptive @alt@ text for the benefit of readers using non-graphical browsers.
+*Optional:* text that immediately follows the URL in (parentheses) will be used as the @alt@ text for the image (this also adds a @title@ attribute with the same content). Images on the web should always have descriptive @alt@ text for the benefit of readers using non-graphical browsers.
 
 *Optional:* place a colon followed by a URL immediately after the closing @!@ to make the image into a link.
 
 h3. Examples
 
-bc. !http://textpattern.com/assets/img/textpattern.png(Textpattern)!
+bc. !http://textpattern.com/assets/img/textpattern.png(Textpattern icon)!
 
 Will become:
 
-bc. <img src="http://textpattern.com/assets/img/textpattern.png" alt="Textpattern" />
+bc. <img src="http://textpattern.com/assets/img/textpattern.png" alt="Textpattern icon" title="Textpattern icon" />
 
-Which the browser will use to render the image:
+Which, when rendered by a browser, will appear like this:
 
-<img src="http://www.textpattern.com/assets/img/textpattern.png" alt="Textpattern" />
+!http://textpattern.com/assets/img/textpattern.png(Textpattern icon)!
 
 With a link:
 
-bc. !http://textpattern.com/assets/img/textpattern.png(Textpattern)!:http://textpattern.com
+bc. !http://textpattern.com/assets/img/textpattern.png(Textpattern icon)!:http://textpattern.com
 
 Will become:
 
-bc. <a href="http://textpattern.com"><img src="http://textpattern.com/assets/img/textpattern.png" alt="Textpattern" /></a>
+bc. <a href="http://textpattern.com"><img src="http://textpattern.com/assets/img/textpattern.png" alt="Textpattern icon" title="Textpattern icon" /></a>
 
-Which the browser will use to render the image:
+Which, when rendered by a browser, will appear like this:
 
-<a href="http://textpattern.com"><img src="http://www.textpattern.com/assets/img/textpattern.png" alt="Textpattern" /></a>
+!http://textpattern.com/assets/img/textpattern.png(Textpattern icon)!:http://textpattern.com
 
 h3. Textile documentation
 
-<a href="http://textpattern.com/textile-image" target="_blank">More information on images in Textile</a>.
+"(link-external)More information on images in Textile":http://textpattern.com/textile-image.
 
 h3. HTML documentation (via MDN)
 
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img" target="_blank">The @<img>@ HTML element</a>.
+"(link-external)The @<img>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img.
 
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank">The @<a>@ HTML element</a>.
+"(link-external)The @<a>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a.

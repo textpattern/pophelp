@@ -12,7 +12,7 @@ bc. This is covered elsewhere<sup><a href="#fn1">1</a></sup>
 
 Which, when rendered by a browser, will appear like this:
 
-This is covered elsewhere<sup><a href="#fn1">1</a></sup>.
+This is covered elsewhere[1].
 
 To create the footnote that corresponds to its reference within the text, begin a new paragraph with @fn@ and the footnote's number, followed by a dot and a space:
 
@@ -24,12 +24,12 @@ bc. <p id="fn1"><sup>1</sup> Down here, in fact.</p>
 
 Which, when rendered by a browser, will appear like this:
 
-<p id="fn1"><sup>1</sup> Down here, in fact.</p>
+fn1. Down here, in fact.
 
 h3. Textile documentation
 
-<a href="http://textpattern.com/textile-footnote" target="_blank">More information on footnotes in Textile</a>.
+"(link-external)More information on footnotes in Textile":http://textpattern.com/textile-footnote.
 
 h3. HTML documentation (via MDN)
 
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup" target="_blank">The @<sup>@ HTML element</a>.
+"(link-external)The @<sup>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup.
