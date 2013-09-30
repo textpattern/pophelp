@@ -62,12 +62,12 @@ p(alert-block information). *Note:* Unmodified paragraphs will be wrapped in @<p
 
 h3. Textile documentation
 
-"(link-external)More information on definition lists in Textile":http://textpattern.com/textile-dl-list.
+"More information on definition lists in Textile":http://textpattern.com/textile-dl-list.
 
 h3. HTML documentation (via MDN)
 
-"(link-external)The @<dl>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl.
+"The @<dl>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl.
 
-"(link-external)The @<dt>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt.
+"The @<dt>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt.
 
-"(link-external)The @<dd>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd.
+"The @<dd>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd.

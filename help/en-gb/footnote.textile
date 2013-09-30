@@ -28,8 +28,8 @@ fn1. Down here, in fact.
 
 h3. Textile documentation
 
-"(link-external)More information on footnotes in Textile":http://textpattern.com/textile-footnote.
+"More information on footnotes in Textile":http://textpattern.com/textile-footnote.
 
 h3. HTML documentation (via MDN)
 
-"(link-external)The @<sup>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup.
+"The @<sup>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup.

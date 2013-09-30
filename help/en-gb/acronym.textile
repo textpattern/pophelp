@@ -20,10 +20,10 @@ p(alert-block information). *Note:* In Textile versions prior to v2.5.0, the old
 
 h3. Textile documentation
 
-"(link-external)More information on abbreviations in Textile":http://textpattern.com/textile-abbr.
+"More information on abbreviations in Textile":http://textpattern.com/textile-abbr.
 
 h3. HTML documentation (via MDN)
 
-"(link-external)The @<abbr>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr.
+"The @<abbr>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr.
 
-"(link-external)The @<acronym>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/acronym.
+"The @<acronym>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/acronym.

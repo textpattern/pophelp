@@ -10,8 +10,8 @@ p(alert-block information). *Note:* Quick tags must open and close within a sing
 
 h3. Textile documentation
 
-"(link-external)More information on insertions and deletions in Textile":http://textpattern.com/textile-ins-and-del.
+"More information on insertions and deletions in Textile":http://textpattern.com/textile-ins-and-del.
 
 h3. HTML documentation (via MDN)
 
-"(link-external)The @<del>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del.
+"The @<del>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del.

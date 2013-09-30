@@ -14,10 +14,10 @@ p(alert-block information). *Note:* Quick tags must open and close within a sing
 
 h3. Textile documentation
 
-"(link-external)More information on emphasised and italic text in Textile":http://textpattern.com/textile-em-and-i.
+"More information on emphasised and italic text in Textile":http://textpattern.com/textile-em-and-i.
 
 h3. HTML documentation (via MDN)
 
-"(link-external)The @<em>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em.
+"The @<em>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em.
 
-"(link-external)The @<i>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i.
+"The @<i>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i.

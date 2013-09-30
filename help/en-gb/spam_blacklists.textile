@@ -1,5 +1,5 @@
 h1. Preferences: Spam blacklists (comma-separated)
 
-The "(link-external)blacklist":http://en.wikipedia.org/wiki/Blacklist providers entered here will be contacted when a comment is posted to your blog, and the IP of the comment poster will be checked. If the IP is listed it means there have been spamming complaints made about this IP in the past, and a comment will be rejected.
+The "blacklist":http://en.wikipedia.org/wiki/Blacklist providers entered here will be contacted when a comment is posted to your blog, and the IP of the comment poster will be checked. If the IP is listed it means there have been spamming complaints made about this IP in the past, and a comment will be rejected.
 
-You can enter a list of domain names here, seperated by commas. Potential blacklists can be found via "(link-external)dmoz":http://www.dmoz.org/Computers/Internet/E-mail/Spam/Blacklists/List_of_Major_Blacklists/, but be aware that it is *your* responsibility to make sure you can trust those blacklist-providers before you add any.
+You can enter a list of domain names here, seperated by commas. Potential blacklists can be found via "dmoz":http://www.dmoz.org/Computers/Internet/E-mail/Spam/Blacklists/List_of_Major_Blacklists/, but be aware that it is *your* responsibility to make sure you can trust those blacklist-providers before you add any.

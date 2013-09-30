@@ -32,10 +32,10 @@ Which, when rendered by a browser, will appear like this:
 
 h3. Textile documentation
 
-"(link-external)More information on images in Textile":http://textpattern.com/textile-image.
+"More information on images in Textile":http://textpattern.com/textile-image.
 
 h3. HTML documentation (via MDN)
 
-"(link-external)The @<img>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img.
+"The @<img>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img.
 
-"(link-external)The @<a>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a.
+"The @<a>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a.

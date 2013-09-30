@@ -38,10 +38,10 @@ p(alert-block information). *Note:* Unmodified paragraphs will be wrapped in @<p
 
 h3. Textile documentation
 
-"(link-external)More information on numeric lists in Textile":http://textpattern.com/textile-ol-list.
+"More information on numeric lists in Textile":http://textpattern.com/textile-ol-list.
 
 h3. HTML documentation (via MDN)
 
-"(link-external)The @<ol>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol.
+"The @<ol>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol.
 
-"(link-external)The @<li>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li.
+"The @<li>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li.
