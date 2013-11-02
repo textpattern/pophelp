@@ -8,27 +8,27 @@ To insert an image, put the URL for the image inside exclamation marks.
 
 h3. Examples
 
-bc. !http://textpattern.com/assets/img/textpattern.png(Textpattern icon)!
+bc. !http://textpattern.com/hi.png(Hello World)!
 
 Will become:
 
-bc. <img src="http://textpattern.com/assets/img/textpattern.png" alt="Textpattern icon" title="Textpattern icon" />
+bc. <img src="http://textpattern.com/hi.png" alt="Textpattern icon" title="Hello World" />
 
 Which, when rendered by a browser, will appear like this:
 
-!http://textpattern.com/assets/img/textpattern.png(Textpattern icon)!
+!http://textpattern.com/hi.png(Hello World)!
 
 With a link:
 
-bc. !http://textpattern.com/assets/img/textpattern.png(Textpattern icon)!:http://textpattern.com
+bc. !http://textpattern.com/hi.png(Hello World)!:http://textpattern.com
 
 Will become:
 
-bc. <a href="http://textpattern.com"><img src="http://textpattern.com/assets/img/textpattern.png" alt="Textpattern icon" title="Textpattern icon" /></a>
+bc. <a href="http://textpattern.com"><img src="http://textpattern.com/hi.png" alt="Hello World" title="Hello World" /></a>
 
 Which, when rendered by a browser, will appear like this:
 
-!http://textpattern.com/assets/img/textpattern.png(Textpattern icon)!:http://textpattern.com
+!http://textpattern.com/hi.png(Hello World)!:http://textpattern.com
 
 h3. Textile documentation
 
