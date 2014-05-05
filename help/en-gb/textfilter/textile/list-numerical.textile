@@ -1,6 +1,6 @@
-h1. Textile: Numeric lists
+h1. Textile: Numerical lists
 
-To make a numeric list, place each item in its own paragraph, preceded by @#@.
+To make a numerical list, place each item in its own paragraph, preceded by @#@.
 
 h3. Example
 
@@ -38,7 +38,7 @@ p(alert-block information). *Note:* Unmodified paragraphs will be wrapped in @<p
 
 h3. Textile documentation
 
-"More information on numeric lists in Textile":http://textpattern.com/textile-ol-list.
+"More information on numerical lists in Textile":http://textpattern.com/textile-ol-list.
 
 h3. HTML documentation (via MDN)
 
