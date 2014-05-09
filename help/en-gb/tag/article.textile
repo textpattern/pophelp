@@ -1,0 +1,23 @@
+h1. Article
+
+h2. Syntax
+
+bc. <txp:article />
+
+The basic *article* tag can be used as either a _single_ tag or _container_ tag and used to output one or more articles depending on the attributes used. Default attributes will be used when nothing specific is assigned.
+
+It may be used as a _container_ tag, in which case it must be specified as an opening and closing pair of tags, like this:
+
+bc. <txp:article>
+    ...contained statements...
+</txp:article>
+
+This is equivalent to putting the contained statements into a form named 'my_form' and using @<txp:article form="my_form" />@.
+
+The tag is context-sensitive, which means it will grab articles from the currently viewed section/category/author, etc.
+
+When used on the front page, article's context will include articles from all sections set to display 'On front page'.
+
+p(alert-block information). @<txp:article />@ is *not* the same as @<txp:article_custom />@ - you can "check out the differences of that tag":http://textpattern.net/tag-reference-article-custom if you're unsure of the differences!
+
+"More information on the *article* tag":http://textpattern.net/tag-reference-article.
