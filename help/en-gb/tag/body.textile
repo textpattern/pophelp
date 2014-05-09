@@ -6,4 +6,4 @@ bc. <txp:body />
 
 The *body* tag is a _single_ tag which is used to return the text, or content, of the article being displayed (the article itself). The tag can be used in an article *Form*, or within *Pages* (templates), either wrapped within a given article tag, or directly in the template itself so long as the context is with a single article (as opposed to an article list).
 
-"More information on the *body* tag":http://textpattern.com/tag-reference-body.
+"More information on the *body* tag":http://textpattern.net/tag-reference-body.
