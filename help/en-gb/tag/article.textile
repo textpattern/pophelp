@@ -1,6 +1,6 @@
 h1. Article
 
-h2. Syntax
+h3. Syntax
 
 bc. <txp:article />
 
