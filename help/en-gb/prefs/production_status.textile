@@ -1,6 +1,6 @@
 h1. Preferences: Production status
 
-A Textpattern site can exist in one of three modes:
+A Textpattern site has one of three modes:
 
 # 'Debugging'
 # 'Testing'
@@ -13,7 +13,7 @@ All PHP error reporting on your live site will be visible, as will warnings abou
 * the time it took the server to build the page ('Runtime')
 * the number of MySQL queries executed
 * approximate peak memory usage
-* all Textpattern tags encountered while building the page
+* all Textpattern tags encountered while building the page (also known as a tag trace)
 
 h3. Testing mode
 

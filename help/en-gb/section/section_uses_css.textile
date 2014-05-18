@@ -1,5 +1,5 @@
 h1. Sections: Uses style
 
-If you wish to override the 'default' stylesheet for a particular 'Section', this can be set here.
+If you wish to override the default stylesheet for a particular section, this can be set here.
 
-Obviosuly this is only relevant to stylesheets held within Textpattern 'Styles' - if you host your CSS externally of Textpattern (which is highly recommended), this options has no effect.
+This is only relevant to stylesheets held within Textpattern styles tab - if you host your CSS externally of Textpattern (which is highly recommended), this option has no effect.

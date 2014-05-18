@@ -1,3 +1,3 @@
 h1. Preferences: Use DNS?
 
-This setting only has an effect when 'Logging' is turned on. Using DNS will allow you to translate IP addresses in your logs to host-names. For some servers this might subjectively slow down your site, in which case you might want to set this to 'No'.
+This setting only has an effect when 'Logging' is turned on. Using DNS will allow you to translate IP addresses in your logs to hostnames. For some servers this might subjectively slow down your site, in which case you might want to set this to 'No'.

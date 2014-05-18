@@ -1,8 +1,8 @@
 h1. Forms: Introduction
 
-In Textpattern, a 'Form' differs from its usual meaning of _a series of fields to be completed_, such as in a contact form or search form. Instead, it is a snippet or chunk of text, HTML, and Textpattern tags that can be reused to display content.
+In Textpattern, a form differs from its usual meaning of _a series of fields to be completed_, such as in a contact form or search form. Instead, it is a snippet or chunk of text, HTML, and Textpattern tags that can be reused to display content.
 
-Here's an example 'Form' which could be named @ordinary_list@:
+Here's an example form which could be named @ordinary_list@:
 
 bc. <li>
   <txp:permlink>
@@ -14,12 +14,12 @@ You could use it to display an HTML unordered list of related articles:
 
 bc. <txp:related_articles form="ordinary_list" wraptag="ul" />
 
-Since the role ofd this 'Form' is to output a list of titles, it could be applicable inside other tags, such as showing 20 articles from the current 'Section':
+Since the role of this form is to output a list of titles, it could be applicable inside other tags, such as showing 20 articles from the current section:
 
 bc. <txp:article form="ordinary_list" limit="20" wraptag="ol" />
 
-You may also choose to employ a 'Form' to display repeated content, such as header and footer in your 'Page' templates. This means the content only exists in one place and if you decide to change it, you only need to do it once. Displaying content from a 'Form' is usually accomplished with:
+You may also choose to employ a form to display repeated content, such as header and footer in your page templates. This means the content only exists in one place and if you decide to change it, you only need to do it once. Displaying content from a form is usually accomplished with:
 
 bc. <txp:output_form form="your_form_name" />
 
-A 'Form' can be as long as you wish, for example for a footer might include headings, paragraphs, links, conditional tags, and other 'Forms' such as @ordinary_list@.
+A form can be as long as you wish, for example for a footer might include headings, paragraphs, links, conditional tags, and other forms such as @ordinary_list@.

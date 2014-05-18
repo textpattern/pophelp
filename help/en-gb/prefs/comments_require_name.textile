@@ -1,3 +1,3 @@
 h1. Preferences: Require user's name?
 
-If set to 'Yes', people that want to comment on your article will have to enter a name in the comment write form (they will not be able to post a comment if they do not supply a name).
+If set to 'Yes', people that want to comment on your article will have to enter a name in the comment input form (they will not be able to post a comment if they do not supply a name).
