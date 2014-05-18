@@ -1,6 +1,6 @@
 h1. Preferences: SMTP envelope sender address
 
-This preference should be left blank unless you experience problems with sending email in Textpattern (if no email is sent at all). Should that problem arise, you can enter any valid email address here, although preferably one that has the same domain name as the website where you've installed Textpattern (i.e. if your website is http://example.com, you might use 'you@example.com').
+This preference should be left blank unless you experience problems with sending email in Textpattern (if no email is sent at all). Should that problem arise, you can enter any valid email address here, although preferably one that has the same domain name as the website where you've installed Textpattern (i.e., if your website is http://example.com, you might use 'you@example.com').
 
 For those interested in the technical details:
 

@@ -1,5 +1,5 @@
 h1. Preferences: Allow PHP in pages?
 
-When enabled, this setting allows PHP code within 'Page' and 'Form' templates.
+When enabled, this setting allows PHP code within page and form templates.
 
 PHP code must be both *without* opening and closing PHP tags, and enclosed within "@<txp:php>@ tags":http://www.textpattern.net/wiki/index.php?title=php.

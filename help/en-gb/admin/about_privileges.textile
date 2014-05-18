@@ -30,8 +30,8 @@ h3. Managing Editor
 
 h3. Copy Editor
 
-* can manage articles with some limitation:
-* cannot delete those belonging to other users
+* can manage articles with one limitation:
+** cannot delete those belonging to other users
 * can manage comments and links
 * can manage images and files
 * can manage sections and categories

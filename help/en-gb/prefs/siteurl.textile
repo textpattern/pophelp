@@ -1,5 +1,5 @@
 h1. Preferences: Site URL
 
-This is the top-level domain of the server your site is running on, for example @www.textpattern.com@.
+This is the address of the server your site is running on, for example @www.textpattern.com@.
 
-p(alert-block information). *Note:* No @http://@ or closing slash @/@ is required.
+p(alert-block information). *Note:* No @http://@, @https://@ or closing slash @/@ is required.

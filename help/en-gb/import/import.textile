@@ -7,4 +7,4 @@ You can import your data into Textpattern CMS from the following publishing tool
 * WordPress (including custom prefixes for your databases, if you're using them)
 * b2
 
-If you choose to import from a file - that is, MovableType or Blogger - you must place it under the @/include/import@ directory of your textpattern install directory, and call it @import.txt@.
+If you choose to import from a file - that is, Movable Type or Blogger - you must place it in the @textpattern/include/import@ directory and name it @import.txt@.

@@ -1,3 +1,3 @@
 h1. Diagnostics: MySQL table errors
 
-Something is probably corrupt or otherwise mangled in your MySQL database. If you have access to phpMyAdmin, try repairing the offending table(s).
+Something is probably corrupt or otherwise damaged in your MySQL database. If you have access to phpMyAdmin, try repairing the offending table(s).
