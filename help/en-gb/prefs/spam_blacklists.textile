@@ -1,4 +1,4 @@
-h1. Preferences: Spam blacklists (comma-separated)
+h1. Preferences: Spam blocklists (comma-separated)
 
 The "blocklist":http://en.wikipedia.org/wiki/Blacklist providers entered here will be contacted when a comment is posted to your blog, and the IP address of the comment poster will be checked. If the IP address is listed it means there has been one or more spamming complaints made about this IP in the past, and the comment will be rejected.
 
