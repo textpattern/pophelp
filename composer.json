@@ -1,18 +1,16 @@
 {
-    "name": "textpattern/pophelp",
-    "description": "Textpattern CMS help files",
-    "keywords": ["textpattern", "help"],
-    "homepage": "https://github.com/textpattern/pophelp",
-    "license": "GPL-2.0",
-    "authors": [
-        {
-            "name": "Team Textpattern",
-            "homepage": "http://textpattern.com",
-            "role": "Developer"
-        }
-    ],
-    "support": {
-        "issues": "https://github.com/textpattern/pophelp/issues",
-        "source": "https://github.com/textpattern/pophelp"
-    }
+  "name": "textpattern/pophelp",
+  "description": "Textpattern CMS help files",
+  "keywords": ["textpattern", "help"],
+  "homepage": "https://github.com/textpattern/pophelp",
+  "license": "GPL-2.0",
+  "authors": [{
+    "name": "Team Textpattern",
+    "homepage": "http://textpattern.com",
+    "role": "Developer"
+  }],
+  "support": {
+    "issues": "https://github.com/textpattern/pophelp/issues",
+    "source": "https://github.com/textpattern/pophelp"
+  }
 }
