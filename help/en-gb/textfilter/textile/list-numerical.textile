@@ -40,7 +40,7 @@ h3. Textile documentation
 
 "More information on numerical lists in Textile":http://textpattern.com/textile-ol-list.
 
-h3. HTML documentation (via MDN)
+h3. HTML documentation (via Mozilla Developer Network)
 
 "The @<ol>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol.
 

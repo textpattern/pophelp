@@ -1,3 +1,3 @@
 h1. Preferences: Enable XML-RPC server?
 
-If you wish to use "XML-RPC":http://www.xmlrpc.com/ for controlling Textpattern CMS content from remote places (e.g., desktop or mobile apps) you must switch the XML-RPC server on by setting this to 'Yes'.
+If you wish to use "XML-RPC":http://en.wikipedia.org/wiki/XML-RPC for controlling Textpattern content from remote places (e.g., desktop or mobile apps) you must switch the XML-RPC server on by setting this to 'Yes'.

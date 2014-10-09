@@ -30,6 +30,6 @@ h3. Textile documentation
 
 "More information on footnotes in Textile":http://textpattern.com/textile-footnote.
 
-h3. HTML documentation (via MDN)
+h3. HTML documentation (via Mozilla Developer Network)
 
 "The @<sup>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup.
