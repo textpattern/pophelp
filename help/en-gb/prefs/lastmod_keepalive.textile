@@ -1,3 +1,3 @@
 h1. Preferences: Compensate for persistent connection mod_deflate bug?
 
-Some @mod_deflate@ versions have a bug that breaks subsequent requests when keep-alive is used. Dropping the connection is the only reliable way to fix this. Setting this preference to 'Yes' will close the connection, forcing the browser to reconnect for the next request.
+Some @mod_deflate@ versions have a bug that breaks subsequent requests when @Keep Alive@ is used. Dropping the connection is the only reliable way to fix this. Setting this preference to 'Yes' will close the connection, forcing the browser to reconnect for the next request.

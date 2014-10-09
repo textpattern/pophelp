@@ -1,6 +1,6 @@
 h1. Preferences: Plugin cache directory path
 
-This setting is mainly used for plugin developers. When specified, you can put the plugin source file (not compiled) in this directory and the Textpattern CMS will load it automatically, so you can easily edit the plugin and immediately see the effect it has without having to install/activate the plugin. *Beware* though that by using this method, a broken plugin (which fails to compile) will also break Textpattern!
+This setting is mainly used for plugin developers. When specified, you can put the plugin source file (not compiled) in this directory and Textpattern will load it automatically, so you can easily edit the plugin and immediately see the effect it has without having to install/activate the plugin. *Beware* though that by using this method, a broken plugin (which fails to compile) may also break Textpattern!
 
 It is recommended that you load plugins through the standard plugin admin page on a production site, rather than using the plugin cache directory.
 
