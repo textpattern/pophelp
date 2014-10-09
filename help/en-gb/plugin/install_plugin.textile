@@ -2,4 +2,4 @@ h1. Plugins: Install plugin
 
 Paste the plugin text file here and click 'Upload' to begin installation. Any plugin you upload with the same name as one you have previously installed will be overwritten with the uploaded version.
 
-The plugin text you paste here is *not* the raw PHP code but Base64-encoded text, usually preceded by header containing plugin information (such as plugin name, version and description, author name, etc).
+The plugin text you paste here is *not* the raw PHP code but Base64-encoded text, usually preceded by a header containing plugin information (such as plugin name, version and description, author name, etc).
