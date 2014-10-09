@@ -2,4 +2,4 @@ h1. Preferences: Comments mode
 
 If 'No popup' is selected (default, recommended) the current window will be refreshed to display only the current article, with comments beneath.
 
-If 'Popup' is selected, a new smaller browser window will open when the comments link is clicked (this uses the "@popup_comments@ 'Form' template":http://www.textpattern.net/wiki/index.php?title=Default_Forms).
+If 'Popup' is selected, a new browser window will open when the comments link is clicked (this uses the "@popup_comments@ 'Form' template":http://www.textpattern.net/wiki/index.php?title=Default_Forms).

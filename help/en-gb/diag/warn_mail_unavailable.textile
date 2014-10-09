@@ -1,3 +1,3 @@
 h1. Diagnostics: Your PHP installation is missing the mail() function
 
-PHP's "mail":http://php.net/manual/en/function.mail.php function is disabled. Therefore Textpattern cannot send emails, and you will not be able to use some functions. For example you won't be able to receive email notifications for comments, and you won't be able to add other users (well, you can add them, but they won't receive the email with their password).
+PHP's "mail":http://php.net/manual/en/function.mail.php function is disabled. Therefore Textpattern cannot send emails, and some functionality will not be available. For example, email notifications for new comments will not be sent, and new users will not receive a welcome email. Users can still be added, however.

@@ -1,6 +1,6 @@
 h1. Diagnostics: Clean URL test failed
 
-It appears that either your site URLs (@example.com/section/article@) are currently not working or your server does not support the test procedure to determine if clean URLs work or not; if clean URLs on your site actually work, you can ignore this message.
+It appears that either your site URLs (@example.com/section/article@) are currently not working or your server does not support the test procedure to determine if clean URLs work or not; if clean URLs on your site work, you can safely ignore this message.
 
 If clean URLs are not working it may mean either:
 

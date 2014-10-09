@@ -1,6 +1,6 @@
 h1. Sections: Introduction
 
-Sections in Textpattern are perhaps best thought of as analogous to sections in a newspaper: each belong to the same publication, but each might feature a different layout, or a different style of article, and so on.
+Sections in Textpattern are perhaps best thought of as analogous to sections in a newspaper; each belong to the same publication, but each might feature a different layout, or a different style of article, and so on.
 
 For most websites, only a bare minimum of sections need be created.
 
@@ -10,4 +10,4 @@ For most websites, only a bare minimum of sections need be created.
 # *About:* An 'about this site' page, which differs from the front page and the "Archive" section, in that it is more static, may have a different layout, and will likely contain only one article. The "About" section would be reached at @http://example.com/about/@.
 # *Photos:* A 'Section' whose differing layout (and possibly different CSS) would display photos instead of articles.
 
-Note that a special hidden section always exists, named default. Using the page called default and the style called default, this is what makes up the front page of your site.
+Note that a special hidden section, named default, always exists. This default section uses the page named default and the style called default, and it constructs the front page of your site.

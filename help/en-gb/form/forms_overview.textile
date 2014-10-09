@@ -22,4 +22,4 @@ You may also choose to employ a form to display repeated content, such as header
 
 bc. <txp:output_form form="your_form_name" />
 
-A form can be as long as you wish, for example for a footer might include headings, paragraphs, links, conditional tags, and other forms such as @ordinary_list@.
+A form can be up to 64KB in size. An example for a footer might include headings, paragraphs, links, conditional tags, and references to other forms such as @ordinary_list@.
