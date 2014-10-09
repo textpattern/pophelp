@@ -1,5 +1,5 @@
 h1. Images: Upload thumbnail
 
-Full-size images can be assigned their own thumbnails. These are useful for linking to and indexing full-size images.
+Full size images can be assigned their own thumbnails. These are useful for linking to - and the indexing of - full size images.
 
-A reference to the thumbnail is exactly the same as the reference to the full-size image, with the addition of @t@ to the filename. For example, to reference a thumbnail associated with a fullsize image stored at @/images/12.jpg@ you would use @/images/12t.jpg@.
+A reference to the thumbnail is exactly the same as the reference to the full size image, with @t@ appended to the file name. For example, to reference a thumbnail associated with a full size image stored at @/images/12.jpg@ you would use @/images/12t.jpg@.

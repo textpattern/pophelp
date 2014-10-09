@@ -1,5 +1,5 @@
 h1. Preferences: Temporary directory path
 
-Sets an *absolute path* to a temporary (sometimes know as 'tmp') directory. PHP needs to have write access to this directory. This folder is used for temporary scratch files, for example uploads of any kind (plugins, files or images).
+Sets an *absolute path* to a temporary (sometimes know as 'tmp') directory. PHP needs to have write access to this directory. This folder is used for temporary files, for example uploads of any kind (plugins, files or images).
 
 p(alert-block information). *Note:* Do not specify the same directory for both 'tmp' and 'plugin cache', as this will cause problems (Textpattern would try to run the contents of temporary log files as plugins).

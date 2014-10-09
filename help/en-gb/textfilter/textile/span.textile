@@ -14,6 +14,6 @@ h3. Textile documentation
 
 "More information on spans in Textile":http://textpattern.com/textile-span.
 
-h3. HTML documentation (via MDN)
+h3. HTML documentation (via Mozilla Developer Network)
 
 "The @<span>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span.

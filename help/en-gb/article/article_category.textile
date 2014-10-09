@@ -2,7 +2,7 @@ h1. Articles: Categories
 
 Unlike sections, which define the navigational structure of a site, article categories allow organisation of articles by their subject matter. Once categories are assigned, lists of articles belonging to particular categories can be browsed.
 
-Likely article categories on a site about food might be:
+For example, likely article categories on a site about food might be:
 
 * raw ingredients
 * shopping

@@ -7,4 +7,4 @@ If you allow visitors to comment on your site, this is the default invitation to
 * Feedback
 * Annotate
 
-Note that the invitation can always be changed on a per-article basis.
+Note that the invitation text can always be changed on a per-article basis.

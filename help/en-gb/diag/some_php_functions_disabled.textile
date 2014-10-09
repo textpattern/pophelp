@@ -1,4 +1,4 @@
-h1. Diagnostics: The following PHP functions... are disabled on your server
+h1. Diagnostics: The following PHP functions: [...] are disabled on your server
 
 This means your hosting company or server administrator has disabled one or more PHP functions, some of which may affect the running of Textpattern.
 

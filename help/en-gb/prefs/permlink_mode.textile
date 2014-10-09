@@ -6,4 +6,4 @@ This defines the method by which individual articles are reached via the URL dis
 
 bc. http://example.com/index.php?id=123
 
-All other modes require the 'mod_rewrite' Apache module to be installed on your server. If your server does not support that then either contact your web host or use the '?=messy' mode outlined above.
+All other modes require the @mod_rewrite@ Apache module to be installed and enabled on your server. If your server does not support @mod_rewrite@ either contact your web host or use the '?=messy' mode outlined above.
