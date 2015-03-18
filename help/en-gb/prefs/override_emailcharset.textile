@@ -1,5 +1,5 @@
 h1. Preferences: Use ISO-8859-1 encoding in emails (default is UTF-8)?
 
-Textpattern uses UTF-8 encoding wherever possible as default, including for outgoing emails. However some older email clients (like some versions of Outlook) do not have proper UTF-8 support. If you see garbled characters in emails, this setting will try to convert mails to ISO-8859-1 before sending them.
+Textpattern uses UTF-8 encoding wherever possible by default, including for outgoing emails. However, some older email clients (like some versions of Outlook) do not have proper UTF-8 support. If you see garbled characters in emails, this setting will convert mails to ISO-8859-1 before sending them.
 
 p(alert-block information). *Note:* If you are using a language the characters of which cannot be represented in ISO-8859-1, this setting will unfortunately not help you. You should try finding a UTF-8 (or Unicode) compatible email client.
