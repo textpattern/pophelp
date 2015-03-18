@@ -2,8 +2,8 @@ h1. Diagnostics: Turn register_globals off or update to a newer PHP version
 
 A severe vulnerability was discovered in certain versions of PHP concerning the controversial legacy feature "registered globals":http://php.net/manual/en/security.globals.php. "The security advisory":http://www.hardened-php.net/advisory_202005.79.html says: "can lead to unexpected behaviour of PHP applications, which can lead to execution of remote PHP code in many situations".
 
-Vulnerable versions are PHP4-versions <= 4.4.0 and PHP5-versions <= 5.0.5. You should either update to newer versions or make sure that @register_globals@ is turned off. @register_globals@ was deprecated as of PHP 5.3.0 and removed as of PHP 5.4.0.
+Vulnerable versions are PHP4 versions <= 4.4.0 and PHP5 versions <= 5.0.5. You should either update to a newer version or make sure that @register_globals@ is turned off. @register_globals@ was deprecated as of PHP 5.3.0 and removed as of PHP 5.4.0.
 
-You can turn off @register_globals@ in the @php.ini@ file. If you are in a hosted environment, you may have an option in your hosting control panel for it (ask your host). When running PHP as an Apache module, it is also possible to turn @register_globals@ off via Apache's @.htaccess@ configuration files. Uncomment the following line from your @.htaccess@ file:
+You can turn off @register_globals@ in the @php.ini@ file. If you are in a hosted environment, you may have an option in your hosting control panel for it (ask your host). When running PHP as an Apache module, it is also possible to turn @register_globals@ off via Apache's @.htaccess@ configuration files. Uncomment the following line from your @.htaccess@ file by removing the leading #:
 
 bc. php_value register_globals 0

@@ -16,7 +16,7 @@ This is equivalent to putting the contained statements into a form named 'my_for
 
 Unlike the @<txp:article />@ tag, @<txp:article_custom />@ will always return an article list and *is not context-sensitive*. This means while the @<txp:article />@ tag can only see posts within the currently viewed section/category/author and so forth, @<txp:article_custom />@ can see all posts from all sections, categories and authors unless you restrict it via attributes (see below), thus context-sensitive navigation tags, such as @<txp:older />@ and @<txp:newer />@, will not work.
 
-@<txp:article_custom />@ offers many additional attributes that @<txp:article />@ does not.. but only @<txp:article />@ will produce the full single article page. If you have only @<txp:article_custom />@ on a page, rather than @<txp:article />@, then you will never reach the permalinked article page - you'll always get an article list page.
+@<txp:article_custom />@ offers many additional attributes that @<txp:article />@ does not, but only @<txp:article />@ will produce the full single article page. If you have only @<txp:article_custom />@ on a page, rather than @<txp:article />@, then you will never reach the permalinked article page - you'll always get an article list page.
 
 However, you can have the added features and functionality of @<txp:article_custom />@, while keeping the necessary @<txp:article />@ in full force by using conditionals: @<txp:if_individual_article>@ and @<txp:if_article_list>@, e.g.:
 

@@ -4,4 +4,4 @@ This option governs which section will be pre-selected in the Section menu when 
 
 If most of your articles end up belonging to a particular section, select it from the list here. Changes will be reflected immediately.
 
-You can override this per article in the Write tab by selecting a different section in the 'Sort and display' pane.
+You can override this on a per-article basis in the Write tab by selecting a different section in the 'Sort and display' pane.

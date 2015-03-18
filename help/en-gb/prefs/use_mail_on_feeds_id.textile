@@ -2,4 +2,4 @@ h1. Preferences: Use email address to construct feed IDs?
 
 Feed items in "Atom":http://en.wikipedia.org/wiki/Atom_(standard) require a unique ID.
 
-To generate IDs unique to your site, Textpattern allows you to choose between either an email address or your domain name to include in these IDs. The email address will be the first one used when creating the site. Unless you are likely going to be changing your domain name, it is probably safe to set this to 'No'.
+To generate IDs unique to your site, Textpattern allows you to choose between either an email address or your domain name to include in these IDs. The email address will be the first one used when creating the site. Unless you are likely to be changing your domain name in the future, it is probably safe to set this to 'No'.

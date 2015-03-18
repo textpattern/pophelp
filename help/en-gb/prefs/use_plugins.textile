@@ -1,3 +1,3 @@
 h1. Preferences: Use plugins?
 
-This allows you to turn off all support for plugins. You might want to do this if you find strange errors happening on your site, and you want to make sure that it is not the fault of plugins.
+This allows you to turn off all support for Textpattern plugins. This is useful if you are debugging unexplained errors on your site, and you want to make sure that it is not the fault of plugins.

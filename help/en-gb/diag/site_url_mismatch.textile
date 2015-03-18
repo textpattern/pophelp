@@ -1,6 +1,6 @@
 h1. Diagnostics: Site URL mismatch
 
-The Site URL as set in the preferences tab does not match the actual URL you use to visit your website at this very moment.
+The Site URL as set in the preferences tab does not match the actual URL you use to visit your website.
 
 If your website can be reached through multiple different URLs, or if the links on your Textpattern powered website all function correctly, you can safely ignore this warning.
 
