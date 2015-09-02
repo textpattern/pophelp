@@ -7,4 +7,4 @@ The boxes correspond to the following information:
 Year / Month / Day
 Hour(24hr) : Minute : Second
 
-Content with timestamps greater than the current time (i.e., in the future) will not appear on the site and the respective RSS/Atom feeds until that time passes.
+Content with timestamps greater than the current time (i.e. in the future) will not appear on the site and the respective RSS/Atom feeds until that time passes.

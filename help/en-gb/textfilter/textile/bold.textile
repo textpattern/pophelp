@@ -6,7 +6,7 @@ The @<strong>@ HTML tag is applied:
 
 bc. *a phrase* → <strong>a phrase</strong>
 
-If the text is not meant to have *structural* emphasis, but simply to be styled in **bold** (e.g., as a design element) use double asterisks:
+If the text is not meant to have *structural* emphasis, but simply to be styled in **bold** (e.g. as a design element) use double asterisks:
 
 bc. **a phrase** → <b>a phrase</b>
 

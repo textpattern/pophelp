@@ -1,3 +1,3 @@
 h1. Links: Sort value
 
-Useful for natural-language sorting of link lists, e.g., on a person's last name rather than their first, or on phrases that begin with a definite or indefinite article.
+Useful for natural-language sorting of link lists, e.g. on a person's last name rather than their first, or on phrases that begin with a definite or indefinite article.

@@ -6,7 +6,7 @@ The @<em>@ HTML tag is applied:
 
 bc. _a phrase_ → <em>a phrase</em>
 
-If the text is not meant to have *structural* emphasis, but simply to be styled in __italic__ (e.g., as a design element) use double underscores:
+If the text is not meant to have *structural* emphasis, but simply to be styled in __italic__ (e.g. as a design element) use double underscores:
 
 bc. __a phrase__ → <i>a phrase</i>
 
