@@ -18,6 +18,6 @@ The tag is context-sensitive, which means it will grab articles from the current
 
 When used on the front page, article's context will include articles from all sections set to display 'On front page'.
 
-p(alert-block information). @<txp:article />@ is *not* the same as @<txp:article_custom />@ - you can "check out the differences of that tag":http://textpattern.net/tag-reference-article-custom if you're unsure of the differences!
+p(alert-block information). @<txp:article />@ is *not* the same as @<txp:article_custom />@ - you can "check out the differences of that tag":http://docs.textpattern.io/tags/article-custom if you're unsure of the differences!
 
 "More information on the *article* tag":http://docs.textpattern.io/tags/article.
