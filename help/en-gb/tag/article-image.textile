@@ -8,4 +8,4 @@ The *article_image* tag is a _single_ tag. Textpattern will replace this tag wit
 
 The image to be associated with the tag is set in the 'Write' administration panel. Enter either the URL of the image, or the Textpattern ID (a number set by Textpattern at upload) into the *Article image* field. Most of the time you will use the image ID here. Note that you can only assign a single image to each article.
 
-"More information on the *article_image* tag":http://textpattern.net/tag-reference-article-image.
+"More information on the *article_image* tag":http://docs.textpattern.io/tags/article-image.

@@ -20,4 +20,4 @@ When used on the front page, article's context will include articles from all se
 
 p(alert-block information). @<txp:article />@ is *not* the same as @<txp:article_custom />@ - you can "check out the differences of that tag":http://textpattern.net/tag-reference-article-custom if you're unsure of the differences!
 
-"More information on the *article* tag":http://textpattern.net/tag-reference-article.
+"More information on the *article* tag":http://docs.textpattern.io/tags/article.
