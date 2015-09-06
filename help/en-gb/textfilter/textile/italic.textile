@@ -1,6 +1,6 @@
 h1. Textile: Emphasis
 
-Use ==_underscores_== around text to be _emphasised._
+Use ==_underscores_== around text to be _emphasized._
 
 The @<em>@ HTML tag is applied:
 
@@ -14,7 +14,7 @@ p(alert-block information). *Note:* Quick tags must open and close within a sing
 
 h3. Textile documentation
 
-"More information on emphasised and italic text in Textile":http://textpattern.com/textile-em-and-i.
+"More information on emphasized and italicized text in Textile":http://textpattern.com/textile-em-and-i.
 
 h3. HTML documentation (via Mozilla Developer Network)
 

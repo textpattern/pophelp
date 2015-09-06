@@ -1,6 +1,6 @@
 h1. Textile: Strong emphasis
 
-Use ==*asterisks*== for text to be *strongly emphasised*.
+Use ==*asterisks*== for text to be *strongly emphasized*.
 
 The @<strong>@ HTML tag is applied:
 

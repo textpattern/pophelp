@@ -35,7 +35,7 @@ bc. ; Textpattern
 ;; Documentation
 :: User guides and docs (wiki)
 ;; Themes
-:: Customise the admin-side or public site with themes
+:: Customize the admin-side or public site with themes
 : Elegant and simple to use
 : Friendly community
 
@@ -51,7 +51,7 @@ bc. <dl>
     <dt>Documentation</dt>
     <dd>User guides and docs (wiki)</dd>
     <dt>Themes</dt>
-    <dd>Customise the admin-side or public site with themes</dd>
+    <dd>Customize the admin-side or public site with themes</dd>
   </dl>
   </dd>
   <dd>Elegant and simple to use</dd>
