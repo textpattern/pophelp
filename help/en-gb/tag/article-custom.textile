@@ -26,4 +26,4 @@ bc.. <txp:if_article_list>
     <txp:article />
 </txp:if_individual_article>
 
-"More information on the *article_custom* tag":http://docs.textpattern.io/tags/article-custom.
+p. "More information on the *article_custom* tag":http://docs.textpattern.io/tags/article-custom.
