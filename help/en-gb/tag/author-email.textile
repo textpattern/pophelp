@@ -1,0 +1,7 @@
+h1. Author email
+
+bc. <txp:author_email />
+
+The *author_email* tag is a _single_ tag that is used to return the email address of the author of the currently displayed article.
+
+"More information on the *author_email* tag":http://docs.textpattern.io/tags/author-email.
