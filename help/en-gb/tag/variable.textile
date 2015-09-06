@@ -12,4 +12,4 @@ bc. <txp:variable>
 
 p(alert-block information). Note: Avoid entering white space characters for better code readability between the opening and closing _variable_ tags, they will lead to falsified results in the "if_variable":http://docs.textpattern.io/tags/if-variable evaluation.
 
-"More information on the *article* tag":http://docs.textpattern.io/tags/variable.
+"More information on the *variable* tag":http://docs.textpattern.io/tags/variable.

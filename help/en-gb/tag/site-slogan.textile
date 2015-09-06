@@ -6,4 +6,4 @@ The *site_slogan* is a _single_ tag which is used to output the site's tagline (
 
 The slogan is a brief (255 characters maximum) tagline or description of your site which can be used, for example, in XML feeds.
 
-"More information on the *article* tag":http://docs.textpattern.io/tags/site-slogan.
+"More information on the *site_slogan* tag":http://docs.textpattern.io/tags/site-slogan.

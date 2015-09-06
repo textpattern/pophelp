@@ -6,4 +6,4 @@ The *section* tag can be used as either a _single_ tag or _container_ tag. It wi
 
 When used as a containing tag, it will turn the contents into a link to that section. Otherwise, it will return plain text.
 
-"More information on the *article* tag":http://docs.textpattern.io/tags/section.
+"More information on the *section* tag":http://docs.textpattern.io/tags/section.

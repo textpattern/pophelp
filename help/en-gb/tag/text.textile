@@ -6,4 +6,4 @@ The *text* tag is a _single_ tag which is primarily used to return localized lan
 
 p(alert-block information). Note: only language strings designated with a type of @common@ or @public@ are available to use. All other language string types are reserved for use within the Textpattern system itself.
 
-"More information on the *article* tag":http://docs.textpattern.io/tags/text.
+"More information on the *text* tag":http://docs.textpattern.io/tags/text.

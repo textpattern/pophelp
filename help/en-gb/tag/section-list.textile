@@ -8,4 +8,4 @@ bc. <txp:section_list>
     ...contained statements...
 </txp:section_list>
 
-"More information on the *article* tag":http://docs.textpattern.io/tags/section-list.
+"More information on the *section_list* tag":http://docs.textpattern.io/tags/section-list.
