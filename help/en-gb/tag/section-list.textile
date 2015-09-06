@@ -1,0 +1,11 @@
+h1. Section list
+
+bc. <txp:section_list />
+
+The *section_list* tag is a _single_ or _container_ tag which is used to produce a list of linked sections. When used as a container tag, it is used as an opening and closing pair, like this:
+
+bc. <txp:section_list>
+    ...contained statements...
+</txp:section_list>
+
+"More information on the *article* tag":http://docs.textpattern.io/tags/section-list.

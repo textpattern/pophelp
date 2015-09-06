@@ -1,0 +1,7 @@
+h1. Title
+
+bc. <txp:title />
+
+The *title* tag is a _single_ tag which is used to return the title of the article being displayed. It is usually used in an 'article' type form.
+
+"More information on the *article* tag":http://docs.textpattern.io/tags/title.
