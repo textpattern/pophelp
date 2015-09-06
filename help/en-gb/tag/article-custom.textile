@@ -1,7 +1,5 @@
 h1. Article custom
 
-h3. Syntax
-
 bc. <txp:article_custom />
 
 The *article_custom* tag is a _single_ or a _container_ tag that provides a variety of custom options for sorting, selecting, and displaying articles (the tag will be replaced with one or more articles).
@@ -14,7 +12,7 @@ bc. <txp:article_custom>
 
 This is equivalent to putting the contained statements into a form named 'my_form' and using @<txp:article_custom form="my_form" />@.
 
-Unlike the @<txp:article />@ tag, @<txp:article_custom />@ will always return an article list and *is not context-sensitive*. This means while the @<txp:article />@ tag can only see posts within the currently viewed section/category/author and so forth, @<txp:article_custom />@ can see all posts from all sections, categories and authors unless you restrict it via attributes (see below), thus context-sensitive navigation tags, such as @<txp:older />@ and @<txp:newer />@, will not work.
+Unlike the "article":http://docs.textpattern.io/tags/article tag, @<txp:article_custom>@ will always return an article list and *is not context-sensitive*. This means while the "article":http://docs.textpattern.io/tags/article tag can only see posts within the currently viewed section/category/author and so forth, @<txp:article_custom />@ can see all posts from all sections, categories and authors unless you restrict it via attributes, thus context-sensitive navigation tags, such as "older":http://docs.textpattern.io/tags/older and "newer":http://docs.textpattern.io/tags/newer, will not work.
 
 @<txp:article_custom />@ offers many additional attributes that @<txp:article />@ does not, but only @<txp:article />@ will produce the full single article page. If you have only @<txp:article_custom />@ on a page, rather than @<txp:article />@, then you will never reach the permalinked article page - you'll always get an article list page.
 
