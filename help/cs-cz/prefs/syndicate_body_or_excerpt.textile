@@ -1,0 +1,3 @@
+h1. Nastavení: Do pramenů použít pouze anotaci?
+
+Nastavíš-li zde 'Ne', budou prameny RSS/Atom vždy obsahovat úplné tělo článku. Nastavíš-li 'Ano', budou obsahovat jen anotaci (tam kde je vyplněna).
