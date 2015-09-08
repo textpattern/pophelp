@@ -1,0 +1,3 @@
+h1. Diagnostika: Do adresáře nelze zapisovat
+
+Chcete-li používat funkce nahrávání souborů a obrázků, musí být adresáře _images_ a _files_ zapisovatelné pro PHP. Pravděpodobně budete muset změnit oprávnění na @755@. To lze provést pomocí FTP klienta, nebo alternativně v příkazovém řádku příkazem @chmod 755 /cesta/do/adresare@.
