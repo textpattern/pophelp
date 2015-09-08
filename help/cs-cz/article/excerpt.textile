@@ -1,0 +1,3 @@
+h1. Článek: Anotace
+
+Anotace článku není povinná. Zpravidla jde o krátké shrnutí obsahu článku, jež se zobrazuje v seznamu článků, či obsahu serveru, nebo se používá namísto celého těla článku v pramenech RSS a Atom.
