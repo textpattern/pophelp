@@ -1,0 +1,33 @@
+h1. Textile: Blokové citace
+
+Chcete-li celý odstavec jako blokovou citaci, napište před ním @Bq.@
+
+h3. Příklad
+
+bc. Nějaký starý text.
+bq. Bloková citace.
+Nějaký starý text.
+
+p. Bude převeden na:
+
+bc. <p>Nějaký starý text.</p>
+<blockquote>Nějaký starý text.</blockquote>
+<p>Nějaký starý text.</p>
+
+Což bude zobrazeno prohlížečem takto:
+
+Nějaký starý text.
+
+bq. Bloková citace
+
+Nějaký starý text.
+
+p(alert-block information). *Pozn.:* Odstavce bez blokové citace jsou uzavřené v tagu @<p>@.
+
+h3. Dokumentace Textile
+
+"Více informací o blokové citaci v Textile na txstyle.org":http://txstyle.org/doc/3/block-quotations.
+
+h3. HTML dokumentace (Mozilla Developer Network)
+
+"HTML element @<blockquote>@":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote
