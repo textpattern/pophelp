@@ -1,0 +1,16 @@
+h1. Úvod do rubrik (sections)
+
+Na rubriky v systému Textpattern je asi nejlepší se dívat jako na obdobu rubrik v novinách: všechny patří do stejného plátku, ale každá může být jinak rozvržena, mít jiný styl pro vysázení článků apod.
+
+Pro většinu webových stránek je nutné jen opravdu nezbytné minimum rubrik.
+
+*Pravděpodobný scénář pro web se třemi rubrikami*:
+
+# *archiv*: rubrika, v níž budou zařazeny všechny články, jež se mají zobrazovat na hlavní straně. Jakmile čtenář klikne na trvalý odkaz na článek (např. @http://mujserver.cz/archiv/123@), článek se zobrazí pomocí šablony stránky příslušící této rubrice. Výpis článků spadajících do rubriky archiv pak lze najít na adrese @http://mujserver.cz/archiv/@.
+
+# *o-me*: stránka “O mě” se může od hlavní strany a rubriky archiv značně lišit tím, že je spíše statická, vypadá zpravidla výrazně jinak a pravděpodobně obsahuje jen jeden článek. Tuto stránku lze najít na adrese @http://mujserver.cz/o-me/@.
+
+# *fotky*: Rubrika se zcela jiným rozvržením (a také asi jiným stylem CSS), jež slouží k zobrazení fotografií namísto článků, nebo článků s fotogalerií. Tuto stránku lze najít na adrese @http://mujserver.cz/fotky/@.
+
+Všimněte si, že vždy existuje ještě jedna, skrytá “rubrika”, nazvaná default. Patří k ní šablona stránky “default” a styl CSS “default”, a použije se pro zpracování hlavní strany serveru.
+Adresa této stránky má tvar @http://mujserver.cz@.
