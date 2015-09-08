@@ -1,0 +1,3 @@
+h1. Nahradit soubor
+
+Původní soubor bude jednoduše přepsán novým, ale původní jméno souboru zůstane zachováno. Rovněž ostatní informace o souboru (jako je počet stažení, atd.) zůstanou zachovány.
