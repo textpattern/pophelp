@@ -1,0 +1,3 @@
+h1. Diagnostika: složka setup v adresáři textpattern stále existuje
+
+Poté, co nainstalujete Textpattern, není složka _setup_  již potřeba a doporučujeme ji smazat!
