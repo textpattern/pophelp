@@ -1,0 +1,3 @@
+h1. Jazyky: Instalovat textovou sadu ze souboru
+
+Nové jazykovou sadu (textpack) si rovněž můžeš stáhnout jako soubor "z repozitáře Github":https://github.com/textpattern/textpacks/tree/master/textpacks, zkopírovat obsah souboru, vložit do pole pro textovou sadu a nahrát.
