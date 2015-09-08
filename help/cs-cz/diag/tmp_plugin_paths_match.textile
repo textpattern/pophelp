@@ -1,0 +1,3 @@
+h1. Diagnostics: Temporary directory path and Plugin cache directory path should not match
+
+Plugins should have their own directory and not share the temporary directory. This is a potential security risk and may adversely affect your site if the temporary directory is flushed. Please ensure that the temporary directory path is different to the plugin cache path.
