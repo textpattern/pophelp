@@ -1,0 +1,5 @@
+h1. Nahrát soubor
+
+Tento formulář slouží k nahrávání souborů (i obrázkových) na server.
+
+Pozn.: Maximální velikost je dána hodnotou _Mez velikosti souborů (v bajtech)_ v Nastavení/Správce a je také limitována konfigurací PHP v @php.ini@  (@post_max_size@, @upload_max_filesize@ a @memory_limit@).
