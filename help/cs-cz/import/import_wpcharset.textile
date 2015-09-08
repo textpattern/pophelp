@@ -1,0 +1,3 @@
+h1. Import: Znaková sada
+
+Urči znakovou sadu, kterou používá databáze WordPress.
