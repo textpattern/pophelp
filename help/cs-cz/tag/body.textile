@@ -1,0 +1,9 @@
+h1. Tělo článku
+
+h3. Syntaxe
+
+bc. <txp:body />
+
+Značka *body* je nepárový tag, který se používá k zobrazení textu, nebo jiného obsahu článku.
+
+"Více informací o tagu *body* na www.textpattern.net":http://textpattern.net/tag-reference-body.
