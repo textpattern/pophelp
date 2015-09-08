@@ -1,0 +1,3 @@
+h1. Kategorie souborů
+
+Kategorie pro soubory ti umožní snažší správu a seskupování nahraných souborů.
