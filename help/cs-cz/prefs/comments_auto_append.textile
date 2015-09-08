@@ -1,0 +1,7 @@
+h1. Nastavení: Připojovat komentáře k článku automaticky?
+
+Tato volba určuje, zda budou komentářové formuláře a komentáře ke všem článkům připojovány automaticky (automatickým připojením obsahu generovaného formou <a href="http://www.textpattern.net/wiki/index.php?title=Default_Forms"><code><txp:comments_display /></code></a>
+
+Ve většině případů zde bude nastaveno “Ne”, protože to umožní větší flexibilitu v pozicování komentářů v rámci designu stránek. Pak je ale zapotřebí tag <a href="http://www.textpattern.net/wiki/index.php?title=comments">&lt;txp:comments /&gt;</a> manuálně vložit do šablony na místo, kde chceš mít zobrazování komentářů.
+
+Jestliže jsi zjistil, že se komentáře ke článku zobrazují duplicitně, pak šablona obsahuje tag &lt;txp:comments /&gt;, ale zároveň je zde volba “Připojovat komentáře k článku automaticky?” nastavena na “Ano” – podívej se do <a href="http://textpattern.com/faq/95/comment-display-confusio">dokumentace (related FAQ)</a>.
