@@ -1,0 +1,3 @@
+h1. Diagnostika: Nahrávání souborů je zakázané
+
+Aktuální konfigurace serveru ukazuje, že nahrávání souborů je zakázané, takže nebudete moci nahrávat 'Soubory', ani  'Obrázky'. Změňte nastavení @file_uploads@ v @php.ini@ (nebo o to požádejte svůj hosting).
