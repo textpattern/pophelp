@@ -1,0 +1,3 @@
+h1. Diagnostika: DNS selhalo
+
+Zdá se, že URL zadané jako adresa tvých stránek není na webu dostupné.
