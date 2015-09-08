@@ -1,0 +1,7 @@
+h1. Yield
+
+bc. <txp:yield />
+
+The *yield* tag is a _single_ tag which is used to return the inner content of the enclosing @<txp:output_form />@ tag.
+
+"More information on the *yield* tag":http://docs.textpattern.io/tags/yield.

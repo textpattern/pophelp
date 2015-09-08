@@ -1,5 +1,5 @@
 h1. Links: Categories
 
-Link categories are optional, and are useful if you want to display different groupings of links, e.g., 'Friends', 'Romans', 'Countrymen'.
+Link categories are optional, and are useful if you want to display different groupings of links, e.g. 'Friends', 'Romans', 'Countrymen'.
 
 Selective link lists such as these are output with the Textpattern 'linklist' tag like so: @<txp:linklist category="Friends" />@.

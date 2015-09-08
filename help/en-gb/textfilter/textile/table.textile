@@ -13,7 +13,7 @@ bc. (class)
 [lang]
 < align left
 > align left
-= center
+= centre
 <> justify
 ^ top
 - middle

@@ -1,5 +1,5 @@
 h1. Preferences: Comments on by default?
 
-If this is set to 'Yes', comments will be automatically enabled for every article published. If set to 'No', you must enable comments on the article 'Write' tab each time you want to accept comments.
+If this is set to 'Yes', comments will be automatically enabled for every article published. If set to 'No', you must enable comments on the article 'Write' administration panel each time you want to accept comments.
 
 Note that allowing comments can be turned on or off at any time, on a per-article basis.

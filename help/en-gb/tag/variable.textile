@@ -1,0 +1,15 @@
+h1. Variable
+
+bc. <txp:variable />
+
+The *variable* tag is both a _single_ and a _container_ tag which sets or returns a user-defined global variable.
+
+If used as a _container_ tag, the result of the contained statements are assigned to the given variable @name@, like this:
+
+bc. <txp:variable>
+    ...contained statements...
+</txp:variable>
+
+p(alert-block information). Note: Avoid entering white space characters for better code readability between the opening and closing _variable_ tags, they will lead to falsified results in the "if_variable":http://docs.textpattern.io/tags/if-variable evaluation.
+
+"More information on the *variable* tag":http://docs.textpattern.io/tags/variable.

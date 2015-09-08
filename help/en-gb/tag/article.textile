@@ -1,7 +1,5 @@
 h1. Article
 
-h3. Syntax
-
 bc. <txp:article />
 
 The basic *article* tag can be used as either a _single_ tag or _container_ tag and used to output one or more articles depending on the attributes used. Default attributes will be used when nothing specific is assigned.
@@ -16,8 +14,8 @@ This is equivalent to putting the contained statements into a form named 'my_for
 
 The tag is context-sensitive, which means it will grab articles from the currently viewed section/category/author, etc.
 
-When used on the front page, article's context will include articles from all sections set to display 'On front page'.
+When used on the front page, article's context will include articles from all sections set to display via 'Section appears on front page?' settings (see the "Sections administration panel":http://docs.textpattern.io/administration/sections-panel for more information).
 
-p(alert-block information). @<txp:article />@ is *not* the same as @<txp:article_custom />@ - you can "check out the differences of that tag":http://textpattern.net/tag-reference-article-custom if you're unsure of the differences!
+p(alert-block information). @<txp:article />@ is *not* the same as @<txp:article_custom />@ - you can "check out the differences of that tag":http://docs.textpattern.io/tags/article-custom if you're unsure of the differences!
 
-"More information on the *article* tag":http://textpattern.net/tag-reference-article.
+"More information on the *article* tag":http://docs.textpattern.io/tags/article.

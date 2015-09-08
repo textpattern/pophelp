@@ -1,12 +1,12 @@
 h1. Textile: Emphasis
 
-Use ==_underscores_== around text to be _emphasised._
+Use ==_underscores_== around text to be _emphasized._
 
 The @<em>@ HTML tag is applied:
 
 bc. _a phrase_ → <em>a phrase</em>
 
-If the text is not meant to have *structural* emphasis, but simply to be styled in __italic__ (e.g., as a design element) use double underscores:
+If the text is not meant to have *structural* emphasis, but simply to be styled in __italic__ (e.g. as a design element) use double underscores:
 
 bc. __a phrase__ → <i>a phrase</i>
 
@@ -14,7 +14,7 @@ p(alert-block information). *Note:* Quick tags must open and close within a sing
 
 h3. Textile documentation
 
-"More information on emphasised and italic text in Textile":http://textpattern.com/textile-em-and-i.
+"More information on emphasized and italicized text in Textile":http://textpattern.com/textile-em-and-i.
 
 h3. HTML documentation (via Mozilla Developer Network)
 

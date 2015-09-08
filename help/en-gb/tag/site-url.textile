@@ -1,0 +1,7 @@
+h1. Site url
+
+bc. <txp:site_url />
+
+The *site_url* tag is a _single_ tag which returns the full URL of the site (as defined in the "Preferences administration panel":http://docs.textpattern.io/administration/preferences-panel) as text. If you maintain local development versions of your live sites and import databases between them, then this tag is extremely valuable for ensuring your domain links are never confused (and thus broken) between the two locations.
+
+"More information on the *site_url* tag":http://docs.textpattern.io/tags/site-url.
