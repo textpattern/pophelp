@@ -1,0 +1,3 @@
+h1. Nastavení: Výchozí záložka administrace
+
+Zde určíš, na jaké záložce se administrační prostředí otevře po přihlášení (výchozí je Obsah / Psaní).
