@@ -1,0 +1,5 @@
+h1. Nastavení: Způsob zobrazení komentářů
+
+Vybereš-li zde “do okna”, budou se komentáře zobrazovat v malém okně, které se otevře po kliknutí na odkaz komentářů. Šablona formy: <a href="http://www.textpattern.net/wiki/index.php?title=Default_Forms">http://www.textpattern.net/wiki/index.php?title=Default_Forms</a>.
+
+Vybereš-li “do stránky” (výchozí a doporučený způsob), po kliknutí se zobrazí obnovená stránka s článkem, pod nímž jsou zobrazeny všechny komentáře.
