@@ -1,0 +1,28 @@
+h1. Nastavení: Stav stránek
+
+Textpattern může běžet v jednom ze tří režimů:
+
+# Ladění
+# Testování
+# Ostrý provoz
+
+h3. Ladění
+
+Budou viditelné všechny zprávy PHP o chybách na stránce, stejně jako varování o nefunkčním kódu a pluginech. Kromě toho, při zobrazení HTML zdroje stránky budou viditelné následující informace:
+
+* čas potřebný k zobrazení stránky ('Runtime')
+* počet vykonaných MySQL dotazů
+* přibližné využití paměti
+* výčet všech textpattern tagů užitých při sestavení stránky
+
+h3. testování
+
+Budou viditelné všechny zprávy PHP o chybách na stránce, stejně jako varování o nefunkčním kódu a pluginech. Kromě toho, při zobrazení HTML zdroje stránky budou viditelné následující informace:
+
+* čas potřebný k zobrazení stránky ('Runtime')
+* počet vykonaných MySQL dotazů
+* přibližné využití paměti
+
+h3. Ostrý provoz
+
+Na stránce se nezobrazují žádná chybová hlášení, ani diagnostické informace. Obecně platí, že nastavení "ostrý provoz" je nejvýhodnější pro návštěvníky webu (vaše chyby je nezajímají a režim ostrý provoz též nejméně zatěžuje server).
