@@ -1,0 +1,12 @@
+h1. Nastavení: Heslo uživatele
+
+Protože tento účet bude mít nejvyšší úroveň přístupových práv do Textpatternu, zvol si velmi silné heslo.
+
+h3. Tipy
+
+* použij kombinaci velkých a malých písmen
+* použij čísla
+* použij symboly
+* heslo má mít alespoň osm znaků
+* vyhni se jakýmkoliv osobním údajům (data, jména, místa, rodinní příslušníci, domácí zvířata apod)
+* nejbezpečnější hesla jsou „nesmyslné“ kombinace znaků
