@@ -1,0 +1,3 @@
+h1. Nastavení: Komentáře vyžadují jméno?
+
+Je-li tato volba zapnuta, čtenáři budou muset vyplnit své jméno, aby byl jejich komentář přijat.
