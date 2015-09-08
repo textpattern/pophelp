@@ -1,0 +1,5 @@
+h1. Pluginy: Instalace pluginu
+
+Zde vlož obsah z textového souboru pluginu a stiskni _Nahrát_. Nahráváš-li plugin stejného jména jako je jméno instalovaného pluginu, pak původní bude přepsán novou verzí.
+
+Vkládaný text pluginu *není* PHP kód, nýbrž text kódovaný BASE64, obvykle s hlavičkou obsahující informace o pluginu (název pluginu, verze, popis, jméno autora, atd.)
