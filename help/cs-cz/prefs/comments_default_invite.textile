@@ -1,0 +1,11 @@
+h1. Nastavení: Výchozí výzva pro komentáře
+
+Povolíš-li čtenářům psát komentáře ke článkům, zde můžeš nastavit výchozí výzvu (odkaz).
+
+Příklady:
+* Komentáře
+* Přidat komentář
+* Ohlasy
+* Vložit poznámku
+
+Výzvu pro komentáře lze také pro jednotlivé články změnit při jejich psaní a úpravách.
