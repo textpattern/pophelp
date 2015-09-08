@@ -1,0 +1,19 @@
+h1. Textile: Odstraněný text
+
+Použijte @-pomlčky-@ kolem textu, který byl -smazán- . To je užitečné pro označení změn jedné verze dokumentu na jinou.
+
+Produkuje HTML tag @<del>@:
+
+bc. -smazaný text- → <del>smazaný text</del>
+
+Prohlížeč text vykreslí takto: <del>smazaný text</del>.
+
+p(alert-block information). *Pozn.:* Tyto tagy musí mít otevírací i uzavírací značky, aby produkovaly validní kód. 
+
+h3. Dokumentace Textile
+
+"Více informací na Textile":http://txstyle.org/doc/19/insertions-and-deletions.
+
+h3. HTML dokumentace (Mozilla Developer Network)
+
+"HTML element @<del>@":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del.
