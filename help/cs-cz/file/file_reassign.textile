@@ -1,0 +1,3 @@
+h1. Files: Přiřadit soubor
+
+Když nahraješ soubor na místo toho, který je označen jako chybějící, je vybraný soubor nahrán na server a jsou mu v databázi přiřazeny informace původního souboru. To znamená, že název původního souboru zůstane, stejně jako všechny další související informace, jako je počet stažení a kategorie. Velikost souboru odpovídá tomu novému.
