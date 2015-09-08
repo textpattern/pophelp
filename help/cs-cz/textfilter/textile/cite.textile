@@ -1,0 +1,17 @@
+h1. Textile: Citace
+
+Použitím ==??dvojitých otazníků??== kolem ??citovaného textu??, jako třeba názvu citovaného díla.
+
+Aplikován je HTML tag @<cite>@:
+
+bc. Škvoreckého ??Zbabělci?? → Škvoreckého <cite>Zbabělci</cite>
+
+p(alert-block information).  *Pozn.:* Tyto tagy musí mít otevírací i uzavírací značky, aby produkovaly validní kód.
+
+h3. Dokumentace Textile
+
+"Více informací o citacích v Textile":http://textpattern.com/textile-cite.
+
+h3. HTML dokumentace (Mozilla Developer Network)
+
+"HTML element @<cite>@":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite
