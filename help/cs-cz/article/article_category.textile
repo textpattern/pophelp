@@ -1,0 +1,12 @@
+h1. Články: Kategorie
+
+Na rozdíl od rubrik, jež určují navigační strukturu serveru, slouží kategorie spíše k roztřídění článků podle tématu. Jsou-li články zařazeny do kategorí, lze procházet seznamy článků v jednotlivých kategoriích.
+
+Příklady kategorií na stránkách o jídle:
+
+* suroviny
+* nákupy
+* recepty
+* servírování
+* restaurace
+* šéfkuchaři
