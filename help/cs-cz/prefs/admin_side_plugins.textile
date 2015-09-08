@@ -1,0 +1,7 @@
+h1. Nastavení: Pluginy pro správu
+
+Pluginy pro administraci jsou specifické tím, že mohou změnit fungování administrační části systému Textpattern. Lze je totiž napojit na již existující procesy jako např. úpravu či vydávání článků, a mohou rovněž přidávat  do administrace nové strany pro další funkce.
+
+Pluginy pro administraci mohou funkci systému Textpattern podstatným způsobem rozšířit.
+Chceš-li se o pluginech dozvědět více, podívej se na stránku "Extending Textpattern":http://www.textpattern.net/wiki/index.php?title=Extending_Textpattern, která je součástí "Textpattern CMS User Documentation":http://www.textpattern.net/.
+Pluginy všech kategorií jsou shromážděny na "Textpattern Resources":http://textpattern.org/.
