@@ -1,0 +1,3 @@
+h1. Nastavení: Spravovat komentáře?
+
+Je-li tato volba zapnuta, žádný komentář se na stránkách nezobrazí, dokud nebude prohlédnut a schválen. Každý komentář je tak nutno ručně schválit.
