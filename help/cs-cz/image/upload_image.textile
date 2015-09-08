@@ -1,0 +1,4 @@
+h1. Obrázky: Nahrát obrázek
+
+Po nahrání do adresáře _images_ je původní jméno obrázku zapsáno do databáze.
+Současně je mu přiděleno nové jméno (id) ve tvaru _pořadové číslo.přípona_ (např. 4444.jpg).
