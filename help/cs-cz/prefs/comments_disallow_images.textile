@@ -1,0 +1,3 @@
+h1. Nastavení: Zakázat vkládání obrázků do komentářů?
+
+Zapneš-li tuto volbu, jakékoliv obrázky vložené do komentářů budou odstraněny.
