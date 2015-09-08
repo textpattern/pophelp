@@ -1,0 +1,3 @@
+h1. Diagnostika: chyby v tabulce MySQL
+
+Něco se pravděpodobně pokazilo ve vaší MySQL databázi. Pokud máte přístup k nástrojům MySQL, jako je phpMyAdmin, zkuste dotčené tabulky opravit.
