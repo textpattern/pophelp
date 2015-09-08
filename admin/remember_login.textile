@@ -1,5 +1,0 @@
-h1. Zapamatovat přihlášení
-
-Je-li tato volba zatržena, zůstaneš v prohlížeči do Textpattern přihlášen(a), dokud se neodhlásíš. Pokud necháš pole nezatržené, dojde po určité době nečinnosti automaticky k odhlášení.
-
-Vyžaduje, aby měl prohlížeč zapnuté cookies.
