@@ -1,0 +1,5 @@
+h1. Nastavení: Doba platnosti záznamů?
+
+Používáš-li záznamy návštěv, zde můžeš nastavit, jak dlouho (kolik dní) budou záznamy uchovávány. Např. nastavení *7* říká, že budou záznamy uchovány vždy po sedm dní.
+
+p(alert-block information). *Pozn.:* Staré záznamy se odstraňují vždy až v okamžiku, kdy si je zobrazíš. Pokud se na ně tedy nepodíváš několik týdnů, staré záznamy za celou tu dobu zůstanou v databázi zachovány.
