@@ -1,0 +1,9 @@
+h1. Textile:  Přidaný text
+
+Použijte znaménka ==+plus+== okolo textu +přidaného textu+. Zobrazováno podtržením. Atribut datetime vyjadřuje čas, kdy došlo k přidání. Datetime má formát rrrr-mm-ddThh:mm:ssTZD. Používá se zřídka.
+
+Tato značka produkuje HTML tag @<ins>@:
+
+bc. +fráze+ → <ins>fráze</ins>
+
+Vypadá v prohlížeči takto: +fráze+.
