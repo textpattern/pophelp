@@ -1,0 +1,3 @@
+h1. Kategorie obrázku
+
+Kategorie obrázků jsou užitečné jak pro organizaci obrázků, tak pro určení skupin obrázků, jež lze  zobrazit najednou podle kategorie (třeba pomocí tagů @<txp:image_index />@ a @<txp:image_display />@).
