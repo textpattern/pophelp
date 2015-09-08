@@ -1,0 +1,4 @@
+h1. Nastavení: Automaticky nastavovat letní čas?
+
+Toto nastavení umožňuje Textpatternu automaticky v příslušný den změnit letní a zimní čas.
+Je-li tato volba nastavena na 'Ne', je možné volit ručně následující nastavení 'Platí nyní letní čas?'
