@@ -1,0 +1,4 @@
+h1. Nastavení: Mez velikosti souborů (v bajtech)
+
+Můžeš omezit maximální velikost nahrávaných souborů (v bajtech).
+_Pozn._: tato hodnota je limitována také konfigurací PHP. Jestliže Textpattern zjistí, že tato konfigurace umožňuje pouze menší stahování, automaticky tuto hodnotu upraví na menší. Jestliže chceš v takovém případě umožnit nahrávání větších souborů přímo z prohlížeče, musíš požádat správce svého hostingu o úpravu příslušných hodnot (@post_max_size@, @upload_max_filesize@ a @memory_limit@) v souboru @php.ini@.
