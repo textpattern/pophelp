@@ -1,0 +1,5 @@
+h1. Články: Klíčová slova
+
+Klíčová slova jsou užitečná pro určení vztahů mezi články, jiných než jen podle příslušnosti do téže kategorie.
+
+Klíčová slova musejí být pouze samostatná slova, oddělená čárkami.
