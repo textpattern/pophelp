@@ -1,0 +1,5 @@
+h1. Nastavení: Povolit PHP na stránkách??
+
+Toto nastavení umožňuje používání PHP kódu v šablonách stránek a forem..
+
+PHP kód musí být bez otevíracích a uzavíracích značek PHP, ale musí být uzavřen mezi tagy @<txp:php>@ a @</txp:php>@, "viz dokumentace":http://www.textpattern.net/wiki/index.php?title=php.
