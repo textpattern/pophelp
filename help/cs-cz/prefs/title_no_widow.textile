@@ -1,0 +1,5 @@
+h1. Nastavení: Zabránit sirotkům v názvech článků?
+
+Termín "sirotek" se týká jednoho slova na konci názvu článku, které je vypsáno na novém řádku, je-li je nadpis článku příliš dlouhý a nevejde se na jeden řádek. V tištěných materiálech jsou sirotci považováni za nedbalost v typografii a je třeba se jim vyhýbat. Nastavení "Ano" zajistí, že poslední slova dlouhých nadpisů článků nebudou nikdy na samostatném řádku. Namísto toho se zobrazí na samostatném řádku dvě poslední slova.
+
+p(alert-block information). *Pozn.*: Toto nastavení se může ukázat jako problematické na stránkách s responzivním designem při menších šířkách, protože nerozbitná mezera mezi posledními dvěma slovy může způsobit, že nadpis přeteče svůj nadřazený kontejner. V takovém případě nastav tuto  volbu "Ne".
