@@ -1,0 +1,3 @@
+h1. Import: Výchozí výzva pro komentáře
+
+Zde zadej výzvu pro komentáře importovaných článků.
