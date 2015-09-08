@@ -1,0 +1,5 @@
+h1. Nastavení: Komentáře implicitně zapnuty?
+
+Je-li tato volba zapnuta, budou komentáře povoleny pro každý nový článek. Je-li vypnuta, budete muset komentáře ručně zapnout pro každý článek, u kterého chcete komentáře používat.
+
+Komentáře lze v každém případě zapnout či vypnout pro každý článek zvlášť.
