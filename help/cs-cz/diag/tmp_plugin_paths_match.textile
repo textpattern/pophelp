@@ -1,3 +1,3 @@
-h1. Diagnostics: Temporary directory path and Plugin cache directory path should not match
+h1. Diagnostika: Nastavení cesty k Adresáři dočasných souborů a k Adresáři pro cache pluginů nemá být shodné 
 
-Plugins should have their own directory and not share the temporary directory. This is a potential security risk and may adversely affect your site if the temporary directory is flushed. Please ensure that the temporary directory path is different to the plugin cache path.
+Pluginy by měly mít vlastní dočasný adresář, nikoli sdílet _adresář dočasných souborů_. Je to potenciální bezpečnostní riziko, které může nepříznivě ovlivnit vaše stránky. Ujistěte se, že cesta do adresáře dočasných souborů je odlišná od cesty do adresáře pro cache pluginů.
