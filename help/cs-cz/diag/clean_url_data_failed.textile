@@ -8,6 +8,6 @@ Pokud čisté URL _nefungují_, může to být způsobeno:
 # váš server vyžaduje nějaké změny v @.htaccess@ pro zprovoznění hezkých URL adres
 # váš server hezké URL adresy (clean URL) vůbec nepodporuje
 
-Test čistých URL se pokusí načíst stránku z adresy uvedené v nastavení serveru _Webová adresa (doména)_ s cílem ověřit, zda všechny parametry 'hezkých' URL fungují správně. V případě, že webová adresa je zadána chybně, nebo byla nahrazena statickou stránku apod., test selže. Dokud nebude problém vyřešen, budete muset na svých stránkách používat _ošklivé_ adresy URL (@ example.com/index.php?id=17@). Ujistěte se, že "Podoba stálých odkazů" v nastavení serveru je nastavena odpovídajícím způsobem.
+Test čistých URL se pokusí načíst stránku z adresy uvedené v nastavení serveru _Webová adresa (doména)_ s cílem ověřit, zda všechny parametry 'hezkých' URL fungují správně. V případě, že webová adresa je zadána chybně, nebo byla nahrazena statickou stránku apod., test selže. Dokud nebude problém vyřešen, budete muset na svých stránkách používat _ošklivé_ adresy URL (@example.com/index.php?id=17@). Ujistěte se, že "Podoba stálých odkazů" v nastavení serveru je nastavena odpovídajícím způsobem.
 
 Pozn.: použití pluginu k uvedení serveru do "režimu údržby" může vyvolat toto varování.
