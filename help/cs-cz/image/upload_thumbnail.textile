@@ -1,0 +1,8 @@
+h1. Obrázky: Nahrát náhled
+
+Každý obrázek může mít přiřazený svůj náhled (zmenšeninu), užitečný pro vytváření odkazů na obrázky nebo jejich přehledů.
+
+Odkaz na náhled obrázku se dělá stejně jako odkaz na obrázek, s tím rozdílem, že k názvu souboru se přidává písmeno „t”.
+
+Např. odkaz na náhled obrázku, k němuž je cesta @/images/12.jpg@
+musí obsahovat toto @/images/12t.jpg@.

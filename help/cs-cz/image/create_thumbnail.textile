@@ -1,0 +1,6 @@
+h1. Obrázky: Vytvořit náhled
+
+Umožňuje vytvořit (nebo znovu vytvořit) z obrázku plné velikosti náhledový obrázek a určit mu rozměry.
+
+Lze zadat pouze jeden z rozmerů, druhý bude dopočítán automaticky podle poměru stran obrázku.
+Zatržením volby “Oříznout” bude náhled oříznut od středu obrázku.

@@ -1,0 +1,3 @@
+h1. Nastavení: Tvar data pro komentáře
+
+Podoba data zobrazeného v komentářích.

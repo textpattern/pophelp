@@ -1,0 +1,3 @@
+h1. Nastavení: Povolit XML-RPC server?
+
+Chceš-li umožnit "XML-RPC":http://en.wikipedia.org/wiki/XML-RPC vzdálenou správu Textpattern (např. z desktopu, nebo mobilní aplikace), musíš zapnout XML-RPC server nastavením této volby na "Ano".

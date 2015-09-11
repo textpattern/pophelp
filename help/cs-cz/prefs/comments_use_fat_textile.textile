@@ -1,0 +1,12 @@
+h1. Nastavení: Povolit rozšířené Textile značkování?
+
+Pokud je tato volba nastavena na  'Ano', komentáře budou moci obsahovat značkování "Textile":http://textpattern.com/textile-sandbox pro prvky, které by jinak byly zobrazeny jako prostý text:
+
+* nadpisy
+* číslovaný a nečíslovaný seznam
+* poznámky pod čarou
+* tabulky
+* code
+* rozšířená syntaxe blokových prvků (@bc..@, @bq..@, etc.)
+
+*Note:* Z bezpečnostních důvodů se surový HTML přemění na běžný text.

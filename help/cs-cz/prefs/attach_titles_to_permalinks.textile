@@ -1,0 +1,5 @@
+h1. Nastavení: Názvy do odkazů?
+
+Tato volba umožňuje přidávat do odkazů na článek zjednodušené názvy článků, ať už vytvářený automaticky systémem, nebo zadávaný ručně autorem (v příslušném poli pod položkou “Rozšířená nastavení”).
+
+Tato volba má smysl jedině používáš-li “hezké” URL. V některých jazycích může být výsledkem nepěkně vyhlížející dlouhý řetězec; v takovém případě je možná lepší tuto funkci vypnout.

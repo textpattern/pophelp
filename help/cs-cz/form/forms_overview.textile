@@ -1,0 +1,27 @@
+h1. Úvod do forem
+
+_Formy_ v systému Textpattern jsou šablony z kousků textu, HTML a Textpattern tagů, které se používají pro zobrazení obsahu.
+
+Zde je příklad formy, která by mohla být pojmenována @seznam_clanku@:
+
+např.:
+<pre><code><li>
+  <txp: permlink>
+    <txp: title />
+  </ txp: permlink>
+</ li></code></pre>
+
+Můžeme ji použít pro nečíslovaný seznam souvisejících článků:
+
+@<txp: related_articles form = "seznam_clanku" wraptag = "ul" />@
+
+Protože úkolem této formy je vypsat seznam článků, může být použita uvnitř jiných tagů, například pro zobrazení 20 článků z aktuální rubriky:
+
+bc. <txp:article form = "seznam_clanku" limit = "20" wraptag = "ol" />
+
+Formy můžete také použít k opakovanému zobrazení obsahu, například záhlaví a zápatí v šabloně stránkz. To znamená, že obsah existuje pouze v jednom místě, a pokud se rozhodnete jej změnit, stačí to udělat jednou. Zobrazení obsahu formy se obvykle provádí pomocí tagu @output_form@:
+
+<code><txp:output_form form = "forma_nejakeho_jmena" /></code>
+
+Forma může mít velikost až 64 KB.
+Příklad na zápatí může obsahovat nadpisy, odstavce, odkazy, podmíněné tagy i odkazy na jiné formy, například @seznam_clanku@.

@@ -1,0 +1,27 @@
+h1. Textile: Span
+
+Span je vymezení části textu, která bude formátována jinak než okolní text. Je příbuzný s tagem @<div>@ s tím rozdílem, že @<span>@ je řádkový prvek.
+
+K označení prvkem span  stačí tento text uzavřít mezi znak procenta @%@.
+
+HTML tag @<span>@ je pomocí Textile aplikován všude tam, kde potřebujete u části textu použít atributy @class@, @style@, @id@ nebo @lang@ a obklopíte tento text znakem @%@:
+
+Příklad:
+
+bc. text %(caps)tučnými písmeny% → text<span class="caps">tučnými písmeny</span>
+
+Pokud máte v CSS definovánu třídu _caps_ @.caps {text-transform: uppercase;}@, prohlížeč potom text vykreslí takto: @text TUČNÝMI PÍSMENY@
+
+Další příklad:
+
+bc. normální text a %{color:red}kousek červeného textu% → normální text a <span style="color:red">kousek červeného textu</span>
+
+bude prohlížečem zobrazen takto:  normální text a %{color:red}kousek červeného textu%.
+
+h3. Dokumentace Textile
+
+"Více informací a spanech v Textile":http://txstyle.org/doc/33/span.
+
+h3. HTML dokumentace (Mozilla Developer Network)
+
+"HTML element @<span>@":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span.

@@ -1,0 +1,7 @@
+h1. Nastavení: Záznamy
+
+Zde můžeš zvolit úroveň protokolování návštěvníků:
+
+# *Všechny návštěvy*:  Textpattern zaznamená všechny návštěvy na tvém webu
+# *Jen odkazující servery*: Textpattern zaznamená jen návštěvy, které byly na tvé stránky odkázány z jiných serverů.
+# *Žádné*: Textpattern nebude návštěvy zaznamenávat.

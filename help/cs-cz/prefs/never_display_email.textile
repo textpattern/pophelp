@@ -1,0 +1,5 @@
+h1. Nastavení: Skrývat emailové adresy?
+
+Tato volba rozhoduje o tom, zda bude emailová adresa autora komentáře zobrazována, či ne.
+
+Ze zdvořilosti k uživatelům se doporučuje, aby emailové adresy zveřejňovány nebyly, mohou však existovat určité situace, kdy zobrazení emailové adresy komentátora je žádoucí.

@@ -1,0 +1,3 @@
+h1. Nastavení: Nový komentář je považován za změnu?
+
+Databáze udržuje záznam o tom, kdy byly tvé stránky naposledy změněny. Nastavíš-li tuto volbu na “Ano”, každý nový komentář bude představovat “změnu”. Čas poslední změny se používá např. pro funkci @Odesílat hlavičku poslední úpravy@.

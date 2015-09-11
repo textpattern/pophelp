@@ -1,0 +1,27 @@
+h1. Textile: Zkratky
+
+HTML umožňuje autorům pomocí tagu @<abbr>@ definovat zkratky. Definice se zobrazí jako popisek při najetí kurzorem na zkratku.
+
+Chcete-li rychle definovat zkratku pomocí Textile, umístěte celý text v závorkách () hned za zkratku.
+
+Příklad:
+
+bc. ACLU(American Civil Liberties Union)
+
+Vytvoří HTML tag:
+
+bc. <abbr title="American Civil Liberties Union">ACLU</ abbr>
+
+Což prohlížeče zobrazí takhle (přesuňte kurzor nad text):
+
+ACLU(American Civil Liberties Union)
+
+p(alert-block information). *Pozn.:* ve verzích Textile před v2.5.0, je pro @<abbr>@ používán starší tag @<acronym>@. Tato značka se již  v HTML5 nepoužívá.
+
+*Dokumentace Textil*: "Více informací na txstyle.org":http://txstyle.org/doc/32/acronyms
+
+h3. HTML dokumentace
+
+"HTML element @<abbr>@":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr
+
+"HTML element @<acronym>@":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/acronym

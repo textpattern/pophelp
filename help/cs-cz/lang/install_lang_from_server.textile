@@ -1,0 +1,3 @@
+h1. Jazyky: Instalovat ze vzdáleného serveru
+
+Chceš-li nainstalovat nebo aktualizovat jazykový balíček ze serveru, stačí kliknout na odkaz “Instalovat” nebo (je-li volba aktivní) “Upravit”.

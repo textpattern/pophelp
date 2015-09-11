@@ -1,0 +1,3 @@
+h1. Nastavení: Tvar data pro archiv
+
+Jakým způsobem se bude zobrazovat datum pro články v rubrikách.

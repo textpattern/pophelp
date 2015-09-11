@@ -1,0 +1,5 @@
+h1. Nastavení: Změnit výchozí znakovou sadu emailů?
+
+Textpattern používá kódování UTF-8, kde jen to je možné, a tedy i pro odchozí emaily. Některé starší verze poštovních klientů však toto kódování dobře nezvládají (jako např. některé verze programu Outlook). Pokud dostáváš emaily s nesmyslnými znaky, zkus zde nastavit znakovou sadu ISO-8859-1, do níž budou emaily před odesláním převedeny.
+
+p(alert-block information). *Pozn.*: Pokud používáš jazyk, který obsahuje znaky, jež nelze v této znakové sadě zobrazit, pak ani tato volba nepomůže. Řešením je poohlédnout se po poštovním klientu s řádnou podporou UTF-8 (nebo obecně Unicode).

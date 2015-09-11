@@ -1,0 +1,5 @@
+h1. Nastavení: Adresář dočasných souborů? 
+
+Tato volba obsahuje *absolutní cestu* k adresáři dočasných ('tmp') souborů. PHP musí mít do toho adresáře přístup pro zápis (zpravidla vyžaduje nastavení práv na 777). Tento adresář slouží k nahrávání různých druhů dočasných dat (pluginů, souborů nebo obrázků).
+
+p(alert-block information). *Pozn.*: Nepoužívej stejný adresář pro "tmp" a "Adresář pro cache pluginů", jinak to bude způsobovat problémy (Textpattern by se pokoušel spustit obsah dočasných souborů jako pluginy).

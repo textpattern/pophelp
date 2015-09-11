@@ -1,0 +1,7 @@
+h1. Obrázek článku
+
+Ke článku lze přiřadit jeden obrázek zadáním jeho ID (identifikační číslo v systému Textpattern), nebo URL adresy do tohoto pole. Většinou budete zadávat ID obrázku.
+
+Obrázek je pak v článku zobrazen pomocí značky @<txp:article_image />@ ve formě používané pro takový článek. Tag *article_image* je nepárová značka, která při vydání stránky generuje HTML tag @<img src="...">@.
+
+Více informací o tagu *article_image* "najdete na textpattern.net":http://www.textpattern.net/wiki/index.php?title=article_image.

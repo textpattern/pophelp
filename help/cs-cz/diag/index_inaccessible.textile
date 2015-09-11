@@ -1,0 +1,3 @@
+h1. Diagnostika: soubor index.php je nedostupný
+
+Soubor @index.php@ určený pro vaše stránky jako základní je pro server nečitelný. Zkontrolujte oprávnění.

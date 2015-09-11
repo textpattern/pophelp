@@ -1,0 +1,23 @@
+h1. Textile: Silné zvýraznění
+
+Pro *silně zvýrazněný* text použijte ==*hvězdičky*==.
+
+Textile tento zápis převede do HTML tagu @<strong>@:
+
+bc. *fráze* → <strong>fráze</strong>
+
+Pokud zvýrazněný text nemá mít *významový* důraz, ale má být prostě jen zobrazený **tučně**  (například, jako designový prvek) použíjte dvojité hvězdičky:
+
+bc. **fráze** → <b>fráze</b>
+
+p(alert-block information). *Pozn.:* Tyto tagy musí mít otevírací i uzavírací značky, aby produkovaly validní kód.
+
+h3. Dokumentace Textile
+
+"Více informací o zdůrazněném a tučném textu v Textile":http://txstyle.org/doc/16/strong-and-bold-text.
+
+h3. HTML dokumentace (Mozilla Developer Network)
+
+"HTML element @<strong>@":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong.
+
+"HTML element @<bold>@":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b.

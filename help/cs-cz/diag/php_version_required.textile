@@ -1,0 +1,15 @@
+h1. Diagnostika: Minimální systémové požadavky
+
+Textpattern vyžaduje funkce obsažené v programovacím jazyce PHP a MySQL. Přečtěte si následující tabulku k určení minimálních systémových požadavků pro vaši verzi Textpatternu:
+
+|_. verze Textpattern |_. PHP |_. MySQL |
+| 4.5.x | 5.2.3 | 4.1 |
+| 4.0.1 - 4.4.1 | 4.3 | 3.23 |
+
+Kromě výše uvedených požadavků na systém jsou požadovány následující rozšíření PHP:
+
+* "MySQL":http://www.php.net/manual/en/ref.mysql.php
+* "XML":http://www.php.net/manual/en/ref.xml.php
+* "JSON":http://www.php.net/manual/en/ref.json.php
+
+Soubor @php.ini@, ať už globální nebo lokální, by měl obsahovat nastavení @date.timezone@.

@@ -1,0 +1,3 @@
+h1. Rubrika používá stránku
+
+Rubriky v Textpattern jsou provázány se šablonami stránek.

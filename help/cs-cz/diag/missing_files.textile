@@ -1,0 +1,3 @@
+h1. Diagnostika: Chybějící soubory
+
+Některé základní soubory ve vaší instalaci Textpatternu chybí. Ujistěte se, že všechny uvedené soubory jsou na serveru k dispozici a jsou ve správném umístění.

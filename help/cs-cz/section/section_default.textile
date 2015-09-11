@@ -1,0 +1,6 @@
+h1. Rubriky: Výchozí rubrika pro Psaní
+
+Touto volbou nastavíš, která rubrika bude předvolená pro psaní článku na záložce Obsah / Psaní.
+Zvol rubriku, do které patří většina článků na tvém webu.
+
+Chceš-li psát článek pro jinou rubriku, než zvolíš zde, prostě ji vyber v rozbalovacím poli _Rubrika_ při psaní článku.

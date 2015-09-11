@@ -1,0 +1,3 @@
+h1. Nastavení: Povolit komentáře?
+
+Tato volba určuje, zda Textpattern zpřístupní funkce související s komentáři, nebo zda budou zcela vypnuty.

@@ -1,0 +1,5 @@
+h1. Nastavení: Používat emailovou adresu pro ID pramenů?
+
+Položky v pramenech  "Atom":http://en.wikipedia.org/wiki/Atom vyžadují jednoznačný identifikátor (ID).
+
+Pro vytváření identifikátorů může Textpattern použít buď tvou emailovou adresu, nebo doménové jméno zahrnuté do ID. Emailová adresa bude první použitá při vytváření webu. Pokud není pravděpodobné, že budeš v budoucnu měnit doménové jméno, je pravděpodobně bezpečnější zde nastavit "Ne".

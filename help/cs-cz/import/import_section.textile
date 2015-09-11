@@ -1,0 +1,3 @@
+h1. Import: Importovat do rubriky
+
+Vyber rubriku, kterou chceš přiřadit importovaným článkům.

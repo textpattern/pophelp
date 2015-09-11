@@ -1,0 +1,5 @@
+h1. Nastavení: Přihlášovací jméno
+
+Přihlašovací jméno administrátora (“Vydavatel”) – účet s nejvyššími právy přístupu.
+
+Ačkoli pro jméno nejsou žádná omezení, je lepší se vyhnout komplikovaným výrazům.

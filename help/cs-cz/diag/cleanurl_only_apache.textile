@@ -1,0 +1,3 @@
+h1. Diagnostika: Podpora hezkých URL adres
+
+Hezké URL jsou podporovány pouze na serverech Apache. Pokud váš server používá jinou platformu, používání krátkých URL je riskatní.

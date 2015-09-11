@@ -1,0 +1,68 @@
+h1. Textile: Tabulky
+
+Buňky tabulky se oddělují symbolem @|@.
+
+bc. |Toto|je|jednoduchý|zápis|řádku|tabulky|
+|Toto|je|jednoduchý|zápis|řádku|tabulky|
+
+Což zobrazeno prohlížečem vypadá takto:
+
+|Toto|je|jednoduchý|zápis|řádku|tabulky|
+|Toto|je|jednoduchý|zápis|řádku|tabulky|
+
+h3. Syntaxe atributů tabulky
+
+bc. (class)
+(#id)
+{style}
+[lang]
+< align left
+> align left
+= center
+<> justify
+^ top
+- middle
+~ bottom
+_ header cell
+\2, \3 etc. column span
+/2, /3 etc. row span
+
+Zápis atributů, které se použijí na celou tabulku, musí být na samostatném řádku bezprostředně před tabulkou, následovaný tečkou:
+
+bc. table{border:1px solid black, color:yellow}.
+|Toto|je|jednoduchý|zápis|řádku|tabulky|
+|Toto|je|jednoduchý|zápis|řádku|tabulky|
+
+Což zobrazeno prohlížečem vypadá takto:
+
+table{border:1px solid black; color:yellow}.
+|Toto|je|jednoduchý|zápis|řádku|tabulky|
+|Toto|je|jednoduchý|zápis|řádku|tabulky| 
+
+Zápis atributů, které se použijí na celý řádek, musí být uvedený na začátku řádku, následovaný tečkou a mezerou:
+
+bc. {background:#ddd}. |This|is|a|row|
+
+Atributy pro buňku následované tečkou musí být uvnitř buňky:
+
+bc. |{background:#ddd}. Buňka s šedým pozadím|
+
+bc. |\2. Buňka přes 2 sloupce|
+
+bc. |/3. Buňka přes 3 sloupce|
+
+bc. |>. Obsah buňky zarovnaný doprava|
+
+h3. Dokumentace Textile
+
+"Více informací o tabulkách Textile":http://txstyle.org/doc/15/tables.
+
+h3. HTML dokumentace (Mozilla Developer Network)
+
+"HTML element @<table>@":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table.
+
+"HTML element @<tr>@":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr.
+
+"HTML element @<th>@":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th.
+
+"HTML element @<td>@":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td.

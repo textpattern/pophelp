@@ -1,0 +1,5 @@
+h1. Rubriky: Na hlavní straně?
+
+Některé rubriky, obsahující spíše “statický” obsah, mohou působit nepatřičně v časově orientovaném proudu článků na hlavní straně.
+
+Nastavíš-li zde ne, články této rubriky se zobrazovat mezi články na hlavní straně nebudou.

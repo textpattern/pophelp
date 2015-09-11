@@ -1,0 +1,19 @@
+h1. Textile: Dolní index (z angl. "subscript")
+
+Uzavřením textu mezi znaky @ ~@ vypíšete ~subscript~.
+
+Apklikován je HTML tag @<sub>@:
+
+bc. ~fráze~ → <sub>fráze</sub>
+
+Prohlížeč texto text zobrazí jako ~fráze~.
+
+Stejného efektu jako tage @<sub>@ se dá dosáhnout pomocí CSS stylu @vertical-align: sub@, ale @<sub>@ je dobrý tag na vyznačení sémantiky (smyslu) textu. Vždy, když děláte dolní index, např. H ~2~ SO ~4~ , používejte tag @<sub>@.
+
+h3. DokumentaceTextile
+
+"Více infromací o dolním indexu v Textile":http://txstyle.org/doc/18/subscript-and-superscript-text.
+
+h3. HTML dokumentace (Mozilla Developer Network)
+
+"HTML element @<sub>@":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub.

@@ -1,0 +1,3 @@
+h1. Řazení odkazů
+
+Užitečné nastavení pro abecední řazení seznamu odkazů podle zásad přirozeného jazyka, např. podle příjmení osoby (namísto křestního jména) nebo pro vynechání určitého či neurčitého členu (v jazycích, kde to dává smysl).

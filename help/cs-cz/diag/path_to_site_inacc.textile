@@ -1,0 +1,3 @@
+h1. Diagnostika: Nelze číst z kořenového adresáře 
+
+Nelze číst z adresáře obsahujícího soubor @index.php@. Zkontrolujte oprávnění.

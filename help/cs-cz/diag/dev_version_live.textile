@@ -1,0 +1,3 @@
+h1. Diagnostika: Vývojová verze
+
+Provozujete vývojovou verzi (SVN) Textpattern.To se na živém webu nedoporučuje. Pokud je to záměrně, můžete toto varování ignorovat.

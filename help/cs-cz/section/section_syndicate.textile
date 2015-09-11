@@ -1,0 +1,3 @@
+h1. Rubriky: Šířit články této rubriky?
+
+Volba určuje, zda se články patřící do této rubriky mají zahrnovat do pramenů RSS / Atom.

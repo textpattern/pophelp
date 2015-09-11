@@ -1,0 +1,9 @@
+h1. Nastavení: Podoba trvalých odkazů
+
+Toto nastavení určuje, jak budou vypadat trvalé odkazy (URL adresy) na články, generované tagem @<txp:permlink>@.
+
+@? = ošklivé@ - nejvíce kompatibilní způsob, který bude fungovat bez vašich zásahů - je ale méně příznivý, pokud jde o čitelnost a optimalizaci pro vyhledávače (SEO). V tomto režimu budou URL adresy článků na vašem webu vypadat takto:
+
+bc. http://example.com/index.php?id=123
+
+Všechny ostatní režimy vyžadují, aby byl na serveru nainstalován a povolen modul Apache @mod_rewrite@. Pokud váš server @mod_rewrite@ nepodporuje, obraťte se vašeho poskytovatele webhostingu, nebo používejte režim  URL @?= ošklivé@, jak je uvedeno výše.

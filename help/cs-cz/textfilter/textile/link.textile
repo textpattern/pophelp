@@ -1,0 +1,23 @@
+h1. Textile: Odkazy
+
+Chcete-li udělat hypertextový odkaz, vložte text odkazu v == "uvozovkách" == bezprostředně následovaných dvojtečkou a URL adresou odkazu.
+
+*Volitelné:* text v závorkách () po textu odkazu, ale před koncovou uvozovku se stane atributem @title@ pro odkaz, viditelný jako popisek při přejetí kurzorem.
+
+h3. Příklad (normální odkaz)
+
+bc. "Toto je odkaz(Toto je popis odkazu)":http://textpattern.com
+
+Produkuje kód:
+
+bc. <a href="http://textpattern.com" title="Toto je popis odkazu">Toto je odkaz</a>
+
+Což prohlížeč vykreslí jako: "Toto je odkaz(Toto je popis odkazu)":http://textpattern.com
+
+h3. Dokumentace Textile
+
+"Více informací o odkazech pomocí Textile":http://txstyle.org/doc/12/links.
+
+h3. HTML dokumentace (Mozilla Developer Network)
+
+"HTML element @<a>@":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a.

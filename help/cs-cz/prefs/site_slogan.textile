@@ -1,0 +1,3 @@
+h1. Nastavení: Motto serveru
+
+"Motto serveru":http://www.textpattern.net/wiki/index.php je slogan, nebo krátký popis tvého webu. Bude použito jako popis tvých stránek všude tam, kde ho je zapotřebí, jako například v pramenech RSS / Atom a také může být použit podle tvého uvážení na libovolném počtu míst v celém tvém webu.

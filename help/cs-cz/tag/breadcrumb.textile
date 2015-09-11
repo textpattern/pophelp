@@ -1,0 +1,7 @@
+h1. Drobečková navigace
+
+bc. <txp:breadcrumb />
+
+Tag *breadcrumb* je _nepárová_ značka používaná k vytvoření "drobečkové navigace":http://en.wikipedia.org/wiki/Breadcrumb_trail sestavené z hypertextových odkazů, nebo zobrazené jako prostý test. Drobečková navigace se nezobrazuje na hlavní straně webu.
+
+"Více informací o tagu *breadcrumb* ":http://docs.textpattern.io/tags/breadcrumb.

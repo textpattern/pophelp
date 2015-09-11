@@ -1,0 +1,6 @@
+h1. Kategorie pro odkazy
+
+Kategorie odkazů nejsou povinné, jsou však užitečné, chcete-li je rozčlenit do skupin, např. „Přátelé”, „Římané” a „Krajané”.
+
+Chceš-li později zobrazit jen výpis odkazů určité kategorie, můžeš použít značku „linklist” např. takto:
+@<txp:linklist category="pratele" />@

@@ -1,0 +1,5 @@
+h1. Nastavení: Používat v komentářích "nofollow"?
+
+Tato volba přidá do odkazů na komentáře další parametr. Je určený k tomu, aby odradil spammery od zneužívání komentářů na vašich stránkách, a za jeho zavedením stojí řada předních vyhledávajících služeb a programátorů. Více viz "oznámení společnosti Google":http://googleblog.blogspot.com/2005/01/preventing-comment-spam.html .
+
+Tato volba nijak neovlivňuje funkci či hodnocení vašich stránek. Slouží prostě jen k tomu, aby webové vyhledávače vyhodnocovaly komentáře na vašich stránkách jako méně významě při hodnocení serverů odkazovaných z těchto komentářů.

@@ -1,0 +1,11 @@
+h1. Autoři
+
+bc. <txp:authors>
+
+Tag *authors* lze použít jako _nepárový_ nebo _kontejnerový_ tag pro vytvoření seznamu autorů zadaných do systému na stránce Správa / "Uživatelé":http://docs.textpattern.io/administration/users-panel.
+
+bc. <txp:authors>
+    ...generovaný obsah...
+</txp:authors>
+
+"Více infromací o tagu *authors*":http://docs.textpattern.io/tags/authors.
