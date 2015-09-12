@@ -1,0 +1,9 @@
+h1. Kategorie
+
+bc. <txp:category />
+
+Tag *category* lze použít jako _nepárový_ nebo _kontenerový_ tag. Zobrazí informace o právě zobrazené kategorii, nebo o kategorii definované atributem @name@. Kontejnerový tag vypíše název kategorie jako hypertextový odkaz, nepárový tag vrátí název jako prostý text.
+
+Může být použit v jakémkoliv kontextu.
+
+"Více informací o tagu *category* zde":http://docs.textpattern.io/tags/category.
