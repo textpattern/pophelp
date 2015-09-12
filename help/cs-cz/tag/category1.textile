@@ -1,0 +1,9 @@
+h1. Kategorie 1
+
+bc. <txp:category1 />
+
+Tag *category1* lze užít jako _nepárový_ nebo _kontejnerový_. Zobrazí informaci o kategorii právě zobrazených článků, kterým byla na stránce Psaní při vydání přiřazena *Kategorie 1*. Kontejnerový tag vypíše obsah jako hypertextový odkaz, nepárový tag vrátí název kategorie v prostém textu.
+
+Tag může být použit ve formě pro článek, nebo v šabloně stránky uvnitř kontejnerového podmínkového tagu "if_individual_article":http://docs.textpattern.io/tags/if-individual-article.
+
+"Více informací o tagu *category1* zde":http://docs.textpattern.io/tags/category1.
