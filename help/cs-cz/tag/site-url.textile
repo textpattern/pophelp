@@ -1,0 +1,7 @@
+h1. Webová adresa (doména)
+
+bc. <txp:site_url />
+
+Nepárový tag *site_url* vypíše úplnou URL adresu  stránky (jak je definována v "Nastavení / Server":http://docs.textpattern.io/administration/preferences-panel) jako text. Pokud budete udržovat _lokální_ vývojovou verzi svých _živých_ stránek a importovat mezi nimi navzájem databáze, pak je tento tag neocenitelný pro zajištění správných odkazů obou verzí.
+
+"Více informací o tagu *site_url* zde":http://docs.textpattern.io/tags/site-url.

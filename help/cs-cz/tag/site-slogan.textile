@@ -1,0 +1,9 @@
+h1. Motto serveru
+
+bc. <txp:site_slogan />
+
+Tag *site_slogan* je _nepárový_ tag který vypíše slogan, či motto stránek (definované na stránce "Nastavení / Server)":http://docs.textpattern.io/administration/preferences-panel.
+
+Motto serveru je slogan, nebo krátký popis tvého webu (max. 255 znaků), který může být použit například v pramenech RSS / Atom.
+
+"Více informací o tagu *site_slogan* zde":http://docs.textpattern.io/tags/site-slogan.

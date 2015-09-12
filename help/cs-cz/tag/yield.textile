@@ -1,0 +1,7 @@
+h1. Yield
+
+bc. <txp:yield />
+
+Nepárový tag *yield* vrací obsah uzavřený v _párovém_ tagu @<txp:output_form />@.
+
+"Více informací o tagu *yield* zde":http://docs.textpattern.io/tags/yield.

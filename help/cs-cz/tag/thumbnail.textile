@@ -1,0 +1,7 @@
+h1. Náhled
+
+bc. <txp:thumbnail />
+
+Nepárový tag *thumbnail* produkuje html tag @<img src="...">@ pro náhledový obrázek vytvořený Textpatternem při nahrání ročičovského obrázku na stránce "Obsah / Obrázky":http://docs.textpattern.io/administration/images-panel. V atributu @src@ má své ID číslo a písmeno @t@.
+
+"Více infromací o tagu *thumbnail* zde":http://docs.textpattern.io/tags/thumbnail.

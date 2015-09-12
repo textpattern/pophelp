@@ -1,0 +1,11 @@
+h1. Seznam rubrik
+
+bc. <txp:section_list />
+
+Tag *section_list* je _nepárový_ nebo _kontejnerový_ tag, který produkuje seznam rubrik s odkazy. Je-li použit jako kontejnerový, má otevírací a uzavírací značky:
+
+bc. <txp:section_list>
+  ...generovaný obsah...
+</txp:section_list>
+
+"Více informací o tagu *section_list* zde":http://docs.textpattern.io/tags/section-list.

@@ -1,0 +1,7 @@
+h1. Title
+
+bc. <txp:title />
+
+Napárový tag *title* vypisuje název právě zobrazeného článku. Obvykle je vkládán do formy pro články.
+
+"Více informací o tagu *title* zde":http://docs.textpattern.io/tags/title.
