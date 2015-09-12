@@ -1,0 +1,9 @@
+h1. Text
+
+bc. <txp:text />
+
+Nepárový tag *text* je určený především k tomu, aby vypsal textový řetězec  v lokalizovaném jazyku z databázové tabulky @txp_lang@.
+
+p(alert-block information). Pozn.: využitelné jsou pouze jazykové řetězce typu @common@ nebo @public@. Všechny ostatní typy jazykových řetězců jsou využitelné pouze samotným systémem Textpattern.
+
+"Více informací o tagu *text* zde":http://docs.textpattern.io/tags/text.
