@@ -1,0 +1,7 @@
+h1. Comment submit
+
+bc. <txp:comment_submit />
+
+The *comment_submit* tag is a _single_ tag which is used to display a 'Submit' button. Clicking the submit button writes the comment information to the database. Used in the comment input form template.
+
+"More information on the *comment_submit* tag":http://docs.textpattern.io/tags/comment-submit.

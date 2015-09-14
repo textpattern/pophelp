@@ -1,0 +1,7 @@
+h1. Comment remember
+
+bc. <txp:comment_remember />
+
+The *comment_remember* tag is a _single_ tag which is used to display a check box input field. If checked the users details are remembered by the system the next time they open a comment form. Used in the comment input form template.
+
+"More information on the *comment_remember* tag":http://docs.textpattern.io/tags/comment-remember.

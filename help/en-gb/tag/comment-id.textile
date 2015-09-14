@@ -1,0 +1,7 @@
+h1. Comment id
+
+bc. <txp:comment_id />
+
+The *comment_id* tag is a _single_ tag which is used to display the comment's internal id as assigned by Textpattern at the time of posting. Used in a comments display form.
+
+"More information on the *comment_id* tag":http://docs.textpattern.io/tags/comment-id.
