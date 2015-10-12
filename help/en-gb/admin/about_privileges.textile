@@ -1,4 +1,4 @@
-h1. Users: About privileges
+h1. Users: About roles
 
 h3. Publisher
 
@@ -34,7 +34,7 @@ h3. Copy Editor
 ** cannot delete those belonging to other users
 * can manage comments and links
 * can manage images and files
-* can manage sections and categories
+* can manage categories
 * can manage pages and forms
 * can view users
 * can manage visitor logs
@@ -57,6 +57,6 @@ h3. Designer
 ** can only modify article until is published
 ** can apply status of _only_ Draft, Hidden or Pending
 * can view other users' articles
-* can manage images and files
+* can manage images
 * can manage sections
 * can manage pages, forms and style
