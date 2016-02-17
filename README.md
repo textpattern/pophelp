@@ -34,7 +34,7 @@ To contribute to a translation directly from GitHub.com website:
 2. Navigate to a Pophelp file you would want to alter, e.g. [help/en-gb/body.textile](https://github.com/textpattern/pophelp/blob/master/help/en-gb/body.textile).
 3. Click or tap the **Edit** button above the presented file contents.
 4. Make some alterations to existing text (using Textile syntax).
-5. After you've done, fill in the short commit message describing the change, e.g. __"Fixed typo"__.
+5. After you've done, fill in the short commit message describing the change, e.g. *"Fixed typo"*.
 6. Click or tap the **Save** button.
 
 Now to submit in a new pull request with your changes:
