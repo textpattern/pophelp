@@ -14,7 +14,7 @@ The default publishing status is one of the following:
 
 A *draft* article is considered a work-in-progress and is not viewable outside of the Textpattern administration area (i.e., not visible on the Textpattern front side and not syndicated in feeds).
 
-A *hidden* article can be viewed from from website if the URL is known to the viewer. Hidden articles do not appear in syndication feeds.
+A *hidden* article is not viewable outside of the Textpattern administration area.
 
 A *pending* article is considered ready for publication and awaiting approval, but is not viewable outside of the Textpattern administration area.
 
