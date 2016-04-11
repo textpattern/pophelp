@@ -1,0 +1,7 @@
+h1. Articles: Description
+
+The article description is an optional component that can help search engines and website crawlers identify and sort article content.
+
+The article description differs from the article excerpt, though they both accept similar content. The article description should be primarily intended for use with search engines and crawlers, whereas the the article excerpt is more suited for a human-readable article summary where desired.
+
+Note that some search engines place character limits on the length of an item's @meta description@ for practicality of display in search engine results pages (SERPs). An article excerpt is not subject to these limitations.
