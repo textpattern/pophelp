@@ -1,0 +1,5 @@
+h1. Categories: Description
+
+The category description is an optional component that can help search engines and website crawlers better identify and sort content.
+
+The category description is limited to a maximum of 255 characters. Note that some search engines place character limits on the length of a page's @meta description@ for practicality of display in search engine results pages (SERPs) and this may be less than the 255 character limit in Textpattern.
