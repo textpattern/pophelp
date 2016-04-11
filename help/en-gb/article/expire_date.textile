@@ -4,8 +4,8 @@ The time an article is labelled as expired. The time is optional and can be set 
 
 The boxes correspond to the following information:
 
-Year / Month / Day
-Hour (24-hour format) : Minute : Second
+* Year / Month / Day
+* Hour (24-hour format) : Minute : Second
 
 When the time arrives, or in the case where a time in the past is provided, the article expires.
 
