@@ -2,4 +2,4 @@ h1. Preferences: Allow PHP in articles?
 
 When enabled, this setting will allow use of PHP within articles. The author must have sufficient privileges to do so (by default, only "Publishers":http://rpc.textpattern.com/help/?item=about_privileges and "Managing Editors":http://rpc.textpattern.com/help/?item=about_privileges can).
 
-PHP code must be *without* opening and closing PHP tags, and also enclosed within "@<txp:php>@ tags":http://docs.textpattern.io/tags/php.
+PHP code must be without opening and closing PHP tags, and also enclosed within "&lt;txp:php&gt;":http://docs.textpattern.io/tags/php tags.
