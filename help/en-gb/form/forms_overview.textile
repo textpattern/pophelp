@@ -1,6 +1,6 @@
 h1. Forms: Introduction
 
-In Textpattern, a form differs from its usual meaning of _a series of fields to be completed_, such as in a contact form or search form. Instead, it is a snippet or chunk of text, HTML, and Textpattern tags that can be reused to display content.
+In Textpattern, a form is a snippet or chunk of text, HTML, and Textpattern tags that can be reused to display content.
 
 Here's an example form which could be named @ordinary_list@:
 
