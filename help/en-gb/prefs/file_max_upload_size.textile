@@ -1,3 +1,3 @@
 h1. Preferences: Maximum file size of uploads (in bytes)
 
-You can restrict the maximum size (in bytes) for file uploads. Note that this value is also limited by the configuration of PHP. If Textpattern detects that your PHP configuration only allows smaller downloads, it will automatically correct this value downwards. If you want to allow larger file uploads via upload from the browser, contact your host (the relevant values in @php.ini@ are @post_max_size@, @upload_max_filesize@ and @memory_limit@).
+You can restrict the maximum size (in bytes) for file uploads. Note that this value is also limited by the configuration of PHP. If Textpattern detects that your PHP configuration limits upload size to a smaller value, it will automatically correct downwards. If you want to allow larger file uploads via upload from the browser, contact your host (the relevant values in @php.ini@ are @post_max_size@, @upload_max_filesize@ and @memory_limit@).

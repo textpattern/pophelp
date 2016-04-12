@@ -1,5 +1,5 @@
 h1. Preferences: Logs expire after how many days?
 
-When you are using Textpattern for logging, you can set how long (in days) those logs should be kept. '7' will keep the logs available for seven days.
+When Textpattern logging is enabled, you can specify how long (in days) the logs should be kept. '7' will keep the logs available for seven days.
 
-p(alert-block information). *Note:* The logs only get cleared when you actually view the 'Visitor Logs' administration panel, and will otherwise continue to build in size.
+p(alert-block information). *Note:* The logs only get trimmed when you view the 'Visitor Logs' administration panel, and will otherwise continue to grow in size.

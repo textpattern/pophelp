@@ -4,4 +4,4 @@ This setting is mainly used for plugin developers. When specified, you can put t
 
 It is recommended that you load plugins through the standard 'Plugins' administration panel on a production site, rather than using the plugin cache directory.
 
-p(alert-block information). *Note:* Do not specify the same directory for both 'tmp' and 'plugin cache', as this will cause problems (Textpattern would try to run the contents of temporary log files as plugins).
+p(alert-block information). *Note:* Do not specify the same directory for both 'temporary' and 'plugin cache', as this will cause problems (Textpattern would try to run the contents of temporary log files as plugins).
