@@ -1,6 +1,6 @@
 h1. Setup: User password
 
-Since this account is the highest level of access in Textpattern, choose a very strong password or, preferably, a passphrase.
+Since this account has the highest level of access in Textpattern, choose a very strong password or, preferably, a passphrase.
 
 h3. Tips
 
