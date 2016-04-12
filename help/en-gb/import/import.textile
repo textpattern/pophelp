@@ -1,6 +1,6 @@
 h1. Import: Import from
 
-You can import your data into Textpattern CMS from the following publishing tools:
+You can import your data into Textpattern from the following publishing tools:
 
 * Movable Type
 * Blogger

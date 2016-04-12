@@ -1,5 +1,5 @@
 h1. Images: Upload image
 
-Upload graphics to your server.
+Upload one or more images to your server.
 
 Upon upload to the @images@ directory, the filename of your original image will be kept only internally in Textpattern's database; the image file itself will be renamed to a sequential number + file extension.
