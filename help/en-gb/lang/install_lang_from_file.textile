@@ -1,3 +1,3 @@
 h1. Languages: Install Textpack from file
 
-To install new language Textpacks from file you can "download them":http://rpc.textpattern.com/lang/ and then place the file inside your @textpattern/lang/@ directory.
+To install new language Textpacks from file you can "download them":http://rpc.textpattern.com/lang/ and then place the file inside your @/textpattern/lang/@ directory.
