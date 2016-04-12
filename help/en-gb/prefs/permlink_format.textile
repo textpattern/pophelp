@@ -6,10 +6,10 @@ When an article is published, its URL is generated from the article title unless
 
 Take the following example article title: _Alice and Belinda went Camping_
 
-When permalink title URL pattern option is set to 'Yes', the URL for the article would be:
+When permalink title URL pattern option is set to 'Hyphenated (title-like-this)', the URL for the article would be:
 
 bc. http://example.com/alice-and-belinda-went-camping
 
-When permalink title URL pattern option is set to 'No', the URL for the article would be:
+When permalink title URL pattern option is set to 'Intercapped (TitleLikeThis)', the URL for the article would be:
 
 bc. http://example.com/AliceandBelindawentCamping
