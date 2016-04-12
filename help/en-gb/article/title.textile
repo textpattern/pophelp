@@ -1,3 +1,5 @@
 h1. Articles: Title
 
-Add a brief, recognisable title for this article.
+Add an appropriate title for this article.
+
+An article title is limited to a maximum of 255 characters.
