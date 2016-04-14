@@ -12,12 +12,12 @@ The default publishing status is one of the following:
 * Live
 * Sticky
 
-A *draft* article is considered a work-in-progress and is not viewable outside of the Textpattern administration area (i.e., not visible on the Textpattern front side and not syndicated in feeds).
+A *draft* article is considered a work-in-progress and is not viewable outside of the Textpattern administration area (i.e. not visible on the Textpattern front side and not syndicated in feeds).
 
 A *hidden* article is not viewable outside of the Textpattern administration area.
 
 A *pending* article is considered ready for publication and awaiting approval, but is not viewable outside of the Textpattern administration area.
 
-A *live* article is typically viewable outside the Textpattern administration area (i.e., visible on the Textpattern front side, syndicated in feeds if the preference permits). If an article is live and has an expiration date, the status will remain as live after that date has been reached, but the article only appears outside the administration area if expired articles are permitted to be published.
+A *live* article is typically viewable outside the Textpattern administration area (i.e. visible on the Textpattern front side, syndicated in feeds if the preference permits). If an article is live and has an expiration date, the status will remain as live after that date has been reached, but the article only appears outside the administration area if expired articles are permitted to be published.
 
 A *sticky* article is similar to a *live* article insofar as it can be viewed outside the Textpattern administration area but will _not_ appear in article lists unless the respective @article@ or @article_custom@ tag includes a @status@ attribute with a @sticky@ value.
