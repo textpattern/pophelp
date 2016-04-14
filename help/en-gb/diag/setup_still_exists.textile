@@ -1,3 +1,3 @@
 h1. Diagnostics: /path/to/textpattern/setup still exists
 
-Once Textpattern has been installed, this directory is no longer needed and should be deleted. You will continue to receive this warning until you have removed it, as this can potentially be a security concern.
+When Textpattern has been installed, this directory is no longer needed and should be deleted. You will continue to receive this warning until you have removed it, as this can potentially be a security concern.

@@ -4,12 +4,12 @@ This defines the method by which article URLs are constructed and assigned when 
 
 When an article is published, its URL is generated from the article title unless a specific URL is provided in in the URL-only title field.
 
-Take the following example article title: _Alice and Belinda went Camping_
+Take the following example article title: _Ann and Bob eat cake
 
 When permalink title URL pattern option is set to 'Hyphenated (title-like-this)', the URL for the article would be:
 
-bc. http://example.com/alice-and-belinda-went-camping
+bc. http://example.com/ann-and-bob-eat-cake
 
 When permalink title URL pattern option is set to 'Intercapped (TitleLikeThis)', the URL for the article would be:
 
-bc. http://example.com/AliceandBelindawentCamping
+bc. http://example.com/AnnandBobeatcake

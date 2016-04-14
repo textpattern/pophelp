@@ -1,6 +1,6 @@
 h1. Diagnostics: Minimum version requirements
 
-Textpattern requires certain functionality present in the PHP programming language and MySQL database. Please consult the following table to determine the minimum system requirements for the version of Textpattern you have downloaded:
+Textpattern requires certain functionality present in the PHP programming language and MySQL database server. Please consult the following table to determine the minimum system requirements for the version of Textpattern you have downloaded:
 
 |_. Textpattern version |_. PHP version |_. MySQL version |
 | 4.6.x | 5.3.3 | 4.1 |
@@ -13,4 +13,4 @@ In addition to the above system requirements, the following PHP extensions are r
 * "XML":http://www.php.net/manual/en/ref.xml.php
 * "JSON":http://www.php.net/manual/en/ref.json.php
 
-Your php.ini file, either global or local, should contain a @date.timezone@ setting.
+Your @php.ini@ file, either global or local, should contain a @date.timezone@ setting.

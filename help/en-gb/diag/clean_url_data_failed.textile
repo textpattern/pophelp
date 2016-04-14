@@ -1,13 +1,13 @@
 h1. Diagnostics: Clean URL data failed
 
-It appears that either your site URLs (@example.com/section/article@) are currently not working or your server does not support the test procedure to determine if clean URLs work or not; if clean URLs on your site work, you can safely ignore this message.
+It appears that either your site URLs (@http://example.com/section/article@) are currently not working or your server does not support the test procedure to determine if clean URLs work or not; if clean URLs on your site work, you can safely ignore this message.
 
 If clean URLs are _not_ working it may mean either:
 
-# your 'Site URL' setting is incorrect, or the page at that address is not managed by this copy of Textpattern.
-# your server requires some changes to @.htaccess@ in order to make clean URLs work.
-# your server doesn't support clean URLs at all.
+* your 'Site URL' setting is incorrect, or the page at that address is not managed by this copy of Textpattern.
+* your server requires some changes to @.htaccess@ in order to make clean URLs work.
+* your server doesn't support clean URLs at all.
 
-The clean URL test attempts to fetch a page from the web address specified in the 'Site URL' preference in order to check that all clean URL parameters are working correctly. If that URL is a different site, or has been replaced with a static page or similar, the test will fail. Until the issue is resolved you will have to use messy URLs on your site instead (@example.com?s=section&id=4@). Ensure the 'Permanent link mode' in Admin Preferences is set accordingly.
+The clean URL test attempts to fetch a page from the web address specified in the 'Site URL' preference in order to check that all clean URL parameters are working correctly. If that URL is a different site, or has been replaced with a static page or similar, the test will fail. Until the issue is resolved you will have to use messy URLs on your site instead (@http://example.com?s=section&id=4@). Ensure the 'Permanent link mode' in Admin Preferences is set accordingly.
 
 Note that using a plugin to put a site in 'maintenance mode' may trigger this warning.

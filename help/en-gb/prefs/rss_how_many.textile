@@ -1,5 +1,5 @@
 h1. Preferences: How many articles should be included in feeds?
 
-This is the maximum number of current articles to be syndicated at a time, in "RSS":http://en.wikipedia.org/wiki/RSS_(file_format) and "Atom":http://en.wikipedia.org/wiki/Atom_(standard) formats.
+This is the maximum number of current articles to be syndicated at a time, in RSS and Atom formats.
 
 A low value, such as @5@ through @15@ is recommended.
