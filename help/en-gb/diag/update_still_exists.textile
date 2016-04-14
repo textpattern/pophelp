@@ -1,3 +1,3 @@
 h1. Diagnostics: _update.php still exists
 
-Once Textpattern has been upgraded, the @/textpattern/update/@ directory and its contents are no longer needed and recommended for deletion. You will continue to receive this warning until it has been removed.
+Once Textpattern has been upgraded, the @textpattern/update@ directory and its contents are no longer needed and recommended for deletion. You will continue to receive this warning until it has been removed.
