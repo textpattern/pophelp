@@ -1,7 +1,0 @@
-h1. Article id
-
-bc. <txp:article_id />
-
-The @article_id@ tag is a _single_ tag which returns the numeric ID of the article being displayed. This number will also be reflected as a part of the article permanent URL if it has been chosen as the 'Permanent link mode' in the "Preferences administration panel":http://docs.textpattern.io/administration/preferences-panel.
-
-"More information on the *article_id* tag":http://docs.textpattern.io/tags/article-id.

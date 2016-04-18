@@ -1,7 +1,0 @@
-h1. Comment email input
-
-bc. <txp:comment_email_input />
-
-The *comment_email_input* tag is a _single_ tag which is used to display a text entry field to accept the commenter's email address. Used in the comment input form template.
-
-"More information on the *comment_email_input* tag":http://docs.textpattern.io/tags/comment-email-input.

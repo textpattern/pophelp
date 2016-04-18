@@ -1,9 +1,0 @@
-h1. Comment web input
-
-bc. <txp:comment_web_input />
-
-The *comment_web_input* tag is a _single_ tag which is used to display a text entry field to accept the commenter's domain name. Used in the comment input form template.
-
-Function assumes @http://@ for all URLs.
-
-"More information on the *comment_web_input* tag":http://docs.textpattern.io/tags/comment-web-input.

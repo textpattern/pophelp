@@ -1,9 +1,0 @@
-h1. Category
-
-bc. <txp:category />
-
-The *category* tag can be used as either a _single_ or _containing_ tag. It will display information of the category as defined by the @name@ attribute, or the one currently being viewed. When used as a containing tag, it will turn the contents into a link to the category. Otherwise, it will return plain text.
-
-May be used in any context.
-
-"More information on the *category* tag":http://docs.textpattern.io/tags/category.

@@ -1,9 +1,0 @@
-h1. Txp die
-
-bc. <txp:txp_die />
-
-Nepárový tag *txp_die* ukončí sestavování stránky a vrátí stav uživatelskému agentovi (prohlížeč, search engine crawler,  feed aggregator). Odevzdána je rovněž chybová zpráva.
-
-Stav může být zobrazen pomocí tagu "error_status":http://docs.textpattern.io/tags/error-status. Zpráva _error_status_ může být spojena s tagem pro chybovou zprávou "ERROR_MESSAGE":http://docs.textpattern.io/tags/error-message.
-
-"Více infromací o tagu *txp_die* zde":http://docs.textpattern.io/tags/txp-die.

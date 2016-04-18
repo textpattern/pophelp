@@ -1,7 +1,0 @@
-h1. Breadcrumb
-
-bc. <txp:breadcrumb />
-
-The *breadcrumb* tag is a _single_ tag which is used to create "breadcrumb navigation":http://en.wikipedia.org/wiki/Breadcrumb_trail. It provides either hyperlinked navigation, or plain text positional display. Breadcrumbs are _not_ displayed on the 'default' section (home page) of your site.
-
-"More information on the *breadcrumb* tag":http://docs.textpattern.io/tags/breadcrumb.

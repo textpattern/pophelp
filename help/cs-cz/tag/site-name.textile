@@ -1,7 +1,0 @@
-h1. Název serveru
-
-bc. <txp:site_name />
-
-Tag *site_name* je _nepárový_ tag, který vypíše název serveru (webu) definovaný na stránce "Nastavení / Server":http://docs.textpattern.io/administration/preferences-panel.
-
-"Více infromací o tagu *site_name* zde":http://docs.textpattern.io/tags/site-name.

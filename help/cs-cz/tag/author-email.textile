@@ -1,7 +1,0 @@
-h1. Email autora
-
-bc. <txp:author_email />
-
-Nepárový tag *author_email* vrací e-mailovou adresu autora aktuálně zobrazené článku.
-
-"Více informací o tagu *author_email* ":http://docs.textpattern.io/tags/author-email.

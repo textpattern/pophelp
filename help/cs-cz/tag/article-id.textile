@@ -1,7 +1,0 @@
-h1. Article id
-
-bc. <txp:article_id />
-
-_Nepárový_ tag @article_id@  vrací ID číslo zobrazeného článku. Toto číslo se rovněž nachází v  trvalé URL adrese článku, pokud je to zvoleno v "Nastavení v bodu  _podoba stálých odkazů_":http://docs.textpattern.io/administration/preferences-panel.
-
-"Více informací o tagu *article_id* ":http://docs.textpattern.io/tags/article-id.

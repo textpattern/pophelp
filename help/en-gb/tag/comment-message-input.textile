@@ -1,7 +1,0 @@
-h1. Comment message input
-
-bc. <txp:comment_message_input />
-
-The *comment_message_input tag is a _single_ tag which is used to display a text entry field to accept the commenter's message text. Used in the comment input form template.
-
-"More information on the *comment_message_input* tag":http://docs.textpattern.io/tags/comment-message-input.

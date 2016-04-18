@@ -1,9 +1,0 @@
-h1. Rubrika
-
-bc. <txp:section>
-
-Tag *section* může být použit jako _nepárový_ nebo _kontejnerový_ tag. Zobrazí informaci o rubrice  určené atributem @name@, nebo o rubrice právě zobrazených článků (je-li tag  @<txp:section>@ použit v šabloně formy pro článek, nebo uvnitř podmínkového tagu "if_individual_article":http://docs.textpattern.io/tags/if-individual-article).
-
-Jestliže je tag @section@ použit jako kontejner, jeho obsah je hypertextovým odkazem na rubriku. V opačném případě vypíše název rubriky jako prostý text.
-
-"Více informací o ragu *section* zde":http://docs.textpattern.io/tags/section.

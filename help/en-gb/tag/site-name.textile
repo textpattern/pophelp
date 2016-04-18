@@ -1,7 +1,0 @@
-h1. Site name
-
-bc. <txp:site_name />
-
-The *site_name* tag is a _single_ tag that returns the site's name as defined within the "Preferences administration panel":.http://docs.textpattern.io/administration/preferences-panel.
-
-"More information on the *site_name* tag":http://docs.textpattern.io/tags/site-name.

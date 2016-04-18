@@ -1,9 +1,0 @@
-h1. Text
-
-bc. <txp:text />
-
-The *text* tag is a _single_ tag which is primarily used to return localized language strings from the @txp_lang@ database table.
-
-p(alert-block information). Note: only language strings designated with a type of @common@ or @public@ are available to use. All other language string types are reserved for use within the Textpattern system itself.
-
-"More information on the *text* tag":http://docs.textpattern.io/tags/text.

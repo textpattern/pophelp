@@ -1,7 +1,0 @@
-h1. Comment name input
-
-bc. <txp:comment_name_input />
-
-The *comment_name_input* tag is a _single_ tag which is used to display a text entry field to accept the commenter's name. Used in the comment input form template.
-
-"More information on the *comment_name_input* tag":http://docs.textpattern.io/tags/comment-name-input.

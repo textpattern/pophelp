@@ -1,7 +1,0 @@
-h1. Author
-
-bc. <txp:author />
-
-The *author* tag is a _single_ tag that is used to return the name of the author of the currently displayed article.
-
-"More information on the *author* tag":http://docs.textpattern.io/tags/author.

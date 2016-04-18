@@ -1,7 +1,0 @@
-h1. Seznam kategorií
-
-bc. <txp:category_list />
-
-Tag *category_list* může být použit jako _nepárový_ nebo _kontejnerový_ tag. Produkuje seznam kategorií s odkazy.
-
-"Více informací o tagu *category_list* zde":http://docs.textpattern.io/tags/category-list.

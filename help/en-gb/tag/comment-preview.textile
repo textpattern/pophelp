@@ -1,7 +1,0 @@
-h1. Comment preview
-
-bc. <txp:comment_preview />
-
-The *comment_preview* tag is a _single_ tag which is used to display a 'Preview' button the user can use to preview the comment text. Used in the comment input form template.
-
-"More information on the *comment_preview* tag":http://docs.textpattern.io/tags/comment-preview.

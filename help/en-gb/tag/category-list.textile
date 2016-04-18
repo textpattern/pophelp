@@ -1,7 +1,0 @@
-h1. Category list
-
-bc. <txp:category_list />
-
-The *category_list* tag can be used as either a _single_ tag or _container_ tag which is used to produce a list of linked categories.
-
-"More information on the *category_list* tag":http://docs.textpattern.io/tags/category-list.

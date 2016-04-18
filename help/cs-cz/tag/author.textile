@@ -1,9 +1,0 @@
-h1. Autor
-
-h3. Syntaxe
-
-bc. <txp:author />
-
-Nepárový tag *author* vrací jméno autora aktuálně zobrazeného článku.
-
-"Více informací o tagu *author* na www.textpattern.net":http://www.textpattern.net/wiki/index.php?title=author.
