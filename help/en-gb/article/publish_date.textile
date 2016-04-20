@@ -1,4 +1,4 @@
-h1. Articles: Publish date
+h1. Write: Publish date
 
 The time an article or file is published or most-recently revised. The time can be set to the moment the item is published, or to an arbitrary time in the past or future.
 

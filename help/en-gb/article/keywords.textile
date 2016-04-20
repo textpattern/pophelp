@@ -1,4 +1,4 @@
-h1. Articles: Keywords
+h1. Write: Keywords
 
 Keywords are useful for refining the relationships between articles beyond those provided by categories.
 

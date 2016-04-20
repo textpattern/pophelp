@@ -1,4 +1,4 @@
-h1. Articles: Body
+h1. Write: Body
 
 The main content of an article is contained within the article body.
 

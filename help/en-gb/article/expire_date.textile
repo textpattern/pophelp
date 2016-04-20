@@ -1,4 +1,4 @@
-h1. Articles: Expire date
+h1. Write: Expire date
 
 The time an article is labelled as expired. The time is optional and can be set to an arbitrary time in the past or future.
 
