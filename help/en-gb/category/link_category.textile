@@ -1,4 +1,4 @@
-h1. Links: Categories
+h1. Categories: Links
 
 Link categories are optional, and are useful if you want to display different groupings of links, e.g. 'Friends', 'Romans', 'Countrymen'.
 
