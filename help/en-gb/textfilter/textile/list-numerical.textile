@@ -16,12 +16,10 @@ Will become:
 bc. <ol>
   <li>A first item</li>
   <li>A second item
-  <ul>
-    <ol>
-      <li>A second item first sub item</li>
-      <li>A second item second sub item</li>
-    </ol>
-  </ul>
+  <ol>
+    <li>A second item first sub item</li>
+    <li>A second item second sub item</li>
+  </ol>
   </li>
   <li>A third item</li>
   <li>A fourth item</li>
