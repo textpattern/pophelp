@@ -17,8 +17,10 @@ bc. <ol>
   <li>A first item</li>
   <li>A second item
   <ul>
-    <li>A second item first sub item</li>
-    <li>A second item second sub item</li>
+    <ol>
+      <li>A second item first sub item</li>
+      <li>A second item second sub item</li>
+    </ol>
   </ul>
   </li>
   <li>A third item</li>
