@@ -1,0 +1,1777 @@
+<row>
+<field name="varname">about_privileges</field>
+<field name="area">admin</field>
+<field name="lang">de-de</field>
+<field name="title">Benutzerrechte</field>
+<field name="data_raw">h3. Herausgeber
+
+* kann jeden Artikel, Link oder Kommentar erstellen, bearbeiten und löschen
+* kann den Artikelstatus ändern
+* kann die Seitenvoreinstellungen bearbeiten
+* hat Zugriff auf alle Designelemente der Seite
+* kann Sektionen und Kategorien bearbeiten
+* kann Autoren hinzufügen und entfernen
+* kann Rechte zuweisen und aberkennen
+
+h3. Leitender Redakteur
+
+* kann jeden Artikel, Link oder Kommentar bearbeiten und löschen
+* kann den Artikelstatus von &quot;schwebend&quot; zu &quot;live&quot; ändern
+* Kann die Seitenvoreinstellungen bearbeiten
+* hat Zugriff auf alle Designelemente der Seite
+* kann Sektionen und Kategorien bearbeiten
+
+h3. Redakteur
+
+* kann jeden Artikel, Link oder Kommentar bearbeiten
+* kann das HTML der Seitenvorlagen und Bausteine bearbeiten
+
+h3. Autor
+
+* kann eigene Artikel erstellen, bearbeiten und veröffentlichen
+* kann Bilder hochladen
+
+h3. Freier Mitarbeiter
+
+* kann eigene Artikel erstellen und bearbeiten
+* kann den Artikelstatus von &quot;Entwurf&quot; zu &quot;schwebend&quot; ändern
+
+h3. Designer
+
+* kann HTML der Seitenvorlagen und Bausteine sowie die CSS-Stile bearbeiten</field>
+</row>
+
+<row>
+<field name="varname">acronym</field>
+<field name="area">textile</field>
+<field name="lang">de-de</field>
+<field name="title">Abkürzungen</field>
+<field name="data_raw">HTML(HyperText Markup Language) erlaubt es, über das Tag @&lt;acronym&gt;@ eine Abkürzung einzugeben. Sie erscheint als Tool-Tip, wenn der Leser mit der Maus über die Abkürzung fährt.
+
+Um eine Abkürzung mit Textile zu definieren, muss der ausgeschriebene Begriff in (Klammern) direkt hinter die Abkürzung geschrieben werden.
+
+*Beispiel*
+
+@ACLU(American Civil Liberties Union)@
+
+Wird zu
+
+@&lt;acronym title=&quot;American Civil Liberties Union&quot;&gt;ACLU&lt;/acronym&gt;@
+
+Die Darstellung im Browser sieht wie folgt aus (bitte mit der Maus über den Text fahren):
+
+bq. ACLU(American Civil Liberties Union)
+
+Hinweis: Textile umschließt automatisch drei oder mehr Großbuchstaben, z. B. USA mit dem &lt;acronym&gt; Tag, auch wenn es keinen Begriff enthält.
+
+&quot;Weitere Informationen(more information on this tag at diveintoaccessibility.org)&quot;:http://diveintoaccessibility.org/day_17_defining_acronyms.html</field>
+</row>
+
+<row>
+<field name="varname">add_new_author</field>
+<field name="area">admin</field>
+<field name="lang">de-de</field>
+<field name="title">Neuen Autor hinzufügen</field>
+<field name="data_raw">Ein Passwort, eine Willkommensnachricht und Anweisungen zum Login werden dem neuen Autor per E-Mail zugeschickt.</field>
+</row>
+
+<row>
+<field name="varname">admin_side_plugins</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Admin-Plugins verwenden</field>
+<field name="data_raw">Admin-Plugins sind spezielle Plugins um die Arbeitsweise des Backends anzupassen. Plugins können sich einhängen in bestehende Funktionen, wie das Verfassen oder Bearbeiten von Artikeln, oder sie können über zusätzliche Tabs neue oder erweiterte Funktionalität für das Backend zur Verfügung stellen.
+
+Admin-Plugins erlauben die Erweiterung von Textpattern für viele verschiedene Zwecke. Für mehr Informationen besuchen Sie das &quot;Forum&quot;:http://forum.textpattern.com von Textpattern.</field>
+</row>
+
+<row>
+<field name="varname">allow_article_php_scripting</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">PHP in Artikeln erlauben?</field>
+<field name="data_raw">Mit dieser Einstellung kann Autoren in Artikeln die Verwendung von PHP erlaubt werden. Der PHP-Code muss von _txp:php_ tags eingeschlossen sein und der Autor muss ausreichende Rechte haben.
+
+Standardmässig haben nur  _Herausgeber_ und _Leitende Redakteure_ diese Berechtigung.</field>
+</row>
+
+<row>
+<field name="varname">allow_form_override</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Baustene überschreiben erlauben?</field>
+<field name="data_raw">Diese Einstellung erlaubt den Autoren von Artikeln, für die Anzeige eines einzelnen Artikels einen anderen als den voreingestellten Baustein zu wählen.
+
+Wenn auf _ja_ gesetzt, ist diese Funktion bei der Eingabe von Artikeln unter &quot;Erweiterte Einstellungen&quot; verfügbar.
+
+</field>
+</row>
+
+<row>
+<field name="varname">allow_page_php_scripting</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title"></field>
+<field name="data_raw">PHP-Code kann in Textpattern nur ausgeführt werden, wenn diese Option aktiviert ist.
+
+Der PHP-Code kann in Page- und Form-Templates mit dem Befehl &lt;code&gt;&lt;txp:php&gt;CODE&lt;/txp:php&gt;&lt;/code&gt; eingebunden werden.</field>
+</row>
+
+<row>
+<field name="varname">archive_dateformat</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Archivdatumsformat</field>
+<field name="data_raw">Gibt an, wie Datumsangaben für Artikel in Untersektionen formatiert werden.</field>
+</row>
+
+<row>
+<field name="varname">archive_date_case</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Groß- und Kleinschreibung in Datumsangaben der Untersektionen</field>
+<field name="data_raw">Verwende diese Option, um Datumsangaben einer Untersektionen in GROSSBUCHSTABEN, Groß- und Kleinbuchstaben oder kleinbuchstaben anzuzeigen.
+
+Groß- und Kleinbuchstaben sind als Standard voreingestellt.</field>
+</row>
+
+<row>
+<field name="varname">articles_use_excerpts</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Artikel verwenden Exzerpte?</field>
+<field name="data_raw">Das Feld &quot;Exzerpt&quot; wird beim Bearbeiten von Artikeln nicht angezeigt, wenn hier _nein_ gewählt wird.</field>
+</row>
+
+<row>
+<field name="varname">article_category</field>
+<field name="area">category</field>
+<field name="lang">de-de</field>
+<field name="title">Artikelkategorien</field>
+<field name="data_raw">Anders als &quot;Sektionen&quot;:http://www.textpattern.com/help/?item=section_category&amp;language=de-de, die die Navigationsstruktur einer Seite bilden, bieten Kategorien die Möglichkeit Artikel inhaltlich zu organisieren. Sobald Kategorien zugewiesen wurden, können Artikellisten bestimmter Kategorien angezeigt und durchsucht werden.
+
+Auf einer Seite über Lebensmittel könnten die Kategorien beispielsweise wie folgt aussehen:
+
+* Zutaten
+* Einkaufen
+* Rezepte
+* Zubereitung
+* Restaurants
+* Köche</field>
+</row>
+
+<row>
+<field name="varname">article_image</field>
+<field name="area">article</field>
+<field name="lang">de-de</field>
+<field name="title">Artikelbild</field>
+<field name="data_raw">Um ein einzelnes Bild mit dem Artikel zu verknüpfen, geben Sie hier den URL oder die Textpattern-ID des Bildes ein.
+
+Um das Bild anzuzeigen, muss folgender Tag innerhalb eines Bausteins für Artikel verwendet werden:
+
+@&lt;txp:article_image /&gt;@
+</field>
+</row>
+
+<row>
+<field name="varname">article_template</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Standardtemplate für Artikel</field>
+<field name="data_raw">Dies ist das Standardtemplate für die Formatierungvon Artikeln auf der Startseite der Webseite.</field>
+</row>
+
+<row>
+<field name="varname">attach_titles_to_permalinks</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Titel zu Permalinks anfügen</field>
+<field name="data_raw">Diese Einstellung fügt dem URL eines Artikels eine verzeichnisartige Version seines Titels an. Das geschieht entweder automatisch, kann aber auch manuell unter &quot;Erweiterte Einstellungen&quot; bei der Bearbeitung eines Artikels vorgenommen werden.
+
+Diese Einstellung ist nur wirksam, wenn in 'Administration' &gt; 'Einstellungen' &gt; 'Schema der URLs' '/sektion/id/titel' oder ein anderes &quot;sauberes&quot; Schema ausgewählt ist. Oder in anderen Worten, es funktioniert nicht mit &quot;unordentlichen&quot; URLs.
+
+In einigen Sprachen kann das zu langen und hässlichen URLs führen. Für für diese Fälle kann die Einstellung auf _nein_ gesetzt werden.
+
+Umlaute in Titeln werden umgewandelt nach 'ae', 'oe' und 'ue'.</field>
+</row>
+
+<row>
+<field name="varname">blockquote</field>
+<field name="area">textile</field>
+<field name="lang">de-de</field>
+<field name="title">Zitatblock</field>
+<field name="data_raw">Um einen Absatz oder eine Zeile als Zitatblock zu formatieren und einzurücken, setzten Sie &quot;bq. &quot; an den Anfang.
+
+Beispiel:
+
+bq. Any old text.
+
+bq. bq. A block quotation.
+
+bq. Any old text.
+
+wird zu:
+
+bq. &lt;p&gt;Any old text.&lt;/p&gt;
+
+bq. &lt;blockquote&gt;A block quotation.&lt;/blockquote&gt;
+
+bq. &lt;p&gt;Any old text.&lt;/p&gt;
+
+
+Im Browser wird der Text so dargestellt:
+
+Any old text.
+
+bq. A block quotation.
+
+Any old text.
+
+&lt;small&gt;Hinweis: Unveränderte Absätze werden von &lt;p&gt; tags eingeschlossen.&lt;/small&gt;
+
+&quot;Weitere Informationen&quot;:http://www.htmlhelp.com/reference/html40/block/blockquote.html</field>
+</row>
+
+<row>
+<field name="varname">bold</field>
+<field name="area">textile</field>
+<field name="lang">de-de</field>
+<field name="title">Fettung</field>
+<field name="data_raw">Verwenden Sie ==*Sterne*== um Text *fett zu betonten*.
+
+Folgendes &lt;strong&gt; &lt;acronym title=&quot;Hypertext Markup Language&quot;&gt;HTML&lt;/acronym&gt;-label wird angefügt:
+
+bq. *a phrase* → &lt;code&gt;&lt;strong&gt;a phrase&lt;/strong&gt;&lt;/code&gt; → *a phrase*
+
+Mit zwei Sternen können Sie einen Text lediglich **fetten** (z. B. als Design-Element):
+
+bq. ==**a phrase**== → &lt;code&gt;&lt;b&gt;a phrase&lt;/b&gt;&lt;/code&gt; → **a phrase**
+
+&lt;small&gt;Hinweis: Die Auszeichnungen müssen innerhalb eines Absatzes geöffnet und geschlossen werden um gültigen Code zu erzeugen.&lt;/small&gt;
+
+&quot;Weitere Informationen(strong reference at htmlhelp.com)&quot;:http://www.htmlhelp.com/reference/html40/phrase/strong.html</field>
+</row>
+
+<row>
+<field name="varname">bulleted</field>
+<field name="area">textile</field>
+<field name="lang">de-de</field>
+<field name="title">Unsortierte Liste</field>
+<field name="data_raw">Um eine Aufzählungsliste mit mehreren Punkten zu definieren, schreiben Sie jeden Punkt in eine neue Zeile und setzen Sie “* “ an den Anfang der Zeile.
+
+Beispiel:
+
+==*== Erster Punkt
+==*== Zweiter Punkt
+==*== Dritter Punkt
+==*== Vierter Punkt
+
+wird zu:
+
+@&lt;ul&gt;@
+@&lt;li&gt;Erster Punkt&lt;/li&gt;@
+@&lt;li&gt;Zweiter Punkt&lt;/li&gt;@
+@&lt;li&gt;Dritter Punkt&lt;/li&gt;@
+@&lt;li&gt;Vierter Punkt&lt;/li&gt;@
+@&lt;/ul&gt;@
+
+Im Browser wird die Aufzählungsliste so dargestellt:
+
+* Erster Punkt
+* Zweiter Punkt
+* Dritter Punkt
+* Vierter Punkt
+
+Hinweis: Unveränderte Absätze werden von @&lt;p&gt;@ tags eingeschlossen.
+
+&quot;Weitere Informationen&quot;:http://www.htmlhelp.com/reference/html40/lists/ul.html</field>
+</row>
+
+<row>
+<field name="varname">comments_allowable_tags</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Erlaubte HTML-Tags</field>
+<field name="data_raw">Wenn in Kommentaren einfaches HTML(HyperText Markup Language) verwenden erlaubt ist, sind dieses die Tags, die ihnen zur Verfügung stehen.</field>
+</row>
+
+<row>
+<field name="varname">comments_allow_html</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">HTML in Kommentaren erlauben</field>
+<field name="data_raw">Legt fest, ob Besucher HTML-Tags in ihren Kommentaren verwenden dürfen.
+
+Im nächsten Feld können die erlaubten Tags eingeschränkt werden.</field>
+</row>
+
+<row>
+<field name="varname">comments_are_ol</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Kommentare als nummerierte Liste anhängen</field>
+<field name="data_raw">Diese Option legt fest, ob die Liste der Kommentare mit dem @&lt;ol&gt;@-Tag und die einzelnen Kommentare mit dem @&lt;li&gt;@-Tag umschlossen werden sollen.
+
+Wenn Sie diese Option auf &quot;Ja&quot; setzen, erhalten Sie eine nummerierte Liste der Kommentare.
+
+Sie können diese Option in den Bausteinen mit dem Tag @&lt;txp:comments /&gt;@ überschreiben.
+
+Siehe Textbook: &quot;comments&quot;:http://textbook.textpattern.net/wiki/index.php?title=Txp:comments_/.</field>
+</row>
+
+<row>
+<field name="varname">comments_dateformat</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title"></field>
+<field name="data_raw">Ähm, das Datumsformat für die Kommentare!</field>
+</row>
+
+<row>
+<field name="varname">comments_date_case</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Datumformat für Kommentare</field>
+<field name="data_raw">Gibt das Datumformat für Kommentare an.</field>
+</row>
+
+<row>
+<field name="varname">comments_default_invite</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Standard Kommentareinstellung</field>
+<field name="data_raw">Sofern Besuchern der Webseite das Kommentieren erlaubt ist, handelt es sich hierbei um die Standardeinstellungen.
+
+Die Einstellungen können pro Artikel durch Anfügen eines extra erstellten Bausteins geändert werden. </field>
+</row>
+
+<row>
+<field name="varname">comments_disabled_after</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Kommentierung ausschalten</field>
+<field name="data_raw">Soll die Möglichkeit der Kommentareingabe beendet werden, verwendet man diese Einstellung.</field>
+</row>
+
+<row>
+<field name="varname">comments_disallow_images</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Benutzerbilder nicht erlauben</field>
+<field name="data_raw">Wird diese Option auf  'Ja' gesetzt, werden Bilder in Kommentaren nicht angezeigt.</field>
+</row>
+
+<row>
+<field name="varname">comments_mode</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Kommentar Modus</field>
+<field name="data_raw">Ist das Auswahlfeld 'popup' aktiviert, öffnet sich der Kommentar in einem neuen Fenster , wenn der Verweis &quot;Kommentar&quot; angeklickt wird.
+
+Ist das Auswahlfeld 'no popup' aktiviert, aktualisiert sich das aktive Fenster. Nur der aktuelle Artikel mit Kommentaren darunter wird angezeigt.</field>
+</row>
+
+<row>
+<field name="varname">comments_moderate</field>
+<field name="area">discuss</field>
+<field name="lang">de-de</field>
+<field name="title">Kommentare moderieren</field>
+<field name="data_raw">Wenn diese Option aktiviert ist, sind neue Kommentare erst sichtbar, wenn diese geprüft und freigegeben wurden.</field>
+</row>
+
+<row>
+<field name="varname">comments_on_default</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">“Kommentare annehmen</field>
+<field name="data_raw">Ist diese Funktion ausgewählt, können automatisch Kommentare zu jedem veröffentlichten Artikel abgesetzt werden. Ist diese Funktion nicht ausgewählt, muss, jedes Mal &quot;Kommentare annehmen&quot; angeklickt werden, um Kommentare anzunehmen.
+
+Es ist jederzeit möglich, das Annehmen von Kommentaren zuzulassen oder nicht, auch auf Artikelbasis.</field>
+</row>
+
+<row>
+<field name="varname">comments_require_email</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">E-Mail des Benutzers für Kommentare erforderlich?</field>
+<field name="data_raw">Wenn auf _ja_ eingestellt, muss im Formular für Kommentare eine E-Mail Adresse angegeben werden. Wenn sie fehlt, wird eine Fehlermeldung angezeigt.</field>
+</row>
+
+<row>
+<field name="varname">comments_require_name</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Name des Benutzers für Kommentare erforderlich? </field>
+<field name="data_raw">Wenn auf _ja_ eingestellt, muss im Formular für Kommentare ein Name angegeben werden. Ohne Name wird eine Fehlermeldung angezeigt.</field>
+</row>
+
+<row>
+<field name="varname">comments_sendmail</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">E-Mail Benachrichtigung bei Kommentaren</field>
+<field name="data_raw">Wird diese Einstellung aktiviert, erhält der Autor des Artikels eine Kopie per E-Mail.</field>
+</row>
+
+<row>
+<field name="varname">comments_use_fat_textile</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title"></field>
+<field name="data_raw">Wenn diese Voreinstellung auf 'ja' steht, werden zusätzliche Textile-Elemente erlaubt, die ansonsten als normaler Text behandelt würden:
+
+* Geordnete und ungeordnete Listen
+* @code@-Elemente
+* Erweiterte Blöcke (@bc..@, @bq..@, etc.)
+* Überschriften h1-h6
+* Fußnoten
+* Tabellen
+
+Aus naheliegenden Sicherheitsgründen wird HTML zu regulärem Text gewandelt. </field>
+</row>
+
+<row>
+<field name="varname">comment_means_site_updated</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Neue Kommentare setzen Seitenstatus auf akutalisiert</field>
+<field name="data_raw">Die Datenbank speichert, wann die Seite zum letzten Mal aktualisiert wurde. Wenn Sie die Option &quot;Ja&quot; wählen, aktualisiert ein neuer Kommentar den Wert der letzten Änderung.
+
+Dieser Wert wird zum Beispiel verwendt, wenn Sie die Option &quot;Sende Last-Modified Header&quot; aktiviert haben.</field>
+</row>
+
+<row>
+<field name="varname">comment_nofollow</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Nofollow bei Kommentaren verwenden</field>
+<field name="data_raw">Diese Einstellung fügt zu Links, die in Kommentaren verwendet werden, das &quot;nofollow&quot; Attribut hinzu. Das ist eine Maßnahme um den Anreiz für Kommentar-Spammer zu vermindern. Sie wurde von Suchmaschinenbetreibern und Software-Entwicklern eingeführt. Mehr Informationen dazu finden sie in dieser &quot;Ankündigung von Google&quot;:http://googleblog.blogspot.com/2005/01/preventing-comment-spam.html (in Englisch).</field>
+</row>
+
+<row>
+<field name="varname">css_mode</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">CSS Modus</field>
+<field name="data_raw">&quot;Cascading Style Sheets&quot;:http://www.w3schools.com/css/default.asp ist eine schlanke, bedeutende Sprache, um das Layout einer Website zentral zu verwalten. Alles, von Schriften und Farben bis hin zu Größen und Positionen, kann durch CSS geregelt werden.
+Normalerweise werden CSS Daten in den Kopfbereich &lt;code&gt;head&lt;/code&gt; eines HTML Dokumentes geschrieben. CSS Daten können auch in einer externen Textdatei gespeichert und dann mit dem Dokument verlinkt werden. Moderne Browser verarbeiten diese Daten, speichern sie zwischen und verwenden sie dann für Folgeseiten oder wiederkehrende Aufrufe. Somit kann CSS die Downloadgröße einer Webseite erheblich reduzieren: Das ist nur eine von vielen Verbesserungen der CSS Formatierung gegenüber der alten, herkömmlichen Methode, Websites zu designen.
+
+Textpattern bietet zwei Möglichkeiten, um Style Sheets für  Webseiten zu verwenden.
+
+Im manuellen CSS Modus können Sie jede Style Sheet Information erstellen (oder auch reinkopieren), einfach im Textpattern Interface. Dadurch ist es möglich, Styles schnell und ohne lästiges Hochladen  per FTP  zu bearbeiten.
+Style Sheets können mit einfachen Texteditoren oder auch mit WYSIWYG Webeditoren erstellt werden und auch “im ganzen Web&quot;:http://directory.google.com/Top/Computers/Programming/Internet/CSS/Sample_Style_Sheets/Layouts/  gefunden werden. (Anm. des Übers.: der Link bei Google funzt nicht)
+
+Im automatischen CSS Modus wird das Bearbeiten der Styles auf  neuem, höherem Niveau möglich. Ein Interface zum Bearbeiten und eine neue Organisationsmethode stellen  CSS Parameter übersichtlicher und logischer dar.
+
+Im automatischen Modus werden CSS Dateien als ein _layout_ oder ein _style_ klassifiziert. Einzelne Seiten einer Website können sich entweder einen Typ teilen oder auch beide Typen kombinieren.
+
+Layout files definieren die übergeordneten, strukturellen Angaben, wie z.B. Anzahl und Größe der Spalten einer Seite, des Headers oder des Footers.
+
+Style files beeinhalten Angaben zur Schriftart, Farbe und detaillierte Angaben zur Positionierung , die nicht in den Layout files definiert wurden (z.B. Innen- und Aussenabstand und die Abstände einzelner Objekte auf der Seite).</field>
+</row>
+
+<row>
+<field name="varname">dateformat</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Datumsformat</field>
+<field name="data_raw">Diese Einstellung gibt vor, auf welche Weise das Datum von Artikeln auf der Startseite angezeigt wird.</field>
+</row>
+
+<row>
+<field name="varname">date_case</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Startseite Datum</field>
+<field name="data_raw">Wird verwendet, um das Artikeldatum auf der Startseite anzuzeigen. Es wird in Großbuchstaben, Groß- &amp; Kleinbuchstaben oder in Kleinbuchstaben ausgegeben.
+
+Die Standardeinstellung ist Groß- und Kleinbuchstaben.</field>
+</row>
+
+<row>
+<field name="varname">dev_version_live</field>
+<field name="area">article</field>
+<field name="lang">de-de</field>
+<field name="title">Diagnose: Sie verwenden Dateien im Beta-Stadium</field>
+<field name="data_raw">Sie verwenden in einem Live-System Textpattern-Dateien, die noch im Beta-Stadium (in-development) sind. Verwenden Sie keine Dateien im Beta-Stadium, solange Sie nicht über die nötige Erfahrung verfügen.</field>
+</row>
+
+<row>
+<field name="varname">dir_not_writable</field>
+<field name="area">diag</field>
+<field name="lang">de-de</field>
+<field name="title">Das Verzeichnis ist nicht beschreibbar</field>
+<field name="data_raw">Um die Datei- und Bilduploadfunktionen zu nutzen, müssen diese Verzeichnisse von PHP und dem Webserver beschreibbar sein.
+
+Normalerweise müssen dazu die Verzeichnisrechte auf 0777 gesetzt werden. Das kann mit einem FTP-Client erledigt werden, oder durch den folgenden Befehl auf der Kommandozeile: chmod 0777 /pfad/zum/verzeichnis</field>
+</row>
+
+<row>
+<field name="varname">dns_lookup_fails</field>
+<field name="area">diag</field>
+<field name="lang">de-de</field>
+<field name="title">DNS-Fehler</field>
+<field name="data_raw">Scheinbar ist die URI, die Sie als Adresse Ihrer Website angegeben
+haben, nicht erreichbar.</field>
+</row>
+
+<row>
+<field name="varname">doc_root</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Root Verzeichnis</field>
+<field name="data_raw">Hier muss der komplette Pfad zum root Verzeichnis des Servers angegeben werden, unabhängig davon, wo Textpattern installiert ist.
+
+Am Ende des Pfades darf kein Slash (/) stehen.
+
+Beispiele:
+
+&lt;code&gt;/home/user/docs/html&lt;/code&gt;
+
+oder
+
+&lt;code&gt;/home/var/www&lt;/code&gt;</field>
+</row>
+
+<row>
+<field name="varname">edit_raw_css_by_default</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">CSS direkt bearbeiten als Standard</field>
+<field name="data_raw">Diese Einstellung legt die Standard Methode für die Bearbeitung von CSS Anweisungen unter Präsentation -&gt; Stilvorlagen fest. Der Wert _ja_ bedeutet, dass Sie standardmässig alle CSS Anweisungen in einem einzigen grossen Textfeld sehen. Wenn Sie _nein_ einstellen wird standardmässig der CSS-Editor verwendet. </field>
+</row>
+
+<row>
+<field name="varname">excerpt</field>
+<field name="area">article</field>
+<field name="lang">de-de</field>
+<field name="title">Artikelexzerpt</field>
+<field name="data_raw">Artikelexzerpte sind optional. Sie können eine kurze Zusammenfassung des angezeigten Artikels für eine Inhaltsübersicht sein oder anstelle des Haupttextes des Artikels in den RSS- oder Atom-Feed eingebunden werden.</field>
+</row>
+
+<row>
+<field name="varname">expire_logs_after</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Protokolle löschen</field>
+<field name="data_raw">Wenn sie Textpattern für die Protokollierung benutzen, kann hier eingestellt werden, wie lange (in Tagen) die Protokolle gespeichert werden sollen.
+
+Hinweis: Die Protokolle werden nur gelöscht bei der Anzeige. Wenn Sie die Protokolle mehrere Wochen nicht ansehen, werden die älteren Einträge nicht gelöscht.</field>
+</row>
+
+<row>
+<field name="varname">file_max_upload_size</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Maximale Upload-Größe</field>
+<field name="data_raw">Dieser Wert begrenzt die maximale Größe von Dateien, die über den Textpattern-Datei-Manager hochgeladen werden können. Bitte beachten Sie, dass dieser Wert ebenfalls von Ihrer PHP-Installation beschränkt wird. Textpattern respektiert immer diesen Wert. Im Zweifelsfall müssen Sie Ihren Hoster bitten, die zulässige Dateigröße zu erhöhen. Die relevanten Einstellungen in der php.ini sind post_max_size, upload_max_filesize und memory_limit.
+
+Achtung: Die Dateigröße von Bildern wird durch diese Einstellung nicht beeinflusst. Diese beträgt in der Regel 1 MB.</field>
+</row>
+
+<row>
+<field name="varname">form_articles</field>
+<field name="area">form</field>
+<field name="lang">de-de</field>
+<field name="title">Artikel Tags</field>
+<field name="data_raw">Diese Tags dienen als Platzhalter für folgende Daten und werden bei jeder Anzeige des Artikels mit den jeweiligen Inhalten gefüllt.
+
+_Autor_
+Der Name des Artikelautors. Es wird dabei der reale Name und nicht der Login-Name verwendet.
+
+_Body_
+Der Body ist der eigentliche Artikeltext, der in das Feld &quot;Body&quot; im Artikelformular eingegeben wurde. Wenn Sie für dieses Feld &quot;Textile&quot; aktiviert haben, wird der Body mit einem &lt;code&gt;&lt;p&gt;&lt;/code&gt;-Tag umschlossen.
+
+_Excerpt_
+Text, der in das Excerpt-Feld eingegeben wurde. Verhält sie sonst wie &quot;Body&quot;.
+
+_Kategorie 1, 'Kategorie 2_
+Die Kategorien des Artikels, soweit angegeben.
+
+_Kommentareinladung_
+Link zum Kommentarfeld mit frei wählbarem Text. Falls Kommentare eingegeben wurden, enthält die Kommentareinladung auch die Anzahl der bereits abgegebenen Kommentare.
+
+_Permanenter Link_
+Dieser Tag kann beliebige andere html-Tags umschließen und erzeugt einen dauerhaften Link zur Einzelansicht des Artikels.
+
+_Veröffentlicht_
+Das Veröffentlichungsdatum des Artikels. Das Format kann unter Einstellungen angepasst werden.
+
+_Title_
+Der Artikeltitel</field>
+</row>
+
+<row>
+<field name="varname">form_place_article</field>
+<field name="area">form</field>
+<field name="lang">de-de</field>
+<field name="title"></field>
+<field name="data_raw">Diese Tags werden jedes Mal, wenn ein Artikel angezeigt wird mit den verknüpften Werten ausgetauscht.
+
+_Autor_
+Das vollständige Name des Autoren.
+
+_Haupttext_
+Der Haupttext des Artikels. Hinweis: der Haupttext von Artikeln, die mit Textile verarbeitet werden, ist immer von &lt;code&gt;&lt;p&gt;&lt;/p&gt;&lt;/code&gt;-Tags um jeden Absatz eingeschlossen. Es ist also überflüßig weitere Absätze zu verwenden.
+
+_Exzerpt_
+Text, wenn vorhanden, der in das Exzerpt-Feld eines Artikel eingegeben wurde.
+
+_Kommentareinladung_
+
+_Permanenter Link_
+
+_Posted_
+
+_Titel_
+Na was wohl.</field>
+</row>
+
+<row>
+<field name="varname">full_path</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Vollständiger Server-Pfad zu Textpattern</field>
+<field name="data_raw">Hier muss der vollständige Pfad zu Ihrem /textpattern/ Verzeichnis angegeben werden, das sich innerhalb des Verzeichnisses Ihrer Textpattern Seite befinden sollte.
+
+Hinweis: es darf sich kein abschliessender Slash (/) am Ende befinden.
+
+Beispiele:
+
+@/home/user/docs/html/textpattern@
+
+oder
+
+@/home/var/www/mytxpsite/textpattern@
+
+</field>
+</row>
+
+<row>
+<field name="varname">gmtoffset</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Zeitzone</field>
+<field name="data_raw">Damit Datum und Zeitangaben in Ihrer lokalen Zeit erscheinen, geben Sie hier bitte an, wo Sie sich im Vergleich zur Greenwich Mean Time (GMT) befinden.</field>
+</row>
+
+<row>
+<field name="varname">gzip_compress</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Kompression</field>
+<field name="data_raw">Wenn aktiviert, werden die vom Browser angeforderten Seiten auf dem Server mit GZIP (Gnu Zip) komprimiert. Dadurch erhöht sich die Ladegeschwindigkeit der Seite bei langsamen Verbindungen.</field>
+</row>
+
+<row>
+<field name="varname">header</field>
+<field name="area">textile</field>
+<field name="lang">de-de</field>
+<field name="title">Überschriften</field>
+<field name="data_raw">Um aus einem Absatz eine Überschrift zu machen, setzen Sie &quot;h&lt;em&gt;n&lt;/em&gt;. &quot; an den Anfang.  @_n_@ ist eine Nummer von 1-6.
+
+Beispiele:
+
+==h1. Überschrift 1==
+
+==h2. Überschrift 2==
+
+==h3. Überschrift 3==
+
+werden zu:
+
+@&lt;h1&gt;Überschrift 1&lt;/h1&gt;@&lt;br /&gt;
+@&lt;h2&gt;Überschrift 2&lt;/h2&gt;@&lt;br /&gt;
+@&lt;h3&gt;Überschrift 3&lt;/h3&gt;@
+
+Ein Browser stellt die Überschriften dann so dar:
+
+h1. Überschrift 1
+
+h2. Überschrift 2
+
+h3. Überschrift 3
+
+&lt;small&gt;Hinweis: Unveränderte Absätze werden von @&lt;p&gt;@ tags eingeschlossen.&lt;/small&gt;
+
+&quot;Weitere Informationen&quot;:http://www.htmlhelp.com/reference/html40/block/h1.html</field>
+</row>
+
+<row>
+<field name="varname">htaccess_missing</field>
+<field name="area">diag</field>
+<field name="lang">de-de</field>
+<field name="title">.htaccess-Datei fehlt</field>
+<field name="data_raw">Der Permalinkmodus erfordert eine .htaccess-Datei im Installationsverzeichnis. Die empfohlenen Anweisungen in
+dieser .htaccess-Datei lauten:
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^(.+) - [PT,L]
+
+RewriteRule ^(.*) index.php</field>
+</row>
+
+<row>
+<field name="varname">image</field>
+<field name="area">textile</field>
+<field name="lang">de-de</field>
+<field name="title">Bilder</field>
+<field name="data_raw">Um ein Bild einzufügen, setzen Sie die URL(Universal Resource Locator) des Bildes in Ausrufezeichen.
+
+Optional: Text, der unmittelbar der URL folgt (in Klammern) wird als Alt Attribut für das Bild verwendet. Bilder im Internet sollten immer einen beschreibenden Alternativtext haben zugunsten z.B. von Nutzern mit reinen Text-Browsern.
+
+Optional: Setzen Sie einen Doppelpunkt direkt hinter das letzte Ausrufezeichen, wird das Bild verlinkt.
+
+Beispiel:
+
+==!http://www.textism.com/common/textist.gif(Textist)!==
+
+Mit Link:
+
+==!http://www.textism.com/common/textist.gif(Textist)!:http://textism.com==
+
+wird zu:
+
+@&lt;img src=&quot;http://www.textism.com/common/textist.gif&quot; alt=&quot;Textist&quot; /&gt;@
+
+Mit Link:
+
+@&lt;a href=&quot;http://www.textism.com&quot;&gt;&lt;img src=&quot;http://www.textism.com/common/textist.gif&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;@
+
+Der Browser stellt die Bilder dann so dar:
+
+&lt;img src=&quot;http://www.textism.com/common/textist.gif&quot; /&gt;
+
+Mit Link:
+
+&lt;a href=&quot;http://www.textism.com&quot;&gt;&lt;img src=&quot;http://www.textism.com/common/textist.gif&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;
+
+&quot;Weitere Informationen&quot;:http://www.htmlhelp.com/reference/html40/special/img.html</field>
+</row>
+
+<row>
+<field name="varname">image_category</field>
+<field name="area">category</field>
+<field name="lang">de-de</field>
+<field name="title">Bilderkategorien</field>
+<field name="data_raw">Bilderkategorien dienen sowohl der internen Organisation als auch der Erstellung von Bildergruppen, welche mit den Tags @&lt;txp:image_index /&gt;@ und @&lt;txp:image_display /&gt;@ angezeigt werden können.</field>
+</row>
+
+<row>
+<field name="varname">img_dir</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Bildverzeichnis</field>
+<field name="data_raw">Sie können das Verzeichnis für Bilder Ihren Bedürfnissen anpassen. Legen Sie zuerst das Verzeichnis unter dem gewünschten Namen im Wurzelverzeichnis (root) der Textpattern-Installation an. Stellen Sie sicher, dass PHP für das Verzeichnis Schreibrechte hat (normalerweise chmod 0777).
+
+Anders als die Einstellung für andere Verzeichnisse ist dieser Pfad immer _relativ_ zum Wurzelverzeichnis der Textpattern-Installation. Standard ist _images_.
+ </field>
+</row>
+
+<row>
+<field name="varname">import</field>
+<field name="area">import</field>
+<field name="lang">de-de</field>
+<field name="title">In Textpattern importieren</field>
+<field name="data_raw">Daten können aus folgenden Redaktionssystemen in Textpattern importiert werden:
+
+* Movable Type, entweder durch Benutzung der MT Importdatei http://textpattern.com/help/?item=import_mt oder direkt aus der MySQL-Datenbank: http://textpattern.com/help/?item=import_mtdb
+* Blogger, durch Erstellen einer Importdatei gemäss der MT-Formatspezifizierung. Weitere Angaben dazu finden sich in „importing from Blogger“ unter http://textpattern.com/help/?item=import_blogger
+* &quot;WordPress&quot;:http://textpattern.com/help/?item=import_wp – unter Berücksichtigung von benutzerdefinierten Datenbankpräfixen
+* &quot;b2:&quot;http://textpattern.com/help/?item=import_b2. Nicht mehr so frisch, aber dafür ist der Import zollfrei.
+
+Beim Import aus einer Datei – wie zum Beispiel bei MovableType oder Blogger – muss diese im Ordner /include/import des Textpattern-Installationsverzeichnis als @import.txt@ abgespeichert werden.</field>
+</row>
+
+<row>
+<field name="varname">import_invite</field>
+<field name="area">import</field>
+<field name="lang">de-de</field>
+<field name="title">Standardeinladung für Kommentare der importierten Artikel</field>
+<field name="data_raw">Hier kann die Kommentareinladung für die zu importierenden Artikel eingegeben werden.</field>
+</row>
+
+<row>
+<field name="varname">import_section</field>
+<field name="area">import</field>
+<field name="lang">de-de</field>
+<field name="title">Sektion, in die importiert werden soll</field>
+<field name="data_raw">Hier kann den importierten Artikeln eine Sektion zugewiesen werden.</field>
+</row>
+
+<row>
+<field name="varname">import_status</field>
+<field name="area">import</field>
+<field name="lang">de-de</field>
+<field name="title">Status der importierten Artikel</field>
+<field name="data_raw">Hier kann der Status der importierten Artikel festgelegt werden.</field>
+</row>
+
+<row>
+<field name="varname">include_email_atom</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">E-Mail für Atom-Feeds benutzen</field>
+<field name="data_raw">Atom-Feeds erfordern eine einzigartige ID. Um einzigartige ID's für Ihre Seite zu erzeugen fügt Textpattern entweder Ihre E-Mail Adresse oder Ihre Domain in die ID ein.
+
+Standardmässig wird ihre E-Mail benutzt. Wenn Sie aber nicht vorhaben, Ihre Domain zu ändern, ist es vermutlich sicher, wenn Sie hier _nein_  einstellen.</field>
+</row>
+
+<row>
+<field name="varname">index_inaccessible</field>
+<field name="area">diag</field>
+<field name="lang">de-de</field>
+<field name="title">Seitenindex nicht lesbar</field>
+<field name="data_raw">Die index.php, die als Index Ihrer Webseite festgelegt wurde, ist vom Webserver nicht lesbar. Bitte die Berechtigungen überprüfen.</field>
+</row>
+
+<row>
+<field name="varname">in_rss</field>
+<field name="area">section</field>
+<field name="lang">de-de</field>
+<field name="title">In RSS Feed aufnehmen</field>
+<field name="data_raw">Hier kann bestimmt werden, ob die Artikel der Sektion in den RSS Feed aufgenommen (syndiziert) werden sollen.</field>
+</row>
+
+<row>
+<field name="varname">is_dst</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Sommerzeit</field>
+<field name="data_raw">Setzen Sie diese Einstellung auf 'ja', wenn bei Ihnen Sommerzeit gilt.</field>
+</row>
+
+<row>
+<field name="varname">italic</field>
+<field name="area">textile</field>
+<field name="lang">de-de</field>
+<field name="title">Betonung</field>
+<field name="data_raw">Verwenden Sie ==_unterstriche_== vor und nach dem Text, der betont werden soll.
+
+Das @&lt;em&gt;@ HTML Tag wird folgendermaßen angewandt:
+
+==_Phrase_==  → @&lt;em&gt;@Phrase@&lt;/em&gt;@ → _Phrase_
+
+Soll der Text nicht betont werden, sondern einfach nur kursiv erscheinen (z.B. eine Phrase in einer anderen Sprache), verwenden Sie doppelte Unterstriche:
+
+==__Phrase__== → @&lt;i&gt;@Phrase@&lt;/i&gt;@ → __Phrase__
+
+Hinweis: Quick Tags müssen durch ein einleitendes und ein abschließendes Tag markiert werden, um korrekt validiert zu werden.
+
+&quot;Weitere Informationen&quot;:http://www.htmlhelp.com/reference/html40/phrase/em.html</field>
+</row>
+
+<row>
+<field name="varname">keywords</field>
+<field name="area">article</field>
+<field name="lang">de-de</field>
+<field name="title">Stichworte</field>
+<field name="data_raw">Stichworte sind hilfreich, um Verbindungen zwischen Artikel jenseits der Kategorien aufzuzeigen.
+
+Stichworte müssen einzelne Worte sein, die durch Kommas getrennt werden.</field>
+</row>
+
+<row>
+<field name="varname">language</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Sprache</field>
+<field name="data_raw">Textpattern wird in vielen verschiedenen Sprachen angeboten. Über &quot;Administration &gt; Einstellungen &gt; Sprachen verwalten&quot; können Sie neue Sprachen für Ihr Textpattern installieren und verwenden.
+
+Sie sollten dort regelmäßig die Sprachdatei Ihrer Installation aktualisieren.</field>
+</row>
+
+<row>
+<field name="varname">link</field>
+<field name="area">textile</field>
+<field name="lang">de-de</field>
+<field name="title">Links</field>
+<field name="data_raw">Um einen Hypertext Link zu erstellen, setzen Sie den zu verlinkenden Text in ==&quot;Anführungszeichen&quot;==, direkt gefolgt von einem Doppelpunkt und dem URL(Uniform Resource Locator) des Links.
+
+Optional: Um ein Titelattribut zu erstellen, setzen Sie den Text für den Titel in (Klammern) zwischen Linktext und Doppelpunkt. Der Titel wird dann als Tool Tip angezeigt, wenn man mit der Maus über den Link fährt.
+
+Beispiel:
+
+ ==&quot;Das ist der Link (Das ist der Titel)==
+==&quot;:http://www.textism.com==
+
+wird zu:
+
+@&lt;a href=&quot;http://www.textism.com&quot; title=&quot;Das ist der Titel&quot;&gt;Das ist der Link&lt;/a&gt;@
+
+Im Browser wird das wie folgt angezeigt:
+
+
+&lt;a href=&quot;http://www.textism.com&quot; title=&quot;Das ist der Titel&quot; style=&quot;color:blue&quot;&gt;Das ist der Link&lt;/a&gt;
+
+
+*Neu* in Textile 2.0 ist die Möglichkeit, lange Internetadressen außerhalb des Textes zu speichern und diese dann mit einem Alias Ihrer Wahl wieder einzubauen.
+
+Speichern Sie die URL irgendwo im Dokument, z.B. am Ende, mit folgender Schreibweise:
+
+@[alias (optional Titel)]http://url@
+
+Jede auf diese Weise referenzierte URL muss in einer neuen Zeile beginnen.
+
+Beispiel:
+Das ist ein &quot;Link&quot;:google zum Google Verzeichnis.
+
+Wenn Sie irgendwo im Dokument diese Zeile haben:
+@[google]http://www.google.de/dirhp?hl=de&amp;tab=wd&amp;q=@
+
+... wird der Link ausgegeben als:
+
+Das ist ein &lt;a href=&quot;http://www.google.de/dirhp?hl=de&amp;tab=wd&amp;q=&quot;&gt;Link&lt;/a&gt; zum Google Verzeichnis.
+
+
+
+&quot;Weitere Informationen&quot;:http://www.htmlhelp.com/reference/html40/special/a.html</field>
+</row>
+
+<row>
+<field name="varname">link_category</field>
+<field name="area">category</field>
+<field name="lang">de-de</field>
+<field name="title"></field>
+<field name="data_raw">Linkkategorien sind optional, sind jedoch sehr hilfreich, wenn Links in verschiedenen Gruppen angezeigt werden sollen, z. B. &quot;Mitbürger&quot;, &quot;Römer&quot;, &quot;Freunde&quot;.
+
+Solche Linklisten können mit dem Textpattern-Tag &quot;linklist&quot; ausgegeben werden:
+
+&lt;code&gt;&lt;txp:linklist category=&quot;Freunde&quot; /&gt;&lt;/code&gt;</field>
+</row>
+
+<row>
+<field name="varname">link_description</field>
+<field name="area">link</field>
+<field name="lang">de-de</field>
+<field name="title">Linkbeschreibungen</field>
+<field name="data_raw">Linkbeschreibungen sind optional. Sie sind hilfreich als Untertitel, oder zur Erzeugung  von Tooltips mit dem _Title Attribut_  &lt;code&gt;title=&quot;&quot;&lt;/code&gt;. Oder ganz einfach, um intern den Überblick zu behalten. </field>
+</row>
+
+<row>
+<field name="varname">link_sort</field>
+<field name="area">link</field>
+<field name="lang">de-de</field>
+<field name="title">Linksortierung</field>
+<field name="data_raw">Hilfreich für natürliche Sprachsortierung von Linklisten, z. B. nach dem Nach- anstelle des Vornamens oder nach einem Abschnitt der mit einem bestimmten oder unbestimmten Artikel beginnt.</field>
+</row>
+
+<row>
+<field name="varname">link_url</field>
+<field name="area">link</field>
+<field name="lang">de-de</field>
+<field name="title">URL des Links</field>
+<field name="data_raw">Das ist die Adresse des Links. Wenn der Link auf eine externe Domain zeigt, so müssen Sie ein @http@ voranstellen.</field>
+</row>
+
+<row>
+<field name="varname">logging</field>
+<field name="area">logs</field>
+<field name="lang">de-de</field>
+<field name="title">Protokollierung</field>
+<field name="data_raw">Alle Zugriffe: Textpattern wird alle Seitenaufrufe protokollieren.
+
+Nur Referrer: Textpattern wird nur Besuche protokollieren, die über Links von anderen Seiten erfolgten.
+
+Keine: keine Protokollierung.</field>
+</row>
+
+<row>
+<field name="varname">max_url_len</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Maximale URL Länge</field>
+<field name="data_raw">URLs, die länger als die maximalen erlaubten Zeichen sind, funktionieren in Textpattern nicht. Damit wird ein mögliches Sicherheitsrisiko begrenzt.</field>
+</row>
+
+<row>
+<field name="varname">never_display_email</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">E-Mail verbergen?</field>
+<field name="data_raw">Legt fest, ob die E-Mail Addressen der Verfasser von Kommentaren versteckt werden sollen.</field>
+</row>
+
+<row>
+<field name="varname">next_page_link</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Link zur nächsten Seite</field>
+<field name="data_raw">Siehe die Textpattern-Tags @&lt;txp:newer&gt;@ und @&lt;txp:older&gt;@.</field>
+</row>
+
+<row>
+<field name="varname">numeric</field>
+<field name="area">textile</field>
+<field name="lang">de-de</field>
+<field name="title">Nummerierte Liste</field>
+<field name="data_raw">Um eine nummerierte Liste zu definieren, schreiben Sie jeden Punkt in eine neue Zeile und setzen Sie “# “ an den Anfang der Zeile.
+
+Beispiel:
+
+==#== Erster Punkt
+==#== Zweiter Punkt
+==#== Dritter Punkt
+==#== Vierter Punkt
+
+wird zu:
+
+@&lt;ol&gt;@
+@&lt;li&gt;Erster Punkt&lt;/li&gt;@
+@&lt;li&gt;Zweiter Punk&lt;/li&gt;@
+@&lt;li&gt;Dritter Punkt&lt;/li&gt;@
+@&lt;li&gt;Vierter Punkt&lt;/li&gt;@
+@&lt;/ol&gt;@
+
+Im Browser wird die nummerierte Liste so dargestellt:
+
+# Erster Punkt
+# Zweiter Punkt
+# Dritter Punkt
+# Vierter Punkt
+
+
+&lt;small&gt;Hinweis: Unveränderte Absätze werden von @&lt;p&gt;@ tags eingeschlossen.&lt;/small&gt;
+
+&quot;Weitere Informationen&quot;:http://www.htmlhelp.com/reference/html40/lists/ol.html</field>
+</row>
+
+<row>
+<field name="varname">old_placeholder_exists</field>
+<field name="area">diag</field>
+<field name="lang">de-de</field>
+<field name="title">Es existieren noch Sektions-Platzhalterdateien</field>
+<field name="data_raw">Seit der Textpatternversion 1.0 werden die Platzhalterdateien für Sektionen nicht mehr benötigt und behindern die Funktion der neuen .htaccess-Datei.
+
+Bitte löschen Sie Platzhalterdateien!</field>
+</row>
+
+<row>
+<field name="varname">on_frontpage</field>
+<field name="area">section</field>
+<field name="lang">de-de</field>
+<field name="title">Auf der Startseite</field>
+<field name="data_raw">Hier wird eingestellt, ob die Artikel einer Sektion standardmäßig auf der Startseite der Website angezeigt werden.
+
+Werden Artikel in der Sektion von der Startseite aus verlinkt, sollte diese Option auf &quot;nein&quot; gesetzt werden.</field>
+</row>
+
+<row>
+<field name="varname">override_emailcharset</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Standard Zeichensatz für E-Mails überschreiben</field>
+<field name="data_raw">Textpattern benutzt utf-8 wo immer möglich als Standardzeichensatz. Einige E-Mail Programme (z.B. einige Versionen von Outlook) unterstützen jedoch utf-8 nicht vollständig. Wenn Sie verstümmelte Zeichen in E-Mails erhalten, wird diese Einstellung vor dem Senden eine Konvertierung nach iso-8859-1 vornehmen.
+
+Hinweis: falls Sie eine Sprache mit Zeichen benutzen, die mit iso-8859-1 nicht repräsentiert werden können, wird Ihnen diese Einstellung leider nicht helfen. In diesem Fall sollten Sie versuchen, ein E-Mail Programm zu finden, das utf-8 oder Unicode kompatibel ist.</field>
+</row>
+
+<row>
+<field name="varname">override_form</field>
+<field name="area">article</field>
+<field name="lang">de-de</field>
+<field name="title">Standardbaustein überschreiben</field>
+<field name="data_raw">Wenn für die Anzeige eines Artikels ein anderer Baustein verwendet werden soll, als standardmäßig zugewiesen wurde, können Sie diese Einstellung hier überschreiben.
+
+Im Listenfeld erscheinen alle Bausteine vom Typ 'article' zur Auswahl.
+
+*Beispiel*
+
+Es gibt die beiden article-Bausteine &quot;Haupttext&quot; und &quot;Auszug&quot;. Im Seitentemplate wurde eingestellt, dass die Artikel standardmäßig mit dem Baustein &quot;Haupttext&quot; angezeigt werden sollen. Durch Auswählen des Bausteines &quot;Auszug&quot; im Dialog &quot;Standardbaustein überschreiben&quot; wird der betreffende Artikel mit dem Baustein &quot;Auszug&quot; statt &quot;Haupttext&quot; angezeigt.
+
+Hinweis: Ob die Zuweisung von anderen Bausteinen zu Artikeln erlaubt werden soll oder nicht kann unter den erweiterten Einstellungen im Reiter &quot;Administration&quot; eingestellt werden.</field>
+</row>
+
+<row>
+<field name="varname">path_from_root</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Wurzelpfad</field>
+<field name="data_raw">Falls Ihre Textpattern-Installation nicht im Root-Directory Ihres Webservers (also im obersten Verzeichnis) liegt, sondern ein Unterverzeichnis verwendet wird, müssen Sie dies hier spezifizieren.
+
+Beispiel:
+
+Befindet sich Ihre Seite hier
+
+@http://www.mysite.com/testing/@
+
+so setzten Sie den Wert des Wurzelpfades auf
+
+&lt;code&gt;/testing/&lt;/code&gt;
+
+Befindet sich Ihre Seite jedoch im obersten Verzeichnis (Root Directory), so geben Sie einen Schrägstrich ein:
+
+&lt;code&gt;/&lt;/code&gt;</field>
+</row>
+
+<row>
+<field name="varname">path_not_doc_root</field>
+<field name="area">diag</field>
+<field name="lang">de-de</field>
+<field name="title">path_to_site stimmt nicht</field>
+<field name="data_raw">Zwei vom Webserver gesetzte Variablen müssen übereinstimmen. Tun sie aber nicht.</field>
+</row>
+
+<row>
+<field name="varname">path_to_site_inacc</field>
+<field name="area">diag</field>
+<field name="lang">de-de</field>
+<field name="title">Hauptverzeichnis nicht lesbar</field>
+<field name="data_raw">Das Verzeichnis, welches die Datei index.php enthält, die als Index
+der Webseite festgelegt wurde, kann nicht vom Server gelesen werden. Bitte die Berechtigungen überprüfen.</field>
+</row>
+
+<row>
+<field name="varname">permalink_title_format</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Format für die Titel in Permalinks</field>
+<field name="data_raw">Diese Einstellung ist nur wirksam, wenn &quot;Titel bei Permalinks anfügen&quot; auf _ja_  gesetzt ist. Wenn Sie verzeichnisartige Titel in URL's zu Artikeln verwenden wollen, haben Sie zwei Optionen:
+
+# In Kleinbuchstaben umwandeln und Leerzeichen ersetzen mit Bindestrichen (Beispiel:  &quot;Titel eines Artikels&quot; wird im Link zu &quot;titel-eines-artikels&quot;)
+# Leerzeichen entfernen und 'CamelCase' verwenden, was bedeutet, dass der Anfang eines Wortes durch einen Grossbuchstaben ausgezeichnet wird (Beispiel: &quot;Titel eines Artikels&quot; wird im Link zu &quot;TitelEinesArtikels&quot;
+
+</field>
+</row>
+
+<row>
+<field name="varname">permlink</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Permanenter Link</field>
+<field name="data_raw">Ein Textlink oder eine Grafik, die zur permanenten Adresse eines Artikels führt. </field>
+</row>
+
+<row>
+<field name="varname">permlink_mode</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">URL Schema</field>
+<field name="data_raw">Diese Option legt fest, wie das URL-Schema ihrer Artikel aussehen soll. Die URL eines Artikels definieren Sie im Template mit @&lt;txp:permlink&gt;@.
+
+Bitte beachten Sie: Standardmäßig unterstützt jeder Webserver die Einstellung &quot;unordentlich&quot;. Für die weiteren Schemas benötigen Sie gegebenenfalls zusätzliche Einstellungen (mod_rewrite oder eigene .htaccess-Datei) auf Ihrem Webserver. Kontaktieren Sie in diesem Fall Ihren Hoster.</field>
+</row>
+
+<row>
+<field name="varname">ping_textpattern_com</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Ping an textpattern.com senden</field>
+<field name="data_raw">Sendet einen Ping an textpattern.com wann immer ein neuer Artikel publiziert wird.</field>
+</row>
+
+<row>
+<field name="varname">ping_weblogsdotcom</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Ping-o-matic</field>
+<field name="data_raw">Je nach dem ob an- bzw. ausgeschaltet, wird &quot;ping-o-matic.com&quot;:http://www.pingomatic.com bei Erscheinen eines neuen Artikels angepingt.</field>
+</row>
+
+<row>
+<field name="varname">production_status</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Produktions-Status</field>
+<field name="data_raw">Im Modus *Debug* werden alle PHP-Fehlermeldungen sowie Hinweise über fehlerhaften Code und Plugins sichtbar auf Ihrer Seite angezeigt. Im XHTML-Code wird zusätzlich angezeigt:
+
+* Die Zeit, die der Server zu erstellen der Seite benötigt hat ('Runtime').
+* Die Anzahl der SQL-Abfragen.
+* Die maximale Speicherauslastung.
+* Alle auf dieser Seite verwendeten Textpattern-Tags.
+
+Im Modus *Test* werden alle PHP-Fehlermeldungen sowie Hinweise über fehlerhaften Code und Plugins sichtbar auf Ihrer Seite angezeigt. Im XHTML-Code wird zusätzlich angezeigt:
+
+* Die Zeit, die der Server zu erstellen der Seite benötigt hat ('Runtime').
+* Die Anzahl der SQL-Abfragen.
+* Die maximale Speicherauslastung.
+
+Im Modus *Live* werden keine Fehlermeldungen ausgegeben, was die Performance des Servers erhöht.</field>
+</row>
+
+<row>
+<field name="varname">publish_expired_articles</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title"></field>
+<field name="data_raw">In der Einstellung &quot;Ja&quot; werden erloschene Artikel weiterhin auf der Site dargestellt. Sie können @&lt;txp:if_expired /&gt;@ verwenden, um alternative Inhalte oder Markup für erloschene Artikel auszugeben.
+
+In der Einstellung &quot;Nein&quot; werden erloschen Artikel von der öffentlichen Site entfernt und geben den HTTP-Status &quot;410 Gone&quot; zurück. Falls vorhanden, wird bei Aufruf eines erloschenen Artikels die Seitenvorlage mit dem Namen &quot;error_410&quot; ausgegeben.</field>
+</row>
+
+<row>
+<field name="varname">record_mentions</field>
+<field name="area">image</field>
+<field name="lang">de-de</field>
+<field name="title">Aufzeichnung von Erwähnungen</field>
+<field name="data_raw">Erwähnungen sind Listen über eingehende Verweise auf bestimmte Artikel – eine Möglichkeit, um einen schnellen Überblick zu erhalten, wer auf diese Webseite verweist.
+
+Die Anzeige von Erwähnungen auf einer Textpatternseite ist zur Zeit noch in der Entwicklung.</field>
+</row>
+
+<row>
+<field name="varname">remember_login</field>
+<field name="area">admin</field>
+<field name="lang">de-de</field>
+<field name="title">Erinnern</field>
+<field name="data_raw">Bei aktivierter Option bleiben Sie bei Textpattern mit dem aktuellen Browser angemeldet, bis Sie sich abmelden.
+
+Wenn sie deaktiviert ist, werden Sie nach einiger Zeit der Inaktivität automatisch abgemeldet.
+
+Der Browser muss so eingestellt sein, dass Cookies akzeptiert werden.</field>
+</row>
+
+<row>
+<field name="varname">replace_image_form</field>
+<field name="area">image</field>
+<field name="lang">de-de</field>
+<field name="title">Bild ersetzen</field>
+<field name="data_raw">Ein hier hochgeladenes Bild ersetzt das bereits existierende Bild, das bisher in der Datenbank gespeichert war.</field>
+</row>
+
+<row>
+<field name="varname">rss_how_many</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Anzahl der RSS Elemente</field>
+<field name="data_raw">Hierbei handelt sich um die maximale Anzahl der Artikel, die bei einem einmaligen Abruf des RSS(Really Simple Syndication) Feeds der Seite ausgeliefert werden. Je höher die veröffentlichte Zahl der Artikel pro Tag ist, desto höher sollte der Wert hier eingestellt werden.
+Eine durchschnittliche Einstellung liegt zwischen 5 und 8.
+Die Standardeinstellung liegt bei 5.</field>
+</row>
+
+<row>
+<field name="varname">section_category</field>
+<field name="area">section</field>
+<field name="lang">de-de</field>
+<field name="title">Sektionen</field>
+<field name="data_raw">(Einen hervorragenden &quot;Artikel&quot;:http://www.jdueck.net/articles/textpattern.html über die Bedeutung von Sektionen und Kategorien in Textpattern hat Joel Dueck geschrieben.)
+
+Sektionen in Textpattern sind vielleicht am besten zu vergleichen mit Sektionen in einer Zeitung: jede gehört zu derselben Ausgabe, aber jede zeichnet sich möglicherweise durch ein anderes Layout oder unterschiedliche Artikelstile oder ähnliches aus.
+
+Für die meisten Website müssen nur wenige Sektionen angelegt werden.
+
+Ein typisches Beispiel für eine Personal Website, mit drei Sektionen:
+
+*archive*: Zu dieser Sektion gehören alle Artikel, die auf der Startseite erscheinen. Immer wenn ein Nutzer auf einen Permanent Link einen Artikels klickt (z.B. http://diesewebsite/archive/123/), wird dieser in dem Seitenlayout dieser Sektion angezeigt.  Um zu der Seite mit den neuesten Artikeln der Sektion _archive_ zu gelangen, dann wäre die URL http://diesewebsite/archive/
+
+*about*: Die Seite “über diese Website</field>
+</row>
+
+<row>
+<field name="varname">section_is_default</field>
+<field name="area">section</field>
+<field name="lang">de-de</field>
+<field name="title">Eine Sektion als Standard voreinstellen</field>
+<field name="data_raw">Diese Option regelt, ob beim Erstellen eines neuen Artikels diese Sektion im Menü 'Sektionen' voreingestellt ist.
+
+Setzen Sie diese Option auf 'ja', falls die meisten Ihrer Artikel zu dieser Sektion gehören.
+
+Hinweis: Nur eine Sektion kann als Standard voreingestellt werden.</field>
+</row>
+
+<row>
+<field name="varname">section_on_frontpage</field>
+<field name="area">section</field>
+<field name="lang">de-de</field>
+<field name="title">Artikel in dieser Sektion auf Startseite anzeigen</field>
+<field name="data_raw">Artikel in Sektionen, die eher statische Inhalte zeigen, wollen Sie vielleicht nicht im chronologischen Ablauf der anderen Artikel auf der Startseite erscheinen lassen.
+
+Die Einstellung 'Nein' verhindert, dass die Artikel in dieser Sektion auf der Startseite angezeigt werden.</field>
+</row>
+
+<row>
+<field name="varname">section_searchable</field>
+<field name="area">section</field>
+<field name="lang">de-de</field>
+<field name="title">In Seitensuche einbeziehen</field>
+<field name="data_raw">Hier wird eingestellt, ob Artikel dieser Sektion in die Website-Suche einbezogen und auf der Ergebnisseite angezeigt werden.</field>
+</row>
+
+<row>
+<field name="varname">section_syndicate</field>
+<field name="area">section</field>
+<field name="lang">de-de</field>
+<field name="title">Artikel in Newsfeeds aufnehmen (syndizieren)</field>
+<field name="data_raw">Hier wird eingestellt, ob Artikel dieser Sektion in die RSS- oder Atom-XML-Feeds der Website mit aufgenommen werden.</field>
+</row>
+
+<row>
+<field name="varname">section_uses_css</field>
+<field name="area">section</field>
+<field name="lang">de-de</field>
+<field name="title">Stilvorlage einer Sektion zuweisen</field>
+<field name="data_raw">Hier kann eine Stilvorlage (CSS) einer Sektion zugewiesen werden.</field>
+</row>
+
+<row>
+<field name="varname">section_uses_page</field>
+<field name="area">section</field>
+<field name="lang">de-de</field>
+<field name="title">Zuweisen von Seitenvorlagen zu Sektionen</field>
+<field name="data_raw">Hier kann eine Seitenvorlage einer Sektion zugewiesen werden. Ein tolles Feature von Textpattern!</field>
+</row>
+
+<row>
+<field name="varname">send_lastmod</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Sende Last-Modified Header</field>
+<field name="data_raw">Wird diese Option gesetzt, so wird eine vom Browser angeforderte Seite nur übermittelt, wenn die auf dem Server gespeicherte Version jünger ist als die im Browser gespeicherte Version. Dazu wird der @Last-Modified-Header@ verglichen.
+
+Die Aktivierung dieser Option kann zu schnellerem Seitenaufbau führen, weil nicht jede Seite übermittelt werden muss, sondern der Cache sinnvoll eingesetzt wird.</field>
+</row>
+
+<row>
+<field name="varname">setup_still_exists</field>
+<field name="area">diag</field>
+<field name="lang">de-de</field>
+<field name="title">Diagnose: Ordner /setup wurde nicht gelöscht</field>
+<field name="data_raw">Nachdem Sie Textpattern erfolgreich installiert oder aktualisiert haben, sollten Sie den Ordner /setup im Verzeichnis /textpattern löschen. Diese Fehlermeldung erscheint solange, bis Sie den Ordnder /setup gelöscht haben.</field>
+</row>
+
+<row>
+<field name="varname">show_comment_count_in_feed</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Zeige die Anzahl der Kommentare in den XML-Feeds</field>
+<field name="data_raw">Diese Option hängt die Anzahl der Kommentare an den Titel des Artikels im XML-Feed an. So können die Feed-Abonnenten Ihrere Seite leichter aktuelle Kommentare verfolgen.
+
+Beispiel: Artikel-Titel [5]
+
+Im Beispiel enthält der Artikel also 5 Kommentare.
+
+Achtung: Ein neuer Kommentar zeigt des Artikel als neuen Artikel im Feedreader Ihrer Abonnenten an, was einige Feednutzer stört.</field>
+</row>
+
+<row>
+<field name="varname">sitename</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Name der Webseite</field>
+<field name="data_raw">Hierbei handelt es sich um den offiziellen Titel der Webseite - nicht um die URL.
+Der Titel der Webseite erscheint unter anderem in der Titelzeile des Browser der Webseite-Besucher.</field>
+</row>
+
+<row>
+<field name="varname">siteurl</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Webadresse</field>
+<field name="data_raw">Das ist die Webadresse, die im Browser eingegeben werden muss, um die Seite zu erreichen.
+
+Beispiele:
+
+@www.textpattern.com@
+@textdrive.com/plans@
+
+(Bitte beachten, dass @http://@ oder ein abschliessender Slash (/) nicht erforderlich sind)</field>
+</row>
+
+<row>
+<field name="varname">site_slogan</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Slogan der Seite</field>
+<field name="data_raw">Das ist ein kurze (max. 255 Zeichen) Beschreibung der Seite.
+
+Sie wird überall wo erforderlich als  _Beschreibung_ verwendet, z.B. in den XML-Feeds. </field>
+</row>
+
+<row>
+<field name="varname">some_php_functions_disabled</field>
+<field name="area">diag</field>
+<field name="lang">de-de</field>
+<field name="title">Einige PHP-Funktionen sind nicht verfügbar</field>
+<field name="data_raw">Ihr Hoster oder Server Administrator hat einige PHP-Funktionen deaktiviert.
+
+Für weiterführende Informationen, siehe &quot;Textpattern FAQ: The following PHP functions... are disabled&quot;:http://textpattern.com/faq/266/the-following-php-functions-are-disabled.</field>
+</row>
+
+<row>
+<field name="varname">spam_blacklists</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Spam Blacklists</field>
+<field name="data_raw">Die Blacklist Provider, die Sie hier einfügen, werden kontaktiert, sobald jemand einen Kommentar verfasst. Die IP-Adresse des Verfasser wird überprüft und wenn sie in einer der Blacklists aufgeführt ist, wird der Kommentar zurückgewiesen.
+
+Sie können hier eine Liste von Domains eingeben, getrennt mit Kommas. Mögliche Blacklists können Sie unter &quot;dmoz&quot;:http://dmoz.org/Computers/Internet/Abuse/Spam/Blacklists/ finden, aber bitte beachten Sie, dass es in Ihrer Verantwortung liegt, die Vertrauenswürdigkeit eines Blacklist-Providers zu beurteilen, bevor Sie ihn aufnehmen.</field>
+</row>
+
+<row>
+<field name="varname">syndicate_body_or_excerpt</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Exzerpt syndizieren (anstelle von Haupttext)?</field>
+<field name="data_raw">Mit der Einstellung _nein_ enthalten Feeds immer den vollen Haupttext des Artikels. Mit  _ja_ wird, wenn vorhanden, das Exzerpt in Feeds verwendet.</field>
+</row>
+
+<row>
+<field name="varname">tempdir</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Temporäres Verzeichnis</field>
+<field name="data_raw">Hier wird der _absolute Pfad_ zu einem temporären Verzeichnis eingestellt. Stellen Sie sicher, dass PHP Schreibrechte für dieses Verzeichnis hat, die normalerweise mit chmod 0777 gesetzt werden.
+
+Dieses Verzeichnis wird zum Hochladen von Dateien aller Art benutzt. (Plugins, Bilder, Dateien)</field>
+</row>
+
+<row>
+<field name="varname">textile_comments</field>
+<field name="area">textile</field>
+<field name="lang">de-de</field>
+<field name="title">Textile Hilfe</field>
+<field name="data_raw">Formatierung:
+
+==_==&lt;em&gt;betont&lt;/em&gt;==_==
+==*==&lt;strong&gt;fett&lt;/strong&gt;==*==
+==??==&lt;cite&gt;zitiert&lt;/cite&gt;==??==
+==-==&lt;del&gt;gelöschter Text&lt;/del&gt;==-==
+==+==&lt;ins&gt;eingefügter Text&lt;/ins&gt;==+==
+==^==&lt;sup&gt;hochgestellt&lt;/sup&gt;==^==
+==~==&lt;sub&gt;tiefgestellt&lt;/sub&gt;==~==
+
+Links:
+==&quot;Text des Links&quot;:http://link.com/==
+
+Bild:
+==!http://bild.url!==
+
+Acronym:
+==ABC(Always Be Closing)==
+
+*Achtung:* Alle (X)HTML Tags werden automatisch gelöscht.</field>
+</row>
+
+<row>
+<field name="varname">textile_links</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Textile für die Beschreibung von Links verwenden</field>
+<field name="data_raw">Unter Inhalt -&gt; Links kann man zu jedem Link eine individuelle Beschreibung hinzufügen. Textile kann auch hier die Textformatierung übernehmen. Ist dies nicht erwünscht, setzt man die Einstellung auf _nein_. Der Text wird dann so angezeigt, wie eingegeben.</field>
+</row>
+
+<row>
+<field name="varname">timeoffset</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Zeitzone</field>
+<field name="data_raw">Wenn Ihre Seite auf einem Server in einer anderen Zeitzone liegt, benutzen Sie diese Einstellung, um die angezeigten Zeiten an Ihre lokale Zeitzone anzupassen.</field>
+</row>
+
+<row>
+<field name="varname">timestamp</field>
+<field name="area">article</field>
+<field name="lang">de-de</field>
+<field name="title">Zeitangaben</field>
+<field name="data_raw">Die Zeitangaben eines Artikels können beim Veröffentlichen oder Überarbeiten sowie zu jedem anderen Zeitpunkt eingestellt werden.
+
+Für die Datumseingabe gilt folgendes Format:
+
+Jahr Monat, Tag, Stunden (24-Stunden-Format) : Minuten
+
+Artikel, deren Zeitangaben in der Zukunft liegen, werden nicht auf der Seite angezeigt, bis dieser Zeitpunkt erreicht wurde.</field>
+</row>
+
+<row>
+<field name="varname">trackback</field>
+<field name="area">article</field>
+<field name="lang">de-de</field>
+<field name="title">Trackback</field>
+<field name="data_raw">Viele Content-Management-Systeme (Redaktionssysteme) bieten die Möglichkeit, Trackbacks zu Artikeln und Beiträgen zu senden.
+
+Trackbacks bieten, einfach gesprochen, die Möglichkeit zu sagen &quot;Ich möchte was zu diesem Artikel sagen: Hier ist der Name meiner Seite, ein Link zu meinem Text und eine kurze Zusammenfassung&quot;. Der Autor der anderen Seite kann die empfangenen Trackback-Informationen verwenden, wie er möchte - sei es zur eigenen Information oder als Linkliste unter seinem Artikel.
+
+Manche bezeichnen Trackbacks als &quot;Verweise, die du manuell eingibst&quot;, aber dies erscheint ein bisschen eingeschränkt.</field>
+</row>
+
+<row>
+<field name="varname">update_still_exists</field>
+<field name="area">diag</field>
+<field name="lang">de-de</field>
+<field name="title">_update.php existiert noch</field>
+<field name="data_raw">Die Installation von Textpattern wurde aktualisiert und die Datei _update.php befindet sich noch im Verzeichnis /textpattern/.
+
+Bitte diese Datei löschen!</field>
+</row>
+
+<row>
+<field name="varname">upload</field>
+<field name="area">upload</field>
+<field name="lang">de-de</field>
+<field name="title">Bild-Upload</field>
+<field name="data_raw">Mit diesem Formular können Sie Dateien oder Bilder auf Ihren Server laden.
+
+Mit dem neben dem Bild angezeigten Code können Sie die Grafik in Ihre Seite einbinden. Verwenden Sie den Textile-Code innerhalb von Artikeln und Textpattern-Code für die Darstellung von Grafiken auf Seitenvorlagen. XHTML-Code können Sie überall verwenden.
+</field>
+</row>
+
+<row>
+<field name="varname">upload_thumbnail</field>
+<field name="area">image</field>
+<field name="lang">de-de</field>
+<field name="title">Vorschaubild hochladen</field>
+<field name="data_raw">Bildern in Originalgrösse kann ein eigenes Vorschaubild zugeordnet werden. Diese können als Verweise oder Indizes auf die Originalbilder verwendet werden.
+
+Ein Vorschaubild wird im Quellcode grundsätzlich auf die selbe Weise eingebunden wie das Originalbild, jedoch wird dem Dateinamen ein „t“ angefügt.
+
+Um zum Beispiel das Vorschaubild des unter
+
+@/images/12.jpg@
+
+gespeicherten Originalbildes einzubinden, benutzt man
+
+@/images/12t.jpg@
+</field>
+</row>
+
+<row>
+<field name="varname">url_mode</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">URL Schema</field>
+<field name="data_raw">Legt das Schema der permanenten URLs fest.
+
+*?=undordentlich*
+
+Das einfachste URL-Schema, das auf allen Webservern funktioniert. Es generiert permanente URLs nach dem Schema:
+
+@http://www.yoursite.com/index.php?id=123@
+
+*/sauber/*
+
+Die anderen, sauberen, URL-Schemas sind eleganter und für den Besucher der Seite klarer strukturiert. Sie müssen hierzu jedoch einige Anpassungen vornehmen, die nicht auf allen Webservern möglich sind.</field>
+</row>
+
+<row>
+<field name="varname">url_title</field>
+<field name="area">article</field>
+<field name="lang">de-de</field>
+<field name="title">Benutzerdefinierte URL</field>
+<field name="data_raw">Wenn du gerne den Titel für deine Permalinks frei definieren möchtest, kannst du ihn hier eingeben. Wenn das Feld leer ist, wird die URL automatisch aus dem aktuellen Titel des Artikels generiert.
+
+Diese Option ist inbesondere dann hilfreich, wenn der Titel deines Artikel non-ascii-Zeichen verwendet.</field>
+</row>
+
+<row>
+<field name="varname">uses_page</field>
+<field name="area">section</field>
+<field name="lang">de-de</field>
+<field name="title">Zuweisen von Seitenvorlagen zu Sektionen</field>
+<field name="data_raw">Hier kann eine Seitenvorlage einer Sektion zugewiesen werden. Ein tolles Feature von Textpattern!</field>
+</row>
+
+<row>
+<field name="varname">use_categories</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Verwende Kategorien</field>
+<field name="data_raw">Diese Option muss aktiviert werden um Artikel bis zu zwei Kategorien zuweisen zu können.
+
+Wenn diese Option deaktiviert ist, werden die entsprechenden Felder im Artikel-Formular nicht angezeigt.</field>
+</row>
+
+<row>
+<field name="varname">use_comments</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Kommentare akzeptieren</field>
+<field name="data_raw">Diese Einstellung erlaubt das komplette Ein- bzw. Ausschalten der Kommentarmöglichkeit. Die Einstellung bezieht sich nicht auf einen einzelnen Artikel, sondern auf alle vorhandenen Artikel.</field>
+</row>
+
+<row>
+<field name="varname">use_dns</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">IP-Adressen nach Hostnamen auflösen</field>
+<field name="data_raw">Diese Einstellung zeigt nur Wirkung, wenn in den Einstellungen die Protokollierung aktiviert ist. Bei der Verwendung dieser Option werden IP-Adressen in Hostnamen übersetzt. Das kann bei einigen Servern den Seitenaufbau verlangsamen. Für diesen Fall kann die Auflösung in Hostnamen mit 'nein' deaktiviert werden. </field>
+</row>
+
+<row>
+<field name="varname">use_mail_on_feeds_id</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">E-Mail als ID für Feeds benutzen</field>
+<field name="data_raw">Atom-Feeds erfordern eine einzigartige ID. Um einzigartige ID's für Ihre Seite zu erzeugen fügt Textpattern entweder Ihre E-Mail Adresse oder Ihre Domain in die ID ein.
+
+Standardmässig wird ihre E-Mail benutzt. Wenn Sie aber nicht vorhaben, Ihre Domain zu ändern, ist es vermutlich sicher, wenn Sie hier _nein_  einstellen.</field>
+</row>
+
+<row>
+<field name="varname">use_plugins</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Plugins verwenden</field>
+<field name="data_raw">Sie können diese Option deaktivieren, wenn auf Ihrer Seite unverständliche Fehler auftreten, und Sie ausschliessen möchten, dass Plugins die Ursache sind.</field>
+</row>
+
+<row>
+<field name="varname">use_textile</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Textile verwenden</field>
+<field name="data_raw">Diese Einstellungen legen fest, ob Textile verwendet werden soll und wie Zeilenumbrüche behandelt werden sollen.
+
+*Textile verwenden:*
+
+Textile ist ein Hilfsmittel um die Umwandlung von Text in HTML zu vereinfachen.
+
+Wenn aktiviert, verwandelt Textile die Artikel in strukturell einwandfreies XHTML.
+
+Textile bietet mächtige, aber einfach zu erlernende Formatierungsanweisungen, um Texte zu mit Überschriften, Listen, und Zitaten zu strukturieren und Links und Bilder einzufügen.
+
+*Zeilenumbrüche umwandeln:*
+
+Wenn diese Einstellung gewählt ist, werden Zeilenumbrüche in @&lt;br /&gt;@ umgewandelt. Es werden keine anderen Strukturierungen vorgenommen und Textile-Anweisungen werden nicht interpretiert.
+
+
+</field>
+</row>
+
+<row>
+<field name="varname">using_sections</field>
+<field name="area">manual</field>
+<field name="lang">de-de</field>
+<field name="title">Sektionen verwenden</field>
+<field name="data_raw">Die Bedeutung von Sektionen in Textpattern geht über die Strukturierung von Artikeln hinaus. Jede Sektion ist mit einem Layout (Seitenvorlage, durch Sie selbst oder von Textpattern erstellt) und mit einer Stilvorlage (CSS) verknüpft.
+
+Beim Verfassen von neuen Artikeln wird durch die Zuweisung zu einer Sektion gesteuert, wie diese später angezeigt werden.
+
+Eine spezielle, versteckte Sektion *default* existiert immer. Sie verwendet sowohl das Layout ‘default’ als auch die CSS-Datei ‘default’ und ist für die Startseite der Website verantwortlich.
+
+ Für eine einfache Webseite, kann eine einzige Sektion (beispielsweise &quot;Artikel&quot; genannt) völlig ausreichend sein.
+</field>
+</row>
+
+<row>
+<field name="varname">warn_mail_unavailable</field>
+<field name="area">diag</field>
+<field name="lang">de-de</field>
+<field name="title">Deiner PHP-Installation fehlt die mail-Funktion</field>
+<field name="data_raw">Die mail()-Funktion ist in dieser PHP-Installation nicht vorhanden. Textpattern kann deshalb keine E-Mails versenden und die Funktionalität ist teilweise eingeschränkt.
+
+Zum Beispiel können keine Benachrichtigungen über Kommentare versendet werden, und beim Hinzufügen von anderen Benutzern wird die Nachricht mit dem Passwort sie nicht erreichen.</field>
+</row>
+
+<row>
+<field name="varname">warn_register_globals_or_update</field>
+<field name="area">diag</field>
+<field name="lang">de-de</field>
+<field name="title">Sicherheitslücke in PHP</field>
+<field name="data_raw">Recently a severe vulnerability was discovered in PHP. &quot;The security advisory &quot;:http://www.hardened-php.net/advisory_202005.79.html says:
+
+bq. can lead to unexpected behaviour of PHP applications, which can lead to execution of remote PHP code in many situations.
+
+Vulnerable versions are PHP4-versions &lt;= 4.4.0 and PHP5-versions &lt;= 5.0.5. You should either update to newer versions or make sure that register_globals is turned off.
+
+You can turn off register_globals in the php.ini file. If you are in a hosted environment, you may have an option in your hosting control panel for it (ask your host). When using mod_php (php as an apache module), it is also possible to turn register_globals off via .htaccess. Uncomment the following line from your .htaccess:
+
+@php_value register_globals off@
+</field>
+</row>
+
+<row>
+<field name="varname">plugin_cache_dir</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Pfad zum Plugin Cache Verzeichnis</field>
+<field name="data_raw">In diesem Verzeichnis können Sie Plugins, die nicht kompiliert sind, abspeichern.
+
+Achtung: Bei einem fehlerhaften Plugin-Code funktioniert Textpattern nicht.</field>
+</row>
+
+<row>
+<field name="varname">file_base_path</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Datei-Upload-Pfad</field>
+<field name="data_raw">In diesen Ordner werden die Dateien, die mit dem Textpattern-Datei-Manager hochgeladen werden, gespeichert. Die Ordnereinstellung muss dazu auf 777 gesetzt werden (z. B. mit dem ftp-Programm).</field>
+</row>
+
+<row>
+<field name="varname">comments_auto_append</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Kommentare an Artikel anhängen</field>
+<field name="data_raw">Wenn Sie diese Option auf &quot;Ja&quot; setzen, werden die Kommentare direkt an den Artikel angehängt. Das Aussehen der Kommentare steuern Sie mit dem Baustein &quot;comments_display&quot;:http://textbook.textpattern.net/wiki/index.php?title=Default_Forms#comments_display).
+
+Wenn Sie diese Option ausschalten, müssen Sie definieren, an welcher Stelle der Seite die Kommentare erscheinen sollen. Siehe auch &quot;Textpattern FAQ: Comment display confusion&quot;:http://textpattern.com/faq/95/comment-display-confusion.
+
+In der Regel sollte diese Option auf &quot;Ja&quot; stehen.</field>
+</row>
+
+<row>
+<field name="varname">allow_raw_php_scripting</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Direkte PHP-Verwendung erlauben</field>
+<field name="data_raw">Wenn Sie diese Option aktivieren, kann PHP-Code direkt verwendet werden.
+
+Im Regelfall ist das direkte Verwenden von PHP nicht gestattet und der PHP-Code muss _ohne_ die öffnenden und schließenden PHP-Tags innerhalb des @&lt;txp:php&gt;@ Tags verwendet werden.
+
+Diese Einstellung dient der Rückwärtskompatibilität. Es wird empfohlen, diese Option auf &quot;Nein&quot; zu setzen. Siehe auch im Textbook &quot;php&quot;:http://textbook.textpattern.net/wiki/index.php?title=Txp:php.</field>
+</row>
+
+<row>
+<field name="varname">title_no_widow</field>
+<field name="area">prefs</field>
+<field name="lang">de-de</field>
+<field name="title">Verhindere Witwen (&quot;Hurenkinder&quot;) in Artikeltiteln</field>
+<field name="data_raw">Mit Witwe bzw. Hurenkind wird das letzte Wort eines Artikeltitels bezeichnet, wenn es in die nächste Zeile rutscht. Hurenkinder werden in der Typographie als unelegant angesehen und sollten verhindert werden.
+
+Wenn Sie diese Option auf &quot;Ja&quot; setzen, verhindert Textpattern das Entstehen von Hurenkindern. Stattdessen werden die letzten beiden Worte eines Artikeltitels in die nächste Zeile gesetzt.</field>
+</row>
+
+<row>
+<field name="varname">body</field>
+<field name="area">article</field>
+<field name="lang">de-de</field>
+<field name="title">Haupttext</field>
+<field name="data_raw">Der Haupttext enthält den  Inhalt des Artikels.
+
+Während der Erstellung und Vorbereitung von Artikeln in Textpattern kann man zwischen drei Ansichten des Artikels wechseln: Normaler Text, XHTML (der Code, aus dem der Webbrowser den Artikel darstellt), und einer gestaltete Voransicht.</field>
+</row>
+
+<row>
+<field name="varname">title</field>
+<field name="area">article</field>
+<field name="lang">de-de</field>
+<field name="title">Titel</field>
+<field name="data_raw">Eine kurzer, prägnanter Titel für diesen Artikel.</field>
+</row>
+
+<row>
+<field name="varname">setup_user_login</field>
+<field name="area">setup</field>
+<field name="lang">de-de</field>
+<field name="title">Installation: Benutzername</field>
+<field name="data_raw">Der Benutzername des Administratorkontos (&quot;Herausgeber&quot;) den Sie für die normale Verwaltung der Site verwenden werden.
+
+Verwenden Sie in diesem Namen nur Groß- und Kleinbuchstaben, Zahlen, den Unterstrich und das Minus.</field>
+</row>
+
+<row>
+<field name="varname">setup_user_pass</field>
+<field name="area">setup</field>
+<field name="lang">de-de</field>
+<field name="title">Installation: Benutzerpasswort</field>
+<field name="data_raw">Nachdem dieses Konto die umfassendsten Rechte in Textpattern hat, wählen Sie bitte ein starkes Passwort oder besser eine Passphrase.
+
+Tipps:
+
+* Verwenden Sie eine Mischung aus Groß- und Kleinbuchstaben
+* Verwenden Sie Ziffern und Symbole
+* Wählen Sie eine Länge von mehr als acht Zeichen
+* *Vermeiden Sie* jede persönliche Information (Daten, Namen, Orte et cetera)
+* *Vermeiden Sie* einzelne oder wiederholte Wörter aus dem Wörterbuch ohne Rücksicht auf Schreibfehler, Sprache oder Groß-/Kleinschreibung
+
+Gute Beispiele:
+
+* Verwenden Sie die Anfangsbuchstaben Ihres Lieblingszitats aus einem Buch, Film oder Musikstück:
+** Es gibt nichts Schöneres, als dem Schweigen eines Dummkopfes zuzuhören. - @EgnSadSeDz@
+** Krieg der Sterne Episode V: Das Imperium schlägt zurück - @KdSE5:DIsz@
+* Verwenden Sie mehrere Wörter (wenigstens vier): @Rote Lippen soll man küssen@</field>
+</row>
+
+</resultset>
