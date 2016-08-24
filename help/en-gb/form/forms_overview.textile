@@ -2,7 +2,7 @@ h1. Forms: Introduction
 
 In Textpattern, a form is a snippet or chunk of text, HTML, and Textpattern tags that can be reused to display content.
 
-Here's an example form which could be named @ordinary_list@:
+Here’s an example form which could be named @ordinary_list@:
 
 bc. <li>
   <txp:permlink>

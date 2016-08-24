@@ -1,3 +1,3 @@
 h1. Preferences: Strip user images from comments?
 
-With this option set to 'Yes', any images included in comments will be stripped out.
+With this option set to ‘Yes’, any images included in comments will be stripped out.

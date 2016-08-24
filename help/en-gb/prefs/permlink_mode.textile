@@ -2,8 +2,8 @@ h1. Preferences: URL pattern
 
 This defines the method by which individual articles are reached via the URL displayed using the <a href="http://docs.textpattern.io/tags/permlink">@<txp:permlink>@ tag</a>.
 
-'?=messy' mode is the most compatible - it will work with little to no configuration required - but least beneficial in terms of URL readability and search engine optimization (SEO). In this mode URLs for articles on your site would look like this:
+‘?=messy’ mode is the most compatible - it will work with little to no configuration required - but least beneficial in terms of URL readability and search engine optimization (SEO). In this mode URLs for articles on your site would look like this:
 
 bc. http://example.com/index.php?id=123
 
-All other modes require the Apache @mod_rewrite@ module to be installed and enabled on your server. If your server does not support @mod_rewrite@ either contact your web host or use the '?=messy' mode outlined above.
+All other modes require the Apache @mod_rewrite@ module to be installed and enabled on your server. If your server does not support @mod_rewrite@ either contact your web host or use the ‘?=messy’ mode outlined above.

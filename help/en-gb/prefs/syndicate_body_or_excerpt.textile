@@ -1,5 +1,5 @@
 h1. Preferences: Syndicate article excerpt only?
 
-If this is set to 'No', feed items will contain the full article bodies.
+If this is set to ‘No’, feed items will contain the full article bodies.
 
-If this is set to 'Yes', feed items will contain the article excerpt instead of the article body where it is available.
+If this is set to ‘Yes’, feed items will contain the article excerpt instead of the article body where it is available.

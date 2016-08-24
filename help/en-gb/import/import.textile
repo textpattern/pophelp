@@ -4,7 +4,7 @@ You can import your data into Textpattern from the following publishing tools:
 
 * Movable Type
 * Blogger
-* WordPress (including custom prefixes for your databases, if you're using them)
+* WordPress (including custom prefixes for your databases, if you’re using them)
 * b2
 
 If you choose to import from a file exported from another content management system - that is, Movable Type or Blogger - you must place it in the @textpattern/include/import@ directory and name it @import.txt@.

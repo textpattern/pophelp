@@ -2,4 +2,4 @@ h1. Images: Create thumbnail
 
 Allows you to (re)create a thumbnail of the specified dimensions from the full size image.
 
-The thumbnail will be scaled to fit the dimensions you choose, unless you select the 'Crop' checkbox. In that case, the thumbnail will be created from the centre of the image without any scaling.
+The thumbnail will be scaled to fit the dimensions you choose, unless you select the ‘Crop’ checkbox. In that case, the thumbnail will be created from the centre of the image without any scaling.
