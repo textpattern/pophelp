@@ -1,47 +1,4 @@
 <row>
-<field name="varname">about_privileges</field>
-<field name="area">admin</field>
-<field name="lang">de-de</field>
-<field name="title">Benutzerrechte</field>
-<field name="data_raw">h3. Herausgeber
-
-* kann jeden Artikel, Link oder Kommentar erstellen, bearbeiten und löschen
-* kann den Artikelstatus ändern
-* kann die Seitenvoreinstellungen bearbeiten
-* hat Zugriff auf alle Designelemente der Seite
-* kann Sektionen und Kategorien bearbeiten
-* kann Autoren hinzufügen und entfernen
-* kann Rechte zuweisen und aberkennen
-
-h3. Leitender Redakteur
-
-* kann jeden Artikel, Link oder Kommentar bearbeiten und löschen
-* kann den Artikelstatus von &quot;schwebend&quot; zu &quot;live&quot; ändern
-* Kann die Seitenvoreinstellungen bearbeiten
-* hat Zugriff auf alle Designelemente der Seite
-* kann Sektionen und Kategorien bearbeiten
-
-h3. Redakteur
-
-* kann jeden Artikel, Link oder Kommentar bearbeiten
-* kann das HTML der Seitenvorlagen und Bausteine bearbeiten
-
-h3. Autor
-
-* kann eigene Artikel erstellen, bearbeiten und veröffentlichen
-* kann Bilder hochladen
-
-h3. Freier Mitarbeiter
-
-* kann eigene Artikel erstellen und bearbeiten
-* kann den Artikelstatus von &quot;Entwurf&quot; zu &quot;schwebend&quot; ändern
-
-h3. Designer
-
-* kann HTML der Seitenvorlagen und Bausteine sowie die CSS-Stile bearbeiten</field>
-</row>
-
-<row>
 <field name="varname">acronym</field>
 <field name="area">textile</field>
 <field name="lang">de-de</field>
@@ -65,46 +22,6 @@ bq. ACLU(American Civil Liberties Union)
 Hinweis: Textile umschließt automatisch drei oder mehr Großbuchstaben, z. B. USA mit dem &lt;acronym&gt; Tag, auch wenn es keinen Begriff enthält.
 
 &quot;Weitere Informationen(more information on this tag at diveintoaccessibility.org)&quot;:http://diveintoaccessibility.org/day_17_defining_acronyms.html</field>
-</row>
-
-<row>
-<field name="varname">add_new_author</field>
-<field name="area">admin</field>
-<field name="lang">de-de</field>
-<field name="title">Neuen Autor hinzufügen</field>
-<field name="data_raw">Ein Passwort, eine Willkommensnachricht und Anweisungen zum Login werden dem neuen Autor per E-Mail zugeschickt.</field>
-</row>
-
-<row>
-<field name="varname">admin_side_plugins</field>
-<field name="area">prefs</field>
-<field name="lang">de-de</field>
-<field name="title">Admin-Plugins verwenden</field>
-<field name="data_raw">Admin-Plugins sind spezielle Plugins um die Arbeitsweise des Backends anzupassen. Plugins können sich einhängen in bestehende Funktionen, wie das Verfassen oder Bearbeiten von Artikeln, oder sie können über zusätzliche Tabs neue oder erweiterte Funktionalität für das Backend zur Verfügung stellen.
-
-Admin-Plugins erlauben die Erweiterung von Textpattern für viele verschiedene Zwecke. Für mehr Informationen besuchen Sie das &quot;Forum&quot;:http://forum.textpattern.com von Textpattern.</field>
-</row>
-
-<row>
-<field name="varname">allow_article_php_scripting</field>
-<field name="area">prefs</field>
-<field name="lang">de-de</field>
-<field name="title">PHP in Artikeln erlauben?</field>
-<field name="data_raw">Mit dieser Einstellung kann Autoren in Artikeln die Verwendung von PHP erlaubt werden. Der PHP-Code muss von _txp:php_ tags eingeschlossen sein und der Autor muss ausreichende Rechte haben.
-
-Standardmässig haben nur  _Herausgeber_ und _Leitende Redakteure_ diese Berechtigung.</field>
-</row>
-
-<row>
-<field name="varname">allow_form_override</field>
-<field name="area">prefs</field>
-<field name="lang">de-de</field>
-<field name="title">Baustene überschreiben erlauben?</field>
-<field name="data_raw">Diese Einstellung erlaubt den Autoren von Artikeln, für die Anzeige eines einzelnen Artikels einen anderen als den voreingestellten Baustein zu wählen.
-
-Wenn auf _ja_ gesetzt, ist diese Funktion bei der Eingabe von Artikeln unter &quot;Erweiterte Einstellungen&quot; verfügbar.
-
-</field>
 </row>
 
 <row>

@@ -1,0 +1,5 @@
+h1. Baustene überschreiben erlauben?
+
+Diese Einstellung erlaubt den Autoren von Artikeln, für die Anzeige eines einzelnen Artikels einen anderen als den voreingestellten Baustein zu wählen.
+
+Wenn auf _ja_ gesetzt, ist diese Funktion bei der Eingabe von Artikeln unter &quot;Erweiterte Einstellungen&quot; verfügbar.

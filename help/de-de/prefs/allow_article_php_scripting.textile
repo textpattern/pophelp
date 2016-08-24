@@ -1,0 +1,5 @@
+h1. PHP in Artikeln erlauben?
+
+Mit dieser Einstellung kann Autoren in Artikeln die Verwendung von PHP erlaubt werden. Der PHP-Code muss von _txp:php_ tags eingeschlossen sein und der Autor muss ausreichende Rechte haben.
+
+Standardmässig haben nur  _Herausgeber_ und _Leitende Redakteure_ diese Berechtigung.
