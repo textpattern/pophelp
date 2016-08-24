@@ -1,0 +1,3 @@
+PHP-Code kann in Textpattern nur ausgeführt werden, wenn diese Option aktiviert ist.
+
+Der PHP-Code kann in Page- und Form-Templates mit dem Befehl &lt;code&gt;&lt;txp:php&gt;CODE&lt;/txp:php&gt;&lt;/code&gt; eingebunden werden.

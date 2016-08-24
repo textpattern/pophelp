@@ -1,0 +1,3 @@
+h1. Archivdatumsformat
+
+Gibt an, wie Datumsangaben für Artikel in Untersektionen formatiert werden.
