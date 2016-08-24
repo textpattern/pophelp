@@ -1,3 +1,3 @@
 h1. Preferences: Site slogan
 
-The "site slogan":http://docs.textpattern.io/tags/site-slogan is a summary or description of your site. It will be used as the description of your site wherever required, such as in your RSS/Atom feeds, and may be used at any number of places throughout your site, at your discretion.
+The <a rel="external" target="_blank" href="http://docs.textpattern.io/tags/site_slogan">site slogan</a> is a summary or description of your site. It will be used as the description of your site wherever required, such as in your RSS/Atom feeds, and may be used at any number of places throughout your site, at your discretion.

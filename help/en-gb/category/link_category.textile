@@ -2,6 +2,6 @@ h1. Categories: Links
 
 Link categories are optional, and are useful if you want to display different groupings of links, e.g. ‘Friends’, ‘Romans’, ‘Countrymen’.
 
-Selective link lists such as these are output with the <a href="http://docs.textpattern.io/tags/linklist" target="_blank"><code><txp:linklist /></code> tag</a> like so:
+Selective link lists such as these are output with the <a rel="external" target="_blank" href="http://docs.textpattern.io/tags/linklist"><code><txp:linklist /></code> tag</a> like so:
 
 bc. <code><txp:linklist category="Friends" /></code>.
