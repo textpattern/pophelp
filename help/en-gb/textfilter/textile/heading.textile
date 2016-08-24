@@ -1,6 +1,6 @@
 h1. Textile: Headings
 
-To make an entire paragraph into a heading, place @hn.@ at its beginning, where _n_ is a number from 1 - 6.
+To make an entire paragraph into a heading, place <code>hn.</code> at its beginning, where _n_ is a number from 1 - 6.
 
 h3. Examples
 
@@ -34,4 +34,4 @@ h3. Textile documentation
 
 h3. HTML documentation (via Mozilla Developer Network)
 
-"The @h1@ - @h6@ HTML elements":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements.
+"The <code>h1</code> - <code>h6</code> HTML elements":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements.

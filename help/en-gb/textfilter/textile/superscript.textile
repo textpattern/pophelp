@@ -2,7 +2,7 @@ h1. Textile: Superscript
 
 Use ==^carets^== for text to be rendered ^superscript^.
 
-The @<sup>@ HTML tag is applied:
+The <code><sup></code> HTML tag is applied:
 
 bc. ^a phrase^ → <sup>a phrase</sup>
 
@@ -14,4 +14,4 @@ h3. Textile documentation
 
 h3. HTML documentation (via Mozilla Developer Network)
 
-"The @<sup>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup.
+"The <code><sup></code> HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup.

@@ -1,3 +1,3 @@
 h1. Categories: Images
 
-Image categories are useful both for internal organization, and for defining image sets that can be displayed using the <a href="http://docs.textpattern.io/tags/image-index" target="_blank">@<txp:image_index />@</a> and <a href="http://docs.textpattern.io/tags/image-display" target="_blank">@<txp:image_display />@</a> tags.
+Image categories are useful both for internal organization, and for defining image sets that can be displayed using the <a href="http://docs.textpattern.io/tags/image-index" target="_blank"><code><txp:image_index /></code></a> and <a href="http://docs.textpattern.io/tags/image-display" target="_blank"><code><txp:image_display /></code></a> tags.

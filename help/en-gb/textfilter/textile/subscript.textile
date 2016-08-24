@@ -2,7 +2,7 @@ h1. Textile: Subscript
 
 Use ==~tildes~== for text to be rendered ~subscript~.
 
-The @<sub>@ HTML tag is applied:
+The <code><sub></code> HTML tag is applied:
 
 bc. ~a phrase~ → <sub>a phrase</sub>
 
@@ -14,4 +14,4 @@ h3. Textile documentation
 
 h3. HTML documentation (via Mozilla Developer Network)
 
-"The @<sub>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub.
+"The <code><sub></code> HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub.

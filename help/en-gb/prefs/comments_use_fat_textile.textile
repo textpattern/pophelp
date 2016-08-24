@@ -7,6 +7,6 @@ When set to ‘Yes’, comments may contain "Textile":http://textpattern.com/tex
 * footnotes
 * tables
 * code
-* extended block syntax (@bc..@, @bq..@, etc.)
+* extended block syntax (<code>bc..</code>, <code>bq..</code>, etc.)
 
 p(alert-block information). *Note:* For security reasons, raw HTML is transformed into regular text.

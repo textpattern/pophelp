@@ -1,6 +1,6 @@
 h1. Diagnostics: .htaccess file missing
 
-You are using a permanent link mode which requires an @.htaccess@ file to be placed in your site root directory. The recommended directives are:
+You are using a permanent link mode which requires an <code>.htaccess</code> file to be placed in your site root directory. The recommended directives are:
 
 bc. <IfModule mod_rewrite.c>
     RewriteEngine On

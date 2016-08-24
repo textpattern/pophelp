@@ -1,6 +1,6 @@
 h1. Textile: Definition lists
 
-To make a definition list, place the term in its own paragraph, preceded by @;@. Each definition can then be written on subsequent lines preceded by @:@.
+To make a definition list, place the term in its own paragraph, preceded by <code>;</code>. Each definition can then be written on subsequent lines preceded by <code>:</code>.
 
 h3. Examples
 
@@ -58,7 +58,7 @@ bc. <dl>
   <dd>Friendly community</dd>
 </dl>
 
-p(alert-block information). *Note:* Unmodified paragraphs will be wrapped in @<p>@ tags.
+p(alert-block information). *Note:* Unmodified paragraphs will be wrapped in <code><p></code> tags.
 
 h3. Textile documentation
 
@@ -66,8 +66,8 @@ h3. Textile documentation
 
 h3. HTML documentation (via Mozilla Developer Network)
 
-"The @<dl>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl.
+"The <code><dl></code> HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl.
 
-"The @<dt>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt.
+"The <code><dt></code> HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt.
 
-"The @<dd>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd.
+"The <code><dd></code> HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd.

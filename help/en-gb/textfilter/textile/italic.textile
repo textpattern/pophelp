@@ -2,7 +2,7 @@ h1. Textile: Emphasis
 
 Use ==_underscores_== around text to be _emphasized._
 
-The @<em>@ HTML tag is applied:
+The <code><em></code> HTML tag is applied:
 
 bc. _a phrase_ → <em>a phrase</em>
 
@@ -18,6 +18,6 @@ h3. Textile documentation
 
 h3. HTML documentation (via Mozilla Developer Network)
 
-"The @<em>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em.
+"The <code><em></code> HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em.
 
-"The @<i>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i.
+"The <code><i></code> HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i.

@@ -20,4 +20,4 @@ A *pending* article is considered ready for publication and awaiting approval, b
 
 A *live* article is typically viewable outside the Textpattern administration area (i.e. visible on the Textpattern front side, syndicated in feeds if the preference permits). If an article is live and has an expiration date, the status will remain as live after that date has been reached, but the article only appears outside the administration area if expired articles are permitted to be published.
 
-A *sticky* article is similar to a *live* article insofar as it can be viewed outside the Textpattern administration area but will _not_ appear in article lists unless the respective @article@ or @article_custom@ tag includes a @status@ attribute with a @sticky@ value.
+A *sticky* article is similar to a *live* article insofar as it can be viewed outside the Textpattern administration area but will _not_ appear in article lists unless the respective <code>article</code> or <code>article_custom</code> tag includes a <code>status</code> attribute with a <code>sticky</code> value.

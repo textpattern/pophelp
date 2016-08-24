@@ -2,4 +2,4 @@ h1. Setup: User login
 
 The login name of the administrator (‘Publisher’) account that you will use for administering of your site.
 
-Although there are no restrictions on the name, it is best to avoid complicated character sequences and easily-guessed usernames (e.g. @admin@, @administrator@, etc)
+Although there are no restrictions on the name, it is best to avoid complicated character sequences and easily-guessed usernames (e.g. <code>admin</code>, <code>administrator</code>, etc)

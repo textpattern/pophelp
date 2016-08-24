@@ -2,7 +2,7 @@ h1. Textile: Citations
 
 Use ==??double question marks??== around ??citations??, such as the title of a work being cited.
 
-The @<cite>@ HTML tag is applied:
+The <code><cite></code> HTML tag is applied:
 
 bc. Nabokov’s ??Pnin?? → Nabokov’s <cite>Pnin</cite>
 
@@ -14,4 +14,4 @@ h3. Textile documentation
 
 h3. HTML documentation (via Mozilla Developer Network)
 
-"The @<cite>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite.
+"The <code><cite></code> HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite.

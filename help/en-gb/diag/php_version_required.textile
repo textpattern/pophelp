@@ -13,4 +13,4 @@ In addition to the above system requirements, the following PHP extensions are r
 * "XML":http://www.php.net/manual/en/ref.xml.php
 * "JSON":http://www.php.net/manual/en/ref.json.php
 
-Your @php.ini@ file, either global or local, should contain a @date.timezone@ setting.
+Your <code>php.ini</code> file, either global or local, should contain a <code>date.timezone</code> setting.

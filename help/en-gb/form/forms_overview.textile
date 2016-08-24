@@ -2,7 +2,7 @@ h1. Forms: Introduction
 
 In Textpattern, a form is a snippet or chunk of text, HTML, and Textpattern tags that can be reused to display content.
 
-Here’s an example form which could be named @ordinary_list@:
+Here’s an example form which could be named <code>ordinary_list</code>:
 
 bc. <li>
   <txp:permlink>
@@ -22,4 +22,4 @@ You may also choose to employ a form to display repeated content, such as header
 
 bc. <txp:output_form form="your_form_name" />
 
-A form can be up to 64KB in size. An example for a footer might include headings, paragraphs, links, conditional tags, and references to other forms such as @ordinary_list@.
+A form can be up to 64KB in size. An example for a footer might include headings, paragraphs, links, conditional tags, and references to other forms such as <code>ordinary_list</code>.

@@ -2,7 +2,7 @@ h1. Textile: Inserted text
 
 Use ==+pluses+== around text that has been +inserted+. This is useful in marking changes from one version of a document to the next.
 
-The @<ins>@ HTML tag is applied:
+The <code><ins></code> HTML tag is applied:
 
 bc. +a phrase+ → <ins>a phrase</ins>
 
@@ -14,4 +14,4 @@ h3. Textile documentation
 
 h3. HTML documentation (via Mozilla Developer Network)
 
-"The @<ins>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins.
+"The <code><ins></code> HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins.

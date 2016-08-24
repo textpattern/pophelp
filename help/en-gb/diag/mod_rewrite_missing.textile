@@ -1,3 +1,3 @@
 h1. Diagnostics: Apache mod_rewrite missing
 
-Apache’s @mod_rewrite@ module is not installed, or installed but not enabled. This is recommended for Textpattern to function correctly. Please check your @.htaccess@ file is set up correctly, or contact your host for assistance.
+Apache’s <code>mod_rewrite</code> module is not installed, or installed but not enabled. This is recommended for Textpattern to function correctly. Please check your <code>.htaccess</code> file is set up correctly, or contact your host for assistance.

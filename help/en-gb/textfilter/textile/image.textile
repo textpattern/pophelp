@@ -2,9 +2,9 @@ h1. Textile: Images
 
 To insert an image, put the URL for the image inside exclamation marks.
 
-*Optional:* text that immediately follows the URL in (parentheses) will be used as the @alt@ text for the image (this also adds a @title@ attribute with the same content). Images on the web should always have descriptive @alt@ text for the benefit of readers using non-graphical browsers.
+*Optional:* text that immediately follows the URL in (parentheses) will be used as the <code>alt</code> text for the image (this also adds a <code>title</code> attribute with the same content). Images on the web should always have descriptive <code>alt</code> text for the benefit of readers using non-graphical browsers.
 
-*Optional:* place a colon followed by a URL immediately after the closing @!@ to make the image into a link.
+*Optional:* place a colon followed by a URL immediately after the closing <code>!</code> to make the image into a link.
 
 h3. Examples
 
@@ -36,6 +36,6 @@ h3. Textile documentation
 
 h3. HTML documentation (via Mozilla Developer Network)
 
-"The @<img>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img.
+"The <code><img></code> HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img.
 
-"The @<a>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a.
+"The <code><a></code> HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a.

@@ -1,5 +1,5 @@
 h1. Preferences: Publish expired articles?
 
-When set to ‘Yes’, expired articles will continue to show on your site after their expiry date has elapsed. You can use the <a href="http://docs.textpattern.io/tags/if-expired" target="_blank">@<txp:if_expired />@ tag</a> to show alternate content or markup for expired articles.
+When set to ‘Yes’, expired articles will continue to show on your site after their expiry date has elapsed. You can use the <a href="http://docs.textpattern.io/tags/if-expired" target="_blank"><code><txp:if_expired /></code> tag</a> to show alternate content or markup for expired articles.
 
 When set to ‘No’, expired articles will be removed from the public site and return a "410 Gone" HTTP status instead. The default setting is ‘No’.

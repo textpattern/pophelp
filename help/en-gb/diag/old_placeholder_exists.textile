@@ -1,3 +1,3 @@
 h1. Diagnostics: Section placeholder file exists
 
-As of Textpattern version 4.0, section placeholder files are no longer required, and will conflict with the the new @.htaccess@ scheme. If the reported files are placeholders, please delete them.
+As of Textpattern version 4.0, section placeholder files are no longer required, and will conflict with the the new <code>.htaccess</code> scheme. If the reported files are placeholders, please delete them.

@@ -2,7 +2,7 @@ h1. Textile: Deleted text
 
 Use ==-hyphens-== around text that has been -deleted-. This is useful in marking changes from one version of a document to the next.
 
-The @<del>@ HTML tag is applied:
+The <code><del></code> HTML tag is applied:
 
 bc. -a phrase- → <del>a phrase</del>
 
@@ -14,4 +14,4 @@ h3. Textile documentation
 
 h3. HTML documentation (via Mozilla Developer Network)
 
-"The @<del>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del.
+"The <code><del></code> HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del.

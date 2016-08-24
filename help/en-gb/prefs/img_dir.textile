@@ -4,4 +4,4 @@ If you’d like to customize the name of your images directory, you can do so he
 
 This path is always a *relative path* (to the directory of your root Textpattern installation).
 
-The default is @images@.
+The default is <code>images</code>.

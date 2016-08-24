@@ -1,3 +1,3 @@
 h1. Links: URL
 
-The address of the link. If the link points to a different site, then it must be preceded by @http://@ or @https://@.
+The address of the link. If the link points to a different site, then it must be preceded by <code>http://</code> or <code>https://</code>.

@@ -1,6 +1,6 @@
 h1. Textile: Numerical lists
 
-To make a numerical list, place each item in its own paragraph, preceded by @#@.
+To make a numerical list, place each item in its own paragraph, preceded by <code>#</code>.
 
 h3. Example
 
@@ -34,7 +34,7 @@ Which, when rendered by a browser, will appear like this:
 # A third item
 # A fourth item
 
-p(alert-block information). *Note:* Unmodified paragraphs will be wrapped in @<p>@ tags.
+p(alert-block information). *Note:* Unmodified paragraphs will be wrapped in <code><p></code> tags.
 
 h3. Textile documentation
 
@@ -42,6 +42,6 @@ h3. Textile documentation
 
 h3. HTML documentation (via Mozilla Developer Network)
 
-"The @<ol>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol.
+"The <code><ol></code> HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol.
 
-"The @<li>@ HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li.
+"The <code><li></code> HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li.

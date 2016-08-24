@@ -2,4 +2,4 @@ h1. Images: Upload image
 
 Upload one or more images to your server.
 
-Upon upload to the @images@ directory, the filename of your original image will be kept only internally in Textpattern’s database; the image file itself will be renamed to a sequential number + file extension.
+Upon upload to the <code>images</code> directory, the filename of your original image will be kept only internally in Textpattern’s database; the image file itself will be renamed to a sequential number + file extension.
