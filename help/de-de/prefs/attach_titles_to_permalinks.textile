@@ -1,0 +1,9 @@
+h1. Titel zu Permalinks anfügen
+
+Diese Einstellung fügt dem URL eines Artikels eine verzeichnisartige Version seines Titels an. Das geschieht entweder automatisch, kann aber auch manuell unter &quot;Erweiterte Einstellungen&quot; bei der Bearbeitung eines Artikels vorgenommen werden.
+
+Diese Einstellung ist nur wirksam, wenn in 'Administration' &gt; 'Einstellungen' &gt; 'Schema der URLs' '/sektion/id/titel' oder ein anderes &quot;sauberes&quot; Schema ausgewählt ist. Oder in anderen Worten, es funktioniert nicht mit &quot;unordentlichen&quot; URLs.
+
+In einigen Sprachen kann das zu langen und hässlichen URLs führen. Für für diese Fälle kann die Einstellung auf _nein_ gesetzt werden.
+
+Umlaute in Titeln werden umgewandelt nach 'ae', 'oe' und 'ue'.

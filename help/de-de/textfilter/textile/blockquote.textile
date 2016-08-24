@@ -1,0 +1,32 @@
+h1. Zitatblock
+
+Um einen Absatz oder eine Zeile als Zitatblock zu formatieren und einzurücken, setzten Sie &quot;bq. &quot; an den Anfang.
+
+Beispiel:
+
+bq. Any old text.
+
+bq. bq. A block quotation.
+
+bq. Any old text.
+
+wird zu:
+
+bq. &lt;p&gt;Any old text.&lt;/p&gt;
+
+bq. &lt;blockquote&gt;A block quotation.&lt;/blockquote&gt;
+
+bq. &lt;p&gt;Any old text.&lt;/p&gt;
+
+
+Im Browser wird der Text so dargestellt:
+
+Any old text.
+
+bq. A block quotation.
+
+Any old text.
+
+&lt;small&gt;Hinweis: Unveränderte Absätze werden von &lt;p&gt; tags eingeschlossen.&lt;/small&gt;
+
+&quot;Weitere Informationen&quot;:http://www.htmlhelp.com/reference/html40/block/blockquote.html</field>
