@@ -1,4 +1,0 @@
-files:
-  -
-    source: '/crowdin-sync/en-GB/pophelp.xml'
-    translation: '/crowdin-sync/%locale%/%original_file_name%'
