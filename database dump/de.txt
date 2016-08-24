@@ -1,48 +1,4 @@
 <row>
-<field name="varname">acronym</field>
-<field name="area">textile</field>
-<field name="lang">de-de</field>
-<field name="title">Abkürzungen</field>
-<field name="data_raw">HTML(HyperText Markup Language) erlaubt es, über das Tag @&lt;acronym&gt;@ eine Abkürzung einzugeben. Sie erscheint als Tool-Tip, wenn der Leser mit der Maus über die Abkürzung fährt.
-
-Um eine Abkürzung mit Textile zu definieren, muss der ausgeschriebene Begriff in (Klammern) direkt hinter die Abkürzung geschrieben werden.
-
-*Beispiel*
-
-@ACLU(American Civil Liberties Union)@
-
-Wird zu
-
-@&lt;acronym title=&quot;American Civil Liberties Union&quot;&gt;ACLU&lt;/acronym&gt;@
-
-Die Darstellung im Browser sieht wie folgt aus (bitte mit der Maus über den Text fahren):
-
-bq. ACLU(American Civil Liberties Union)
-
-Hinweis: Textile umschließt automatisch drei oder mehr Großbuchstaben, z. B. USA mit dem &lt;acronym&gt; Tag, auch wenn es keinen Begriff enthält.
-
-&quot;Weitere Informationen(more information on this tag at diveintoaccessibility.org)&quot;:http://diveintoaccessibility.org/day_17_defining_acronyms.html</field>
-</row>
-
-<row>
-<field name="varname">allow_page_php_scripting</field>
-<field name="area">prefs</field>
-<field name="lang">de-de</field>
-<field name="title"></field>
-<field name="data_raw">PHP-Code kann in Textpattern nur ausgeführt werden, wenn diese Option aktiviert ist.
-
-Der PHP-Code kann in Page- und Form-Templates mit dem Befehl &lt;code&gt;&lt;txp:php&gt;CODE&lt;/txp:php&gt;&lt;/code&gt; eingebunden werden.</field>
-</row>
-
-<row>
-<field name="varname">archive_dateformat</field>
-<field name="area">prefs</field>
-<field name="lang">de-de</field>
-<field name="title">Archivdatumsformat</field>
-<field name="data_raw">Gibt an, wie Datumsangaben für Artikel in Untersektionen formatiert werden.</field>
-</row>
-
-<row>
 <field name="varname">archive_date_case</field>
 <field name="area">prefs</field>
 <field name="lang">de-de</field>
@@ -53,50 +9,17 @@ Groß- und Kleinbuchstaben sind als Standard voreingestellt.</field>
 </row>
 
 <row>
-<field name="varname">articles_use_excerpts</field>
-<field name="area">prefs</field>
-<field name="lang">de-de</field>
-<field name="title">Artikel verwenden Exzerpte?</field>
-<field name="data_raw">Das Feld &quot;Exzerpt&quot; wird beim Bearbeiten von Artikeln nicht angezeigt, wenn hier _nein_ gewählt wird.</field>
-</row>
-
-<row>
-<field name="varname">article_category</field>
-<field name="area">category</field>
-<field name="lang">de-de</field>
-<field name="title">Artikelkategorien</field>
-<field name="data_raw">Anders als &quot;Sektionen&quot;:http://www.textpattern.com/help/?item=section_category&amp;language=de-de, die die Navigationsstruktur einer Seite bilden, bieten Kategorien die Möglichkeit Artikel inhaltlich zu organisieren. Sobald Kategorien zugewiesen wurden, können Artikellisten bestimmter Kategorien angezeigt und durchsucht werden.
-
-Auf einer Seite über Lebensmittel könnten die Kategorien beispielsweise wie folgt aussehen:
-
-* Zutaten
-* Einkaufen
-* Rezepte
-* Zubereitung
-* Restaurants
-* Köche</field>
-</row>
-
-<row>
-<field name="varname">article_image</field>
-<field name="area">article</field>
-<field name="lang">de-de</field>
-<field name="title">Artikelbild</field>
-<field name="data_raw">Um ein einzelnes Bild mit dem Artikel zu verknüpfen, geben Sie hier den URL oder die Textpattern-ID des Bildes ein.
-
-Um das Bild anzuzeigen, muss folgender Tag innerhalb eines Bausteins für Artikel verwendet werden:
-
-@&lt;txp:article_image /&gt;@
-</field>
-</row>
-
-<row>
 <field name="varname">article_template</field>
 <field name="area">prefs</field>
 <field name="lang">de-de</field>
 <field name="title">Standardtemplate für Artikel</field>
 <field name="data_raw">Dies ist das Standardtemplate für die Formatierungvon Artikeln auf der Startseite der Webseite.</field>
 </row>
+
+
+
+
+
 
 <row>
 <field name="varname">attach_titles_to_permalinks</field>

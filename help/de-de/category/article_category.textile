@@ -1,0 +1,12 @@
+h1. Artikelkategorien
+
+Anders als &quot;Sektionen&quot;:http://www.textpattern.com/help/?item=section_category&amp;language=de-de, die die Navigationsstruktur einer Seite bilden, bieten Kategorien die Möglichkeit Artikel inhaltlich zu organisieren. Sobald Kategorien zugewiesen wurden, können Artikellisten bestimmter Kategorien angezeigt und durchsucht werden.
+
+Auf einer Seite über Lebensmittel könnten die Kategorien beispielsweise wie folgt aussehen:
+
+* Zutaten
+* Einkaufen
+* Rezepte
+* Zubereitung
+* Restaurants
+* Köche
