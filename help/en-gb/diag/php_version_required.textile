@@ -2,15 +2,39 @@ h1. Diagnostics: Minimum version requirements
 
 Textpattern requires certain functionality present in the PHP programming language and MySQL database server. Please consult the following table to determine the minimum system requirements for the version of Textpattern you have downloaded:
 
-|_. Textpattern version |_. PHP version |_. MySQL version |
-| 4.6.x | 5.3.3 | 4.1 |
-| 4.5.x | 5.2.3 | 4.1 |
-| 4.0.1 - 4.4.1 | 4.3 | 3.23 |
+<div class="txp-listtables">
+    <table class="txp-list">
+        <thead>
+            <tr>
+                <th scope="col">Textpattern version</th>
+                <th scope="col">PHP version</th>
+                <th scope="col">MySQL version</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">4.6.x</th>
+                <td>5.3.3</td>
+                <td>4.1</td>
+            </tr>
+            <tr>
+                <th scope="row">4.5.x</th>
+                <td>5.2.3</td>
+                <td>4.1</td>
+            </tr>
+            <tr>
+                <th scope="row">4.0.1 - 4.4.1</th>
+                <td>4.3</td>
+                <td>3.23</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
 In addition to the above system requirements, the following PHP extensions are required:
 
-* "MySQL":http://www.php.net/manual/en/ref.mysql.php
-* "XML":http://www.php.net/manual/en/ref.xml.php
-* "JSON":http://www.php.net/manual/en/ref.json.php
+* <a rel="external" target="_blank" href="http://www.php.net/manual/en/ref.mysql.php">MySQL</a>
+* <a rel="external" target="_blank" href="http://www.php.net/manual/en/ref.xml.php">XML</a>
+* <a rel="external" target="_blank" href="http://www.php.net/manual/en/ref.json.php">JSON</a>
 
 Your <code>php.ini</code> file, either global or local, should contain a <code>date.timezone</code> setting.
