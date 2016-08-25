@@ -33,8 +33,8 @@ Textpattern requires certain functionality present in the PHP programming langua
 
 In addition to the above system requirements, the following PHP extensions are required:
 
-* <a rel="external" target="_blank" href="http://www.php.net/manual/en/ref.mysql.php">MySQL</a>
-* <a rel="external" target="_blank" href="http://www.php.net/manual/en/ref.xml.php">XML</a>
-* <a rel="external" target="_blank" href="http://www.php.net/manual/en/ref.json.php">JSON</a>
+* <a rel="external" target="_blank" href="https://secure.php.net/manual/en/ref.mysql.php">MySQL</a>
+* <a rel="external" target="_blank" href="https://secure.php.net/manual/en/ref.xml.php">XML</a>
+* <a rel="external" target="_blank" href="https://secure.php.net/manual/en/ref.json.php">JSON</a>
 
 Your <code>php.ini</code> file, either global or local, should contain a <code>date.timezone</code> setting.

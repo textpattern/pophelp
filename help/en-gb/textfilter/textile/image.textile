@@ -32,10 +32,10 @@ Which, when rendered by a browser, will appear like this:
 
 h3. Textile documentation
 
-"More information on images in Textile":http://textpattern.com/textile-image.
+<a rel="external" target="_blank" href="http://textpattern.com/textile-image">More information on images in Textile</a>.
 
 h3. HTML documentation (via Mozilla Developer Network)
 
-"The <code><img></code> HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img.
+<a rel="external" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">The <code><img></code> HTML element</a>.
 
-"The <code><a></code> HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a.
+<a rel="external" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">The <code><a></code> HTML element</a>.

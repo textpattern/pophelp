@@ -10,8 +10,8 @@ p(alert-block information). *Note:* quick tags must open and close within a sing
 
 h3. Textile documentation
 
-"More information on citation in Textile":http://textpattern.com/textile-cite.
+<a rel="external" target="_blank" href="http://textpattern.com/textile-cite">More information on citation in Textile</a>.
 
 h3. HTML documentation (via Mozilla Developer Network)
 
-"The <code><cite></code> HTML element":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite.
+<a rel="external" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite">The <code><cite></code> HTML element</a>.

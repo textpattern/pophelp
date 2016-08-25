@@ -8,5 +8,5 @@ h3. Tips
 * Use numbers
 * Use symbols
 * Make it at least eight characters in length
-* *Avoid* any personal information (dates, names, places, family members, pets etc.)
+* *Avoid* any personal information (dates, names, places, family members, pets, etc.)
 * *Avoid* any sole or repeated dictionary words, regardless of spelling, language or case

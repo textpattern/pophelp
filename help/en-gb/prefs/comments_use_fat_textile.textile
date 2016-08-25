@@ -1,6 +1,6 @@
 h1. Preferences: Allow more Textile markup in comments?
 
-When set to ‘Yes’, comments may contain "Textile":http://textpattern.com/textile-sandbox elements which would otherwise be treated as plain text, such as:
+When set to ‘Yes’, comments may contain <a rel="external" target="_blank" href="http://textpattern.com/textile-sandbox">Textile</a> elements which would otherwise be treated as plain text, such as:
 
 * headings
 * ordered and unordered lists

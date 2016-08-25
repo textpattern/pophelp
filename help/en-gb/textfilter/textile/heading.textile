@@ -30,8 +30,8 @@ p(alert-block information). *Note:* Quick tags must open and close within a sing
 
 h3. Textile documentation
 
-"More information on headings in Textile":http://textpattern.com/textile-heading.
+<a rel="external" target="_blank" href="http://textpattern.com/textile-heading">More information on headings in Textile</a>.
 
 h3. HTML documentation (via Mozilla Developer Network)
 
-"The <code>h1</code> - <code>h6</code> HTML elements":https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements.
+<a rel="external" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements">The <code>h1</code> - <code>h6</code> HTML elements</a>.

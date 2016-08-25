@@ -1,3 +1,3 @@
 h1. Preferences: Enable XML-RPC server?
 
-If you wish to use "XML-RPC":http://en.wikipedia.org/wiki/XML-RPC for controlling Textpattern remotely (e.g. desktop or mobile apps) you must switch the XML-RPC server on by setting this to ‘Yes’.
+If you wish to use <a rel="external" target="_blank" href="https://en.wikipedia.org/wiki/XML-RPC">XML-RPC</a> for controlling Textpattern remotely (e.g. desktop or mobile apps) you must switch the XML-RPC server on by setting this to ‘Yes’.
