@@ -1,0 +1,3 @@
+h1. Kommentierung ausschalten
+
+Soll die Möglichkeit der Kommentareingabe beendet werden, verwendet man diese Einstellung.

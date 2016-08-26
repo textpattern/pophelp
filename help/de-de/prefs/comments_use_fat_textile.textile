@@ -1,0 +1,10 @@
+Wenn diese Voreinstellung auf 'ja' steht, werden zusätzliche Textile-Elemente erlaubt, die ansonsten als normaler Text behandelt würden:
+
+* Geordnete und ungeordnete Listen
+* @code@-Elemente
+* Erweiterte Blöcke (@bc..@, @bq..@, etc.)
+* Überschriften h1-h6
+* Fußnoten
+* Tabellen
+
+Aus naheliegenden Sicherheitsgründen wird HTML zu regulärem Text gewandelt.

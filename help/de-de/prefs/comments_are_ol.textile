@@ -1,0 +1,9 @@
+h1. Kommentare als nummerierte Liste anhängen
+
+Diese Option legt fest, ob die Liste der Kommentare mit dem @&lt;ol&gt;@-Tag und die einzelnen Kommentare mit dem @&lt;li&gt;@-Tag umschlossen werden sollen.
+
+Wenn Sie diese Option auf &quot;Ja&quot; setzen, erhalten Sie eine nummerierte Liste der Kommentare.
+
+Sie können diese Option in den Bausteinen mit dem Tag @&lt;txp:comments /&gt;@ überschreiben.
+
+Siehe Textbook: &quot;comments&quot;:http://textbook.textpattern.net/wiki/index.php?title=Txp:comments_/.

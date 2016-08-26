@@ -1,0 +1,3 @@
+h1. E-Mail des Benutzers für Kommentare erforderlich?
+
+Wenn auf _ja_ eingestellt, muss im Formular für Kommentare eine E-Mail Adresse angegeben werden. Wenn sie fehlt, wird eine Fehlermeldung angezeigt.

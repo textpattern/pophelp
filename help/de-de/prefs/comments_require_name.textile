@@ -1,0 +1,3 @@
+h1. Name des Benutzers für Kommentare erforderlich?
+
+Wenn auf _ja_ eingestellt, muss im Formular für Kommentare ein Name angegeben werden. Ohne Name wird eine Fehlermeldung angezeigt.

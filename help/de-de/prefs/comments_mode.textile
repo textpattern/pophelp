@@ -1,0 +1,5 @@
+h1. Kommentar Modus
+
+Ist das Auswahlfeld 'popup' aktiviert, öffnet sich der Kommentar in einem neuen Fenster , wenn der Verweis &quot;Kommentar&quot; angeklickt wird.
+
+Ist das Auswahlfeld 'no popup' aktiviert, aktualisiert sich das aktive Fenster. Nur der aktuelle Artikel mit Kommentaren darunter wird angezeigt.

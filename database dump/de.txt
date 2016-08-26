@@ -16,14 +16,6 @@ Groß- und Kleinbuchstaben sind als Standard voreingestellt.</field>
 <field name="data_raw">Dies ist das Standardtemplate für die Formatierungvon Artikeln auf der Startseite der Webseite.</field>
 </row>
 
-
-
-
-
-
-
-
-
 <row>
 <field name="varname">comments_allowable_tags</field>
 <field name="area">prefs</field>
@@ -43,28 +35,6 @@ Im nächsten Feld können die erlaubten Tags eingeschränkt werden.</field>
 </row>
 
 <row>
-<field name="varname">comments_are_ol</field>
-<field name="area">prefs</field>
-<field name="lang">de-de</field>
-<field name="title">Kommentare als nummerierte Liste anhängen</field>
-<field name="data_raw">Diese Option legt fest, ob die Liste der Kommentare mit dem @&lt;ol&gt;@-Tag und die einzelnen Kommentare mit dem @&lt;li&gt;@-Tag umschlossen werden sollen.
-
-Wenn Sie diese Option auf &quot;Ja&quot; setzen, erhalten Sie eine nummerierte Liste der Kommentare.
-
-Sie können diese Option in den Bausteinen mit dem Tag @&lt;txp:comments /&gt;@ überschreiben.
-
-Siehe Textbook: &quot;comments&quot;:http://textbook.textpattern.net/wiki/index.php?title=Txp:comments_/.</field>
-</row>
-
-<row>
-<field name="varname">comments_dateformat</field>
-<field name="area">prefs</field>
-<field name="lang">de-de</field>
-<field name="title"></field>
-<field name="data_raw">Ähm, das Datumsformat für die Kommentare!</field>
-</row>
-
-<row>
 <field name="varname">comments_date_case</field>
 <field name="area">prefs</field>
 <field name="lang">de-de</field>
@@ -72,118 +42,10 @@ Siehe Textbook: &quot;comments&quot;:http://textbook.textpattern.net/wiki/index.
 <field name="data_raw">Gibt das Datumformat für Kommentare an.</field>
 </row>
 
-<row>
-<field name="varname">comments_default_invite</field>
-<field name="area">prefs</field>
-<field name="lang">de-de</field>
-<field name="title">Standard Kommentareinstellung</field>
-<field name="data_raw">Sofern Besuchern der Webseite das Kommentieren erlaubt ist, handelt es sich hierbei um die Standardeinstellungen.
 
-Die Einstellungen können pro Artikel durch Anfügen eines extra erstellten Bausteins geändert werden. </field>
-</row>
 
-<row>
-<field name="varname">comments_disabled_after</field>
-<field name="area">prefs</field>
-<field name="lang">de-de</field>
-<field name="title">Kommentierung ausschalten</field>
-<field name="data_raw">Soll die Möglichkeit der Kommentareingabe beendet werden, verwendet man diese Einstellung.</field>
-</row>
 
-<row>
-<field name="varname">comments_disallow_images</field>
-<field name="area">prefs</field>
-<field name="lang">de-de</field>
-<field name="title">Benutzerbilder nicht erlauben</field>
-<field name="data_raw">Wird diese Option auf  'Ja' gesetzt, werden Bilder in Kommentaren nicht angezeigt.</field>
-</row>
 
-<row>
-<field name="varname">comments_mode</field>
-<field name="area">prefs</field>
-<field name="lang">de-de</field>
-<field name="title">Kommentar Modus</field>
-<field name="data_raw">Ist das Auswahlfeld 'popup' aktiviert, öffnet sich der Kommentar in einem neuen Fenster , wenn der Verweis &quot;Kommentar&quot; angeklickt wird.
-
-Ist das Auswahlfeld 'no popup' aktiviert, aktualisiert sich das aktive Fenster. Nur der aktuelle Artikel mit Kommentaren darunter wird angezeigt.</field>
-</row>
-
-<row>
-<field name="varname">comments_moderate</field>
-<field name="area">discuss</field>
-<field name="lang">de-de</field>
-<field name="title">Kommentare moderieren</field>
-<field name="data_raw">Wenn diese Option aktiviert ist, sind neue Kommentare erst sichtbar, wenn diese geprüft und freigegeben wurden.</field>
-</row>
-
-<row>
-<field name="varname">comments_on_default</field>
-<field name="area">prefs</field>
-<field name="lang">de-de</field>
-<field name="title">“Kommentare annehmen</field>
-<field name="data_raw">Ist diese Funktion ausgewählt, können automatisch Kommentare zu jedem veröffentlichten Artikel abgesetzt werden. Ist diese Funktion nicht ausgewählt, muss, jedes Mal &quot;Kommentare annehmen&quot; angeklickt werden, um Kommentare anzunehmen.
-
-Es ist jederzeit möglich, das Annehmen von Kommentaren zuzulassen oder nicht, auch auf Artikelbasis.</field>
-</row>
-
-<row>
-<field name="varname">comments_require_email</field>
-<field name="area">prefs</field>
-<field name="lang">de-de</field>
-<field name="title">E-Mail des Benutzers für Kommentare erforderlich?</field>
-<field name="data_raw">Wenn auf _ja_ eingestellt, muss im Formular für Kommentare eine E-Mail Adresse angegeben werden. Wenn sie fehlt, wird eine Fehlermeldung angezeigt.</field>
-</row>
-
-<row>
-<field name="varname">comments_require_name</field>
-<field name="area">prefs</field>
-<field name="lang">de-de</field>
-<field name="title">Name des Benutzers für Kommentare erforderlich? </field>
-<field name="data_raw">Wenn auf _ja_ eingestellt, muss im Formular für Kommentare ein Name angegeben werden. Ohne Name wird eine Fehlermeldung angezeigt.</field>
-</row>
-
-<row>
-<field name="varname">comments_sendmail</field>
-<field name="area">prefs</field>
-<field name="lang">de-de</field>
-<field name="title">E-Mail Benachrichtigung bei Kommentaren</field>
-<field name="data_raw">Wird diese Einstellung aktiviert, erhält der Autor des Artikels eine Kopie per E-Mail.</field>
-</row>
-
-<row>
-<field name="varname">comments_use_fat_textile</field>
-<field name="area">prefs</field>
-<field name="lang">de-de</field>
-<field name="title"></field>
-<field name="data_raw">Wenn diese Voreinstellung auf 'ja' steht, werden zusätzliche Textile-Elemente erlaubt, die ansonsten als normaler Text behandelt würden:
-
-* Geordnete und ungeordnete Listen
-* @code@-Elemente
-* Erweiterte Blöcke (@bc..@, @bq..@, etc.)
-* Überschriften h1-h6
-* Fußnoten
-* Tabellen
-
-Aus naheliegenden Sicherheitsgründen wird HTML zu regulärem Text gewandelt. </field>
-</row>
-
-<row>
-<field name="varname">comment_means_site_updated</field>
-<field name="area">prefs</field>
-<field name="lang">de-de</field>
-<field name="title">Neue Kommentare setzen Seitenstatus auf akutalisiert</field>
-<field name="data_raw">Die Datenbank speichert, wann die Seite zum letzten Mal aktualisiert wurde. Wenn Sie die Option &quot;Ja&quot; wählen, aktualisiert ein neuer Kommentar den Wert der letzten Änderung.
-
-Dieser Wert wird zum Beispiel verwendt, wenn Sie die Option &quot;Sende Last-Modified Header&quot; aktiviert haben.</field>
-</row>
-
-<row>
-<field name="varname">comment_nofollow</field>
-<field name="area">prefs</field>
-<field name="lang">de-de</field>
-<field name="title">Nofollow bei Kommentaren verwenden</field>
-<field name="data_raw">Diese Einstellung fügt zu Links, die in Kommentaren verwendet werden, das &quot;nofollow&quot; Attribut hinzu. Das ist eine Maßnahme um den Anreiz für Kommentar-Spammer zu vermindern. Sie wurde von Suchmaschinenbetreibern und Software-Entwicklern eingeführt. Mehr Informationen dazu finden sie in dieser &quot;Ankündigung von Google&quot;:http://googleblog.blogspot.com/2005/01/preventing-comment-spam.html (in Englisch).</field>
-</row>
 
 <row>
 <field name="varname">css_mode</field>
