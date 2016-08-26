@@ -1,16 +1,16 @@
 h1. Textile: Emphasis
 
-Use ==_underscores_== around text to be _emphasized._
+Use ==_underscores_== around text to be <em>emphasized</em>.
 
 The <code><em></code> HTML tag is applied:
 
 bc. _a phrase_ → <em>a phrase</em>
 
-If the text is not meant to have *structural* emphasis, but simply to be styled in __italic__ (e.g. as a design element) use double underscores:
+If the text is not meant to have <strong>structural</strong> emphasis, but simply to be styled in <i>italic</i> (e.g. as a design element) use double underscores:
 
 bc. __a phrase__ → <i>a phrase</i>
 
-p(alert-block information). *Note:* Quick tags must open and close within a single paragraph to produce valid markup.
+p(alert-block information). <strong>Note:</strong> Quick tags must open and close within a single paragraph to produce valid markup.
 
 h3. Textile documentation
 

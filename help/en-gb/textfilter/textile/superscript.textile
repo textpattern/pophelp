@@ -6,7 +6,7 @@ The <code><sup></code> HTML tag is applied:
 
 bc. ^a phrase^ → <sup>a phrase</sup>
 
-p(alert-block information). *Note:* Quick tags must open and close within a single paragraph to produce valid markup.
+p(alert-block information). <strong>Note:</strong> Quick tags must open and close within a single paragraph to produce valid markup.
 
 h3. Textile documentation
 

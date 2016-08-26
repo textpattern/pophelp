@@ -48,14 +48,14 @@ h3. Freelancer
 
 * can manage own articles in a limited sense:
 ** can only modify article until is published
-** can apply status of _only_ Draft, Hidden or Pending
+** can apply status of <em>only</em> Draft, Hidden or Pending
 * can view other users’ articles
 
 h3. Designer
 
 * can manage own articles in a limited sense:
 ** can only modify article until is published
-** can apply status of _only_ Draft, Hidden or Pending
+** can apply status of <em>only</em> Draft, Hidden or Pending
 * can view other users’ articles
 * can manage images
 * can manage sections

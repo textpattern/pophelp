@@ -58,7 +58,7 @@ bc. <dl>
   <dd>Friendly community</dd>
 </dl>
 
-p(alert-block information). *Note:* Unmodified paragraphs will be wrapped in <code><p></code> tags.
+p(alert-block information). <strong>Note:</strong> Unmodified paragraphs will be wrapped in <code><p></code> tags.
 
 h3. Textile documentation
 

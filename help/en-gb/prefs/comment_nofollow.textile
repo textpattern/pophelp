@@ -2,4 +2,4 @@ h1. Preferences: Apply rel="nofollow" to comments?
 
 If set to ‘Yes’, this will add an additional attribute to the links made in comments. It is intended to be a measure that takes away the incentive for comment spammers and was initiated by a range of search engines and software developers. You can find out more by reading <a rel="external" target="_blank" href="https://googleblog.blogspot.com/2005/01/preventing-comment-spam.html">Google’s announcement</a>.
 
-p(alert-block information). *Note:* This setting does not influence the functionality of your site. It may prevent or diminish the influence of your comments when some search engines rank sites linked to from those comments.
+p(alert-block information). <strong>Note:</strong> This setting does not influence the functionality of your site. It may prevent or diminish the influence of your comments when some search engines rank sites linked to from those comments.

@@ -34,7 +34,7 @@ Which, when rendered by a browser, will appear like this:
 # A third item
 # A fourth item
 
-p(alert-block information). *Note:* Unmodified paragraphs will be wrapped in <code><p></code> tags.
+p(alert-block information). <strong>Note:</strong> Unmodified paragraphs will be wrapped in <code><p></code> tags.
 
 h3. Textile documentation
 

@@ -2,4 +2,4 @@ h1. Preferences: Site URL
 
 This is the address of your Textpattern site, for example <code>www.example.com</code>.
 
-p(alert-block information). *Note:* No <code>http://</code>, <code>https://</code> or trailing slash <code>/</code> is required.
+p(alert-block information). <strong>Note:</strong> No <code>http://</code>, <code>https://</code> or trailing slash <code>/</code> is required.

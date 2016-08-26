@@ -2,6 +2,6 @@ h1. Preferences: Image directory
 
 If you’d like to customize the name of your images directory, you can do so here. You must first create the directory in the root of your Textpattern installation, you should also make sure that PHP is able to write to that directory.
 
-This path is always a *relative path* (to the directory of your root Textpattern installation).
+This path is always a <strong>relative path</strong> (to the directory of your root Textpattern installation).
 
 The default is <code>images</code>.

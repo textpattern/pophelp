@@ -1,6 +1,6 @@
 h1. Textile: Headings
 
-To make an entire paragraph into a heading, place <code>hn.</code> at its beginning, where _n_ is a number from 1 - 6.
+To make an entire paragraph into a heading, place <code>hn.</code> at its beginning, where <em>n</em> is a number from 1 - 6.
 
 h3. Examples
 
@@ -26,7 +26,7 @@ h2. Heading 2
 
 h3. Heading 3
 
-p(alert-block information). *Note:* Quick tags must open and close within a single paragraph to produce valid markup.
+p(alert-block information). <strong>Note:</strong> Quick tags must open and close within a single paragraph to produce valid markup.
 
 h3. Textile documentation
 

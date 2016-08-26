@@ -2,9 +2,9 @@ h1. Textile: Images
 
 To insert an image, put the URL for the image inside exclamation marks.
 
-*Optional:* text that immediately follows the URL in (parentheses) will be used as the <code>alt</code> text for the image (this also adds a <code>title</code> attribute with the same content). Images on the web should always have descriptive <code>alt</code> text for the benefit of readers using non-graphical browsers.
+<strong>Optional:</strong> text that immediately follows the URL in (parentheses) will be used as the <code>alt</code> text for the image (this also adds a <code>title</code> attribute with the same content). Images on the web should always have descriptive <code>alt</code> text for the benefit of readers using non-graphical browsers.
 
-*Optional:* place a colon followed by a URL immediately after the closing <code>!</code> to make the image into a link.
+<strong>Optional:</strong> place a colon followed by a URL immediately after the closing <code>!</code> to make the image into a link.
 
 h3. Examples
 

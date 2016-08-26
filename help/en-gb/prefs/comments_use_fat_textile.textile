@@ -9,4 +9,4 @@ When set to ‘Yes’, comments may contain <a rel="external" target="_blank" hr
 * code
 * extended block syntax (<code>bc..</code>, <code>bq..</code>, etc.)
 
-p(alert-block information). *Note:* For security reasons, raw HTML is transformed into regular text.
+p(alert-block information). <strong>Note:</strong> For security reasons, raw HTML is transformed into regular text.

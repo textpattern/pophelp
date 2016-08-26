@@ -2,7 +2,7 @@ h1. Textile: Links
 
 To make a hypertext link, put the link text in =="quotation marks"== followed immediately by a colon and the URL of the link.
 
-*Optional:* text in (parentheses) following the link text, but before the closing quotation mark, will become a <code>title</code> attribute for the link, visible as a tooltip when a cursor is above it.
+<strong>Optional:</strong> text in (parentheses) following the link text, but before the closing quotation mark, will become a <code>title</code> attribute for the link, visible as a tooltip when a cursor is above it.
 
 h3. Example (standard links)
 

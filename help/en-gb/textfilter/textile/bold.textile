@@ -1,16 +1,16 @@
 h1. Textile: Strong emphasis
 
-Use ==*asterisks*== for text to be *strongly emphasized*.
+Use ==*asterisks*== for text to be <strong>strongly emphasized</strong>.
 
 The <code><strong></code> HTML tag is applied:
 
 bc. *a phrase* → <strong>a phrase</strong>
 
-If the text is not meant to have *structural* emphasis, but simply to be styled in **bold** (e.g. as a design element) use double asterisks:
+If the text is not meant to have <strong>structural</strong> emphasis, but simply to be styled in <b>bold</b> (e.g. as a design element) use double asterisks:
 
 bc. **a phrase** → <b>a phrase</b>
 
-p(alert-block information). *Note:* Quick tags must open and close within a single paragraph to produce valid markup.
+p(alert-block information). <strong>Note:</strong> Quick tags must open and close within a single paragraph to produce valid markup.
 
 h3. Textile documentation
 

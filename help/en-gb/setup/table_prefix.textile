@@ -4,5 +4,5 @@ You only need to use a table prefix if you require multiple Textpattern installa
 
 Note that the prefix must adhere to the following rules:
 
-* *1st character:* must be a-z, A-Z, or underscore
-* *Subsequent characters:* can only be a-z, A-Z, 0-9, or underscore
+* <strong>1st character:</strong> must be a-z, A-Z, or underscore
+* <strong>Subsequent characters:</strong> can only be a-z, A-Z, 0-9, or underscore
