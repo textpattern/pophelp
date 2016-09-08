@@ -32,10 +32,10 @@ Which, when rendered by a browser, will appear like this:
 
 h3. Textile documentation
 
-<a rel="external" target="_blank" href="http://textpattern.com/textile-image">More information on images in Textile</a>.
+<a rel="external" target="_blank" href="http://textpattern.com/textile-image">More information on images in Textile <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>.
 
 h3. HTML documentation (via Mozilla Developer Network)
 
-<a rel="external" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">The <code><img></code> HTML element</a>.
+<a rel="external" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">The <code><img></code> HTML element <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>.
 
-<a rel="external" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">The <code><a></code> HTML element</a>.
+<a rel="external" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">The <code><a></code> HTML element <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>.

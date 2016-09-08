@@ -62,12 +62,12 @@ p(alert-block information). <strong>Note:</strong> Unmodified paragraphs will be
 
 h3. Textile documentation
 
-<a rel="external" target="_blank" href="http://textpattern.com/textile-dl-list">More information on definition lists in Textile</a>.
+<a rel="external" target="_blank" href="http://textpattern.com/textile-dl-list">More information on definition lists in Textile <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>.
 
 h3. HTML documentation (via Mozilla Developer Network)
 
-<a rel="external" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl">The <code><dl></code> HTML element</a>.
+<a rel="external" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl">The <code><dl></code> HTML element <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>.
 
-<a rel="external" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt">The <code><dt></code> HTML element</a>.
+<a rel="external" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt">The <code><dt></code> HTML element <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>.
 
-<a rel="external" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd">The <code><dd></code> HTML element</a>.
+<a rel="external" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd">The <code><dd></code> HTML element <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>.
