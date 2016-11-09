@@ -1,3 +1,0 @@
-h1. Neuen Autor hinzufügen
-
-Ein Passwort, eine Willkommensnachricht und Anweisungen zum Login werden dem neuen Autor per E-Mail zugeschickt.

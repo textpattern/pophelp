@@ -1,9 +1,0 @@
-h1. Články: Obrázek článku
-
-Chceš-li k článku přiřadit jeden obrázek, zadej do tohoto pole z následujících možností:
-
-# ID obrázku - identifikační číslo obrázku na stránce Obsah/Obrázky
-# relativní URL cestu k obrázku (např. @/images/muj-obrazek.jpg@)
-# absolutní URL adresu obrázku (např. @http://example.com/path/to/images/muj-obrazek.jpg@)
-
-Obrázek bude v článku zobrazen pomocí tagu @<txp:article_image />@ ve formě pro článek, pokud tento tag forma článku obsahuje. Výstupem je HTML tag @<img>@.

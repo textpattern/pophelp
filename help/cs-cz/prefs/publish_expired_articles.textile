@@ -1,8 +1,0 @@
-h1. Nastavení: Vydat expirované články?
-
-Pokud zde nastavíš "Ano", budou se prošlé články nadále zobrazovat i po uplynutí jejich platnosti.
-Použitím tagu @<txp: if_expired />@ můžeš zobrazit alternativní obsah, nebo prošlé články např. pomocí css stylu zobrazit odlišným způsobem.
-
-Je-li zde nastaveno "Ne", prošlé články budou odstraněny z veřejně přístupných stránek a při pokusu o zobrazení takové stránky návštěvník uvídí HTTP zprávu "410 Gone - _Požadovaná strana již není dostupná_".
-
-Výchozí nastavení je 'Ne'.

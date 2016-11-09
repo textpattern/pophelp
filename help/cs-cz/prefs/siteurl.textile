@@ -1,5 +1,0 @@
-h1. Nastavení: Webová adresa (doména)
-
-Zde vyplň úplnou adresu svých stránek. Příklad: @www.example.com@
-
-p(alert-block information). *Pozn.*: nesmíš uvádět ani úvodní @http://@, @https://@ ani koncové  @/@.

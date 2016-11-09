@@ -1,3 +1,0 @@
-h1. Uživatelé: Přidání nového autora
-
-Heslo, uvítací email a návod k přihlášení bude autorovi zaslán emailem.

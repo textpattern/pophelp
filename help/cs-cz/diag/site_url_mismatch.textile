@@ -1,7 +1,0 @@
-h1. Diagnostika: chybná Webová adresa (doména)
-
-Adresa URL webu uvedená v Nastavení/Server neodpovídá skutečné adrese URL, kterou používáte pro prohlížení svých webových stránek.
-
-Pokud jsou vaše webové stránky dosažitelné prostřednictvím více různých adres URL, nebo v případě, že odkazy na vašich webových stránkách fungují správně, můžete toto upozornění bez obav ignorovat.
-
-V opačném případě je doporučeno opravit nastavení _Webová adresa (doména)_ v předvolbách Správce. Kvalifikovaný odhad správné adresy URL webu je zobrazen ve zprávě Poslední kontrola před odletem na kartě Diagnostika.

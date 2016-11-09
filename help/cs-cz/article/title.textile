@@ -1,3 +1,0 @@
-h1. Články: Název
-
-Stručný, vystižný název pro tento článek.

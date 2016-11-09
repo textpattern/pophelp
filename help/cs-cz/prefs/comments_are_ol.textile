@@ -1,5 +1,0 @@
-h1. Nastavení: Vypisovat komentáře jako číslovaný seznam?
-
-Určuje, zda komentáře článku budou vypsány jako číslovaný seznam (v HTML bude použit tag @<ol>@ s položkami @<li>@), nebo zda místo toho budou jednotlivé komentáře vypsány v tagu @<div>@.
-
-With either value, you can override the tags used on an individual form basis by modifying the @<txp:comments />@ "tag":http://www.textpattern.net/wiki/index.php?title=comments, found in the @comments_display@ "form template":http://www.textpattern.net/wiki/index.php?title=Default_Forms.

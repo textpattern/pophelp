@@ -1,3 +1,0 @@
-h1. Popis odkazu
-
-Vyplňovat popis odkazu není nutné, je však užitečný jako legenda odkazu, nebo pro vytváření parametru @title=""@ (pro bublinovou nápovědu nad odkazem), nebo prostě pro tvoji vlastní dokumentaci.

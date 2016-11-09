@@ -1,3 +1,0 @@
-h1. Diagnostika: následující funkce PHP: [...] jsou na serveru vypnuty
-
-To znamená, že vaše hostingová společnost nebo správce serveru zakázal jednu nebo více PHP funkcí, z nichž některé mohou mít vliv na chod Textpatternu.

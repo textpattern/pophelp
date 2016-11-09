@@ -1,3 +1,0 @@
-h1. Obrázky: Nahradit obrázek
-
-Obrázek, který tímto nahraješ, prostě přepíše ten, který již pod tímto číslem v databázi existuje.

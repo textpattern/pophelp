@@ -1,3 +1,0 @@
-h1. Nastavení: Kdy vyprší lhůta pro vkládání komentářů
-
-Tato volba stanovuje, jak dlouho lze k článkům přidávat komentáře od jejich vydání. Po uplynutí této doby bude možnost komentovat články zrušena.

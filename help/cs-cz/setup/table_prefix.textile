@@ -1,7 +1,0 @@
-h1. Nastavení: Předpona tabulek
-
-Předpony tabulek (table prefix) je potřeba nastavit pouze v případě, že jednu databázi bude využívat více instalací Textpattern.
-
-p(alert-block information). *Pozn.:* prefix musí dodržovat následující pravidla pojmenování:
-# *první znak:* musí být a-z, A-Z, nebo podtržítko
-# *následující znaky:* mohou být pouze a-z, A-Z, 0-9, nebo podtržítko

@@ -1,3 +1,0 @@
-h1. Nofollow bei Kommentaren verwenden
-
-Diese Einstellung fügt zu Links, die in Kommentaren verwendet werden, das &quot;nofollow&quot; Attribut hinzu. Das ist eine Maßnahme um den Anreiz für Kommentar-Spammer zu vermindern. Sie wurde von Suchmaschinenbetreibern und Software-Entwicklern eingeführt. Mehr Informationen dazu finden sie in dieser &quot;Ankündigung von Google&quot;:http://googleblog.blogspot.com/2005/01/preventing-comment-spam.html (in Englisch).

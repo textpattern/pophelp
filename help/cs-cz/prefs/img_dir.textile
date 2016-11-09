@@ -1,7 +1,0 @@
-h1. Nastavení: Adresář obrázků
-
-Chceš-li pozměnit název adresáře pro obrázky, zadej ho zde. Nejprve musíš příslušný adresář vytvořit (v hlavním adresáři svých stránek) a ujistit se, že je pro PHP zapisovatelný (zpravidla nastavit práva na 777).
-
-Na rozdíl od nastavení jiných adresářů, tato cesta je vždy *relativní cesta* (vzhledem k adresáři hlavní instalace Textpattern).
-
-Výchozí nastavení pro tento adresář je  @images@.

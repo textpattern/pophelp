@@ -1,3 +1,0 @@
-h1. Nastavení: Povolit ruční volbu forem?
-
-Tato volba umožňuje autorům při psaní či úpravě článku vybrat si specifickou formu, jež bude pro tento článek použita namísto výchozí. Toto pole s výběrem je dostupné pod položkou “Rozšířené nastavení / _Přebít formu_” na stránce úprav článků.

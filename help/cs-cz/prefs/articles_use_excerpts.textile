@@ -1,3 +1,0 @@
-h1. Nastavení: Používat anotace článků?
-
-Zvolením 'Ne' se nebude na stránce pro úpravy článků pole anotace zobrazovat.

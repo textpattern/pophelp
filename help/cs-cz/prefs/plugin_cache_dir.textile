@@ -1,7 +1,0 @@
-h1. Nastavení: Adresář pro cache pluginů
-
-Toto nastavení slouží hlavně tvůrcům pluginů. Do adresáře zde specifikovaného můžeš vložit zdrojový soubor pluginu (nezkompilovaný) a Textpattern jej automaticky načte, takže můžeš plugin snadno upravit a okamžitě vidět efekt, aniž by bylo nutné plugin instalovat / aktivovat. *Pozor* při používání této metody - pokažený plugin (který selže při kompilaci), může též pokazit Textpattern!
-
-Doporučuje se vkládat pluginy přes standardní pole _Instalovat plugin_ na stránce Správa / Pluginy, nikoli pomocí adresáře pro cache pluginů.
-
-p(alert-block information). *Pozn.:* Nespecifikuj stejný adresář pro "tmp" a zároveň jako "adresář pro cache pluginů", což způsobuje problémy (Textpattern se pak pokouší spustit obsah dočasných souborů jako pluginy).

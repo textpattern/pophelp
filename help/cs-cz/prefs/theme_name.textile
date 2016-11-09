@@ -1,3 +1,0 @@
-h1. Nastavení: Volba vzhledu administrace
-
-Zde zvol téma vzhledu administračního prostředí, které bude použito při každém přihlášení do systému Textpattern. Textpattern je dodáván s několika předinstalovanými motivy administrace. Můžeš rovněž přidávat vlastní tematické balíčky do adresáře @textpattern/theme@ - poté ho objevíš zde jako možnost volby.

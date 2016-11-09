@@ -1,5 +1,0 @@
-h1. Nastavení: Počet článků přes RSS/Atom?
-
-Zde se nastavuje nejvyšší počet posledních článků, jež se budou převádět do XML pro šíření prostřednictvím pramenu "RSS":http://en.wikipedia.org/wiki/RSS a "Atom":http://en.wikipedia.org/wiki/Atom.
-
-Výchozí hodnotou je @5@, doporučená je hodnota od @5@ do @15@.

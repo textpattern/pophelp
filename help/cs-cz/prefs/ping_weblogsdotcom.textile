@@ -1,4 +1,0 @@
-h1. Nastavení: Posílat ping na pingomatic.com?
-
-Pokaždé, když vydáte nový článek, bude odeslán "ping":http://en.wikipedia.org/wiki/Ping na službu "Ping-O-Matic":http://pingomatic.com.
-Ping-O-Matic je služba, která upozorňuje různé vyhledávače na to, že na vašem webu proběhla změna obsahu.

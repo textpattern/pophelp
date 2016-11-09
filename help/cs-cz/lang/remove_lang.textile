@@ -1,6 +1,0 @@
-h1. Jazyky: Odebrat jazyk
-
-Jazyk můžeš úplně odebrat a uvolnit tak databázové prostředky, které jsou s ním spojené.
-Pod tabulkou s výpisem jazyků zatrhni políčko Podrobnosti a potom můžeš zvolit jazyk, který chceš smazat.
-
-Pokud jsi jazyk odebral omylem, můžeš ho jednoduše nainstalovat znovu.

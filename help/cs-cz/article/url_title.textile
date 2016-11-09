@@ -1,6 +1,0 @@
-h1. Články: Název do odkazu
-
-Chceš-li do trvalého odkazu na článek vložit vlastní název, zadej jej zde. (Používej malá písmena bez diakritiky, slova odděluj pomlčkami, nebo podtržítky.) Necháš-li pole prázné, název do odkazu bude automaticky odvozen z názvu článku.
-
-Pokud uložíš nový článek, který má ale stejný _Název_ jako už nějaký dříve vydaný, budeš upozorněn, že „Takový název do odkazů již existuje”.
-Je-li _Podoba stálých odkazů_ v Nastavení serveru zadána jiná než @?=ošklivé@, měl bys v tomto poli název do odkazů upravit tak, aby byl jedinečný.

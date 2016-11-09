@@ -1,3 +1,0 @@
-h1. Nastavení: Komentáře vyžadují emailovou adresu?
-
-Je-li tato volba zapnuta, čtenáři budou muset zadat svoji emailovou adresu, aby byl jejich komentář přijat.

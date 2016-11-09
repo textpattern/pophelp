@@ -1,3 +1,0 @@
-h1. Diagnostika: Adresář dočasných souborů není určen
-
-Pokud Textpattern poběží bez adresáře dočasných souborů, nemusí některé funkce fungovat podle očekávání. Jděte do Nastavení/Správce a nastavte cestu pro _Adresář dočasných souborů_.

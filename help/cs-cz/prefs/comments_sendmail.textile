@@ -1,3 +1,0 @@
-h1. Nastavení: Zasílat komentáře autorovi?
-
-Je-li tato volba zapnuta, každý autor bude dostávat emailem každý nový komentář ke svému článku.

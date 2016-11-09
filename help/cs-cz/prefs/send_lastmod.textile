@@ -1,5 +1,0 @@
-h1. Nastavení: Odesílat hlavičku poslední úpravy?
-
-Je-li tato volba zapnuta, Textpattern bude číst hlavičku @If-Modified-Since@ z čtenářova prohlížeče a bude ji porovnávat s časem poslední změny článku či stránky. Pokud se nic nezměnilo od poslední návštěvy čtenáře, odešle se zpět hlavička, jež prohlížeči doporučí, aby použil místní kopii z vyrovnávací paměti.
-
-Tímto způsobem lze ušetřit na přenosu dat, na čase a na zatížení serveru.

@@ -1,3 +1,0 @@
-h1. Diagnostika:  soubor _update.php stále existuje
-
-Jakmile byl provedena aktualizace Textpattern na vyšší verzi, složka @update@ a její obsah nadále není potřeba a doporučujeme ji smazat. Toto varování bude zobrazováno, dokud adresář @update@ nesmažete.

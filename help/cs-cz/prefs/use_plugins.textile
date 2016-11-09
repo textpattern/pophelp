@@ -1,4 +1,0 @@
-h1. Nastavení: Používat pluginy?
-
-Tato volba umožňuje zcela vypnout podporu pluginů.
-To je užitečné v případě, že na tvých stránkách dochází k podivným chybám a chceš zjistit, zda jsou na vině pluginy.

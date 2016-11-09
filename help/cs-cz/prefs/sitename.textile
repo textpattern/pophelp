@@ -1,3 +1,0 @@
-h1. Nastavení: Název serveru
-
-"Úplný název serveru":http://www.textpattern.net/wiki/index.php?title=site_name. Bude se zobrazovat v záhlaví prohlížeče nebo čtečce čtenářů a podle uvážení i na jiných místech tvých stránek.

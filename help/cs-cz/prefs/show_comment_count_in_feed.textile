@@ -1,3 +1,0 @@
-h1. Nastavení: Zobrazovat počty komentářů v pramenech?
-
-Tato volba zapne zobrazování počtu komentářů u článků šířených v pramenech RSS/Atom.

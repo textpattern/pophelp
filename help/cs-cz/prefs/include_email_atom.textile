@@ -1,3 +1,0 @@
-h1. Nastavení: Přidávat emailovou adresu do pramenů Atom?
-
-Tato volba umožňuje přidávat emailovou adresu autora (tak jak je nastavena ve správě autorů) do pole autor v pramenu Atom.

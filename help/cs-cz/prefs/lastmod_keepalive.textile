@@ -1,3 +1,0 @@
-h1. Nastavení: Opravit chybu v mod_deflate při trvalém spojení? 
-
-Některé verze @mod_deflate@ mají chybu, která přeruší následné požadavky, jestliže je použito @Keep-alive@. Opuštění připojení je jediný spolehlivý způsob, jak stav opravit. Nastavením "Ano" se ukončí připojení a prohlížeč je přinucen se pro další požadavek znovu připojit.

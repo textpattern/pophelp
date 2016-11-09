@@ -1,3 +1,0 @@
-h1. Adresa odkazu
-
-Url adresa odkazu. Jestliže odkaz míří na jiný web, musí být na jejím začátku  @http://@ nebo @https://@.

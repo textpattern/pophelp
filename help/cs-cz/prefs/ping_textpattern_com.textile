@@ -1,3 +1,0 @@
-h1. Nastavení: Posílat ping na textpattern.com?
-
-Pokaždé, když vydáte nový článek, bude na server textpattern.com odeslán  "ping":http://en.wikipedia.org/wiki/Ping. My pak můžeme tyto údaje využít pro statistiku.

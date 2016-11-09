@@ -1,3 +1,0 @@
-h1. Import: Výchozí stav článků
-
-Vyber stav, který bude nastaven pro všechny importované články.

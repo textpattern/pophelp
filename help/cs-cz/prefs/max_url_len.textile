@@ -1,3 +1,0 @@
-h1. Nastavení: Nejdelší možné URL (ve znacích)?
-
-Tato volba umožní ignorovat odkazy, jež překročí zadanou délku. Lze tak omezit riziko škody v případě, že se v systému Textpattern najde nějaká bezpečnostní chyba.

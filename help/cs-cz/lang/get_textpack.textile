@@ -1,9 +1,0 @@
-h1. Jazyky: Nahrát textovou sadu
-
-Vlož obsah textové sady do tohoto pole a stiskni tlačítko Nahrát.
-
-Na začátku by měla sada obsahovat údaj o tom, pro který instalovaný jazyk je určena:
-např.:
-*#@language cs-cz*
-
-(Textové sady často uveřejňují autoři pluginů ke stažení. Potom je možné takovou textovou sadu přeložit a poskytnout autorovi pluginu k uveřejnění, nebo ji poskytnout národní komunitě.)

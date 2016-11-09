@@ -1,3 +1,0 @@
-h1. Nastavení: Doctype
-
-Nastav, jaký HTML doctype chceš používat (HTML5 nebo XHTML). Nastavení má vliv na vstupní formulář komentářů a "Textile":http://txstyle.org/ vykreslování prvků @<abbr>@, @<acronym>@ a @<link>@ generovaných stylem @css@.

@@ -1,3 +1,0 @@
-h1. Rubriky: Zahrnout do hledání?
-
-Tato volba určuje, zda mají být články patřící do této rubriky zahrnuty mezi výsledky hledání.

@@ -1,3 +1,0 @@
-h1. Nastavení: Cesta pro soubory
-
-Nastavení *absolutní cesty* k adresáři, kde jsou trvale uloženy soubory, které na server nahrajete. PHP musí mít k tomuto adresáři oprávnění pro zápis.

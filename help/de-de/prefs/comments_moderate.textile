@@ -1,3 +1,0 @@
-h1. Kommentare moderieren
-
-Wenn diese Option aktiviert ist, sind neue Kommentare erst sichtbar, wenn diese geprüft und freigegeben wurden.

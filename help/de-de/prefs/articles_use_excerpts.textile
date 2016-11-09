@@ -1,3 +1,0 @@
-h1. Artikel verwenden Exzerpte?
-
-Das Feld &quot;Exzerpt&quot; wird beim Bearbeiten von Artikeln nicht angezeigt, wenn hier _nein_ gewählt wird.

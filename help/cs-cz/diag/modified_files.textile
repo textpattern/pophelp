@@ -1,3 +1,0 @@
-h1. Diagnostika: Změněné soubory
-
-Pokud jsou některé soubory v instalaci Textpatternu změněny, jsou zde vypsány. To nemusí být nutně problém, ale stojí za to výpis zkontrolovat, pokud máte problémy s funkčností vašeho webu.

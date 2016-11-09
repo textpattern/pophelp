@@ -1,5 +1,0 @@
-h1. Standard Kommentareinstellung
-
-Sofern Besuchern der Webseite das Kommentieren erlaubt ist, handelt es sich hierbei um die Standardeinstellungen.
-
-Die Einstellungen können pro Artikel durch Anfügen eines extra erstellten Bausteins geändert werden.

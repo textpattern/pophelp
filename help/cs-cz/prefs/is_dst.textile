@@ -1,3 +1,0 @@
-h1. Nastavení: Platí nyní letní čas?
-
-Stanovení, zda právě platí letní čas.

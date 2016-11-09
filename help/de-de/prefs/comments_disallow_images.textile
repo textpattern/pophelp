@@ -1,3 +1,0 @@
-h1. Benutzerbilder nicht erlauben
-
-Wird diese Option auf 'Ja' gesetzt, werden Bilder in Kommentaren nicht angezeigt.

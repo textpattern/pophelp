@@ -1,3 +1,0 @@
-h1. Nastavení: Používat DNS?
-
-Tato volba má smysl jen tehdy, je-li zapnuta také volba “Záznamy”. Použití DNS umožňuje převádět adresy IP návštěvníků na názvy serverů. U některých serverů to však může zpomalit načítání stránek, a v takovém případě je vhodné tuto volbu vypnout.

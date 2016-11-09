@@ -1,6 +1,0 @@
-h1. Rubrika používá styl
-
-Tato volba určuje styl CSS načtený z _databáze_ pomocí tagu @<txp:css format="" />@, který se má pro tuto rubriku použít výchozího stylu _default_.
-
-Pro větší rychlost odezvy se ale doporučuje načítat css styly ze _souboru_.
-Pokud se styly na vašich stránkách načítají ze _souboru_ pomocí zápisu @<link rel="stylesheet" href="http://mujserver.cz/css/default.css" />@, nemá nastavení této volby žádný efekt.

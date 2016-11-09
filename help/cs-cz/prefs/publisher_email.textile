@@ -1,5 +1,0 @@
-h1. Nastavení: Zasílat přihlašovací údaje z této emailové adresy
-
-Zde můžeš určit emailovou adresu, která bude uvedena jako adresa odesilatele ve zprávách s přihlašovacími údaji pro nové uživatele.
-
-Jestliže je toto pole prázdné, nebo obsahuje chybnou emailovou adresu, Textpattern použije jméno a adresu právě přihlášeného uživatele.

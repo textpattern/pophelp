@@ -1,3 +1,0 @@
-h1. Články: Přebít formu
-
-V případě, že chceš pro určitý článek použít jinou formu než tu, jež je určena jako výchozí, vyber ji zde.

@@ -1,3 +1,0 @@
-h1. E-Mail Benachrichtigung bei Kommentaren
-
-Wird diese Einstellung aktiviert, erhält der Autor des Artikels eine Kopie per E-Mail.

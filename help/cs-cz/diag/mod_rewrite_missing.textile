@@ -1,3 +1,0 @@
-h1. Diagnostika: Modul mod_rewrite pro Apache není nainstalován.
-
-Modul Apache @mod_rewrite@ není povolen, nebo není nainstalován. Může být nezbytný pro správné fungování systému Textpattern. Zkontrolujte, zda je soubor @.htaccess@ nastaven správně, nebo se obraťte  o pomoc na svého poskytovatele hostingových služeb.

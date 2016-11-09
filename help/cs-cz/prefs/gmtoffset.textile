@@ -1,3 +1,0 @@
-h1. Nastavení: Zdejší časové pásmo
-
-Pro určení správného data a času nastavte zdejší časové pásmo (časový posun vůči greenwichskému času - GMT).

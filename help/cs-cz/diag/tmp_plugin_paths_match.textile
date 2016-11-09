@@ -1,3 +1,0 @@
-h1. Diagnostika: Nastavení cesty k Adresáři dočasných souborů a k Adresáři pro cache pluginů nemá být shodné 
-
-Pluginy by měly mít vlastní dočasný adresář, nikoli sdílet _adresář dočasných souborů_. Je to potenciální bezpečnostní riziko, které může nepříznivě ovlivnit vaše stránky. Ujistěte se, že cesta do adresáře dočasných souborů je odlišná od cesty do adresáře pro cache pluginů.

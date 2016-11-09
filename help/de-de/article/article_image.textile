@@ -1,7 +1,0 @@
-h1. Artikelbild
-
-Um ein einzelnes Bild mit dem Artikel zu verknüpfen, geben Sie hier den URL oder die Textpattern-ID des Bildes ein.
-
-Um das Bild anzuzeigen, muss folgender Tag innerhalb eines Bausteins für Artikel verwendet werden:
-
-@&lt;txp:article_image /&gt;@

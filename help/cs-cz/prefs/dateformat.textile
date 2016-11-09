@@ -1,3 +1,0 @@
-h1. Nastavení: Tvar data
-
-Tato volba ovlivní podobu, v jaké se bude datum zobrazovat na hlavní straně.
