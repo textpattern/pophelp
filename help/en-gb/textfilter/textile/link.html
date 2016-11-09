@@ -1,0 +1,22 @@
+<h1 id="textile-links">Textile: Links</h1>
+<p>To make a hypertext link, put the link text in &quot;quotation marks&quot; followed immediately by a colon and the URL of the link.</p>
+<p><strong>Optional:</strong> text in (parentheses) following the link text, but before the closing quotation mark, will become a <code>title</code> attribute for the link, visible as a tooltip when a cursor is above it.</p>
+<h3 id="example-standard-links">Example (standard links)</h3>
+<pre><code>&quot;This is a link (This is a title)&quot;:http://textpattern.com</code></pre>
+<p>Will become:</p>
+<pre><code>&lt;a href=&quot;http://textpattern.com&quot; title=&quot;This is a title&quot;&gt;This is a link&lt;/a&gt;</code></pre>
+<p>Which, when rendered by a browser, will appear like this:</p>
+<p><a href="http://textpattern.com">This is a link (This is a title)</a></p>
+<h3 id="example-aliased-links">Example (aliased links)</h3>
+<p>Textile v2.0.0 onwards also allows storage of long URLs outside of the text you’re working in, and to reference them with aliases of your choosing. Simply store the URL anywhere in the document, such as at the end, using this syntax:</p>
+<pre><code>[alias (optional title)]http://url</code></pre>
+<p>Each referenced URL must begin on a new line:</p>
+<pre><code>This is a &quot;link&quot;:example to my website.</code></pre>
+<p>So long as this appears elsewhere in the document:</p>
+<pre><code>[example]http://example.com/index.html</code></pre>
+<p>Will become:</p>
+<pre><code>This is a &lt;a href=&quot;http://example.com/index.html&quot;&gt;link&lt;/a&gt; to my website.</code></pre>
+<h3 id="textile-documentation">Textile documentation</h3>
+<p><a rel="external" target="_blank" href="http://textpattern.com/textile-link">More information on links in Textile <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>.</p>
+<h3 id="html-documentation-via-mozilla-developer-network">HTML documentation (via Mozilla Developer Network)</h3>
+<p><a rel="external" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">The <code><a></code> HTML element <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>.</p>

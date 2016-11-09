@@ -1,0 +1,21 @@
+<h1 id="textile-images">Textile: Images</h1>
+<p>To insert an image, put the URL for the image inside exclamation marks.</p>
+<p><strong>Optional:</strong> text that immediately follows the URL in (parentheses) will be used as the <code>alt</code> text for the image (this also adds a <code>title</code> attribute with the same content). Images on the web should always have descriptive <code>alt</code> text for the benefit of readers using non-graphical browsers.</p>
+<p><strong>Optional:</strong> place a colon followed by a URL immediately after the closing <code>!</code> to make the image into a link.</p>
+<h3 id="examples">Examples</h3>
+<pre><code>!http://docs.textpattern.io/hi.png(Hello World)!</code></pre>
+<p>Will become:</p>
+<pre><code>&lt;img src=&quot;http://docs.textpattern.io/hi.png&quot; alt=&quot;Textpattern icon&quot; title=&quot;Hello World&quot; /&gt;</code></pre>
+<p>Which, when rendered by a browser, will appear like this:</p>
+<p><img src="http://docs.textpattern.io/hi.png" alt="Textpattern icon" title="Hello World" /></p>
+<p>With a link:</p>
+<pre><code>!http://docs.textpattern.io/hi.png(Hello World)!:http://textpattern.com</code></pre>
+<p>Will become:</p>
+<pre><code>&lt;a href=&quot;http://textpattern.com&quot;&gt;&lt;img src=&quot;http://docs.textpattern.io/hi.png&quot; alt=&quot;Hello World&quot; title=&quot;Hello World&quot; /&gt;&lt;/a&gt;</code></pre>
+<p>Which, when rendered by a browser, will appear like this:</p>
+<p><a href="http://textpattern.com"><img src="http://docs.textpattern.io/hi.png" alt="Hello World" title="Hello World" /></a></p>
+<h3 id="textile-documentation">Textile documentation</h3>
+<p><a rel="external" target="_blank" href="http://textpattern.com/textile-image">More information on images in Textile <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>.</p>
+<h3 id="html-documentation-via-mozilla-developer-network">HTML documentation (via Mozilla Developer Network)</h3>
+<p><a rel="external" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">The <code><img></code> HTML element <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>.</p>
+<p><a rel="external" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">The <code><a></code> HTML element <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>.</p>

@@ -1,0 +1,2 @@
+<h1 id="preferences-compensate-for-persistent-connection-mod_deflate-bug">Preferences: Compensate for persistent connection mod_deflate bug?</h1>
+<p>Some versions of the Apache <code>mod_deflate</code> module have a bug that breaks subsequent requests when <code>Keep-Alive</code> is used. Dropping the connection is the only reliable way to fix this. Setting this preference to ‘Yes’ will close the connection, forcing the browser to reconnect for the next request.</p>

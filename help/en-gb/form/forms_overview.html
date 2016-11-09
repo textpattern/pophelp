@@ -1,0 +1,15 @@
+<h1 id="forms-introduction">Forms: Introduction</h1>
+<p>In Textpattern, a form is a snippet or chunk of text, HTML, and Textpattern tags that can be reused to display content.</p>
+<p>Here’s an example form which could be named <code>ordinary_list</code>:</p>
+<pre><code>&lt;li&gt;
+  &lt;txp:permlink&gt;
+    &lt;txp:title /&gt;
+  &lt;/txp:permlink&gt;
+&lt;/li&gt;</code></pre>
+<p>You could use it to display an HTML unordered list of related articles:</p>
+<pre><code>&lt;txp:related_articles form=&quot;ordinary_list&quot; wraptag=&quot;ul&quot; /&gt;</code></pre>
+<p>Since the role of this form is to output a list of titles, it could be applicable inside other tags, such as showing 20 articles from the current section:</p>
+<pre><code>&lt;txp:article form=&quot;ordinary_list&quot; limit=&quot;20&quot; wraptag=&quot;ol&quot; /&gt;</code></pre>
+<p>You may also choose to employ a form to display repeated content, such as header and footer in your page templates. This means the content only exists in one place and if you decide to change it, you only need to do it once. Displaying content from a form is usually accomplished with:</p>
+<pre><code>&lt;txp:output_form form=&quot;your_form_name&quot; /&gt;</code></pre>
+<p>A form can be up to 64KB in size. An example for a footer might include headings, paragraphs, links, conditional tags, and references to other forms such as <code>ordinary_list</code>.</p>

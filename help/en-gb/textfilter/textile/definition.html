@@ -1,0 +1,63 @@
+<h1 id="textile-definition-lists">Textile: Definition lists</h1>
+<p>To make a definition list, place the term in its own paragraph, preceded by <code>;</code>. Each definition can then be written on subsequent lines preceded by <code>:</code>.</p>
+<h3 id="examples">Examples</h3>
+<pre><code>; Textpattern
+: An open source CMS
+: Elegant and simple to use
+: Friendly community</code></pre>
+<p>Will become:</p>
+<pre><code>&lt;dl&gt;
+  &lt;dt&gt;Textpattern&lt;/dt&gt;
+  &lt;dd&gt;An open source CMS&lt;/dd&gt;
+  &lt;dd&gt;Elegant and simple to use&lt;/dd&gt;
+  &lt;dd&gt;Friendly community&lt;/dd&gt;
+&lt;/dl&gt;</code></pre>
+<p>Which, when rendered by a browser, will appear like this:</p>
+<p>; Textpattern<br />
+: An open source CMS<br />
+: Elegant and simple to use<br />
+: Friendly community</p>
+<p>Just like bulleted and numeric lists, terms and definitions may be nested by using more than one colon / semicolon:</p>
+<pre><code>; Textpattern
+: An open source CMS
+: Has many sister sites, for example:
+;; Plugins
+:: Plugin repository
+;; Documentation
+:: User guides and docs (wiki)
+;; Themes
+:: Customize the admin-side or public site with themes
+: Elegant and simple to use
+: Friendly community</code></pre>
+<p>Will become:</p>
+<pre><code>&lt;dl&gt;
+  &lt;dt&gt;Textpattern&lt;/dt&gt;
+  &lt;dd&gt;An open source CMS&lt;/dd&gt;
+  &lt;dd&gt;Has many sister sites, for example:
+  &lt;dl&gt;
+    &lt;dt&gt;Plugins&lt;/dt&gt;
+    &lt;dd&gt;Plugin repository&lt;/dd&gt;
+    &lt;dt&gt;Documentation&lt;/dt&gt;
+    &lt;dd&gt;User guides and docs (wiki)&lt;/dd&gt;
+    &lt;dt&gt;Themes&lt;/dt&gt;
+    &lt;dd&gt;Customize the admin-side or public site with themes&lt;/dd&gt;
+  &lt;/dl&gt;
+  &lt;/dd&gt;
+  &lt;dd&gt;Elegant and simple to use&lt;/dd&gt;
+  &lt;dd&gt;Friendly community&lt;/dd&gt;
+&lt;/dl&gt;</code></pre>
+<p><strong>Note:</strong> Unmodified paragraphs will be wrapped in <code></p>
+<p>
+<p></code> tags.</p>
+<h3 id="textile-documentation">Textile documentation</h3>
+<p><a rel="external" target="_blank" href="http://textpattern.com/textile-dl-list">More information on definition lists in Textile <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>.</p>
+<h3 id="html-documentation-via-mozilla-developer-network">HTML documentation (via Mozilla Developer Network)</h3>
+<p><a rel="external" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl">The <code></p>
+<dl>
+<p></code> HTML element <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>.</p>
+<p><a rel="external" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt">The <code></p>
+<dt>
+<p></code> HTML element <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>.</p>
+<p><a rel="external" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd">The <code></p>
+<dd>
+<p></code> HTML element <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>.</p>

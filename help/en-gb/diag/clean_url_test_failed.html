@@ -1,0 +1,9 @@
+<h1 id="diagnostics-clean-url-test-failed">Diagnostics: Clean URL test failed</h1>
+<p>It appears that either your site URLs (<code>http://example.com/section/article</code>) are currently not working or your server does not support the test procedure to determine if clean URLs work or not; if clean URLs on your site work, you can safely ignore this message.</p>
+<p>If clean URLs are not working it may mean either:</p>
+<ul>
+<li>your ‘Site URL’ setting is incorrect, or the page at that address is not managed by this copy of Textpattern</li>
+<li>your server requires some changes to <code>.htaccess</code> in order to make clean URLs work</li>
+<li>your server doesn’t support clean URLs at all</li>
+</ul>
+<p>The clean URL test attempts to fetch a page from the web address specified in the ‘Site URL’ preference in order to check that all clean URL parameters are working correctly. If that URL is a different site, or has been replaced with a static page or similar, the test will fail. Until the issue is resolved you will have to use messy URLs on your site instead (<code>http://example.com?s=section&amp;id=4</code>). Ensure the ‘Permanent link mode’ in Admin Preferences is set accordingly.</p>
