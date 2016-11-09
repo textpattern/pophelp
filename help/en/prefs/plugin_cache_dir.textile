@@ -1,7 +1,0 @@
-h1. Preferences: Plugin cache directory path
-
-This setting is mainly used for plugin developers. When specified, you can put the plugin source file (not compiled) in this directory and Textpattern will load it automatically, so you can easily edit the plugin and immediately see the effect it has without having to install/activate the plugin. <strong>Beware</strong> though that by using this method, a broken plugin (which fails to compile) may also break Textpattern!
-
-It is recommended that you load plugins through the standard ‘Plugins’ administration panel on a production site, rather than using the plugin cache directory.
-
-p(alert-block information). <strong>Note:</strong> Do not specify the same directory for both ‘temporary’ and ‘plugin cache’, as this will cause problems (Textpattern would try to run the contents of temporary log files as plugins).

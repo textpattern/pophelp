@@ -1,5 +1,0 @@
-h1. Preferences: Temporary directory path
-
-Sets an <strong>absolute path</strong> to a temporary (sometimes know as ‘tmp’ or ‘temp’) directory. PHP needs to have write access to this directory. This directory is used for temporary files, for example uploads of any kind (plugins, files or images).
-
-p(alert-block information). <strong>Note:</strong> Do not specify the same directory for both ‘temporary’ and ‘plugin cache’, as this will cause problems (Textpattern would try to run the contents of temporary log files as plugins).

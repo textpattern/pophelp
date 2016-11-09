@@ -1,3 +1,0 @@
-h1. Preferences: Use excerpts on articles?
-
-By choosing ‘No’ the excerpt field will not be shown to the author on the article editing screen.

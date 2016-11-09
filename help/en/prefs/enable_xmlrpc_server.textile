@@ -1,3 +1,0 @@
-h1. Preferences: Enable XML-RPC server?
-
-If you wish to use <a rel="external" target="_blank" href="https://en.wikipedia.org/wiki/XML-RPC">XML-RPC <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> for controlling Textpattern remotely (e.g. desktop or mobile apps) you must switch the XML-RPC server on by setting this to ‘Yes’.

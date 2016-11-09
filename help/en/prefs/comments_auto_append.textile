@@ -1,7 +1,0 @@
-h1. Preferences: Automatically append comments to articles?
-
-This setting determines whether comments and the comment form are automatically appended to all individual articles (by automatically including the contents of the <code>comments_display</code> form).
-
-The majority of the time, you will want this set to ‘No’, as this allows greater flexibility to the positioning of your comments in your site design. You will need to add the <a rel="external" target="_blank" href="http://docs.textpattern.io/tags/comments"><code><txp:comments /></code> tag <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> manually in any article-based templates where you want comments to appear.
-
-If you are experiencing duplicate display of comments in an article, then chances are your templates have the <code><txp:comments /></code> tag in a template but also have ‘Automatically append comments to articles?’ set to ‘Yes’ too.

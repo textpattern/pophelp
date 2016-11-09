@@ -1,3 +1,0 @@
-h1. Preferences: Archive date format
-
-How dates will appear on articles in sections of your site.

@@ -1,3 +1,0 @@
-h1. Preferences: Accept comments?
-
-This sets whether Textpattern’s commenting functionality should be enabled or disabled.

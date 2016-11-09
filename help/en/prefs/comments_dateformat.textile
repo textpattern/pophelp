@@ -1,3 +1,0 @@
-h1. Preferences: Comments date format
-
-How comment dates will appear to your site visitors.

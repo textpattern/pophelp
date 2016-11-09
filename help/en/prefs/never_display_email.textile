@@ -1,5 +1,0 @@
-h1. Preferences: Hide commenter email address?
-
-This setting controls whether the email address of a commenter should be shown publicly.
-
-It’s recommended that email addresses should not be shown, as courtesy to your users, but there may be certain situations when showing commenter email addresses is desirable.

@@ -1,3 +1,0 @@
-h1. Sections: Uses page
-
-In Textpattern, sections are married to page templates. It’s kind of sweet, really...

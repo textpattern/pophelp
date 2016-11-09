@@ -1,3 +1,0 @@
-h1. Preferences: Default administration panel
-
-The Textpattern administration interface panel that will appear first when anybody logs in.

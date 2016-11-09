@@ -1,5 +1,0 @@
-h1. Preferences: Allow PHP in pages?
-
-When enabled, this setting allows PHP code within page and form templates.
-
-PHP code must have opening and closing PHP tags omitted, and also be enclosed within <a rel="external" target="_blank" href="http://docs.textpattern.io/tags/php"><code><txp:php></code> tags <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>.

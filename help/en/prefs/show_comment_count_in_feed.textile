@@ -1,3 +1,0 @@
-h1. Preferences: Show comment count in feeds?
-
-When set to ‘Yes’, this setting will append the number of comments to your article titles in RSS/Atom feeds.

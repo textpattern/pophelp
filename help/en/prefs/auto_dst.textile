@@ -1,3 +1,0 @@
-h1. Preferences: Automatically adjust Daylight Saving Time (DST) setting?
-
-This setting allows Textpattern to alter when DST(Daylight Savings Time) occurs in your locale. If this is set to ‘No’, you will be able to change the ‘DST enabled’ preference manually.

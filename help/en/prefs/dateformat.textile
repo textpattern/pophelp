@@ -1,3 +1,0 @@
-h1. Preferences: Date format
-
-This option will affect how article dates appear on the front page of your site only.

@@ -1,7 +1,0 @@
-h1. Preferences: Logging
-
-You can select the level of visitor logging carried out by Textpattern:
-
-* <strong>All hits:</strong> Textpattern will log all page views on your site
-* <strong>Referrers only:</strong> Textpattern will only log visits referred from other sites
-* <strong>None:</strong> Textpattern will not log any page views

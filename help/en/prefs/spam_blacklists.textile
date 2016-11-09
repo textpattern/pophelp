@@ -1,7 +1,0 @@
-h1. Preferences: Spam blocklists (comma-separated)
-
-The <a rel="external" target="_blank" href="https://en.wikipedia.org/wiki/Blacklisting">blocklist <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> providers entered here will be queried when a comment is posted to your blog, and the IP address of the comment poster will be checked. If the IP address is listed it means there has been one or more spamming reports made about this IP in the past, and the comment will be rejected.
-
-Additionally, checks on approved comments will take place when an article is viewed on the front-side. If you encounter slowness when displaying articles with comments, consider disabling spam blocklists by removing the blocklist address(es).
-
-You can enter a list of domain names here, separated by commas. Potential blocklists can be found via <a rel="external" target="_blank" href="https://www.dmoz.org/Computers/Internet/E-mail/Spam/Blacklisting/Lists/">dmoz <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>, but please note that it is your responsibility to ensure blocklists are fit for purpose.

@@ -1,3 +1,0 @@
-h1. Preferences: Ping textpattern.com?
-
-This will send a <a rel="external" target="_blank" href="https://en.wikipedia.org/wiki/Ping_(blogging)">ping <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> to textpattern.com whenever you publish a new article. We may use this data for statistical purposes.

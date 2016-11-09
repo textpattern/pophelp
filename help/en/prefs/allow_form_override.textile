@@ -1,3 +1,0 @@
-h1. Preferences: Allow form override?
-
-This setting allows article authors to override the form to be used when their article is rendered. If enabled, an ‘Override form’ dropdown will be available under ‘Advanced options’, when editing an article.

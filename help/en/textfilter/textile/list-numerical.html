@@ -1,6 +1,6 @@
-<h1 id="textile-numerical-lists">Textile: Numerical lists</h1>
+<h1>Textile: Numerical lists</h1>
 <p>To make a numerical list, place each item in its own paragraph, preceded by <code>#</code>.</p>
-<h3 id="example">Example</h3>
+<h3>Example</h3>
 <pre><code># A first item
 # A second item
 ## A second item first sub item
@@ -9,36 +9,31 @@
 # A fourth item</code></pre>
 <p>Will become:</p>
 <pre><code>&lt;ol&gt;
-  &lt;li&gt;A first item&lt;/li&gt;
-  &lt;li&gt;A second item
-  &lt;ol&gt;
-    &lt;li&gt;A second item first sub item&lt;/li&gt;
-    &lt;li&gt;A second item second sub item&lt;/li&gt;
-  &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;A third item&lt;/li&gt;
-  &lt;li&gt;A fourth item&lt;/li&gt;
+    &lt;li&gt;A first item&lt;/li&gt;
+    &lt;li&gt;A second item
+        &lt;ol&gt;
+            &lt;li&gt;A second item first sub item&lt;/li&gt;
+            &lt;li&gt;A second item second sub item&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/li&gt;
+    &lt;li&gt;A third item&lt;/li&gt;
+    &lt;li&gt;A fourth item&lt;/li&gt;
 &lt;/ol&gt;</code></pre>
 <p>Which, when rendered by a browser, will appear like this:</p>
 <ol>
-<li>A first item</li>
-<li>A second item
-<ol>
-<li>A second item first sub item</li>
-<li>A second item second sub item</li>
-</ol></li>
-<li>A third item</li>
-<li>A fourth item</li>
+    <li>A first item</li>
+    <li>A second item
+        <ol>
+            <li>A second item first sub item</li>
+            <li>A second item second sub item</li>
+        </ol>
+    </li>
+    <li>A third item</li>
+    <li>A fourth item</li>
 </ol>
-<p><strong>Note:</strong> Unmodified paragraphs will be wrapped in <code></p>
-<p>
-<p></code> tags.</p>
-<h3 id="textile-documentation">Textile documentation</h3>
+<p><strong>Note:</strong> Unmodified paragraphs will be wrapped in <code>&lt;p&gt;</code> tags.</p>
+<h3>Textile documentation</h3>
 <p><a rel="external" target="_blank" href="http://textpattern.com/textile-ol-list">More information on numerical lists in Textile <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>.</p>
-<h3 id="html-documentation-via-mozilla-developer-network">HTML documentation (via Mozilla Developer Network)</h3>
-<p><a rel="external" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol">The <code></p>
-<ol>
-<p></code> HTML element <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>.</p>
-<p><a rel="external" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li">The <code></p>
-<li>
-<p></code> HTML element <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>.</p>
+<h3>HTML documentation (via Mozilla Developer Network)</h3>
+<p><a rel="external" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol">The <code>&lt;ol&gt;</code> HTML element <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>.</p>
+<p><a rel="external" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li">The <code>&lt;li&gt;</code> HTML element <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>.</p>
