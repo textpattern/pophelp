@@ -9,15 +9,14 @@ Structure:
 ```
 help/
     {language}/
-        {article}.textile
+        {article}.html
 ```
 
 Contents:
 
-```textile
-h1. Article title
-
-Body.
+```html
+<h1>Article title</h1>
+<p>Body.</p>
 ```
 
 ## Contributing
@@ -31,9 +30,9 @@ GitHub's [web based editing features](https://help.github.com/articles/creating-
 To contribute to a translation directly from GitHub.com website:
 
 1. [Sign in](https://github.com/login) with your GitHub account
-2. Navigate to a Pophelp file you would want to alter, e.g. [help/en-gb/body.textile](https://github.com/textpattern/pophelp/blob/master/help/en-gb/body.textile).
+2. Navigate to a Pophelp file you would want to alter, e.g. [help/en-gb/body.html](https://github.com/textpattern/pophelp/blob/master/help/en-gb/body.html).
 3. Click or tap the **Edit** button above the presented file contents.
-4. Make some alterations to existing text (using Textile syntax).
+4. Make some alterations to existing text.
 5. After you've done, fill in the short commit message describing the change, e.g. *"Fixed typo"*.
 6. Click or tap the **Save** button.
 
