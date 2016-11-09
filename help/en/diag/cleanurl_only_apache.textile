@@ -1,3 +1,0 @@
-h1. Diagnostics: Clean URL support
-
-Clean URLs are only supported on Apache. If you are using another server platform, use short URLs at your own risk.

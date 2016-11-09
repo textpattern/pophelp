@@ -1,3 +1,0 @@
-h1. Import: Database character set
-
-Specify the character set which is used by your WordPress database.

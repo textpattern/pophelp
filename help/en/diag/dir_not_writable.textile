@@ -1,3 +1,0 @@
-h1. Diagnostics: Directory is not writable
-
-To use the file and image upload capabilities, these directories have to be writable by PHP. Usually this means you have to change permissions so the web server user has write access to the directory. This can be done with your FTP client, or alternatively on the command line by issuing a <code>chmod 755 /path/to/dir</code> command.

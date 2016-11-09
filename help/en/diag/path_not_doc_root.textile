@@ -1,3 +1,0 @@
-h1. Diagnostics: path_to_site does not match
-
-Two variables set by your web server which should match, but do not.

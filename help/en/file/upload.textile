@@ -1,5 +1,0 @@
-h1. Files: Upload file
-
-Use this form to upload files or images to your server.
-
-Use the Textile code to render graphics within articles, the Textpattern code to place graphics on your page templates, or HTML code to place the graphics elsewhere.

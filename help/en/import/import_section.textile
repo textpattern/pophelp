@@ -1,3 +1,0 @@
-h1. Import: Section to import into
-
-Use this to select the section you want to assign to the imported articles.

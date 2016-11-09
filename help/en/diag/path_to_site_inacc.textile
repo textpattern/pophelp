@@ -1,3 +1,0 @@
-h1. Diagnostics: Site directory unreadable
-
-The directory containing the <code>index.php</code> file specified as the index for your site is unreadable by the server. Please check permissions.

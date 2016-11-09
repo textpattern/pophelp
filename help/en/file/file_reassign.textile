@@ -1,3 +1,0 @@
-h1. Files: Reassign file
-
-When you upload a file in place of one that is labelled ‘Missing’, your chosen file is uploaded to the server and linked to the original file information in the database. This means the file name of the original file will remain, as will all other associated information such as download count and category. The file size will, however, be updated to reflect the new file.

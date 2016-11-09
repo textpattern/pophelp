@@ -1,3 +1,0 @@
-h1. Import: Default comments invite
-
-Here you can set the comments invite text for the articles you’re about to import.
