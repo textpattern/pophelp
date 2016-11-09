@@ -1,5 +1,0 @@
-h1. Write: Title
-
-Add an appropriate title for this article.
-
-An article title is limited to a maximum of 255 characters.

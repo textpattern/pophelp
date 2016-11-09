@@ -1,9 +1,0 @@
-h1. Write: Article image
-
-If you would like to associate a single image with this article, place one of the following here:
-
-# a Textpattern image ID
-# a relative URL to the image (e.g. <code>/images/my_pic.jpg</code>)
-# a fully-qualified URL (e.g. <code>http://example.com/path/to/images/my_pic.jpg</code>)
-
-The image can be displayed by placing a <a rel="external" target="_blank" href="http://docs.textpattern.io/tags/article_image"><code><txp:article_image /></code> tag <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> inside an article form. It will output a complete HTML <code><img></code> tag to your chosen image.

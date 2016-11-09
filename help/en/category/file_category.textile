@@ -1,3 +1,0 @@
-h1. Categories: Files
-
-File categories are optional, and are useful if you want to group certain uploaded files together.

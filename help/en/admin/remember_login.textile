@@ -1,5 +1,0 @@
-h1. Remember login
-
-When checked, you will remain logged in to your Textpattern account with the current web browser, until you choose to log out. If left unchecked, you will be automatically logged out after a period of inactivity.
-
-Requires cookies to be enabled in your browser.

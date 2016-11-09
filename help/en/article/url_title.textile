@@ -1,5 +1,0 @@
-h1. Write: URL-only title
-
-If you would like to have a specific title attached to the permalink URL for your article, enter it here. If it is left blank, the URL title will be automatically generated from the article title.
-
-This is particularly useful if the title of your article uses non-ASCII characters.

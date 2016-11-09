@@ -1,7 +1,0 @@
-h1. Write: Description
-
-The article description is an optional component that can help search engines and website crawlers better identify and sort content.
-
-The article description is limited to a maximum of 255 characters. Note that some search engines place character limits on the length of a page’s <code>meta description</code> for practicality of display in search engine results pages (SERPs) and this may be less than the 255 character limit in Textpattern.
-
-Note that the article description differs from the article excerpt, though they both accept similar content. The article description should be primarily intended for use with search engines and crawlers, whereas the the article excerpt is more suited for a human-readable article summary where desired.

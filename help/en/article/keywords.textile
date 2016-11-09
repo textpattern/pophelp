@@ -1,5 +1,0 @@
-h1. Write: Keywords
-
-Keywords are useful for refining the relationships between articles beyond those provided by categories.
-
-Keywords must be individual words separated by commas.
