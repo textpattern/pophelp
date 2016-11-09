@@ -15,7 +15,7 @@ help/
 Contents:
 
 ```html
-<h1>Article title</h1>
+<h2>Article title</h2>
 <p>Body.</p>
 ```
 
