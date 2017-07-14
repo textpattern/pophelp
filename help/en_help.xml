@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <help group="admin" title="Users panel">
+        <item id="about_privileges" title="About roles"><![CDATA[
+<h2>About roles</h2>
+<h3>Publisher</h3>
+<ul>
+    <li>can manage articles, comments and links</li>
+    <li>can use PHP in articles if admin preference ‘Allow PHP in articles?’ is set to ‘Yes’</li>
+    <li>can manage images and files</li>
+    <li>can manage sections and categories</li>
+    <li>can manage pages, forms and style</li>
+    <li>can view diagnostic information</li>
+    <li>can manage site preferences</li>
+    <li>can manage users</li>
+    <li>can manage visitor logs</li>
+    <li>can manage plugins</li>
+    <li>can import data</li>
+</ul>
+<h3>Managing Editor</h3>
+<ul>
+    <li>can manage articles, comments and links</li>
+    <li>can use PHP in articles if admin preference ‘Allow PHP in articles?’ is set to ‘Yes’</li>
+    <li>can manage images and files</li>
+    <li>can manage sections and categories</li>
+    <li>can manage pages, forms and style</li>
+    <li>can view diagnostic information</li>
+    <li>can manage site preferences</li>
+    <li>can view users</li>
+    <li>can manage visitor logs</li>
+    <li>can manage plugins</li>
+    <li>can import data</li>
+</ul>
+<h3>Copy Editor</h3>
+<ul>
+    <li>can manage articles with one limitation:
+        <ul>
+            <li>cannot delete those belonging to other users</li>
+        </ul>
+    </li>
+    <li>can manage comments and links</li>
+    <li>can manage images and files</li>
+    <li>can manage categories</li>
+    <li>can manage pages and forms</li>
+    <li>can view users</li>
+    <li>can manage visitor logs</li>
+</ul>
+<h3>Staff Writer</h3>
+<ul>
+    <li>can manage own articles, view other users’ articles</li>
+    <li>can manage images and files</li>
+</ul>
+<h3>Freelancer</h3>
+<ul>
+    <li>can manage own articles in a limited sense:
+        <ul>
+            <li>can only modify article until is published</li>
+            <li>can apply status of <em>only</em> Draft, Hidden or Pending</li>
+        </ul>
+    </li>
+    <li>can view other users’ articles</li>
+</ul>
+<h3>Designer</h3>
+<ul>
+    <li>can manage own articles in a limited sense:
+        <ul>
+            <li>can only modify article until is published</li>
+            <li>can apply status of <em>only</em> Draft, Hidden or Pending</li>
+        </ul>
+    </li>
+    <li>can view other users’ articles</li>
+    <li>can manage images</li>
+    <li>can manage sections</li>
+    <li>can manage pages, forms and style</li>
+</ul>
+        ]]></item>
+        <item id="add_new_author" title="Add new author"><![CDATA[
+<h2>Add new author</h2>
+<p>A password, welcome message and login instructions will be emailed to the new author.</p>
+        ]]></item>
+    </help>
+
+    <help group="article" title="Write panel">
+        <item id="article_image" title="Article image"><![CDATA[
+<h2>Article image</h2>
+<p>If you would like to associate a single image with this article, place one of the following here:</p>
+<ol>
+    <li>a Textpattern image ID</li>
+    <li>a relative URL to the image (e.g. <code>/images/my_pic.jpg</code>)</li>
+    <li>a fully-qualified URL (e.g. <code>http://example.com/path/to/images/my_pic.jpg</code>)</li>
+</ol>
+<p>The image can be displayed by placing a <a rel="external" target="_blank" href="http://docs.textpattern.io/tags/article_image"><code>&lt;txp:article_image /&gt;</code> tag <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> inside an article form. It will output a complete HTML <code>&lt;img&gt;</code> tag to your chosen image.</p>
+        ]]></item>
+        <item id="body" title="Body"><![CDATA[
+<h2>Body</h2>
+<p>The main content of an article is contained within the article body.</p>
+<p>When composing or preparing articles for publication in Textpattern, you can switch between three views of the article: plain text, HTML markup (the code with which a web browser renders the article), and a rendered preview.</p>
+        ]]></item>
+        <item id="description" title="Description"><![CDATA[
+<h2>Description</h2>
+<p>The article description is an optional component that can help search engines and website crawlers better identify and sort content.</p>
+<p>The article description is limited to a maximum of 255 characters. Note that some search engines place character limits on the length of a page’s <code>meta description</code> for practicality of display in search engine results pages (SERPs) and this may be less than the 255 character limit in Textpattern.</p>
+<p>Note that the article description differs from the article excerpt, though they both accept similar content. The article description should be primarily intended for use with search engines and crawlers, whereas the the article excerpt is more suited for a human-readable article summary where desired.</p>
+        ]]></item>
+        <item id="excerpt" title="Excerpt"><![CDATA[
+<h2>Excerpt</h2>
+<p>Article excerpts are optional. Excerpts could be used as a short summary of the article that is displayed as part of a table of contents, used in place of the full article body in the site’s RSS/Atom feeds, or a number of other uses.</p>
+        ]]></item>
+        <item id="expire_date" title="Expire date"><![CDATA[
+<h2>Expire date</h2>
+<p>The time an article is labelled as expired. The time is optional and can be set to an arbitrary time in the past or future.</p>
+<p>The boxes correspond to the following information:</p>
+<ul>
+    <li>Year / Month / Day</li>
+    <li>Hour (24-hour format) : Minute : Second</li>
+</ul>
+<p>When the time arrives, or in the case where a time in the past is provided, the article expires.</p>
+<p>If the option to display expired articles is enabled, the article remains visible. If the option to display expired articles is disabled, visitors to the article page will be served an HTTP 410 error in place of the article content.</p>
+        ]]></item>
+        <item id="keywords" title="Keywords"><![CDATA[
+<h2>Keywords</h2>
+<p>Keywords are useful for refining the relationships between articles beyond those provided by categories.</p>
+<p>Keywords must be individual words separated by commas.</p>
+        ]]></item>
+        <item id="override_form" title="Override form"><![CDATA[
+<h2>Override form</h2>
+<p>If you wish for an article to use a form different from that assigned by default - for example if you want to show only an article excerpt with <a rel="external" target="_blank" href="http://docs.textpattern.io/tags/excerpt"><code>&lt;txp:excerpt /&gt;</code> <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> where you normally show the entire article with <a rel="external" target="_blank" href="http://docs.textpattern.io/tags/body"><code>&lt;txp:body /&gt;</code> <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> - this can be set here.</p>
+        ]]></item>
+        <item id="publish_date"><![CDATA[
+<h2>Publish date</h2>
+<p>The time an article or file is published or most-recently revised. The time can be set to the moment the item is published, or to an arbitrary time in the past or future.</p>
+<p>The boxes correspond to the following information:</p>
+<ul>
+    <li>Year / Month / Day</li>
+    <li>Hour (24-hour format) : Minute : Second</li>
+</ul>
+<p>An item with a timestamp greater than the current time (i.e. in the future) will not appear on the front end and the RSS/Atom feeds until that time arrives.</p>
+        ]]></item>
+        <item id="title" title="Title"><![CDATA[
+<h2>Title</h2>
+<p>Add an appropriate title for this article.</p>
+<p>An article title is limited to a maximum of 255 characters.</p>
+        ]]></item>
+        <item id="url_title" title="URL-only title"><![CDATA[
+<h2>URL-only title</h2>
+<p>If you would like to have a specific title attached to the permalink URL for your article, enter it here. If it is left blank, the URL title will be automatically generated from the article title.</p>
+<p>This is particularly useful if the title of your article uses non-ASCII characters.</p>
+        ]]></item>
+    </help>
+
+    <help group="category" title="Categories panel">
+        <item id="article_category" title="Articles"><![CDATA[
+<h2>Articles</h2>
+<p>Unlike sections, which define the navigational structure of a site, article categories allow organization of articles by their subject matter. Once categories are assigned, lists of articles belonging to particular categories can be browsed.</p>
+<p>For example, likely article categories on a site about food might be:</p>
+<ul>
+    <li>raw ingredients</li>
+    <li>shopping</li>
+    <li>recipes</li>
+    <li>presentation</li>
+    <li>restaurants</li>
+    <li>chefs</li>
+</ul>
+        ]]></item>
+        <item id="category_description" title="Description"><![CDATA[
+<h2>Description</h2>
+<p>The category description is an optional component that can help search engines and website crawlers better identify and sort content.</p>
+<p>The category description is limited to a maximum of 255 characters. Note that some search engines place character limits on the length of a page’s <code>meta description</code> for practicality of display in search engine results pages (SERPs) and this may be less than the 255 character limit in Textpattern.</p>
+        ]]></item>
+        <item id="file_category" title="Files"><![CDATA[
+<h2>Categories: Files</h2>
+<p>File categories are optional, and are useful if you want to group certain uploaded files together.</p>
+        ]]></item>
+        <item id="image_category" title="Images"><![CDATA[
+<h2>Categories: Images</h2>
+<p>Image categories are useful both for internal organization, and for defining image sets that can be displayed using the <a rel="external" target="_blank" href="http://docs.textpattern.io/tags/image_index"><code>&lt;txp:image_index /&gt;</code> <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> and <a rel="external" target="_blank" href="http://docs.textpattern.io/tags/image_display"><code>&lt;txp:image_display /&gt;</code> <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> tags.</p>
+        ]]></item>
+        <item id="link_category" title="Links"><![CDATA[
+<h2>Links</h2>
+<p>Link categories are optional, and are useful if you want to display different groupings of links, e.g. ‘Friends’, ‘Romans’, ‘Countrymen’.</p>
+<p>Selective link lists such as these are output with the <a rel="external" target="_blank" href="http://docs.textpattern.io/tags/linklist"><code>&lt;txp:linklist /&gt;</code> tag <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> like so:</p>
+<pre><code>&lt;code&gt;&lt;txp:linklist category="Friends" /&gt;&lt;/code&gt;.</code></pre>
+        ]]></item>
+    </help>
+
+    <help group="diag" title="Diagnostics panel">
+        <item id="clean_url_data_failed" title="Clean URL data failed"><![CDATA[
+<h2>Clean URL data failed</h2>
+<p>It appears that either your site URLs (<code>http://example.com/section/article</code>) are currently not working or your server does not support the test procedure to determine if clean URLs work or not; if clean URLs on your site work, you can safely ignore this message.</p>
+<p>If clean URLs are <em>not</em> working it may mean either:</p>
+<ul>
+    <li>your ‘Site URL’ setting is incorrect, or the page at that address is not managed by this copy of Textpattern.</li>
+    <li>your server requires some changes to <code>.htaccess</code> in order to make clean URLs work.</li>
+    <li>your server doesn’t support clean URLs at all.</li>
+</ul>
+<p>The clean URL test attempts to fetch a page from the web address specified in the ‘Site URL’ preference in order to check that all clean URL parameters are working correctly. If that URL is a different site, or has been replaced with a static page or similar, the test will fail. Until the issue is resolved you will have to use messy URLs on your site instead (<code>http://example.com?s=section&amp;id=4</code>). Ensure the ‘Permanent link mode’ in Admin Preferences is set accordingly.</p>
+<p>Note that using a plugin to put a site in ‘maintenance mode’ may trigger this warning.</p>
+        ]]></item>
+        <item id="clean_url_test_failed" title="Clean URL test failed"><![CDATA[
+<h2>Clean URL test failed</h2>
+<p>It appears that either your site URLs (<code>http://example.com/section/article</code>) are currently not working or your server does not support the test procedure to determine if clean URLs work or not; if clean URLs on your site work, you can safely ignore this message.</p>
+<p>If clean URLs are not working it may mean either:</p>
+<ul>
+    <li>your ‘Site URL’ setting is incorrect, or the page at that address is not managed by this copy of Textpattern</li>
+    <li>your server requires some changes to <code>.htaccess</code> in order to make clean URLs work</li>
+    <li>your server doesn’t support clean URLs at all</li>
+</ul>
+<p>The clean URL test attempts to fetch a page from the web address specified in the ‘Site URL’ preference in order to check that all clean URL parameters are working correctly. If that URL is a different site, or has been replaced with a static page or similar, the test will fail. Until the issue is resolved you will have to use messy URLs on your site instead (<code>http://example.com?s=section&amp;id=4</code>). Ensure the ‘Permanent link mode’ in Admin Preferences is set accordingly.</p>
+        ]]></item>
+        <item id="cleanurl_only_apache" title="Clean URL support"><![CDATA[
+<h2>Clean URL support</h2>
+<p>Clean URLs are only supported on Apache. If you are using another server platform, use short URLs at your own risk.</p>
+        ]]></item>
+        <item id="dev_version_live" title="Development code on a live server"><![CDATA[
+<h2>Development code on a live server</h2>
+<p>You are running in-development files on a live production site which is not recommended. If you know this already and are happy to do so, you may ignore this warning.</p>
+        ]]></item>
+        <item id="dir_not_writable" title="Directory is not writable"><![CDATA[
+<h2>Directory is not writable</h2>
+<p>To use the file and image upload capabilities, these directories have to be writable by PHP. Usually this means you have to change permissions so the web server user has write access to the directory. This can be done with your FTP client, or alternatively on the command line by issuing a <code>chmod 755 /path/to/dir</code> command.</p>
+        ]]></item>
+        <item id="dns_lookup_fails" title="DNS fails"><![CDATA[
+<h2>DNS fails</h2>
+<p>It appears the URL you specified as the address of your site is unreachable.</p>
+        ]]></item>
+        <item id="file_uploads_disabled" title="File uploads are disabled"><![CDATA[
+<h2>File uploads are disabled</h2>
+<p>Your current server configuration shows that file uploads are disabled so you will not be able to upload using Textpattern’s ‘Files’ and/or ‘Images’ panel. Please check and alter the <code>file_uploads</code> setting in <code>php.ini</code> (or ask your host to alter it).</p>
+        ]]></item>
+        <item id="htaccess_missing" title=".htaccess file missing"><![CDATA[
+<h2>.htaccess file missing</h2>
+<p>You are using a permanent link mode which requires an <code>.htaccess</code> file to be placed in your site root directory. The recommended directives are:</p>
+<pre><code>&lt;IfModule mod_rewrite.c&gt;
+    RewriteEngine On
+    #RewriteBase /relative/web/path/
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^(.+) - [PT,L]
+    RewriteCond %{REQUEST_URI} !=/favicon.ico
+    RewriteRule ^(.*) index.php
+    RewriteCond %{HTTP:Authorization}  !^$
+    RewriteRule .* - [E=REMOTE_USER:%{HTTP:Authorization}]
+&lt;/IfModule&gt;</code></pre>
+        ]]></item>
+        <item id="index_inaccessible" title="Site index inaccessible"><![CDATA[
+<h2>Site index inaccessible</h2>
+<p>The main <code>index.php</code> file specified as the index for your site is unreadable by the server. Please check permissions.</p>
+        ]]></item>
+        <item id="missing_files" title="Missing files"><![CDATA[
+<h2>Missing files</h2>
+<p>Some essential files are missing from your Textpattern installation. Ensure that all the listed files are present on your server and are in the correct locations.</p>
+        ]]></item>
+        <item id="mod_rewrite_missing" title="Apache mod_rewrite missing"><![CDATA[
+<h2>Apache mod_rewrite missing</h2>
+<p>Apache’s <code>mod_rewrite</code> module is not installed, or installed but not enabled. This is recommended for Textpattern to function correctly. Please check your <code>.htaccess</code> file is set up correctly, or contact your host for assistance.</p>
+        ]]></item>
+        <item id="modified_files" title="Modified files"><![CDATA[
+<h2>Modified files</h2>
+<p>Files are determined to be modified if their respective checksum differs from the known-good checksum list. If any files in the Textpattern installation are different to those expected, the files will be highlighted here. This is not necessarily a problem, but may be worth checking out if you are having problems with the functionality of your site.</p>
+        ]]></item>
+        <item id="mysql_table_errors" title="MySQL table errors"><![CDATA[
+<h2>MySQL table errors</h2>
+<p>Something is probably corrupt or otherwise damaged in your MySQL database. If you have access to a MySQL access tool, such as <a rel="external" target="_blank" href="https://www.phpmyadmin.net">phpMyAdmin <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>, try repairing the affected table(s).</p>
+        ]]></item>
+        <item id="no_temp_dir" title="No temporary directory defined"><![CDATA[
+<h2>No temporary directory defined</h2>
+<p>While Textpattern will run without a temporary directory, some functionality may not work as expected if this preference is not set. Please visit Admin Preferences and set up the ‘Temporary directory path’.</p>
+        ]]></item>
+        <item id="old_files" title="Old files"><![CDATA[
+<h2>Old files</h2>
+<p>Some Textpattern files are out-of-date and should be replaced with the latest versions from the relevant stable release.</p>
+        ]]></item>
+        <item id="old_placeholder_exists" title="Section directory exists"><![CDATA[
+<h2>Section directory exists</h2>
+<p>Existing section directory files will conflict with the the <code>.htaccess</code> scheme. If the reported files are placeholders, please delete them.</p>
+        ]]></item>
+        <item id="path_not_doc_root" title="path_to_site does not match"><![CDATA[
+<h2>path_to_site does not match</h2>
+<p>Two variables set by your web server which should match, but do not.</p>
+        ]]></item>
+        <item id="path_to_site_inacc" title="Site directory unreadable"><![CDATA[
+<h2>Site directory unreadable</h2>
+<p>The directory containing the <code>index.php</code> file specified as the index for your site is unreadable by the server. Please check permissions.</p>
+        ]]></item>
+        <item id="php_version_required" title="Minimum version requirements"><![CDATA[
+<h2>Minimum version requirements</h2>
+<p>Textpattern requires certain functionality present in the PHP programming language and MySQL database server. Please consult the following table to determine the minimum system requirements for the version of Textpattern you have downloaded:</p>
+<div class="txp-listtables">
+    <table class="txp-list">
+        <thead>
+            <tr>
+                <th scope="col">Textpattern version</th>
+                <th scope="col">Minimum PHP version</th>
+                <th scope="col">Minimum MySQL version</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">4.7.x</th>
+                <td>5.3.3</td>
+                <td>5.0.3</td>
+            </tr>
+            <tr>
+                <th scope="row">4.6.x</th>
+                <td>5.3.3</td>
+                <td>4.1</td>
+            </tr>
+            <tr>
+                <th scope="row">4.5.x</th>
+                <td>5.2.3</td>
+                <td>4.1</td>
+            </tr>
+            <tr>
+                <th scope="row">4.0.1 - 4.4.1</th>
+                <td>4.3</td>
+                <td>3.23</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<p>In addition to the above system requirements, the following PHP extensions are required:</p>
+<ul>
+    <li><a rel="external" target="_blank" href="https://secure.php.net/manual/en/ref.mysql.php">MySQL <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a></li>
+    <li><a rel="external" target="_blank" href="https://secure.php.net/manual/en/ref.xml.php">XML <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a></li>
+    <li><a rel="external" target="_blank" href="https://secure.php.net/manual/en/ref.json.php">JSON <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a></li>
+</ul>
+<p>Your <code>php.ini</code> file, either global or local, should contain a <code>date.timezone</code> setting.</p>
+        ]]></item>
+        <item id="setup_still_exists" title="Setup directory still exists"><![CDATA[
+<h2>Setup directory still exists</h2>
+<p>When Textpattern has been installed, the <code>textpattern/setup</code> directory and its contents are no longer needed and should be deleted. You will continue to receive this warning until it has been removed, as this can potentially be a security concern.</p>
+        ]]></item>
+        <item id="site_url_mismatch" title="Site URL mismatch"><![CDATA[
+<h2>Site URL mismatch</h2>
+<p>The Site URL as set in the ‘Preferences’ administration panel does not match the actual URL you use to visit your website.</p>
+<p>If your website can be reached through multiple different URLs, or if the links on your Textpattern powered website all function correctly, you can safely ignore this warning.</p>
+<p>Otherwise, you are advised to correct the ‘Site URL’ setting in Admin Preferences. An educated guess of the correct Site URL is shown in the pre-flight warning message on the ‘Diagnostics’ administration panel.</p>
+        ]]></item>
+        <item id="some_php_functions_disabled" title="PHP functions […] are disabled on your server"><![CDATA[
+<h2>PHP functions […] are disabled on your server</h2>
+<p>This means your hosting company or server administrator has disabled one or more PHP functions, some of which may affect the running of Textpattern.</p>
+<p>Please consult the <a rel="external" target="_blank" href="http://docs.textpattern.io/administration/diagnostics-panel#diagnostic-reporting-on-php-functions">Textpattern User Documentation <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> for further information.</p>
+        ]]></item>
+        <item id="textpattern_version_update" title="Textpattern CMS version update"><![CDATA[
+<h2>Textpattern CMS version update</h2>
+<p>There is a newer version of Textpattern CMS available. To take advantage of the latest features and security, it is recommended you upgrade.</p>
+<p>Please note that while we strive to make the upgrade experience as seamless and pain-free as possible:</p>
+<ul>
+    <li>If only the last digit differs from your current version, the upgrade is likely to be backwards compatible with plugins and themes.</li>
+    <li>If the last two digits differ from your current version, the upgrade might require updates to some plugins and/or themes, although it will probably continue to work anyway in a limited capacity.</li>
+    <li>If the first digit is different from your current version, the upgrade is likely to require updates to most plugins and themes. If you rely heavily on a particular plugin or theme feature, please check with the author or community members before commencing the upgrade.</li>
+</ul>
+<p>If the messages reads “There is a problem trying to connect to the RPC server” it means a new version could not be checked at this time, or the server may be down. Updates are checked for every 24 hours so it is likely that next time you visit the Diagnostics panel, all will be well.</p>
+        ]]></item>
+        <item id="tmp_plugin_paths_match" title="Temporary and Plugin cache directory paths should not match"><![CDATA[
+<h2>Temporary and Plugin cache directory paths should not match</h2>
+<p>Plugins should have their own directory and not share the temporary directory. This is a potential security risk and may adversely affect your site if the temporary directory is flushed. Please ensure that the temporary directory path is different to the plugin cache path.</p>
+        ]]></item>
+        <item id="update_still_exists" title="Update directory still exists"><![CDATA[
+<h2>Update directory still exists</h2>
+<p>When Textpattern has been upgraded, the <code>textpattern/update</code> directory and its contents are no longer needed and recommended for deletion. You will continue to receive this warning until it has been removed.</p>
+        ]]></item>
+        <item id="warn_mail_unavailable" title="Your PHP installation is missing the mail() function"><![CDATA[
+<h2>Your PHP installation is missing the mail() function</h2>
+<p>PHP’s <a rel="external" target="_blank" href="https://secure.php.net/manual/en/function.mail.php">mail <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> function is disabled. Therefore, Textpattern cannot send emails and some functionality will not be available. For example, email notifications for new comments will not be sent, and new users will not receive a welcome email. Users can still be added, however.</p>
+        ]]></item>
+    </help>
+
+    <help group="file" title="Files panel">
+        <item id="file_reassign" title="Reassign file"><![CDATA[
+<h2>Reassign file</h2>
+<p>When you upload a file in place of one that is labelled ‘Missing’, your chosen file is uploaded to the server and linked to the original file information in the database. This means the file name of the original file will remain, as will all other associated information such as download count and category. The file size will, however, be updated to reflect the new file.</p>
+        ]]></item>
+        <item id="file_replace" title="Replace file"><![CDATA[
+<h2>Replace file</h2>
+<p>Uploading a file here will replace the contents of the existing file on the server but will keep the file name the same as it was before. The download count and other information associated with the file remain unaffected.</p>
+        ]]></item>
+        <item id="upload" title="Upload file"><![CDATA[
+<h2>Upload file</h2>
+<p>Use this form to upload files or images to your server.</p>
+<p>Use the Textile code to render graphics within articles, the Textpattern code to place graphics on your page templates, or HTML code to place the graphics elsewhere.</p>
+        ]]></item>
+    </help>
+
+    <help group="form" title="Forms panel">
+        <item id="forms_overview" title="Introduction to Forms"><![CDATA[
+<h2>Introduction to Forms</h2>
+<p>In Textpattern, a form is a snippet or chunk of text, HTML, and Textpattern tags that can be reused to display content.</p>
+<p>Here’s an example form which could be named <code>ordinary_list</code>:</p>
+<pre><code>&lt;li&gt;
+    &lt;txp:permlink&gt;
+        &lt;txp:title /&gt;
+    &lt;/txp:permlink&gt;
+&lt;/li&gt;</code></pre>
+<p>You could use it to display an HTML unordered list of related articles:</p>
+<pre><code>&lt;txp:related_articles form="ordinary_list" wraptag="ul" /&gt;</code></pre>
+<p>Since the role of this form is to output a list of titles, it could be applicable inside other tags, such as showing 20 articles from the current section:</p>
+<pre><code>&lt;txp:article form="ordinary_list" limit="20" wraptag="ol" /&gt;</code></pre>
+<p>You may also choose to employ a form to display repeated content, such as header and footer in your page templates. This means the content only exists in one place and if you decide to change it, you only need to do it once. Displaying content from a form is usually accomplished with:</p>
+<pre><code>&lt;txp:output_form form="your_form_name" /&gt;</code></pre>
+<p>A form can be up to 64KB in size. An example for a footer might include headings, paragraphs, links, conditional tags, and references to other forms such as <code>ordinary_list</code>.</p>
+        ]]></item>
+    </help>
+
+    <help group="image" title="Images panel">
+        <item id="create_thumbnail" title="Create thumbnail"><![CDATA[
+<h2>Create thumbnail</h2>
+<p>Allows you to (re)create a thumbnail of the specified dimensions from the full size image.</p>
+<p>The thumbnail will be scaled to fit the dimensions you choose, unless you select the ‘Crop’ checkbox. In that case, the thumbnail will be created from the centre of the image without any scaling.</p>
+        ]]></item>
+        <item id="replace_image_form" title="Replace image"><![CDATA[
+<h2>Replace image</h2>
+<p>An image uploaded here will simply replace the existing one associated with this entry in the database.</p>
+        ]]></item>
+        <item id="upload_image" title="Upload image"><![CDATA[
+<h2>Upload image</h2>
+<p>Upload one or more images to your server.</p>
+<p>Upon upload to the <code>images</code> directory, the filename of your original image will be kept only internally in Textpattern’s database; the image file itself will be renamed to a sequential number + file extension.</p>
+        ]]></item>
+        <item id="upload_thumbnail" title="Upload thumbnail"><![CDATA[
+<h2>Upload thumbnail</h2>
+<p>Full size images can be assigned their own thumbnails. These are useful for linking to - and the indexing of - full size images.</p>
+<p>A reference to the thumbnail is exactly the same as the reference to the full size image, with <code>t</code> appended to the file name. For example, to reference a thumbnail associated with a full size image stored at <code>/images/12.jpg</code> you would use <code>/images/12t.jpg</code>.</p>
+        ]]></item>
+    </help>
+
+    <help group="lang" title="Languages panel">
+        <item id="get_textpack" title="Install Textpack"><![CDATA[
+<h2>Install Textpack</h2>
+<p>Paste additional language strings for your site into this box and select ‘Upload’ to install them.</p>
+<p>The strings will often come in the form of a downloadable Textpack, distributed with a plugin to permit the plugin’s language strings to be used natively within Textpattern.</p>
+<p>International authors may then translate these packs as necessary and redistribute the localized content to the community.</p>
+        ]]></item>
+        <item id="install_lang_from_file" title="Install from file"><![CDATA[
+<h2>Install from file</h2>
+<p>To install new language translations from file you can <a rel="external" target="_blank" href="http://rpc.textpattern.com/lang/">download them <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> and then place the file inside your <code>textpattern/lang</code> directory.</p>
+        ]]></item>
+        <item id="install_lang_from_server" title="Install from remote server"><![CDATA[
+<h2>Install from remote server</h2>
+<p>To install or update languages, use the ‘Install’ or ‘Update’ links against the corresponding language(s).</p>
+        ]]></item>
+        <item id="remove_lang" title="Remove language"><![CDATA[
+<h2>Remove language</h2>
+<p>You can remove this language completely and thus free the database resources that are associated with it.</p>
+<p>If you inadvertently remove a language you can re-install it.</p>
+        ]]></item>
+    </help>
+
+    <help group="link" title="Links panel">
+        <item id="link_description" title="Description"><![CDATA[
+<h2>Description</h2>
+<p>Descriptions for links are optional, and are useful for captioning links, for creating <code>title=""</code> (tooltip) attributes for links, or simply keeping your own internal documentation.</p>
+        ]]></item>
+        <item id="link_sort" title="Sort value"><![CDATA[
+<h2>Sort value</h2>
+<p>Useful for natural-language sorting of link lists, e.g. on a person’s last name rather than their first, or on phrases that begin with a definite or indefinite article.</p>
+        ]]></item>
+        <item id="link_url" title="URL"><![CDATA[
+<h2>URL</h2>
+<p>The address of the link. If the link points to a different site, then it must be preceded by <code>http://</code> or <code>https://</code>.</p>
+        ]]></item>
+    </help>
+
+    <help group="login" title="Login panel">
+        <item id="remember_login" title="Remember login"><![CDATA[
+<h2>Remember login</h2>
+<p>When checked, you will remain logged in to your Textpattern account with the current web browser, until you choose to log out. If left unchecked, you will be automatically logged out after a period of inactivity.</p>
+<p>Requires cookies to be enabled in your browser.</p>
+        ]]></item>
+    </help>
+
+    <help group="plugin">
+        <item id="install_plugin" title="Install plugin"><![CDATA[
+<h2>Install plugin</h2>
+<p>Paste the contents of the plugin text file here, then use ‘Upload’ to begin installation. Any plugin you upload with the same name as one you have previously installed will be overwritten with the uploaded version.</p>
+<p>The plugin text you paste here is <strong>not</strong> the raw PHP code but Base64-encoded text, usually preceded by a header containing plugin information (such as plugin name, version and description, author name, etc).</p>
+        ]]></item>
+    </help>
+
+    <help group="prefs" title="Preferences panel">
+        <item id="admin_side_plugins" title="Use admin-side plugins?"><![CDATA[
+<h1>Use admin-side plugins?</h1>
+<p>Admin-side plugins can change the operation of the administration interface. They might hook into already existing actions, like editing or publishing articles, or they might add new panels for added/extended functionality.</p>
+<p>If you would like to learn more about admin-side plugins, please see the <a rel="external" target="_blank" href="http://docs.textpattern.io/development/">Extending Textpattern</a> page in <a rel="external" target="_blank" href="http://docs.textpattern.io/">Textpattern User Documentation</a>. Plugins of all sorts are listed in the <a rel="external" target="_blank" href="http://textpattern.org/">Textpattern Resources</a> site.</p>
+        ]]></item>
+
+
+    </help>
+
+    <help group="section" title="Sections panel">
+
+    </help>
+
+    <help group="setup" title="Setup panel">
+
+    </help>
+
+    <help group="skin" title="Themes panel">
+
+    </help>
+
+</resources>
