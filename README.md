@@ -1,6 +1,6 @@
 # Textpattern CMS help files
 
-This repository contains Help files (aka 'Pophelp') for [Textpattern CMS](http://textpattern.com). These Pophelps are the translation file format Textpattern will eventually use in future versions.
+This repository contains Help files (aka 'Pophelp') for [Textpattern CMS](https://textpattern.com). These Pophelps are the translation file format Textpattern will eventually use in future versions.
 
 ## Specification
 
