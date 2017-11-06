@@ -734,8 +734,8 @@
 <h3>Live mode</h3>
 <p>No error reporting or diagnostic information will be sent to the page. Generally, Live mode is preferred, as it provides the best user experience and imposes the least overhead on the server.</p>
         ]]></item>
-        <item id="public_theme_name" title="Public-side theme"><![CDATA[
-<h2>Admin-side theme</h2>
+        <item id="public_theme_name" title="Front-side theme"><![CDATA[
+<h2>Front-side theme</h2>
 <p>The default front-side theme that will be used when anybody visits your public-facing website. A pre-installed default theme is included with Textpattern, plus the option of starting without a theme. You can also add theme packages to the <code>textpattern/themes</code> directory to make them available for use.</p>
         ]]></item>
         <item id="publish_expired_articles" title="Publish expired articles?"><![CDATA[
