@@ -436,14 +436,6 @@
 <p>The strings will often come in the form of a downloadable Textpack, distributed with a plugin to permit the plugin’s language strings to be used natively within Textpattern.</p>
 <p>International authors may then translate these packs as necessary and redistribute the localized content to the community.</p>
         ]]></item>
-        <item id="install_lang_from_file" title="Install from file"><![CDATA[
-<h2>Install from file</h2>
-<p>To install new language translations from file you can <a rel="external" target="_blank" href="http://rpc.textpattern.com/lang/">download them <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> and then place the file inside your <code>textpattern/lang</code> directory.</p>
-        ]]></item>
-        <item id="install_lang_from_server" title="Install from remote server"><![CDATA[
-<h2>Install from remote server</h2>
-<p>To install or update languages, use the ‘Install’ or ‘Update’ links against the corresponding language(s).</p>
-        ]]></item>
         <item id="remove_lang" title="Remove language"><![CDATA[
 <h2>Remove language</h2>
 <p>You can remove this language completely and thus free the database resources that are associated with it.</p>
