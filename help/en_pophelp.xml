@@ -625,7 +625,7 @@
         ]]></item>
         <item id="module_pophelp" title="Display admin-side inline help links?"><![CDATA[
 <h2>Display admin-side inline help links?</h2>
-<p>If you wish to hide admin-side inline help links (Textpattern help pop-up windows) throughout the system, switch this setting this ‘None’.</p>
+<p>If you wish to hide admin-side inline help links (Textpattern help pop-up windows) throughout the system, switch this setting to ‘None’.</p>
         ]]></item>
         <item id="enable_xmlrpc_server" title="Enable XML-RPC server?"><![CDATA[
 <h2>Enable XML-RPC server?</h2>
