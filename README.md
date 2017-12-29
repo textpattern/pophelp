@@ -31,24 +31,24 @@ To contribute to a translation directly from GitHub.com website:
 
 1. [Sign in](https://github.com/login) with your GitHub account
 2. Navigate to a Pophelp file you would want to alter, e.g. [help/en-gb/body.html](https://github.com/textpattern/pophelp/blob/master/help/en-gb/body.html).
-3. Click or tap the **Edit** button above the presented file contents.
+3. Select the **Edit** button above the presented file contents.
 4. Make some alterations to existing text.
 5. After you've done, fill in the short commit message describing the change, e.g. *"Fixed typo"*.
-6. Click or tap the **Save** button.
+6. Select the **Save** button.
 
 Now to submit in a new pull request with your changes:
 
-1. Click or tap the **Click to create a pull request for this comparison** link on the page presented to you after saving, or you can use the **Compare and pull request** button on your fork's repository page.
+1. Select the **Click to create a pull request for this comparison** link on the page presented to you after saving, or you can use the **Compare and pull request** button on your fork's repository page.
 2. Fill in the comment field; explain what your changes do. Be precise and clear.
-3. Click or tap the **Send pull request** button.
+3. Select the **Send pull request** button.
 
 Once your pull request is processed and marked closed (merged or denied), go back to your GitHub profile page and delete your clone of the Pophelp repository:
 
 1. Find the 'pophelp' repository on your profile page; it should be listed on your repository list.
 2. Open it.
-3. On the repository's page, click or tap the **Settings** link.
+3. On the repository's page, select the **Settings** link.
 4. Scroll down until you see **Delete repository** button.
-5. Click or tap it and confirm the action.
+5. Select it and confirm the action.
 
 ## License
 
