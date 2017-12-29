@@ -30,7 +30,7 @@ GitHub's [web based editing features](https://help.github.com/articles/creating-
 To contribute to a translation directly from GitHub.com website:
 
 1. [Sign in](https://github.com/login) with your GitHub account
-2. Navigate to a Pophelp file you would want to alter, e.g. [help/en-gb/body.html](https://github.com/textpattern/pophelp/blob/master/help/en-gb/body.html).
+2. Navigate to a Pophelp file you would want to alter, e.g. [en-gb_pophelp.xml](https://github.com/textpattern/pophelp/blob/master/help/en-gb_pophelp.xml).
 3. Select the **Edit** button above the presented file contents.
 4. Make some alterations to existing text.
 5. After you've done, fill in the short commit message describing the change, e.g. *"Fixed typo"*.
