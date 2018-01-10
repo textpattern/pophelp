@@ -535,8 +535,8 @@
         ]]></item>
         <item id="comments_mode" title="Comments mode"><![CDATA[
 <h2>Comments mode</h2>
-<p>If ‘current window’ is selected (recommended) the current window will be refreshed to display only the current article, with comments beneath.</p>
-<p>If ‘popup window’ is selected, a new browser window will open when the comments link is clicked (this uses the <code>popup_comments</code> form).</p>
+<p>If ‘nopopup’ is selected (recommended) the current window will be refreshed to display only the current article, with comments beneath.</p>
+<p>If ‘popup’ is selected, a new browser window will open when the comments link is clicked (this uses the <code>popup_comments</code> form).</p>
         ]]></item>
         <item id="comments_moderate" title="Moderate comments?"><![CDATA[
 <h2>Moderate comments?</h2>
