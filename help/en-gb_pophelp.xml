@@ -936,6 +936,10 @@
     </group>
 
     <group id="skin" title="Themes panel">
+        <item id="skin_import" title="TODO"><![CDATA[
+<h2>TODO</h2>
+<p>TODO</p>
+        ]]></item>
         <item id="skin_synchronize" title="Synchronise template/file lists"><![CDATA[
 <h2>Synchronise template/file lists</h2>
 <p>If checked, this option allows you to synchronise the template-related database and files.</p>
