@@ -546,8 +546,8 @@
 <h2>Comments disabled after</h2>
 <p>Use this to set the amount of time after which commenting will be turned off for articles (can be set to ‘Never’ to allow indefinite time to comment).</p>
         ]]></item>
-        <item id="comments_disallow_images" title="Strip commenter's images from comments?"><![CDATA[
-<h2>Strip commenter's images from comments?</h2>
+        <item id="comments_disallow_images" title="Strip commenter‘s images from comments?"><![CDATA[
+<h2>Strip commenter‘s images from comments?</h2>
 <p>With this option set to ‘Yes’, any images included in comments will be stripped out.</p>
         ]]></item>
         <item id="comments_mode" title="Comments mode"><![CDATA[
@@ -688,8 +688,8 @@
 <h2>Display admin-side inline help links?</h2>
 <p>If you wish to hide admin-side inline help links (Textpattern help pop-up windows) throughout the system, switch this setting to ‘None’.</p>
         ]]></item>
-        <item id="never_display_email" title="Hide commenter's email address?"><![CDATA[
-<h2>Hide commenter's email address?</h2>
+        <item id="never_display_email" title="Hide commenter‘s email address?"><![CDATA[
+<h2>Hide commenter‘s email address?</h2>
 <p>This setting controls whether the email address of a commenter should be shown publicly.</p>
 <p>It’s recommended that email addresses should not be shown, as courtesy to your users, but there may be certain situations when showing commenter email addresses is desirable.</p>
         ]]></item>
@@ -980,10 +980,10 @@
 <p>To edit assets in a theme, visit the Pages, Forms or Styles panel and use the dropdown selector to choose the theme upon which you wish to work. The theme you are working on is remembered throughout the administration area, allowing you to jump between asset types quickly and easily. It is referred to as your <em>working theme</em>.</p>
 <h3>Previewing theme assets</h3>
 <p>All the while you are working on a theme, Textpattern will permit you (and only you) to preview the assets in that theme. Just visit the public website while you are still logged in to the administration area. Provided Textpattern can locate an asset with the same name as the one that is already assigned to the public Section of the site you are visiting, it will show you what your site will look like by using the working theme as a preview.</p>
-<p>This allows you to rapidly see changes to your theme's assets and continue to alter items prior to making them available to the public. At any time, switching your working theme from the administration area will allow you to preview those assets.</p>
+<p>This allows you to rapidly see changes to your theme‘s assets and continue to alter items prior to making them available to the public. At any time, switching your working theme from the administration area will allow you to preview those assets.</p>
 <p>When you are satisfied with the results, assign assets from any theme(s) to one or more Sections of your site. This will make those assets live, and visible to any site visitors.</p>
 <h3>Exporting and importing</h3>
-<p>Themes may be shared with the community. Select one or more themes via the checkboxes and use the multi-edit tool's <em>export</em> option to export the theme assets to disk. Each theme is located in its own sub-directory, beneath the directory defined in your <em>Theme directory</em> preference setting (default: <code>themes</code>).</p>
+<p>Themes may be shared with the community. Select one or more themes via the checkboxes and use the multi-edit tool‘s <em>export</em> option to export the theme assets to disk. Each theme is located in its own sub-directory, beneath the directory defined in your <em>Theme directory</em> preference setting (default: <code>themes</code>).</p>
 <p>Once there, you can package it up and distribute it. Others may unpackage themes into their own directory and use the <em>import</em> tool to bring the assets into their database. From there, they may switch to the theme and use that as their working theme, permitting preview of assets within the site and, ultimately, assignment of assets to Sections as described above.</p>
 <p>The ability to export themes also allows you to make a backup, edit asset contents on disk in your text editor and/or apply version control to them. Remember: there is <em>no link</em> between your public site and the disk-based version of your assets. In order for visitors to see the changes, you must first import alterations into your database and ensure that one or more Sections are using the assets from the theme.</p>
         ]]></item>
