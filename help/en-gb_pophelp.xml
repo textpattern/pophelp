@@ -688,8 +688,8 @@
 <h2>Display admin-side inline help links?</h2>
 <p>If you wish to hide admin-side inline help links (Textpattern help pop-up windows) throughout the system, switch this setting to ‘None’.</p>
         ]]></item>
-        <item id="never_display_email" title="Hide commenter email address?"><![CDATA[
-<h2>Hide commenter email address?</h2>
+        <item id="never_display_email" title="Hide commenter's email address?"><![CDATA[
+<h2>Hide commenter's email address?</h2>
 <p>This setting controls whether the email address of a commenter should be shown publicly.</p>
 <p>It’s recommended that email addresses should not be shown, as courtesy to your users, but there may be certain situations when showing commenter email addresses is desirable.</p>
         ]]></item>
