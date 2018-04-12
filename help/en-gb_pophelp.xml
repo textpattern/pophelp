@@ -190,7 +190,7 @@
 <p>File categories are optional, and are useful if you want to group certain uploaded files together.</p>
         ]]></item>
         <item id="image_category" title="Images"><![CDATA[
-<h2>Categories: Images</h2>
+<h2>Images</h2>
 <p>Image categories are useful both for internal organisation, and for defining image sets that can be displayed using the <a rel="external" target="_blank" href="http://docs.textpattern.io/tags/image_index"><code>&lt;txp:image_index /&gt;</code> <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> and <a rel="external" target="_blank" href="http://docs.textpattern.io/tags/image_display"><code>&lt;txp:image_display /&gt;</code> <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> tags.</p>
         ]]></item>
         <item id="link_category" title="Category"><![CDATA[
