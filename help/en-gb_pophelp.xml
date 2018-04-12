@@ -810,7 +810,7 @@
 <p>You can enter a list of domain names here, separated by commas. Please note that it is your responsibility to ensure blocklists are fit for purpose.</p>
         ]]></item>
         <item id="syndicate_body_or_excerpt" title="Syndicate article excerpt only?"><![CDATA[
-<h2>Syndicate article excerpt only?</h2>
+<h2>Syndicate article excerpt <strong>only?</strong></h2>
 <p>If this is set to ‘No’, feed items will contain the full article bodies.</p>
 <p>If this is set to ‘Yes’, feed items will contain the article excerpt instead of the article body where it is available.</p>
         ]]></item>
