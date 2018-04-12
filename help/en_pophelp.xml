@@ -708,8 +708,8 @@
 <p>When permalink title URL pattern option is set to ‘Intercapped (TitleLikeThis)’, the URL for the article would be:</p>
 <pre><code>http://example.com/AnnandBobeatcake</code></pre>
         ]]></item>
-        <item id="permlink_mode" title="URL pattern"><![CDATA[
-<h2>URL pattern</h2>
+        <item id="permlink_mode" title="Article URL pattern"><![CDATA[
+<h2>Article URL pattern</h2>
 <p>This defines the method by which individual articles are reached via the URL displayed using the <a rel="external" target="_blank" href="http://docs.textpattern.io/tags/permlink"><code>&lt;txp:permlink&gt;</code> tag <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>.</p>
 <p>‘?=messy’ mode is the most compatible - it will work with little to no configuration required - but least beneficial in terms of URL readability and search engine optimization (SEO). In this mode URLs for articles on your site would look like this:</p>
 <pre><code>http://example.com/index.php?id=123</code></pre>
