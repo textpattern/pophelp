@@ -663,8 +663,8 @@
 <p>This path is always a <strong>relative path</strong> (to the directory of your root Textpattern installation).</p>
 <p>The default is <code>images</code>.</p>
         ]]></item>
-        <item id="include_email_atom" title="Include email in Atom feeds?"><![CDATA[
-<h2>Include email in Atom feeds?</h2>
+        <item id="include_email_atom" title="Include email address in Atom feeds?"><![CDATA[
+<h2>Include email address in Atom feeds?</h2>
 <p>This allows you to include the email address of the author (as set in their user account) of an article in the <em>author</em> part of your Atom feeds.</p>
         ]]></item>
         <item id="is_dst" title="Daylight Saving Time enabled?"><![CDATA[
