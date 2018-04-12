@@ -186,7 +186,7 @@
 <p>The category description is limited to a maximum of 255 characters. Note that some search engines place character limits on the length of a page’s <code>meta description</code> for practicality of display in search engine results pages (SERPs) and this may be less than the 255 character limit in Textpattern.</p>
         ]]></item>
         <item id="file_category" title="Files"><![CDATA[
-<h2>Categories: Files</h2>
+<h2>Files</h2>
 <p>File categories are optional, and are useful if you want to group certain uploaded files together.</p>
         ]]></item>
         <item id="image_category" title="Images"><![CDATA[
