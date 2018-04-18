@@ -644,7 +644,7 @@
     <li>Remove the <code>txp:</code> prefix.</li>
     <li>Swap the first occurrence of the underscore for <code>::</code>.</li>
 </ol>
-<p>Note that setting this preference in no way affects the ability to use <code>&lt;txp:output_form /&gt;</code> short codes to render form snippets. You can still use <code>&lt;txp::shortcode /&gt;</code>, which will be interpreted as <code>&lt;txp:output_form form="shortcode" /&gt;</code>.</p>
+<p>Note that setting this preference does not affect the ability to use <code>&lt;txp:output_form /&gt;</code> short codes to render form snippets. You can still use <code>&lt;txp::shortcode /&gt;</code>, which will be interpreted as <code>&lt;txp:output_form form="shortcode" /&gt;</code>.</p>
         ]]></item>
         <item id="enable_xmlrpc_server" title="Enable XML-RPC server?"><![CDATA[
 <h2>Enable XML-RPC server?</h2>
