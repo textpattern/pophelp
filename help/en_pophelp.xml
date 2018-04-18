@@ -589,8 +589,8 @@
 </ul>
 <p><strong>Note:</strong> For security reasons, raw HTML is transformed into regular text.</p>
         ]]></item>
-        <item id="custom_overview" title="Custom Fields"><![CDATA[
-<h2>Custom Fields</h2>
+        <item id="custom_overview" title="Custom fields"><![CDATA[
+<h2>Custom fields</h2>
 <p>Custom fields are used to hold additional article data. You may define up to ten by giving them a name here. Each will appear as a separate field on the Write panel, to permit custom data to be associated with each article.</p>
 <p>You may name the fields in any manner you wish, but be aware of the following:</p>
 <ul>
