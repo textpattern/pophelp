@@ -589,6 +589,16 @@
 </ul>
 <p><strong>Note:</strong> For security reasons, raw HTML is transformed into regular text.</p>
         ]]></item>
+        <item id="custom_overview" title="Custom fields"><![CDATA[
+<h2>Custom fields</h2>
+<p>Custom fields are used to hold additional article data. You may define up to ten by giving them a name here. Each will appear as a separate field on the Write panel, to permit custom data to be associated with each article.</p>
+<p>You may name the fields in any manner you wish, but be aware of the following:</p>
+<ul>
+<li>Using spaces improves legibility on the Write panel, but the fields may then <em>not</em> be used as sorting or filtering parameters in an article_custom tag. Consider underscores instead if you wish to use this functionality.</li>
+<li>Be careful when naming fields that they do not clash with reserved field names in Textpattern. For example, do not use <code>title</code>, <code>category</code>, <code>limit</code>, <code>status</code>, etc as you will obtain strange results or broken sites.</li>
+<li>Data in each field is limited to 255 characters of text only.</li>
+</ul>
+        ]]></item>
         <item id="dateformat" title="Date format"><![CDATA[
 <h2>Date format</h2>
 <p>This option will affect how article dates appear on the front page of your site only.</p>
