@@ -566,7 +566,7 @@
         ]]></item>
         <item id="comments_require_email" title="Comments require user’s email address?"><![CDATA[
 <h2>Comments require user’s email address?</h2>
-<p>If set to ‘Yes’, people that want to comment on your article will have to enter an email address in the comment write form. They will be unable to post a comment if they do not supply an email address.</p>
+<p>If set to ‘Yes’, people that want to comment on your article will have to enter an email address in the comment input form. They will be unable to post a comment if they do not supply an email address.</p>
         ]]></item>
         <item id="comments_require_name" title="Comments require commenter’s name?"><![CDATA[
 <h2>Comments require commenter’s name?</h2>
