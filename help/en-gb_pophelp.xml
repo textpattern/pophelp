@@ -227,7 +227,7 @@
         ]]></item>
         <item id="diag_clear_private" title="Hide private information"><![CDATA[
 <h2>Hide private information</h2>
-<p>Hide private information for extra security. Recommended for if you want to copy and paste diagnostic information into a publicly viewable document, where exposing server details can potentially pose a security risk.</p>
+<p>Hide private information for extra security. If diagnostic information is to be shared in a publicly-viewable format, for example the Textpatern support forum, this reduces a security risk by omitting sensitive server information.</p>
         ]]></item>
         <item id="dev_version_live" title="Development code on a live server"><![CDATA[
 <h2>Development code on a live server</h2>
@@ -243,7 +243,7 @@
         ]]></item>
         <item id="file_uploads_disabled" title="File uploads are disabled"><![CDATA[
 <h2>File uploads are disabled</h2>
-<p>The current server configuration indicates that file uploads are disabled. Please check and alter the <code>file_uploads</code> setting in <code>php.ini</code> (or ask your host to alter it).</p>
+<p>The current server configuration indicates that file uploads are disabled. Please check and alter the <code>file_uploads</code> setting in <code>php.ini</code> or consult the site host for assistance.</p>
         ]]></item>
         <item id="htaccess_missing" title=".htaccess file missing"><![CDATA[
 <h2>.htaccess file missing</h2>
@@ -290,7 +290,7 @@
         ]]></item>
         <item id="modified_files" title="Modified files"><![CDATA[
 <h2>Modified files</h2>
-<p>Files are determined to be modified if their respective checksum differs from the known-good checksum list. If any files in the Textpattern installation are different to those expected, the files will be highlighted here. This is not necessarily a problem, but may be worth checking out if you are having problems with the functionality of your site.</p>
+<p>Files are determined to be modified if their respective checksum differs from the known-good checksum list provided with Textpattern. If any files in the Textpattern installation are different to those expected, the files will be highlighted here.</p>
         ]]></item>
         <item id="mysql_table_errors" title="MySQL table errors"><![CDATA[
 <h2>MySQL table errors</h2>
@@ -306,11 +306,11 @@
         ]]></item>
         <item id="path_to_site_inaccessible" title="Site directory unreadable"><![CDATA[
 <h2>Site directory unreadable</h2>
-<p>The directory containing the <code>index.php</code> file specified as the index for your site is unreadable by the server. Please check permissions.</p>
+<p>The directory containing the root <code>index.php</code> file specified as the index for the site is unreadable by the server. Please check permissions.</p>
         ]]></item>
         <item id="php_version_required" title="Minimum version requirements"><![CDATA[
 <h2>Minimum version requirements</h2>
-<p>Textpattern requires certain functionality present in the PHP programming language and MySQL database server. Please consult the following table to determine the minimum system requirements for the version of Textpattern you have downloaded:</p>
+<p>Textpattern requires certain functionality present in the PHP programming language and MySQL database server. Please consult the following table to determine the minimum system requirements:</p>
 <div class="txp-listtables">
     <table class="txp-list">
         <thead>
@@ -346,25 +346,25 @@
 </div>
 <p>In addition to the above system requirements, the following PHP extensions are required:</p>
 <ul>
-    <li><a rel="external" target="_blank" href="https://secure.php.net/manual/en/ref.mysql.php">MySQL <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a></li>
-    <li><a rel="external" target="_blank" href="https://secure.php.net/manual/en/ref.xml.php">XML <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a></li>
-    <li><a rel="external" target="_blank" href="https://secure.php.net/manual/en/ref.json.php">JSON <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a></li>
+    <li><a rel="external" target="_blank" href="https://secure.php.net/manual/en/book.mysqli.php">mysqli <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a></li>
+    <li><a rel="external" target="_blank" href="https://secure.php.net/manual/en/book.xml.php">XML <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a></li>
+    <li><a rel="external" target="_blank" href="https://secure.php.net/manual/en/book.json.php">JSON <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a></li>
 </ul>
-<p>Your <code>php.ini</code> file, either global or local, should contain a <code>date.timezone</code> setting.</p>
+<p>The site's <code>php.ini</code> file, either global or local, needs to contain a <code>date.timezone</code> setting.</p>
         ]]></item>
         <item id="setup_still_exists" title="Setup directory still exists"><![CDATA[
 <h2>Setup directory still exists</h2>
-<p>When Textpattern has been installed, the <code>textpattern/setup</code> directory and its contents are no longer needed and should be deleted. You will continue to receive this warning until it has been removed, as this can potentially be a security concern.</p>
+<p>When Textpattern has been installed, the <code>textpattern/setup</code> directory and its contents are no longer needed, and should be deleted for security reasons.</p>
         ]]></item>
         <item id="site_url_mismatch" title="Site URL mismatch"><![CDATA[
 <h2>Site URL mismatch</h2>
-<p>The Site URL as set in the ‘Preferences’ panel does not match the actual URL you use to visit your website.</p>
-<p>If your website can be reached through multiple different URLs, or if the links on your Textpattern powered website all function correctly, you can safely ignore this warning.</p>
-<p>Otherwise, you are advised to correct the ‘Site URL’ setting in Admin Preferences. An educated guess of the correct Site URL is shown in the pre-flight warning message on the ‘Diagnostics’ panel.</p>
+<p>The Site URL as set in the ‘Preferences’ panel does not match the actual URL used to visit the site.</p>
+<p>If the site can be reached through multiple different URLs, and if the site behaves as expected, this messaged can be safely ignored.</p>
+<p>Otherwise, please check and amend the ‘Site URL’ setting in Admin Preferences as required. An educated guess of the correct Site URL is shown in the pre-flight warning message on the ‘Diagnostics’ panel.</p>
         ]]></item>
         <item id="some_php_functions_disabled" title="PHP functions […] are disabled on your server"><![CDATA[
 <h2>PHP functions […] are disabled on your server</h2>
-<p>This means your hosting company or server administrator has disabled one or more PHP functions, some of which may affect the running of Textpattern.</p>
+<p>The site host or server administrator has disabled one or more PHP functions, some of which may affect the running of Textpattern.</p>
 <p>Please consult the <a rel="external" target="_blank" href="https://docs.textpattern.io/administration/diagnostics-panel#diagnostic-reporting-on-php-functions">Textpattern User Documentation <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> for further information.</p>
         ]]></item>
         <item id="textpattern_version_update" title="Textpattern CMS version update"><![CDATA[
