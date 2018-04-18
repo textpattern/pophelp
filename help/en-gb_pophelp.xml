@@ -135,7 +135,7 @@
     <li>Year / Month / Day</li>
     <li>Hour (24-hour format) : Minute : Second</li>
 </ul>
-<p>An item with a timestamp greater than the current time (i.e. in the future) will not appear on the front end and the RSS/Atom feeds until that time arrives.</p>
+<p>An item with a timestamp greater than the current time (i.e. in the future) will not appear on the front side and the RSS/Atom feeds until that time arrives.</p>
         ]]></item>
         <item id="status" title="Status"><![CDATA[
 <h2>Status</h2>
