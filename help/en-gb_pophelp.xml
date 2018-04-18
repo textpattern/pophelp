@@ -84,18 +84,18 @@
     <group id="article" title="Write panel">
         <item id="article_image" title="Article image"><![CDATA[
 <h2>Article image</h2>
-<p>If you would like to associate a single image with this article, place one of the following here:</p>
+<p>To associate a single image with this article, place one of the following here:</p>
 <ol>
-    <li>a Textpattern image ID</li>
+    <li>a Textpattern image ID (e.g. <code>12</code>)</li>
     <li>a relative URL to the image (e.g. <code>/images/my_pic.jpg</code>)</li>
     <li>a fully-qualified URL (e.g. <code>https://example.com/path/to/images/my_pic.jpg</code>)</li>
 </ol>
-<p>The image can be displayed by placing a <a rel="external" target="_blank" href="https://docs.textpattern.io/tags/article_image"><code>&lt;txp:article_image /&gt;</code> tag <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> inside an article form. It will output a complete HTML <code>&lt;img&gt;</code> tag to your chosen image.</p>
+<p>The image can be displayed by placing a <a rel="external" target="_blank" href="https://docs.textpattern.io/tags/article_image"><code>&lt;txp:article_image /&gt;</code> tag <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> inside an article form. It will output a complete HTML <code>&lt;img&gt;</code> tag to the chosen image.</p>
         ]]></item>
         <item id="body" title="Body"><![CDATA[
 <h2>Body</h2>
 <p>The main content of an article is contained within the article body.</p>
-<p>When composing or preparing articles for publication in Textpattern, you can switch between three views of the article: plain text, HTML markup (the code with which a web browser renders the article), and a rendered preview.</p>
+<p>When composing or preparing articles for publication in Textpattern, an author can switch between three views of the article: plain text, HTML markup (the code with which a web browser renders the article), and a rendered preview.</p>
         ]]></item>
         <item id="description" title="Description"><![CDATA[
 <h2>Description</h2>
@@ -125,7 +125,7 @@
         ]]></item>
         <item id="override_form" title="Override form"><![CDATA[
 <h2>Override form</h2>
-<p>If you wish for an article to use a form different from that assigned by default - for example if you want to show only an article excerpt with <a rel="external" target="_blank" href="https://docs.textpattern.io/tags/excerpt"><code>&lt;txp:excerpt /&gt;</code> <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> where you normally show the entire article with <a rel="external" target="_blank" href="https://docs.textpattern.io/tags/body"><code>&lt;txp:body /&gt;</code> <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> - this can be set here.</p>
+<p>An article can optionally use a form different from that assigned by default - for example to show an article excerpt with <a rel="external" target="_blank" href="https://docs.textpattern.io/tags/excerpt"><code>&lt;txp:excerpt /&gt;</code> <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> instead of the article body with <a rel="external" target="_blank" href="https://docs.textpattern.io/tags/body"><code>&lt;txp:body /&gt;</code> <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> - this can be set here.</p>
         ]]></item>
         <item id="publish_date"><![CDATA[
 <h2>Publish date</h2>
@@ -161,8 +161,8 @@
         ]]></item>
         <item id="url_title" title="URL-only title"><![CDATA[
 <h2>URL-only title</h2>
-<p>If you would like to have a specific title attached to the permalink URL for your article, enter it here. If it is left blank, the URL title will be automatically generated from the article title.</p>
-<p>This is particularly useful if the title of your article uses non-ASCII characters.</p>
+<p>To use a specific title in to the permalink URL for an article, enter it here. If it is left blank, the URL title will be automatically generated from the article title.</p>
+<p>This is particularly useful if the title of the article uses non-ASCII characters.</p>
         ]]></item>
     </group>
 
@@ -187,15 +187,15 @@
         ]]></item>
         <item id="file_category" title="Files"><![CDATA[
 <h2>Files</h2>
-<p>File categories are optional, and are useful if you want to group certain uploaded files together.</p>
+<p>File categories are optional, and useful for grouping selected uploaded files together.</p>
         ]]></item>
         <item id="image_category" title="Images"><![CDATA[
 <h2>Images</h2>
-<p>Image categories are useful both for internal organisation, and for defining image sets that can be displayed using the <a rel="external" target="_blank" href="https://docs.textpattern.io/tags/image_index"><code>&lt;txp:image_index /&gt;</code> <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> and <a rel="external" target="_blank" href="https://docs.textpattern.io/tags/image_display"><code>&lt;txp:image_display /&gt;</code> <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> tags.</p>
+<p>Image categories are optional, and useful both for internal organization and for defining image sets that can be displayed using the <a rel="external" target="_blank" href="https://docs.textpattern.io/tags/image_index"><code>&lt;txp:image_index /&gt;</code> <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> and <a rel="external" target="_blank" href="https://docs.textpattern.io/tags/image_display"><code>&lt;txp:image_display /&gt;</code> <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> tags.</p>
         ]]></item>
         <item id="link_category" title="Links"><![CDATA[
 <h2>Links</h2>
-<p>Link categories are optional, and are useful if you want to display different groupings of links, e.g. ‘Friends’, ‘Romans’, ‘Countrymen’.</p>
+<p>Link categories are optional, and are useful for displaying different groupings of links, e.g. ‘Friends’, ‘Romans’, ‘Countrymen’.</p>
 <p>Selective link lists such as these are output with the <a rel="external" target="_blank" href="https://docs.textpattern.io/tags/linklist"><code>&lt;txp:linklist /&gt;</code> tag <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> like so:</p>
 <pre><code>&lt;code&gt;&lt;txp:linklist category="Friends" /&gt;&lt;/code&gt;.</code></pre>
         ]]></item>
@@ -204,26 +204,26 @@
     <group id="diag" title="Diagnostics panel">
         <item id="clean_url_data_failed" title="Clean URL data failed"><![CDATA[
 <h2>Clean URL data failed</h2>
-<p>It appears that either your site URLs (<code>https://example.com/section/article</code>) are currently not working or your server does not support the test procedure to determine if clean URLs work or not; if clean URLs on your site work, you can safely ignore this message.</p>
+<p>It appears that either the site URLs (e.g. <code>https://example.com/section/article</code>) are currently not working or the web server does not support the test procedure to determine if clean URLs work or not; if clean URLs on the site work as expected, this message can be safely ignored.</p>
 <p>If clean URLs are <em>not</em> working it may mean either:</p>
 <ul>
-    <li>your ‘Site URL’ setting is incorrect, or the page at that address is not managed by this copy of Textpattern.</li>
-    <li>your server requires some changes to <code>.htaccess</code> in order to make clean URLs work.</li>
-    <li>your server doesn’t support clean URLs at all.</li>
+    <li>the ‘Site URL’ setting is incorrect, or the page at that address is not managed by this instance of Textpattern</li>
+    <li>the server requires some changes to <code>.htaccess</code> or similar server directive in order to make clean URLs work</li>
+    <li>the server doesn’t support clean URLs at all</li>
 </ul>
-<p>The clean URL test attempts to fetch a page from the web address specified in the ‘Site URL’ preference in order to check that all clean URL parameters are working correctly. If that URL is a different site, or has been replaced with a static page or similar, the test will fail. Until the issue is resolved you will have to use messy URLs on your site instead (<code>https://example.com?s=section&amp;id=4</code>). Ensure the ‘Permanent link mode’ in Admin Preferences is set accordingly.</p>
+<p>The clean URL test attempts to fetch a page from the web address specified in the ‘Site URL’ preference in order to check that all clean URL parameters are working correctly. If that URL is a different site, or has been replaced with a static page or similar, the test will fail. Until the issue is resolved messy URLs (e.g. <code>https://example.com?s=section&amp;id=4</code>) should be used. Ensure the ‘Permanent link mode’ in Admin Preferences is set accordingly.</p>
 <p>Note that using a plugin to put a site in ‘maintenance mode’ may trigger this warning.</p>
         ]]></item>
         <item id="clean_url_test_failed" title="Clean URL test failed"><![CDATA[
 <h2>Clean URL test failed</h2>
-<p>It appears that either your site URLs (<code>https://example.com/section/article</code>) are currently not working or your server does not support the test procedure to determine if clean URLs work or not; if clean URLs on your site work, you can safely ignore this message.</p>
-<p>If clean URLs are not working it may mean either:</p>
+<p>It appears that either the site URLs (e.g. <code>https://example.com/section/article</code>) are currently not working or the web server does not support the test procedure to determine if clean URLs work or not; if clean URLs on the site work as expected, this message can be safely ignored.</p>
+<p>If clean URLs are <em>not</em> working it may mean either:</p>
 <ul>
-    <li>your ‘Site URL’ setting is incorrect, or the page at that address is not managed by this copy of Textpattern</li>
-    <li>your server requires some changes to <code>.htaccess</code> in order to make clean URLs work</li>
-    <li>your server doesn’t support clean URLs at all</li>
+    <li>the ‘Site URL’ setting is incorrect, or the page at that address is not managed by this instance of Textpattern</li>
+    <li>the server requires some changes to <code>.htaccess</code> or similar server directive in order to make clean URLs work</li>
+    <li>the server doesn’t support clean URLs at all</li>
 </ul>
-<p>The clean URL test attempts to fetch a page from the web address specified in the ‘Site URL’ preference in order to check that all clean URL parameters are working correctly. If that URL is a different site, or has been replaced with a static page or similar, the test will fail. Until the issue is resolved you will have to use messy URLs on your site instead (<code>https://example.com?s=section&amp;id=4</code>). Ensure the ‘Permanent link mode’ in Admin Preferences is set accordingly.</p>
+<p>The clean URL test attempts to fetch a page from the web address specified in the ‘Site URL’ preference in order to check that all clean URL parameters are working correctly. If that URL is a different site, or has been replaced with a static page or similar, the test will fail. Until the issue is resolved messy URLs (e.g. <code>https://example.com?s=section&amp;id=4</code>) should be used. Ensure the ‘Permanent link mode’ in Admin Preferences is set accordingly.</p>
         ]]></item>
         <item id="diag_clear_private" title="Hide private information"><![CDATA[
 <h2>Hide private information</h2>
@@ -231,46 +231,62 @@
         ]]></item>
         <item id="dev_version_live" title="Development code on a live server"><![CDATA[
 <h2>Development code on a live server</h2>
-<p>You are running in-development files on a live production site which is not recommended. If you know this already and are happy to do so, you may ignore this warning.</p>
+<p>In-development versions of Textpattern are not recommended for use on production sites. This warning can be safely ignored if the risks are understood and acceptable.</p>
         ]]></item>
         <item id="dir_not_writable" title="Directory is not writable"><![CDATA[
 <h2>Directory is not writable</h2>
-<p>To use the file and image upload capabilities, these directories have to be writable by PHP. Usually this means you have to change permissions so the web server user has write access to the directory. This can be done with your FTP client, or alternatively on the command line by issuing a <code>chmod 755 /path/to/dir</code> command.</p>
+<p>To use the file and image upload capabilities, these directories must be writable by PHP via the web server user. This can be done with an (S)FTP client, or alternatively on the command line by issuing a <code>chmod 755 /path/to/dir</code> command.</p>
         ]]></item>
         <item id="dns_lookup_fails" title="DNS fails"><![CDATA[
-<h2>DNS fails</h2>
-<p>It appears the URL you specified as the address of your site is unreachable.</p>
+<h2>DNS lookup failed</h2>
+<p>It appears the URL specified as the address of the site is unreachable.</p>
         ]]></item>
         <item id="file_uploads_disabled" title="File uploads are disabled"><![CDATA[
 <h2>File uploads are disabled</h2>
-<p>Your current server configuration shows that file uploads are disabled so you will not be able to upload using Textpattern’s ‘Files’ and/or ‘Images’ panel. Please check and alter the <code>file_uploads</code> setting in <code>php.ini</code> (or ask your host to alter it).</p>
+<p>The current server configuration indicates that file uploads are disabled. Please check and alter the <code>file_uploads</code> setting in <code>php.ini</code> (or ask your host to alter it).</p>
         ]]></item>
         <item id="htaccess_missing" title=".htaccess file missing"><![CDATA[
 <h2>.htaccess file missing</h2>
-<p>You are using a permanent link mode which requires an <code>.htaccess</code> file to be placed in your site root directory. The recommended directives are:</p>
-<pre><code>&lt;IfModule mod_rewrite.c&gt;
+<p>A permanent link mode which requires an <code>.htaccess</code> file is being used, and the file cannot be found. The file is included with Textpattern and resides in the Textpattern root, alongside <code>index.php</code> and the <code>textpattern</code> directory. The recommended directives are:</p>
+<pre><code># BEGIN Textpattern
+  #DirectoryIndex index.php index.html
+
+  #Options +FollowSymLinks
+  #Options -Indexes
+  #ErrorDocument 403 default
+
+  <IfModule mod_rewrite.c>
     RewriteEngine On
     #RewriteBase /relative/web/path/
+
     RewriteCond %{REQUEST_FILENAME} -f [OR]
     RewriteCond %{REQUEST_FILENAME} -d
     RewriteRule ^(.+) - [PT,L]
+
     RewriteCond %{REQUEST_URI} !=/favicon.ico
     RewriteRule ^(.*) index.php
+
     RewriteCond %{HTTP:Authorization}  !^$
     RewriteRule .* - [E=REMOTE_USER:%{HTTP:Authorization}]
-&lt;/IfModule&gt;</code></pre>
+  </IfModule>
+
+  <IfModule mod_mime.c>
+    AddType image/svg+xml  svg svgz
+    AddEncoding gzip       svgz
+  </IfModule>
+  # END Textpattern</code></pre>
         ]]></item>
         <item id="index_inaccessible" title="Site index inaccessible"><![CDATA[
 <h2>Site index inaccessible</h2>
-<p>The main <code>index.php</code> file specified as the index for your site is unreadable by the server. Please check permissions.</p>
+<p>The root <code>index.php</code> file specified as the index for the site is unreadable by the server. Please check its existence and permissions.</p>
         ]]></item>
         <item id="missing_files" title="Missing files"><![CDATA[
 <h2>Missing files</h2>
-<p>Some essential files are missing from your Textpattern installation. Ensure that all the listed files are present on your server and are in the correct locations.</p>
+<p>One or more essential files are missing from Textpattern. Ensure that all the listed files are present on the server and are in the correct locations.</p>
         ]]></item>
         <item id="mod_rewrite_missing" title="Apache mod_rewrite missing"><![CDATA[
 <h2>Apache mod_rewrite missing</h2>
-<p>Apache’s <code>mod_rewrite</code> module is not installed, or installed but not enabled. This is recommended for Textpattern to function correctly. Please check your <code>.htaccess</code> file is set up correctly, or contact your host for assistance.</p>
+<p>Apache’s <code>mod_rewrite</code> module is not installed or disabled. This is recommended for Textpattern to function correctly. Ensure its existence and activated state, or contact the site's host for assistance.</p>
         ]]></item>
         <item id="modified_files" title="Modified files"><![CDATA[
 <h2>Modified files</h2>
@@ -278,7 +294,7 @@
         ]]></item>
         <item id="mysql_table_errors" title="MySQL table errors"><![CDATA[
 <h2>MySQL table errors</h2>
-<p>Something is probably corrupt or otherwise damaged in your MySQL database. If you have access to a MySQL access tool, such as <a rel="external" target="_blank" href="https://www.phpmyadmin.net">phpMyAdmin <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>, try repairing the affected table(s).</p>
+<p>There may be some corruption or damage in Textpattern's MySQL database. Try repairing the affected table(s) with a MySQL access tool, such as <a rel="external" target="_blank" href="https://www.phpmyadmin.net">phpMyAdmin <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>.</p>
         ]]></item>
         <item id="no_temp_dir" title="No temporary directory defined"><![CDATA[
 <h2>No temporary directory defined</h2>
