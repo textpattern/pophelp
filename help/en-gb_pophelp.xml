@@ -286,7 +286,7 @@
         ]]></item>
         <item id="mod_rewrite_missing" title="Apache mod_rewrite missing"><![CDATA[
 <h2>Apache mod_rewrite missing</h2>
-<p>Apache’s <code>mod_rewrite</code> module is not installed or disabled. This is recommended for Textpattern to function correctly. Ensure its existence and activated state, or contact the site's host for assistance.</p>
+<p>Apache’s <code>mod_rewrite</code> module is not installed or disabled. This is recommended for Textpattern to function correctly. Ensure its existence and activated state, or contact the site‘s host for assistance.</p>
         ]]></item>
         <item id="modified_files" title="Modified files"><![CDATA[
 <h2>Modified files</h2>
@@ -294,7 +294,7 @@
         ]]></item>
         <item id="mysql_table_errors" title="MySQL table errors"><![CDATA[
 <h2>MySQL table errors</h2>
-<p>There may be some corruption or damage in Textpattern's MySQL database. Try repairing the affected table(s) with a MySQL access tool, such as <a rel="external" target="_blank" href="https://www.adminer.org">Adminer <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> or <a rel="external" target="_blank" href="https://www.phpmyadmin.net">phpMyAdmin <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>.</p>
+<p>There may be some corruption or damage in Textpattern‘s MySQL database. Try repairing the affected table(s) with a MySQL access tool, such as <a rel="external" target="_blank" href="https://www.adminer.org">Adminer <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> or <a rel="external" target="_blank" href="https://www.phpmyadmin.net">phpMyAdmin <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>.</p>
         ]]></item>
         <item id="no_temp_dir" title="No temporary directory defined"><![CDATA[
 <h2>No temporary directory defined</h2>
@@ -350,7 +350,7 @@
     <li><a rel="external" target="_blank" href="https://secure.php.net/manual/en/book.xml.php">XML <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a></li>
     <li><a rel="external" target="_blank" href="https://secure.php.net/manual/en/book.json.php">JSON <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a></li>
 </ul>
-<p>The site's <code>php.ini</code> file, either global or local, needs to contain a <code>date.timezone</code> setting.</p>
+<p>The site‘s <code>php.ini</code> file, either global or local, needs to contain a <code>date.timezone</code> setting.</p>
         ]]></item>
         <item id="setup_still_exists" title="Setup directory still exists"><![CDATA[
 <h2>Setup directory still exists</h2>
