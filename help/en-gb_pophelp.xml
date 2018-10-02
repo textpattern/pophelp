@@ -658,7 +658,7 @@
 <p>If a tag contains an underscore and you enable short tags, the basic concept is:</p>
 <ol>
     <li>Remove the <code>txp:</code> prefix.</li>
-    <li>Swap the first occurrence of the underscore for <code>::</code>.</li>
+    <li>Replace the first occurrence of the underscore for <code>::</code>.</li>
 </ol>
 <p>Note that setting this preference does not affect the ability to use <code>&lt;txp:output_form /&gt;</code> short codes to render form snippets. You can still use <code>&lt;txp::shortcode /&gt;</code>, which will be interpreted as <code>&lt;txp:output_form form="shortcode" /&gt;</code>.</p>
         ]]></item>
