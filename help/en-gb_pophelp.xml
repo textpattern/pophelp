@@ -705,7 +705,7 @@
     <li><strong>Referrers only:</strong> Textpattern will only log visits referred from other sites</li>
     <li><strong>None:</strong> Textpattern will not log any page views</li>
 </ul>
-<p>From Textpattern 4.7.0, no visitor IP address information will be collected or stored by Textpattern. If you collect or store IP addresses outside of Textpatten, please take appropriate precautions to store and/or use the data in accordance with any applicable laws, such as <a rel="external" target="_blank" href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation">GDPR <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>, and employ strong security in every facet of your server and Textpattern installation to avoid this data being compromised.</p>
+<p>From Textpattern 4.7.0, no visitor IP address information is collected or stored by Textpattern. If you collect or store IP addresses outside of Textpatten, please take appropriate precautions to store and/or use the data in accordance with any applicable laws, such as <a rel="external" target="_blank" href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation">GDPR <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>, and employ strong security in every facet of your server and Textpattern installation to avoid this data being compromised.</p>
 <p>It is strongly advised that you leave this setting at its default, ‘None’, unless you absolutely need this information and, further, publicly state your intended usage of it.</p>
         ]]></item>
         <item id="max_url_len" title="Maximum URL length (in characters)"><![CDATA[
