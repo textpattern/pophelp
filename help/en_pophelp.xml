@@ -712,8 +712,8 @@
 <h2>Maximum URL length (in characters)</h2>
 <p>This prevents URLs that are longer than the specified length from functioning. It could be helpful in damage limitation and site security.</p>
         ]]></item>
-        <item id="module_pophelp" title="Display admin-side inline help links?"><![CDATA[
-<h2>Display admin-side inline help links?</h2>
+        <item id="module_pophelp" title="Display admin-side inline help links"><![CDATA[
+<h2>Display admin-side inline help links</h2>
 <p>If you wish to hide admin-side inline help links (Textpattern help pop-up windows) throughout the system, switch this setting to ‘None’.</p>
         ]]></item>
         <item id="never_display_email" title="Hide commenter‘s email address?"><![CDATA[
