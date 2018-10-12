@@ -820,6 +820,7 @@
 <h2>Theme directory</h2>
 <p>If you’d like to customise the name of the directory where front-side themes flat files will be permanently saved, you can do so here. You must first create the directory in the root of your Textpattern installation, you should also make sure that PHP is able to write to that directory.</p>
 <p>This path is always a <strong>relative path</strong> (to the directory of your root Textpattern installation).</p>
+<p>The default is <code>themes</code>.</p>
         ]]></item>
         <item id="smtp_from" title="SMTP envelope sender address"><![CDATA[
 <h2>SMTP envelope sender address</h2>
