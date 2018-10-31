@@ -493,8 +493,11 @@
 <p>If you would like to learn more about admin-side plugins, please see the <a rel="external" target="_blank" href="https://docs.textpattern.com/development/">Extending Textpattern</a> page in <a rel="external" target="_blank" href="https://docs.textpattern.com/">Textpattern User Documentation</a>. Plugins of all sorts are listed in the <a rel="external" target="_blank" href="https://textpattern.org/">Textpattern Resources</a> site.</p>
         ]]></item>
         <item id="advanced_options" title="'Advanced options"><![CDATA[
-<h2>'Advanced options</h2>
-<p>TO DO.</p>
+<h2>Advanced options</h2>
+<p>Show the advanced preferences group, where the following additional preferences can be configured:</p>
+<ul>
+    <li>Custom form template types.</li>
+</ul>
         ]]></item>
         <item id="allow_article_php_scripting" title="Allow PHP in articles?"><![CDATA[
 <h2>Allow PHP in articles?</h2>
@@ -507,7 +510,7 @@
         ]]></item>
         <item id="allow_page_php_scripting" title="Allow PHP in pages?"><![CDATA[
 <h2>Allow PHP in pages?</h2>
-<p>When enabled, this setting allows PHP code within page and form templates.</p>
+<p>When enabled, this setting allows PHP code within page templates and form templates.</p>
 <p>PHP code must have opening and closing PHP tags omitted, and also be enclosed within <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/php"><code>&lt;txp:php&gt;</code> tags <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>.</p>
         ]]></item>
         <item id="archive_dateformat" title="Archive date format"><![CDATA[
@@ -608,6 +611,10 @@
     <li>extended block syntax (<code>bc..</code>, <code>bq..</code>, etc.)</li>
 </ul>
 <p><strong>Note:</strong> For security reasons, raw HTML is transformed into regular text.</p>
+        ]]></item>
+        <item id="custom_form_types" title="Custom form template types"><![CDATA[
+<h2>Custom form template types</h2>
+<p>TO DO. MIME types TO DO.</p>
         ]]></item>
         <item id="custom_overview" title="Custom fields"><![CDATA[
 <h2>Custom fields</h2>
