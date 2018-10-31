@@ -494,7 +494,7 @@
         ]]></item>
         <item id="advanced_options" title="'Advanced options"><![CDATA[
 <h2>Advanced options</h2>
-<p>Show the advanced preferences group, where the following additional preferences can be configured:</p>
+<p>Show the advanced preferences group, where additional settings can be configured such as:</p>
 <ul>
     <li>Custom form template types.</li>
 </ul>
