@@ -496,7 +496,7 @@
 <h2>Advanced options</h2>
 <p>Show the advanced preferences group, where additional settings can be configured such as:</p>
 <ul>
-    <li>PHP functions enabled in txp:evaluate.</li>
+    <li>PHP functions enabled in <code>txp:evaluate</code>.</li>
     <li>Custom form template types.</li>
 </ul>
         ]]></item>
