@@ -539,15 +539,9 @@
 <p>Si réglé sur «Oui», ajoutera un attribut supplémentaire aux liens présents dans les commentaires. Il s’agit d’une mesure pour dissuader les spammeurs de commentaire et a été initiée par de nombreux moteurs de recherches et des développeurs de logiciels. Vous pourrez en savoir plus en lisant cette <a rel="external" target="_blank" href="https://googleblog.blogspot.com/2005/01/preventing-comment-spam.html">annonce de Google<span class="ui-icon ui-icon-extlink">(ouvre le lien externe dans une nouvelle fenêtre)</span></a>.</p>
 <p><strong>Remarque :</strong> ce paramètre n’affecte pas les fonctionnalités de votre site. Cela peut empêcher ou diminuer l’influence de vos commentaires lors de l’indexation des sites qui y sont mentionnés par certains moteurs de recherches.</p>
         ]]></item>
-        <item id="comments_are_ol" title="Afficher les commentaires dans une liste ordonnée ?"><![CDATA[
-
-        ]]></item>
-        <item id="comments_auto_append" title=""><![CDATA[
-
-        ]]></item>
-        <item id="comments_dateformat" title=""><![CDATA[
-
-        ]]></item>
+        <item id="comments_are_ol" title="Afficher les commentaires dans une liste ordonnée ?"><![CDATA[]]></item>
+        <item id="comments_auto_append" title=""><![CDATA[]]></item>
+        <item id="comments_dateformat" title=""><![CDATA[]]></item>
         <item id="comments_default_invite" title=""><![CDATA[
 <h2>Invite à commenter par défaut</h2>
 <p>Si vous permettez aux visiteurs de commenter, c’est le texte d’invitation affiché par défaut. Par exemple :</p>
@@ -606,9 +600,7 @@
 </ul>
 <p><strong>Remarque :</strong> pour des raisons de sécurité, le HTML brut est transformé en texte ordinaire.</p>
         ]]></item>
-        <item id="custom_form_types" title="Modèles types de modules personnalisés"><![CDATA[
-
-        ]]></item>
+        <item id="custom_form_types" title="Modèles types de modules personnalisés"><![CDATA[]]></item>
         <item id="custom_overview" title="Champs personnalisés"><![CDATA[
 <h2>Champs personnalisés</h2>
 <p>Les champs personnalisés sont utilisés pour conserver des données supplémentaires avec l’article. Vous pouvez en définir jusqu'à dix en leur attribuant un nom ici.
@@ -642,6 +634,78 @@
 <h2>Doctype</h2>
 <p>Sélectionnez le doctype HTML que vous souhaitez utiliser (HTML5 ou XHTML). Cela affecte les champs de saisies des commentaires, le rendu de Textile pour <code>&lt;abbr&gt;</code> ou <code>&lt;acronym&gt;</code> et les balises <code>&lt;link&gt;</code> générées par <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/css"><code>&lt;txp:css /&gt;</code> <span class="ui-icon ui-icon-extlink">(ouvrir le lien externe dans une nouvelle fenêtre)</span></a>.</p>
         ]]></item>
+        <item id="enable_dev_preview" title=""><![CDATA[]]></item>
+        <item id="enable_short_tags" title=""><![CDATA[]]></item>
+        <item id="enable_xmlrpc_server" title=""><![CDATA[]]></item>
+        <item id="expire_logs_after" title=""><![CDATA[]]></item>
+        <item id="file_base_path" title=""><![CDATA[]]></item>
+        <item id="file_max_upload_size" title=""><![CDATA[]]></item>
+        <item id="gmtoffset" title=""><![CDATA[]]></item>
+        <item id="img_dir" title=""><![CDATA[]]></item>
+        <item id="include_email_atom" title=""><![CDATA[]]></item>
+        <item id="is_dst" title=""><![CDATA[]]></item>
+        <item id="logging" title=""><![CDATA[]]></item>
+        <item id="max_url_len" title=""><![CDATA[]]></item>
+        <item id="module_pophelp" title=""><![CDATA[]]></item>
+        <item id="never_display_email" title=""><![CDATA[]]></item>
+        <item id="override_emailcharset" title=""><![CDATA[]]></item>
+        <item id="permlink_format" title=""><![CDATA[]]></item>
+        <item id="permlink_mode" title=""><![CDATA[]]></item>
+        <item id="plugin_cache_dir" title=""><![CDATA[]]></item>
+        <item id="production_status" title=""><![CDATA[]]></item>
+        <item id="public_theme_name" title=""><![CDATA[]]></item>
+        <item id="publish_expired_articles" title=""><![CDATA[]]></item>
+        <item id="publisher_email" title=""><![CDATA[]]></item>
+        <item id="rss_how_many" title=""><![CDATA[]]></item>
+        <item id="send_lastmod" title=""><![CDATA[]]></item>
+        <item id="show_comment_count_in_feed" title=""><![CDATA[]]></item>
+        <item id="site_slogan" title=""><![CDATA[]]></item>
+        <item id="sitename" title=""><![CDATA[]]></item>
+        <item id="siteurl" title=""><![CDATA[]]></item>
+        <item id="skin_dir" title=""><![CDATA[]]></item>
+        <item id="smtp_from" title=""><![CDATA[]]></item>
+        <item id="spam_blacklists" title=""><![CDATA[]]></item>
+        <item id="syndicate_body_or_excerpt" title=""><![CDATA[]]></item>
+        <item id="tempdir" title=""><![CDATA[]]></item>
+        <item id="theme_name" title=""><![CDATA[]]></item>
+        <item id="title_no_widow" title=""><![CDATA[]]></item>
+        <item id="txp_evaluate_functions" title=""><![CDATA[]]></item>
+        <item id="use_comments" title=""><![CDATA[]]></item>
+        <item id="use_mail_on_feeds_id" title=""><![CDATA[]]></item>
+        <item id="use_plugins" title=""><![CDATA[]]></item>
+        <item id="use_textile" title=""><![CDATA[]]></item>
+    </group>
+
+    <group id="section" title="">
+        <item id="section_category" title=""><![CDATA[]]></item>
+        <item id="section_default" title=""><![CDATA[]]></item>
+        <item id="section_description" title=""><![CDATA[]]></item>
+        <item id="section_on_frontpage" title=""><![CDATA[]]></item>
+        <item id="section_searchable" title=""><![CDATA[]]></item>
+        <item id="section_syndicate" title=""><![CDATA[]]></item>
+        <item id="section_uses_css" title=""><![CDATA[]]></item>
+        <item id="section_uses_page" title=""><![CDATA[]]></item>
+        <item id="section_uses_skin" title=""><![CDATA[]]></item>
+    </group>
+
+    <group id="setup" title="">
+        <item id="setup_user_login" title=""><![CDATA[]]></item>
+        <item id="setup_user_pass" title=""><![CDATA[]]></item>
+        <item id="table_prefix" title=""><![CDATA[]]></item>
+    </group>
+
+    <group id="skin" title="">
+        <item id="skin_author" title=""><![CDATA[]]></item>
+        <item id="skin_author_uri" title=""><![CDATA[]]></item>
+        <item id="skin_delete_entirely" title=""><![CDATA[]]></item>
+        <item id="skin_delete_from_database" title=""><![CDATA[]]></item>
+        <item id="skin_delete_from_disk" title=""><![CDATA[]]></item>
+        <item id="skin_description" title=""><![CDATA[]]></item>
+        <item id="skin_import" title=""><![CDATA[]]></item>
+        <item id="skin_name" title=""><![CDATA[]]></item>
+        <item id="skin_overview" title=""><![CDATA[]]></item>
+        <item id="skin_title" title=""><![CDATA[]]></item>
+        <item id="skin_version" title=""><![CDATA[]]></item>
     </group>
 </help>
 </resources>
