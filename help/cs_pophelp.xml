@@ -2,7 +2,8 @@
 <resources>
 <help lang="cs">
     <group id="admin" title="Panel Uživatelé">
-        <item id="about_privileges" title="Uživatelské role"><![CDATA[<h2>Uživatelské role</h2>
+        <item id="about_privileges" title="Uživatelské role"><![CDATA[
+<h2>Uživatelské role</h2>
 <h3>Vydavatel</h3>
 <ul>
     <li>přidává, upravuje a odstraňuje články, odkazy a komentáře</li>
@@ -72,37 +73,42 @@
     <li>přidává, upravuje a odstraňuje obrázky a soubory</li>
     <li>upravuje rubriky</li>
     <li>upravuje stránky, formy a styly</li>
-</ul>]]></item>
-        <item id="create_author" title="Vytvořit autora"><![CDATA[<h2>Přidat nového autora</h2>
-<p>Heslo, uvítací email a instrukce k přihlášení budou novému autorovi zaslány emailem.</p>]]></item>
+</ul>        ]]></item>
+        <item id="create_author" title="Vytvořit autora"><![CDATA[
+<h2>Přidat nového autora</h2>
+<p>Heslo, uvítací email a instrukce k přihlášení budou novému autorovi zaslány emailem.</p>        ]]></item>
     </group>
 
     <group id="article" title="Panel Psaní">
-        <item id="article_image" title="Obrázek článku"><![CDATA[<h2>Obrázek článku</h2>
+        <item id="article_image" title="Obrázek článku"><![CDATA[
+<h2>Obrázek článku</h2>
 <p>Chceš-li k článku přiřadit obrázek, zadej do tohoto pole z následujících možností:</p>
 <ol>
     <li>ID – identifikační číslo obrázku v systému Textpattern (např. <code>12</code>)</li>
     <li>relativní URL cestu k obrázku (např. <code>/images/my_pic.jpg</code>)</li>
     <li>absolutní URL adresu obrázku (např. <code>http://example.com/path/to/images/my_pic.jpg</code>)</li>
 </ol>
-<p>Obrázek bude v článku zobrazen pomocí tagu <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/article_image"><code>&lt;txp:article_image /&gt;</code> <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> ve formě pro článek, pokud tento tag forma článku obsahuje. Výstupem je HTML tag  <code>&lt;img&gt;</code> pro vybraný obrázek.</p>]]></item>
+<p>Obrázek bude v článku zobrazen pomocí tagu <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/article_image"><code>&lt;txp:article_image /&gt;</code> <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> ve formě pro článek, pokud tento tag forma článku obsahuje. Výstupem je HTML tag  <code>&lt;img&gt;</code> pro vybraný obrázek.</p>        ]]></item>
         <item id="body" title="Tělo článku"><![CDATA[<h2>Tělo článku</h2>
 <p>Tělo článku obsahuje hlavní obsah článku</p>
 <p>Při psaní článku a jeho přípravě k publikování může autor přepínat mezi třemi způsoby zobrazení: prostý text, HTML (kód, ze kterého prohlížeč čůánek zobrazí) a náhled článku.</p>]]></item>
-        <item id="description" title="Popis"><![CDATA[<h2>Popis článku</h2>
+        <item id="description" title="Popis"><![CDATA[
+<h2>Popis článku</h2>
 <p>Popis článku je volitelná součást, která může pomoci prohledávačům webových stránek lépe rozpoznávat a třídit obsah.</p>
 <p>Popis článku je omezen na maximálně 255 znaků. Některé vyhledávače mohou mít pro <code>meta description</code> z praktických důvodů pro zobrazení stránky výsledků vyhledávání (SERPs) i menší limit znaků.</p>
-<p> Všimněte si, že popis článku se liší od anotace článku, ačkoli mohou mít podobný, nebo stejný obsah. Popis článku je primárně určen pro použití vyhledávačům a robotům, zatímco anotace článku slouží čtenářům jako stručné shrnutí obsahu článku.</p>]]></item>
-        <item id="excerpt" title="Anotace"><![CDATA[<h2>Anotace</h2>
-<p>Anotace článku není povinná. Zpravidla jde o krátké shrnutí obsahu článku, které se zobrazuje v seznamu článků, či obsahu serveru, nebo se používá namísto celého těla článku v pramenech RSS a Atom, apod.</p>]]></item>
-        <item id="expire_date" title="Datum expirace"><![CDATA[<h2>Datum expirace</h2>
+<p> Všimněte si, že popis článku se liší od anotace článku, ačkoli mohou mít podobný, nebo stejný obsah. Popis článku je primárně určen pro použití vyhledávačům a robotům, zatímco anotace článku slouží čtenářům jako stručné shrnutí obsahu článku. </p>        ]]></item>
+        <item id="excerpt" title="Anotace"><![CDATA[
+<h2>Anotace</h2>
+<p>Anotace článku není povinná. Zpravidla jde o krátké shrnutí obsahu článku, které se zobrazuje v seznamu článků, či obsahu serveru, nebo se používá namísto celého těla článku v pramenech RSS a Atom, apod.</p>        ]]></item>
+        <item id="expire_date" title="Datum expirace"><![CDATA[
+<h2>Datum expirace</h2>
 <p>Datum, kdy článku vyprší platnost. Čas je volitelný a lze nastavit na libovolnou dobu v minulosti nebo budoucnosti.</p>
 <p>Políčka jsou určené pro následující informace:</p>
 <ul>
     <li>Rok / Měsíc / Den</li>
     <li>Hodina (24-hodinový formát) : Minuta : Sekunda</li>
 </ul>
-<p>Je-li povolena možnost vydat expirované články, článek zůstává viditelný. V případě, že je možnost zobrazování prošlých článků zakázána, uvidí návštěvníci stránky namísto obsahu článku výpis Chyba HTTP 410.</p>]]></item>
+<p>Je-li povolena možnost vydat expirované články, článek zůstává viditelný. V případě, že je možnost zobrazování prošlých článků zakázána, uvidí návštěvníci stránky namísto obsahu článku výpis Chyba HTTP 410.</p>        ]]></item>
         <item id="keywords" title="Klíčová slova"><![CDATA[<h2>Psaní: Klíčová slova</h2>
 <p>Klíčová slova jsou užitečná pro určení vztahů mezi články, jiných než jen podle příslušnosti k téže kategorii.</p>
 <p>Klíčová slova musejí být pouze samostatná slova, oddělená čárkami.</p>]]></item>
@@ -840,27 +846,37 @@ Pokud se tedy styly na tvých stránkách načítají ze souboru pomocí zápisu
 <h2>Autor skinu</h2>
 <p>Autor tohoto skinu (volitelné).</p>
         ]]></item>
-        <item id="skin_author_uri" title="Webová stránka skinu"><![CDATA[<h2>Webové stránka skinu</h2>
-<p>The URL stránky, kde lze nalézt úplné informace a/nebo nejnovější verzi skinu (volitelné).</p>]]></item>
-        <item id="skin_delete_entirely" title="Odstranit šablony skinu také z disku"><![CDATA[<h2>Odstranit šablony skinu také z disku</h2>
-<p>Je-li volba zaškrtnuta, všechny soubory šablon vybraného skinu budou z ndisku natrvalo odstraněny. Avšak adresáře skinů a jejich podadresáře smazány nebudou, pokud v nich existují jiné soubory (například JavaScript, obrázky, ...).</p>]]></item>
-        <item id="skin_delete_from_database" title="Odstranit při importu nepoužívané šablony z databáze"><![CDATA[<h2>Odstranit při importu nepoužívané šablony z databáze</h2>
+        <item id="skin_author_uri" title="Webová stránka skinu"><![CDATA[
+<h2>Webové stránka skinu</h2>
+<p>The URL stránky, kde lze nalézt úplné informace a/nebo nejnovější verzi skinu (volitelné).</p>
+        ]]></item>
+        <item id="skin_delete_entirely" title="Odstranit šablony skinu také z disku"><![CDATA[
+<h2>Odstranit šablony skinu také z disku</h2>
+<p>Je-li volba zaškrtnuta, všechny soubory šablon vybraného skinu budou z ndisku natrvalo odstraněny. Avšak adresáře skinů a jejich podadresáře smazány nebudou, pokud v nich existují jiné soubory (například JavaScript, obrázky, ...).</p>
+        ]]></item>
+        <item id="skin_delete_from_database" title="Odstranit při importu nepoužívané šablony z databáze"><![CDATA[
+<h2>Odstranit při importu nepoužívané šablony z databáze</h2>
 <p>Pokud je volba zaškrtnuta, každá šablona ve vybraném skinu, která nemá odpovídající soubor na disku, bude z databáze trvale odstraněna. Výsledkem po dokončení akce bude, že šablony v databázi budou co nejvíce odrážet to, co je na disku.</p>
-<p>Všimni si, že pokud jsi odstranili soubory šablon, které Textpattern vyžaduje, budou v databázi vytvořeny prázdné verze.</p>]]></item>
-        <item id="skin_delete_from_disk" title="Odstranit při exportu nepoužívané šablony z disku"><![CDATA[<h2>Odstranit při exportu nepoužívané šablony z disku</h2>
-<p>Pokud je volba zaškrtnuta, každý soubor šablony ve vybraném skinu, který nemá odpovídající položku v databázi, bude z disku trvale odstraněn. Výsledkem po dokončení akce bude, že souborový systém skinu bude přesně odrážet to, co je v databázi.</p>]]></item>
-        <item id="skin_description" title="Popis skinu"><![CDATA[<h2>Popis skinu</h2>
+<p>Všimni si, že pokud jsi odstranili soubory šablon, které Textpattern vyžaduje, budou v databázi vytvořeny prázdné verze.</p>
+        ]]></item>
+        <item id="skin_delete_from_disk" title="Odstranit při exportu nepoužívané šablony z disku"><![CDATA[
+<h2>Odstranit při exportu nepoužívané šablony z disku</h2>
+<p>Pokud je volba zaškrtnuta, každý soubor šablony ve vybraném skinu, který nemá odpovídající položku v databázi, bude z disku trvale odstraněn. Výsledkem po dokončení akce bude, že souborový systém skinu bude přesně odrážet to, co je v databázi.</p>        ]]></item>
+        <item id="skin_description" title="Popis skinu"><![CDATA[
+<h2>Popis skinu</h2>
 <p>Stručné shrnutí návrhu / rozvržení skinu (volitelné).</p>
-<p>Popis skinu je omezen na maximálně 255 znaků.</p>]]></item>
+<p>Popis skinu je omezen na maximálně 255 znaků.</p>        ]]></item>
         <item id="skin_import" title="Import skinu"><![CDATA[
 <h2>Import skinu z disku</h2>
 <p>Tento formulář umožňuje importovat skin z adresáře do databáze Textpatternu.</p>
 <p>Soubory importovaného skinu musí být umístěné ve složce nesoucí název skinu, uvnitř složky musí být rovněž soubor <code>manifest.json</code> v očekávaném formátu. Složky skinu by měla obsahovat podsložky pages, forms a styles.</p>
 <p>Šablony stránek (pages) a forem (forms) <code>.txp</code> by měly mít příponu <code>.txp</code>, soubory stylopisů ve složýce styles příponu <code>.css</code>. Šablony forem by měly být seskupeny do správných podaresářů. Chybějící základní šablony Textpattern při importu vytvoří.</p>
 <p>Viz <a rel="external" target="_blank" href="https://docs.textpattern.com/themes/">dokumentace<span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> s dalšími informacemi k vytváření, instalaci a používání skinů (témat vzhledu) v CMS Textpattern.</p>        ]]></item>
-        <item id="skin_name" title="Jméno skinu"><![CDATA[<h2>Jméno skinu</h2>
+        <item id="skin_name" title="Jméno skinu"><![CDATA[
+<h2>Jméno skinu</h2>
 <p>Jméno skinu se používá pro název adresáře skinu a další technické účely (vyžadováno).</p>
-<p>Název nesmí obsahovat žádné speciální znaky ani mezery.</p>]]></item>
+<p>Název nesmí obsahovat žádné speciální znaky ani mezery.</p>
+        ]]></item>
         <item id="skin_overview" title="Úvod do skinů"><![CDATA[
 <h2>Úvod do skinů</h2>
 <p>Skin v systému Textpattern je kolekce šablon stránek, forem a stylů. Proces vytváření nebo importu skinu a veškerých jeho součástí na tvé stávající stránky <em>nemá</em> vliv. Můžeš upravit jakýkoli materiál, který není spojen s rubrikou tvého webu a samotný web to neovlivní.</p>
@@ -873,11 +889,13 @@ Pokud se tedy styly na tvých stránkách načítají ze souboru pomocí zápisu
 <p>Skiny můžeš sdílet s komunitou. Vyber pomocí zatržítek jeden nebo více skinů a z roletkového menu zvol možnost <em>exportovat na disk</em>. Každý skin bude uložen do vlastní složky v adresáři určeném v Nastavení pro <em>Adresář vzhledu</em> (výchozí je: <code>themes</code>).</p>
 <p>Po exportu můžeš složku skinu zkomprimovat a distrubuovat v komunitě. Obdobně při importu je třeba po stažení skin rozbalit do vlastního adresáře <code>themes</code> a použít nástroj <em>import</em> k přenesení jeho položek do databáze. Pak lze přejít ke skinu na panelu Vzhled a použít ho jako pracovní skin, vše vyzkoušet jako náhled v rámci webu, případně jeho součásti upravit a nakonec skin přidělit k rubrikám, jak je popsáno výše.</p>
 <p>Funkionalita exportu skinů umožňuje také zálohovat a upravovat obsah dat na disku v textovém editoru a/nebo na ně aplikovat kontrolu verzí. Nezapomeň: neexistuje žádné propojení mezi tvým veřejným webem a verzí součástí skinu uložených na disku. Aby viděli změny návštěvníci webu, musíš nejprve importovat změny do databáze a zajistit, aby jedna či více rubrik skin používaly.</p>        ]]></item>
-        <item id="skin_title" title="Název skinu"><![CDATA[<h2>Název skinu</h2>
+        <item id="skin_title" title="Název skinu"><![CDATA[
+<h2>Název skinu</h2>
 <p>Výstižný název skinu do seznamu skinů v panelech Textpatternu (vyžadován).</p>
-<p>Název může obsahovat speciální znaky i mezery.</p>]]></item>
-        <item id="skin_version" title="Verze skinu"><![CDATA[<h2>Verze skinu</h2>
-<p>Číslo nainstalované verze skinu (volitelné).</p>]]></item>
+<p>Název může obsahovat speciální znaky i mezery.</p>        ]]></item>
+        <item id="skin_version" title="Verze skinu"><![CDATA[
+<h2>Verze skinu</h2>
+<p>Číslo nainstalované verze skinu (volitelné).</p>        ]]></item>
     </group>
 </help>
 </resources>
