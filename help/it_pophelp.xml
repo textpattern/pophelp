@@ -104,7 +104,7 @@
         ]]></item>
         <item id="excerpt" title="Sommario"><![CDATA[
 <h2>Sommario</h2>
-<p>I sommari d’articolo sono opzionali. I sommari possono essere usati come succinta presentazione dell'articolo in mostra, come parte di un indice dei contenuti, usati al posto del corpo completo dell'articolo nei feed RSS/Atom del sito, o per una serie di altri usi.</p>
+<p>I sommari d’articolo sono opzionali. I sommari possono essere usati come succinta presentazione dell’articolo in mostra, come parte di un indice dei contenuti, usati al posto del corpo completo dell’articolo nei feed RSS/Atom del sito, o per una serie di altri usi.</p>
         ]]></item>
         <item id="expire_date" title="Data di scadenza"><![CDATA[
 <h2>Data di scadenza</h2>
@@ -114,8 +114,8 @@
     <li>Anno / Mese / Giorno</li>
     <li>Ora (in formato 24 ore) : Minuto : Secondo</li>
 </ul>
-<p>Quando giunge il momento, o nel caso in cui è stato dato una data nel passato, l'articolo scade.</p>
-<p>Se l'opzione 'mostrare articoli scaduti' è abilitata, l'articolo rimane visibile. Se l'opzione è invece disabilitata, aI visitatori della pagina dell'articolo comparirà un errore HTTP 410 al posto del contenuto dell'articolo.</p>
+<p>Quando giunge il momento, o nel caso in cui è stato dato una data nel passato, l’articolo scade.</p>
+<p>Se l’opzione ’mostrare articoli scaduti’ è abilitata, l’articolo rimane visibile. Se l’opzione è invece disabilitata, aI visitatori della pagina dell’articolo comparirà un errore HTTP 410 al posto del contenuto dell’articolo.</p>
         ]]></item>
         <item id="keywords" title="Parole chiave"><![CDATA[
 <h2>Parole chiave</h2>
@@ -128,13 +128,13 @@
         ]]></item>
         <item id="publish_date"><![CDATA[
 <h2>Data di pubblicazione</h2>
-<p>La data/ora in cui un articolo o file è pubblicato o recentemente rivisto. La data può essere fissata al momento in cui l'elemento è pubblicato oppure ad una data/ora arbitraria, nel passato o futuro.</p>
+<p>La data/ora in cui un articolo o file è pubblicato o recentemente rivisto. La data può essere fissata al momento in cui l’elemento è pubblicato oppure ad una data/ora arbitraria, nel passato o futuro.</p>
 <p>I campi corrispondono alle seguenti informazioni:</p>
 <ul>
     <li>Anno / Mese / Giorno</li>
     <li>Ora (in formato 24 ore) : Minuto : Secondo</li>
 </ul>
-<p>Un elemento con data/ora maggiore dell'orario attuale (cioé nel futuro) non compare nel sito, oltreché nei feed RSS/Atom, finché non si arriva a quella data/ora.</p>
+<p>Un elemento con data/ora maggiore dell’orario attuale (cioé nel futuro) non compare nel sito, oltreché nei feed RSS/Atom, finché non si arriva a quella data/ora.</p>
         ]]></item>
         <item id="status" title="Stato"><![CDATA[
 <h2>Stato</h2>
@@ -147,11 +147,11 @@
     <li>Visibile</li>
     <li>In rilievo</li>
 </ul>
-<p>Un articolo <strong>bozza</strong> è considerato un lavoro in corso e non è visibile fuori dall'area amministrativa di Textpattern  (cioè non è visibile nel sito pubblico di Textpattern e non è distribuito nei flussi).</p>
-<p>Un articolo <strong>nascosto</strong>  non è visibile fuori dall'area di amministrazione di Textpattern.</p>
-<p>Un articolo <strong>da approvare</strong> è considerato pronto per la pubblicazione ed in attesa di approvazione, ma non è visibile fuori dall'area amministrativa di Textpattern.</p>
-<p>Un articolo <strong>visibile</strong> è normalmente visibile fuori dall'area amministrativa di Textpattern (cioè visibile nel front side di Textpattern e, se consentito nelle preferenze, condiviso nei flussi). Se un articolo è visibile ed ha una data di scadenza, lo stato rimarrà visibile dopo che quella data è stata raggiunta, ma l'articolo scompare dal sito pubblico e appare  soltanto se nelle preferenze è permessa la pubblicazione di articoli scaduti.</p>
-<p>Un articolo <strong>in rilievo</strong> è simile ad un articolo <strong>pubblicato</strong> nel senso che può essere visto fuori dall'area amministrativa di Textpattern ma <strong>non</strong> appare nelle liste di articoli a meno che i rispettivi tag <code>article</code> oppure <code>article_custom</code> includano un attributo <code>status</code> con valore <code>sticky</code>.</p>
+<p>Un articolo <strong>bozza</strong> è considerato un lavoro in corso e non è visibile fuori dall’area amministrativa di Textpattern  (cioè non è visibile nel sito pubblico di Textpattern e non è distribuito nei flussi).</p>
+<p>Un articolo <strong>nascosto</strong>  non è visibile fuori dall’area di amministrazione di Textpattern.</p>
+<p>Un articolo <strong>da approvare</strong> è considerato pronto per la pubblicazione ed in attesa di approvazione, ma non è visibile fuori dall’area amministrativa di Textpattern.</p>
+<p>Un articolo <strong>visibile</strong> è normalmente visibile fuori dall’area amministrativa di Textpattern (cioè visibile nel front side di Textpattern e, se consentito nelle preferenze, condiviso nei flussi). Se un articolo è visibile ed ha una data di scadenza, lo stato rimarrà visibile dopo che quella data è stata raggiunta, ma l’articolo scompare dal sito pubblico e appare  soltanto se nelle preferenze è permessa la pubblicazione di articoli scaduti.</p>
+<p>Un articolo <strong>in rilievo</strong> è simile ad un articolo <strong>pubblicato</strong> nel senso che può essere visto fuori dall’area amministrativa di Textpattern ma <strong>non</strong> appare nelle liste di articoli a meno che i rispettivi tag <code>article</code> oppure <code>article_custom</code> includano un attributo <code>status</code> con valore <code>sticky</code>.</p>
         ]]></item>
         <item id="title" title="Titolo"><![CDATA[
 <h2>Titolo</h2>
@@ -160,8 +160,8 @@
         ]]></item>
         <item id="url_title" title="Titolo URL"><![CDATA[
 <h2>Titolo solo URL</h2>
-<p>Se vuoi usare un titolo specifico nell'URL permalink di un articolo, inseriscilo qui. Se lasciato in bianco, il titolo URL sarà generato automaticamente dal titolo dell'articolo.</p>
-<p>Ciò è particolarmente utile se il titolo dell'articolo usa caratteri non-ASCII.</p>
+<p>Se vuoi usare un titolo specifico nell’URL permalink di un articolo, inseriscilo qui. Se lasciato in bianco, il titolo URL sarà generato automaticamente dal titolo dell’articolo.</p>
+<p>Ciò è particolarmente utile se il titolo dell’articolo usa caratteri non-ASCII.</p>
         ]]></item>
     </group>
 
@@ -194,7 +194,7 @@
         ]]></item>
         <item id="link_category" title="Link"><![CDATA[
 <h2>Link</h2>
-<p>Le categorie link sono facoltative e sono utili per la visualizzazione di diversi raggruppamenti di link, ad esempio 'Amici', 'Romani', 'Compatrioti'.</p>
+<p>Le categorie link sono facoltative e sono utili per la visualizzazione di diversi raggruppamenti di link, ad esempio ‘Amici’, ‘Romani’, ‘Compatrioti’.</p>
 <p>Liste di link selettive come queste sono ottenute con il tag <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/linklist"><code>&lt;txp:linklist /&gt;</code><span class="ui-icon ui-icon-extlink">(apre un link esterno in una nuova finestra)</span></a> in questo modo:</p>
 <pre><code>&lt;code&gt;&lt;txp:linklist category="Friends" /&gt;&lt;/code&gt;.</code></pre>
         ]]></item>
@@ -206,24 +206,24 @@
 <p>Sembra che gli URL dei siti (ad es. <code>https://example.com/section/article</code>) sono attualmente non funzionanti o che  il server web non supporta la procedura di prova per determinare se gli URL puliti funzionano o no; se gli URL puliti funzionano nel sito come previsto, questo messaggio può essere tranquillamente ignorato.</p>
 <p>Se gli URL puliti <em>non</em> stanno funzionando può significare che:</p>
 <ul>
-    <li>L'impostazione 'URL del sito' non è corretta o la pagina a questo indirizzo non è gestita da questa istanza di Textpattern</li>
+    <li>L’impostazione ‘URL del sito’ non è corretta o la pagina a questo indirizzo non è gestita da questa istanza di Textpattern</li>
     <li>Il server richiede alcune modifiche a <code>. htaccess</code> o simile direttiva server, al fine di rendere funzionanti gli URL puliti</li>
     <li>Il server non supporta affatto gli URL puliti</li>
 </ul>
-<p>Il test URL puliti tenta di recuperare una pagina dall'indirizzo web specificato nella preferenza 'URL del sito' al fine di verificare che tutti i parametri URL puliti stiano lavorando correttamente. Se tale URL è un sito diverso, o è stato sostituito con una pagina statica o simili, il test avrà esito negativo. Fino a quando il problema non viene risolto, possono essere utilizzati URL sporchi (ad esempio <code>https://example.com?s=section&amp;id = 4</code>). Assicurarsi che lo 'Schema Permanent link' nelle preferenze di Amministrazione venga impostato di conseguenza.</p>
-<p>Nota che utilizzando un plugin per mettere un sito in 'modalità di manutenzione' può innescare questo avviso.</p>
+<p>Il test URL puliti tenta di recuperare una pagina dall’indirizzo web specificato nella preferenza ‘URL del sito’ al fine di verificare che tutti i parametri URL puliti stiano lavorando correttamente. Se tale URL è un sito diverso, o è stato sostituito con una pagina statica o simili, il test avrà esito negativo. Fino a quando il problema non viene risolto, possono essere utilizzati URL sporchi (ad esempio <code>https://example.com?s=section&amp;id = 4</code>). Assicurarsi che lo ’Schema Permanent link’ nelle preferenze di Amministrazione venga impostato di conseguenza.</p>
+<p>Nota che utilizzando un plugin per mettere un sito in ‘modalità di manutenzione’ può innescare questo avviso.</p>
         ]]></item>
         <item id="clean_url_test_failed" title="Verifica degli URL puliti fallita"><![CDATA[
 <h2>Verifica URL puliti fallita</h2>
 <p>Sembra che gli URL del sito (ad es. <code>https://example.com/section/article</code>) sono attualmente non funzionanti o che  il server web non supporta la procedura di prova per determinare se gli URL puliti funzionano o no; se gli URL puliti funzionano nel sito come previsto, questo messaggio può essere tranquillamente ignorato.</p>
 <p>Se gli URL puliti <em>non</em> stanno funzionando può significare che:</p>
 <ul>
-    <li>L'impostazione 'URL del sito' non è corretta o la pagina a questo indirizzo non è gestita da questa istanza di Textpattern</li>
+    <li>L’impostazione ‘URL del sito’ non è corretta o la pagina a questo indirizzo non è gestita da questa istanza di Textpattern</li>
     <li>Il server richiede alcune modifiche a <code>. htaccess</code> o simile direttiva server, al fine di rendere funzionanti gli URL puliti</li>
     <li>Il server non supporta affatto gli URL puliti</li>
 </ul>
-<p>Il test URL puliti tenta di recuperare una pagina dall'indirizzo web specificato nella preferenza 'URL del sito' al fine di verificare che tutti i parametri URL puliti stiano lavorando correttamente. Se tale URL è un sito diverso, o è stato sostituito con una pagina statica o simili, il test avrà esito negativo. Fino a quando il problema non viene risolto, possono essere utilizzati URL sporchi (ad esempio <code>https://example.com?s=section&amp;id = 4</code>). Assicurarsi che lo 'Schema Permanent link' nelle preferenze di Amministrazione venga impostato di conseguenza.</p>
-<p>Nota che utilizzando un plugin per mettere un sito in 'modalità di manutenzione' può innescare questo avviso.</p>
+<p>Il test URL puliti tenta di recuperare una pagina dall’indirizzo web specificato nella preferenza ’URL del sito’ al fine di verificare che tutti i parametri URL puliti stiano lavorando correttamente. Se tale URL è un sito diverso, o è stato sostituito con una pagina statica o simili, il test avrà esito negativo. Fino a quando il problema non viene risolto, possono essere utilizzati URL sporchi (ad esempio <code>https://example.com?s=section&amp;id = 4</code>). Assicurarsi che lo ’Schema Permanent link’ nelle preferenze di Amministrazione venga impostato di conseguenza.</p>
+<p>Nota che utilizzando un plugin per mettere un sito in ’modalità di manutenzione’ può innescare questo avviso.</p>
         ]]></item>
         <item id="diag_clear_private" title="Nascondi informazioni private"><![CDATA[
 <h2>Nascondi informazioni private</h2>
@@ -231,19 +231,19 @@
         ]]></item>
         <item id="dev_version_live" title="Codice di sviluppo su un server attivo"><![CDATA[
 <h2>Codice di sviluppo su un server attivo</h2>
-<p>Versioni di Textpattern in corso di sviluppo non sono raccomandate per l'uso su siti di produzione. Questo avviso può essere ignorato se i rischi sono comprensibili e accettabili.</p>
+<p>Versioni di Textpattern in corso di sviluppo non sono raccomandate per l’uso su siti di produzione. Questo avviso può essere ignorato se i rischi sono comprensibili e accettabili.</p>
         ]]></item>
         <item id="dir_not_writable" title="La directory non è scrivibile"><![CDATA[
 <h2>La directory non è scrivibile</h2>
-<p>Per usare le possibilità di caricare file e immagini, queste cartelle devono essere scrivibili tramite PHP dall'utente del server web. Ciò può essere fatto con un client (S)FTP, o in alternativa tramite linea di comando con l'istruzione <code>chmod 755 /path/to/dir</code>.</p>
+<p>Per usare le possibilità di caricare file e immagini, queste cartelle devono essere scrivibili tramite PHP dall’utente del server web. Ciò può essere fatto con un client (S)FTP, o in alternativa tramite linea di comando con l’istruzione <code>chmod 755 /path/to/dir</code>.</p>
         ]]></item>
         <item id="dns_lookup_fails" title="DNS fails"><![CDATA[
 <h2>DNS lookup fallito</h2>
-<p>Sembra che l'URL specificato come indirizzo del sito è irraggiungibile.</p>
+<p>Sembra che l’URL specificato come indirizzo del sito è irraggiungibile.</p>
         ]]></item>
         <item id="file_uploads_disabled" title="I caricamenti file sono disabilitati"><![CDATA[
 <h2>I caricamenti file sono disabilitati</h2>
-<p>La configurazione attuale del server indica che i file uploads sono disabilitati. Controllare e modificare l'impostazione di <code>file_uploads</code> nel <code>php. ini</code> o per assistenza, consultare l'host del sito.</p>
+<p>La configurazione attuale del server indica che i file uploads sono disabilitati. Controllare e modificare l’impostazione di <code>file_uploads</code> nel <code>php. ini</code> o per assistenza, consultare l’host del sito.</p>
         ]]></item>
         <item id="htaccess_missing" title="File .htaccess mancante"><![CDATA[
 <h2>File .htaccess mancante</h2>
@@ -278,7 +278,7 @@
         ]]></item>
         <item id="index_inaccessible" title="Indice del sito inaccessibile"><![CDATA[
 <h2>Indice del sito inaccessibile</h2>
-<p>Il root file <code>index. php</code> specificato come indice del sito è illeggibile dal server. Si prega di verificarne l'esistenza e le autorizzazioni.</p>
+<p>Il root file <code>index. php</code> specificato come indice del sito è illeggibile dal server. Si prega di verificarne l’esistenza e le autorizzazioni.</p>
         ]]></item>
         <item id="missing_files" title="File mancanti"><![CDATA[
 <h2>File mancanti</h2>
@@ -286,11 +286,11 @@
         ]]></item>
         <item id="mod_rewrite_missing" title="Apache mod_rewrite mancante"><![CDATA[
 <h2>Apache mod_rewrite mancante</h2>
-<p>Il modulo Apache <code>mod_rewrite</code> non è installato o è disabilitato. È raccomandato per il corretto funzionamento di Textpattern. Controllane l'esistenza e lo stato attivato, oppure contatta l'host del sito per assistenza.</p>
+<p>Il modulo Apache <code>mod_rewrite</code> non è installato o è disabilitato. È raccomandato per il corretto funzionamento di Textpattern. Controllane l’esistenza e lo stato attivato, oppure contatta l’host del sito per assistenza.</p>
         ]]></item>
         <item id="modified_files" title="File modificati"><![CDATA[
 <h2>File modificati</h2>
-<p>I file sono considerati modificati se la loro rispettiva checksum è diversa dalla ben conosciuta lista checksum fornita con Textpattern. Se qualsiasi file nell'installazione di Textpattern differisce da quanto previsto, il file sarà evidenziato qui.</p>
+<p>I file sono considerati modificati se la loro rispettiva checksum è diversa dalla ben conosciuta lista checksum fornita con Textpattern. Se qualsiasi file nell’installazione di Textpattern differisce da quanto previsto, il file sarà evidenziato qui.</p>
         ]]></item>
         <item id="mysql_table_errors" title="Errori nelle tabelle di MySQL"><![CDATA[
 <h2>Errori nelle tabelle di MySQL</h2>
@@ -358,13 +358,13 @@
         ]]></item>
         <item id="site_url_mismatch" title="Mancata corrispondenza di URL del sito"><![CDATA[
 <h2>Mancata corrispondenza di URL del sito</h2>
-<p>L'URL del sito come impostato nel pannello "Preferenze" non corrisponde all'URL effettivo utilizzato per visitare il sito.</p>
+<p>L’URL del sito come impostato nel pannello ‘Preferenze’ non corrisponde all’URL effettivo utilizzato per visitare il sito.</p>
 <p>Se il sito può essere raggiunto tramite più URL diversi, e se il sito si comporta come previsto, questo messaggio può essere tranquillamente ignorato.</p>
-<p>In caso contrario, si prega di controllare e modificare l'impostazione di 'Sito URL' nelle preferenze di Admin come richiesto. Un'ipotesi dell'URL corretto del sito è indicata nel messaggio di avviso di pre-flight sul pannello 'Diagnostica'.</p>
+<p>In caso contrario, si prega di controllare e modificare l’impostazione di ‘Sito URL’ nelle preferenze di Admin come richiesto. Un’ipotesi dell’URL corretto del sito è indicata nel messaggio di avviso di pre-flight sul pannello ‘Diagnostica’.</p>
         ]]></item>
         <item id="some_php_functions_disabled" title="Funzioni PHP [...] sono disabilitate sul vostro server"><![CDATA[
 <h2>Funzioni PHP [...] sono disabilitate sul vostro server</h2>
-<p>L'host del sito o l'amministratore del server ha disattivato una o più funzioni PHP, alcune delle quali possono influenzare il funzionamento di Textpattern.</p>
+<p>L’host del sito o l’amministratore del server ha disattivato una o più funzioni PHP, alcune delle quali possono influenzare il funzionamento di Textpattern.</p>
 <p>Per ulteriori informazioni, consultare la <a rel="external" target="_blank" href="https://docs.textpattern.com/administration/diagnostics-panel#diagnostic-reporting-on-php-functions">Documentazione Utente Textpattern <span class="ui-icon ui-icon-extlink">(apre un link esterno in una nuova finestra)</span></a>.</p>
         ]]></item>
         <item id="textpattern_version_update" title="Aggiornamento versione Textpattern CMS"><![CDATA[]]></item>
