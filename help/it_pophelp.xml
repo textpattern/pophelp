@@ -376,7 +376,6 @@
     <li>Se le ultime due cifre differiscono dalla vostra attuale versione, l’aggiornamento potrebbe richiedere di aggiornare alcuni plugin e/o temi, sebbene continuerà a funzionare comunque, seppure in capacità limitata.</li>
     <li>Se la prima cifra è differente dalla vostra attuale versione, l’aggiornamento verosimilmente richiederà di aggiornare anche gran parte di plugin e temi. Se fate molto affidamento su un particolare plugin o caratteristica del tema, controllate con l’autore o coi membri della comunità prima di cominciare l’upgrade.</li>
 </ul>
-<p>Se il messaggio dice “There is a problem trying to connect to the RPC server” vuol dire che una nuova versione non potrà essere controllata in quel momento, o che il server è momentaneamente fuori servizio. Gli aggiornamenti sono controllati ogni 24 ore per cui è probabile che alla prossima vostra visita al pannello Diagnostica, andrà tutto bene.</p>
         ]]></item>
         <item id="tmp_plugin_paths_match" title="I percorsi delle directory temporanea e di cache dei plug-in non devono essere uguali"><![CDATA[
 <h2>I percorsi delle directory Temporanea e di Cache dei plugin non devono essere uguali</h2>
