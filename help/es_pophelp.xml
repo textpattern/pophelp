@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <help lang="es">
-    <group id="admin" title="">
-        <item id="about_privileges" title=""><![CDATA[
+    <group id="admin" title="Panel de usuarios">
+        <item id="about_privileges" title="Sobre roles"><![CDATA[
 <h2>Acerca de los roles</h2>
 <h3>Editor</h3>
 <ul>
@@ -107,7 +107,7 @@ XPath: /resources/help/group/item        ]]></item>
         <item id="link_category" title=""><![CDATA[]]></item>
     </group>
 
-    <group id="diag" title="">
+    <group id="diag" title="Panel de diagnóstico">
         <item id="clean_url_data_failed" title=""><![CDATA[]]></item>
         <item id="clean_url_test_failed" title=""><![CDATA[]]></item>
         <item id="diag_clear_private" title=""><![CDATA[]]></item>
