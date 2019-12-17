@@ -145,19 +145,40 @@ XPath: /resources/help/group/item        ]]></item>
 
     <group id="image" title="">
         <item id="create_thumbnail" title=""><![CDATA[]]></item>
-        <item id="replace_image_form" title=""><![CDATA[]]></item>
-        <item id="upload_image" title=""><![CDATA[]]></item>
-        <item id="upload_thumbnail" title=""><![CDATA[]]></item>
+        <item id="replace_image_form" title=""><![CDATA[
+<h2>Reemplazar imagen</h2>
+<p>Una imagen subida aquí simplemente reemplazará a la imagen que actualmente esté asociada con esta entrada en la base de datos.</p>        ]]></item>
+        <item id="upload_image" title=""><![CDATA[
+<h2>Subir imagen</h2>
+<p>Subir una o más imágenes a tu servidor.</p>
+<p>Una vez subida al directorio de <code>imágenes</code>, el nombre de archivo de tu imagen original se mantendrá sólo internamente en la base de datos de Textpattern; el archivo de imagen en si será renombrado a un número secuencias + extensión de archivo.</p>
+        ]]></item>
+        <item id="upload_thumbnail" title=""><![CDATA[
+<h2>Subir miniatura</h2>
+<p>Las imágenes a tamaño completo pueden ser asignadas a su propia miniatura. Estas son útiles para enlazar a - y la indización de - las imágenes a tamaño completo.</p>
+<p>Una referencia a una miniatura es exactamente igual a la referencia a la imagen de tamaño completo, añadiendo <code>t</code> al final del nombre del archivo. Por ejemplo, para hacer referencia a la miniatura asociada con la imagen de tamaño completo almacenada en <code>/images/12.jpg</code> usaríamos <code>/images/12t.jpg</code>.</p>
+        ]]></item>
     </group>
 
-    <group id="lang" title="">
-        <item id="get_textpack" title=""><![CDATA[]]></item>
+    <group id="lang" title="Panel de idiomas">
+        <item id="get_textpack" title=""><![CDATA[
+<h2>Instalar un Textpack</h2>
+<p>Pega cadenas de texto adicionales para tu sitio dentro de este campo y selecciona ‘Subir‘ para instalarlos.</p>
+<p>Las cadenas a menudo se presentan en forma de un Textpack descargable, distribuido junto a un plugin, para permitir el uso nativo dentro de Textpattern de esa cadena de texto propia del plugin.</p>
+<p>Los traductores deben pues traducir esos paquetes según se precise para redistribuir el contenido localizado a la comunidad.</p>
+        ]]></item>
     </group>
 
     <group id="link" title="">
-        <item id="link_description" title=""><![CDATA[]]></item>
+        <item id="link_description" title=""><![CDATA[
+<h2>Descripción</h2>
+<p>Las descripciones de enlace son opcionales, y son útiles para titular enlaces, para crear atributos <code>title=""</code> (tooltip) de enlace, o simplemente para mantener tu propia documentación interna.</p>
+        ]]></item>
         <item id="link_sort" title=""><![CDATA[]]></item>
-        <item id="link_url" title=""><![CDATA[]]></item>
+        <item id="link_url" title=""><![CDATA[
+<h2>URL</h2>
+<p>La dirección de un enlace. Si el enlace apunta a un sitio diferente entonces debe ir precedido por <code>http://</code> o <code>https://</code>.</p>
+        ]]></item>
     </group>
 
     <group id="login" title="">
