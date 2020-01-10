@@ -1038,7 +1038,7 @@ If a form template needs processing (if it contains Textpattern tags), you must 
         ]]></item>
         <item id="skin_title" title="Theme title"><![CDATA[
 <h2>Theme title</h2>
-<p>A theme’s descriptive title, used to identify the theme within Textpattern’s panels (required).</p>
+<p>A theme’s descriptive title, used to identify the theme within Textpattern’s panels.</p>
 <p>The title can contain special characters and spaces.</p>
         ]]></item>
         <item id="skin_version" title="Theme version"><![CDATA[
