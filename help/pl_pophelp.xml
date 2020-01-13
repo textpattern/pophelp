@@ -19,7 +19,7 @@
         <item id="expire_date" title="Data wygaśnięcia"><![CDATA[]]></item>
         <item id="keywords" title="Słowa kluczowe"><![CDATA[]]></item>
         <item id="override_form" title="Nadpisz formę"><![CDATA[]]></item>
-        <item id="publish_date"><![CDATA[]]></item>
+        <item id="publish_date" title=""><![CDATA[]]></item>
         <item id="status" title="Status"><![CDATA[]]></item>
         <item id="title" title="Tytuł"><![CDATA[
 <h2>Tytuł</h2>

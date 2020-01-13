@@ -74,10 +74,10 @@
     <li>Puede gestionar secciones</li>
     <li>puede gestionar páginas, bloques y estilo</li>
 </ul>
-        
+
 CONTEXTEDIT
- 
-Text 
+
+Text
 XPath: /resources/help/group/item        ]]></item>
         <item id="create_author" title="Crear autor"><![CDATA[
 <h2>Añadir nuevo autor</h2>
@@ -93,7 +93,7 @@ XPath: /resources/help/group/item        ]]></item>
         <item id="expire_date" title=""><![CDATA[]]></item>
         <item id="keywords" title=""><![CDATA[]]></item>
         <item id="override_form" title=""><![CDATA[]]></item>
-        <item id="publish_date"><![CDATA[]]></item>
+        <item id="publish_date" title=""><![CDATA[]]></item>
         <item id="status" title=""><![CDATA[]]></item>
         <item id="title" title="Título"><![CDATA[]]></item>
         <item id="url_title" title=""><![CDATA[]]></item>
