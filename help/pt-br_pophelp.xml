@@ -189,7 +189,12 @@
 <p>As categorias de imagens são opcionais e úteis tanto para organização interna quanto para definir conjuntos de imagens que podem ser exibidos usando<a rel="external" target="_blank" href="https://docs.textpattern.com/tags/image_index"><code>&lt;txp:image_index /&gt;</code> <span class="ui-icon ui-icon-extlink">
 (abre um link externo em uma nova janela)</span></a> e <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/image_display"><code>&lt;txp:image_display /&gt;</code> <span class="ui-icon ui-icon-extlink">
 (abre um link externo em uma nova janela)</span></a> tags.</p>]]></item>
-        <item id="link_category" title="Links"><![CDATA[]]></item>
+        <item id="link_category" title="Links"><![CDATA[
+<h2>Links</h2>
+<p>As categorias de links são opcionais e úteis para exibir diferentes agrupamentos de links, por exemplo: ‘Friends’, ‘Romans’, ‘Countrymen’.</p>
+<p>Listas de links seletivas como essas podem são geradas com <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/linklist"> <code>&lt;txp:linklist /&gt;</code> tag <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> desta forma:</p>
+<pre><code>&lt;code&gt;&lt;txp:linklist category="Friends" /&gt;&lt;/code&gt;.</code></pre>
+        ]]></item>
     </group>
 
     <group id="diag" title="Painel de diagnósticos">
@@ -221,7 +226,7 @@
 <h2>Ocultar informações privadas</h2>
 <p>Oculte informações privadas para segurança extra. Se as informações de diagnóstico forem compartilhadas publicamente, por exemplo no fórum de suporte do Textpattern, recomenda-se marcar esta caixa afim de omitir informações confidenciais do servidor.</p>
         ]]></item>
-        <item id="dev_version_live" title=""><![CDATA[
+        <item id="dev_version_live" title="Códigos em desenvolvimento em um servidor ativo"><![CDATA[
 <h2>Códigos em desenvolvimento em um servidor ativo</h2>
 <p>As versões em desenvolvimento do Textpattern não são recomendadas para uso em sites em produção. Este aviso pode ser ignorado com segurança se os riscos forem compreendidos e aceitos.</p>
         ]]></item>
