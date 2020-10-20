@@ -189,16 +189,16 @@
     <group id="image" title="Panel gambar">
         <item id="create_thumbnail" title="Buat keluku"><![CDATA[]]></item>
         <item id="replace_image_form" title="Ganti gambar"><![CDATA[]]></item>
-        <item id="upload_image" title=""><![CDATA[]]></item>
-        <item id="upload_thumbnail" title=""><![CDATA[]]></item>
+        <item id="upload_image" title="Unggah gambar"><![CDATA[]]></item>
+        <item id="upload_thumbnail" title="Unggah keluku"><![CDATA[]]></item>
     </group>
 
-    <group id="lang" title="">
-        <item id="get_textpack" title=""><![CDATA[]]></item>
+    <group id="lang" title="Panel Bahasa">
+        <item id="get_textpack" title="Pasang paket-teks (Textpack)"><![CDATA[]]></item>
     </group>
 
-    <group id="link" title="">
-        <item id="link_description" title=""><![CDATA[]]></item>
+    <group id="link" title="Panel tautan">
+        <item id="link_description" title="Deskripsi"><![CDATA[]]></item>
         <item id="link_sort" title="Urutkan nilai"><![CDATA[]]></item>
         <item id="link_url" title="URL"><![CDATA[]]></item>
         <item id="timestamp_link" title="Tanggal terbit"><![CDATA[]]></item>
@@ -235,19 +235,19 @@
         <item id="comments_disabled_after" title="Komentar dinonaktifkan setelah"><![CDATA[]]></item>
         <item id="comments_disallow_images" title="Izinkan penggunaan gambar dalam komentar?"><![CDATA[]]></item>
         <item id="comments_mode" title="Mode komentar"><![CDATA[]]></item>
-        <item id="comments_moderate" title=""><![CDATA[]]></item>
-        <item id="comments_on_default" title=""><![CDATA[]]></item>
-        <item id="comments_require_email" title=""><![CDATA[]]></item>
-        <item id="comments_require_name" title=""><![CDATA[]]></item>
-        <item id="comments_sendmail" title=""><![CDATA[]]></item>
-        <item id="comments_use_fat_textile" title=""><![CDATA[]]></item>
-        <item id="custom_form_types" title=""><![CDATA[]]></item>
-        <item id="custom_overview" title=""><![CDATA[]]></item>
-        <item id="dateformat" title=""><![CDATA[]]></item>
-        <item id="default_event" title=""><![CDATA[]]></item>
-        <item id="default_publish_status" title=""><![CDATA[]]></item>
-        <item id="doctype" title=""><![CDATA[]]></item>
-        <item id="enable_dev_preview" title=""><![CDATA[]]></item>
+        <item id="comments_moderate" title="Moderasi komentar"><![CDATA[]]></item>
+        <item id="comments_on_default" title="Komentar aktif sebagai bawaan?"><![CDATA[]]></item>
+        <item id="comments_require_email" title="Komentar memerlukan email pengguna?"><![CDATA[]]></item>
+        <item id="comments_require_name" title="Komentar memerlukan nama pengguna?"><![CDATA[]]></item>
+        <item id="comments_sendmail" title="Kirim email komentar ke penulis?"><![CDATA[]]></item>
+        <item id="comments_use_fat_textile" title="Ijinkan markup Textile lebih banyak di komentar?"><![CDATA[]]></item>
+        <item id="custom_form_types" title="Formulir ubahsuai jenis template"><![CDATA[]]></item>
+        <item id="custom_overview" title="Kolom ubahsuai"><![CDATA[]]></item>
+        <item id="dateformat" title="Format tanggal"><![CDATA[]]></item>
+        <item id="default_event" title="Panel bawaan"><![CDATA[]]></item>
+        <item id="default_publish_status" title="Status bawaan publikasi"><![CDATA[]]></item>
+        <item id="doctype" title="Doctype"><![CDATA[]]></item>
+        <item id="enable_dev_preview" title="Aktifkan pratinjau tema pengembangan?"><![CDATA[]]></item>
         <item id="enable_short_tags" title=""><![CDATA[]]></item>
         <item id="enable_xmlrpc_server" title=""><![CDATA[]]></item>
         <item id="expire_logs_after" title=""><![CDATA[]]></item>
