@@ -1,5 +1,7 @@
 # Textpattern CMS help files
 
+[![Crowdin](https://badges.crowdin.net/textpattern-cms-textpacks/localized.svg)](https://crowdin.com/project/textpattern-cms-textpacks)
+
 This repository contains Inline Help text files (aka 'Pophelp') for [Textpattern CMS](https://textpattern.com).
 
 ## Contributing
