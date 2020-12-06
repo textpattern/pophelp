@@ -542,6 +542,10 @@
 <h2>Allow form override?</h2>
 <p>This setting allows article authors to override the form to be used when their article is rendered. If enabled, an ‘Override form’ dropdown will be available under ‘Advanced options’, when editing an article.</p>
         ]]></item>
+        <item id="allow_form_types" title="Override form types"><![CDATA[
+<h2>Override form types</h2>
+<p>Choose which form types will have their templates made available in the Write panel as override forms.</p>
+        ]]></item>
         <item id="allow_page_php_scripting" title="Allow PHP in pages?"><![CDATA[
 <h2>Allow PHP in pages?</h2>
 <p>When enabled, this setting allows PHP code within page templates and form templates.</p>
