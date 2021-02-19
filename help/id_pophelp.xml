@@ -304,7 +304,6 @@
         <item id="use_mail_on_feeds_id" title="Gunakan surel untuk membentuk id RSS (standarnya adalah URL situs)?"><![CDATA[]]></item>
         <item id="use_plugins" title="Gunakan plugins?"><![CDATA[]]></item>
         <item id="use_textile" title=""><![CDATA[]]></item>
-
     </group>
 
     <group id="section" title="Panel seksi">
