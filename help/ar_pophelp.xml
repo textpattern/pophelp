@@ -75,7 +75,8 @@
     <li>يمكنه إدارة الصفحات والنماذج والأسلوب</li>
 </ul>
         ]]></item>
-        <item id="create_author" title="أنشئ محرر"><![CDATA[]]></item>
+        <item id="create_author" title="أنشئ محرر"><![CDATA[<h2> إضافة مؤلف جديد </h2>
+<p> سيتم إرسال رسالة ترحيب وإرشادات تسجيل الدخول بالبريد الإلكتروني إلى المؤلف الجديد. </p>]]></item>
     </group>
 
     <group id="article" title="لوحة الكتابة">
@@ -87,13 +88,13 @@
         <item id="keywords" title=""><![CDATA[]]></item>
         <item id="override_form" title=""><![CDATA[]]></item>
         <item id="publish_date" title=""><![CDATA[]]></item>
-        <item id="status" title=""><![CDATA[]]></item>
-        <item id="title" title=""><![CDATA[]]></item>
+        <item id="status" title="الحالة"><![CDATA[]]></item>
+        <item id="title" title="عنوان"><![CDATA[]]></item>
         <item id="url_title" title=""><![CDATA[]]></item>
     </group>
 
     <group id="category" title="">
-        <item id="article_category" title=""><![CDATA[]]></item>
+        <item id="article_category" title="مقالات"><![CDATA[]]></item>
         <item id="category_description" title=""><![CDATA[]]></item>
         <item id="file_category" title=""><![CDATA[]]></item>
         <item id="image_category" title=""><![CDATA[]]></item>
@@ -103,14 +104,14 @@
     <group id="diag" title="">
         <item id="clean_url_data_failed" title=""><![CDATA[]]></item>
         <item id="clean_url_test_failed" title=""><![CDATA[]]></item>
-        <item id="diag_clear_private" title=""><![CDATA[]]></item>
+        <item id="diag_clear_private" title="إخفاء المعلومات الخاصة"><![CDATA[]]></item>
         <item id="dev_version_live" title=""><![CDATA[]]></item>
         <item id="dir_not_writable" title=""><![CDATA[]]></item>
         <item id="dns_lookup_fails" title=""><![CDATA[]]></item>
         <item id="file_uploads_disabled" title=""><![CDATA[]]></item>
         <item id="htaccess_missing" title=""><![CDATA[]]></item>
         <item id="index_inaccessible" title=""><![CDATA[]]></item>
-        <item id="missing_files" title=""><![CDATA[]]></item>
+        <item id="missing_files" title="ملفات ناقصة"><![CDATA[]]></item>
         <item id="mod_rewrite_missing" title=""><![CDATA[]]></item>
         <item id="modified_files" title=""><![CDATA[]]></item>
         <item id="mysql_table_errors" title=""><![CDATA[]]></item>
@@ -132,7 +133,7 @@
         <item id="file_reassign" title=""><![CDATA[]]></item>
         <item id="file_replace" title=""><![CDATA[]]></item>
         <item id="timestamp_file" title=""><![CDATA[]]></item>
-        <item id="upload" title=""><![CDATA[]]></item>
+        <item id="upload" title="إرسال ملف"><![CDATA[]]></item>
     </group>
 
     <group id="form" title="">
@@ -152,7 +153,7 @@
 
     <group id="link" title="">
         <item id="link_description" title=""><![CDATA[]]></item>
-        <item id="link_sort" title=""><![CDATA[]]></item>
+        <item id="link_sort" title="قيمة الترتيب"><![CDATA[]]></item>
         <item id="link_url" title=""><![CDATA[]]></item>
         <item id="timestamp_link" title=""><![CDATA[]]></item>
     </group>
@@ -217,7 +218,7 @@
         <item id="permlink_mode" title=""><![CDATA[]]></item>
         <item id="plugin_cache_dir" title=""><![CDATA[]]></item>
         <item id="production_status" title=""><![CDATA[]]></item>
-        <item id="public_theme_name" title=""><![CDATA[]]></item>
+        <item id="public_theme_name" title="مظهر الجانب الأمامي"><![CDATA[]]></item>
         <item id="publish_expired_articles" title=""><![CDATA[]]></item>
         <item id="publisher_email" title=""><![CDATA[]]></item>
         <item id="rss_how_many" title=""><![CDATA[]]></item>
@@ -234,22 +235,22 @@
         <item id="tempdir" title=""><![CDATA[]]></item>
         <item id="theme_name" title=""><![CDATA[]]></item>
         <item id="txp_evaluate_functions" title=""><![CDATA[]]></item>
-        <item id="use_comments" title=""><![CDATA[]]></item>
-        <item id="use_mail_on_feeds_id" title=""><![CDATA[]]></item>
-        <item id="use_plugins" title=""><![CDATA[]]></item>
+        <item id="use_comments" title="تقبل التعليقات"><![CDATA[]]></item>
+        <item id="use_mail_on_feeds_id" title="أستخدام البريد للتعرف على التدفقات"><![CDATA[]]></item>
+        <item id="use_plugins" title="استخدام البلوغين"><![CDATA[]]></item>
         <item id="use_textile" title=""><![CDATA[]]></item>
     </group>
 
     <group id="section" title="">
         <item id="section_category" title=""><![CDATA[]]></item>
-        <item id="section_default" title=""><![CDATA[]]></item>
-        <item id="section_description" title=""><![CDATA[]]></item>
+        <item id="section_default" title="قسم النشر الافتراضي"><![CDATA[]]></item>
+        <item id="section_description" title="وصف"><![CDATA[]]></item>
         <item id="section_on_frontpage" title=""><![CDATA[]]></item>
-        <item id="section_searchable" title=""><![CDATA[]]></item>
+        <item id="section_searchable" title="تدرج مع نتائج البحث"><![CDATA[]]></item>
         <item id="section_syndicate" title=""><![CDATA[]]></item>
-        <item id="section_uses_css" title=""><![CDATA[]]></item>
-        <item id="section_uses_page" title=""><![CDATA[]]></item>
-        <item id="section_uses_skin" title=""><![CDATA[]]></item>
+        <item id="section_uses_css" title="style استعمال ال"><![CDATA[]]></item>
+        <item id="section_uses_page" title="استخدامات الصفحة"><![CDATA[]]></item>
+        <item id="section_uses_skin" title="يستخدم الموضوع"><![CDATA[]]></item>
     </group>
 
     <group id="setup" title="">
@@ -259,17 +260,17 @@
     </group>
 
     <group id="skin" title="">
-        <item id="skin_author" title=""><![CDATA[]]></item>
-        <item id="skin_author_uri" title=""><![CDATA[]]></item>
-        <item id="skin_delete_entirely" title=""><![CDATA[]]></item>
-        <item id="skin_delete_from_database" title=""><![CDATA[]]></item>
-        <item id="skin_delete_from_disk" title=""><![CDATA[]]></item>
-        <item id="skin_description" title=""><![CDATA[]]></item>
-        <item id="skin_import" title=""><![CDATA[]]></item>
-        <item id="skin_name" title=""><![CDATA[]]></item>
+        <item id="skin_author" title="صاحب الموضوع"><![CDATA[]]></item>
+        <item id="skin_author_uri" title="موقع الموضوع"><![CDATA[]]></item>
+        <item id="skin_delete_entirely" title="حذف قوالب السمة من القرص أيضا"><![CDATA[]]></item>
+        <item id="skin_delete_from_database" title="حذف القوالب غير المستخدمة من قاعدة البيانات عند الاستيراد"><![CDATA[]]></item>
+        <item id="skin_delete_from_disk" title="حذف القوالب غير المستخدمة من القرص عند التصدير"><![CDATA[]]></item>
+        <item id="skin_description" title="وصف الموضوع"><![CDATA[]]></item>
+        <item id="skin_import" title="استيراد الموضوع"><![CDATA[]]></item>
+        <item id="skin_name" title="اسم الموضوع"><![CDATA[]]></item>
         <item id="skin_overview" title=""><![CDATA[]]></item>
-        <item id="skin_title" title=""><![CDATA[]]></item>
-        <item id="skin_version" title=""><![CDATA[]]></item>
+        <item id="skin_title" title="عنوان الموضوع"><![CDATA[]]></item>
+        <item id="skin_version" title="موضوع الإصدار"><![CDATA[]]></item>
     </group>
 </help>
 </resources>
