@@ -272,7 +272,7 @@
 <p>Vorhandene Verzeichnisnamen können mit den Sektionsnamen in Konflikt stehen, die im Permlink-Schema des Artikels verwendet werden. Um Probleme zu vermeiden, überprüfen Sie die betroffenen Verzeichnisnamen und löschen Sie sie, wenn dies gefahrlos möglich ist, oder ändern Sie die Sektionsnamen, damit sie nicht kollidieren.</p>]]></item>
         <item id="path_to_site_inaccessible" title="Webseitenverzeichnis nicht lesbar"><![CDATA[<h2>Site-Verzeichnis unlesbar</h2>
 <p>Das Verzeichnis, das die Root-Datei <code>index.php</code> enthält, die als Index für die Site angegeben wurde, ist für den Server nicht lesbar. Bitte überprüfen Sie die Berechtigungen.</p>]]></item>
-        <item id="php_scripting_enabled" title="PHP scripting enabled"><![CDATA[
+        <item id="php_scripting_enabled" title="PHP-Scripting aktiviert"><![CDATA[
 <h2>PHP-Scripting aktiviert</h2>
 <p>Textpattern erlaubt Autoren und Administratoren, PHP-Code in Artikel und Seiten/Formulare einzubetten, wenn diese Funktionen aktiviert sind. Da dies ein Sicherheitsrisiko darstellt - jede Art von PHP könnte ausgeführt werden, einschließlich potenziell schädlichen/gefährlichen Codes, der zur Zerstörung Ihrer Installation oder zur Weitergabe von Informationen an Dritte führen könnte - wird dringend empfohlen, diese Optionen in den <a href="?event=prefs#prefs_group_publish">Einstellungen</a> zu deaktivieren, sofern Sie die Funktion nicht unbedingt benötigen.</p>
 <p>Viele Verbesserungen an Textpattern-Websites, für die zuvor PHP-Schnipsel erforderlich waren, können nun in <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/">Core-Tags</a> durchgeführt werden.</p>
