@@ -626,7 +626,7 @@
         <item id="comments_on_default" title="Comments on by default?"><![CDATA[
 <h2>Comments on by default?</h2>
 <p>If this is set to ‘Yes’, comments will be automatically enabled for every article published. If set to ‘No’, you must enable comments on the article ‘Write’ panel each time you want to accept comments.</p>
-<p>Note that allowing comments can be turned on or off at any time, on a per-article basis.</p>
+<p>Comments can be enabled/disabled at any time, on a per-article basis.</p>
         ]]></item>
         <item id="comments_require_email" title="Comments require commenter’s email address?"><![CDATA[
 <h2>Comments require user’s email address?</h2>
