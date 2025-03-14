@@ -514,13 +514,24 @@
     <group id="plugin" title="Plugin panel">
         <item id="install_plugin" title="Install plugin"><![CDATA[
 <h2>Install plugin</h2>
-<p>Paste the contents of the plugin text file here, then use ‘Upload’ to begin installation. Any plugin you upload with the same name as one you have previously installed will be overwritten with the uploaded version.</p>
+<p>Paste the contents of the compiled plugin text file here, then use ‘Upload’ to begin installation. Any plugin you upload with the same name as one you have previously installed will be overwritten with the uploaded version.</p>
 <p>The plugin text you paste here is <strong>not</strong> the raw PHP code but Base64-encoded text, usually preceded by a header containing plugin information (such as plugin name, version and description, author name, etc).</p>
+<p>You can often obtain compiled versions of plugins from the <a rel="external" target="_blank" href="https://plugins.textpattern.com/">Plugins repository <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> or a plugin author's designated channel, such as their website or GitHub.</p>
+<p>You may also paste a URL to a Textpattern compiled text file here, if the external site permits it.</p>
+<p>All uploaded plugins will go through a verification step allowing you to inspect the plugin code and contents prior to installation.</p>
         ]]></item>
         <item id="upload_plugin" title="Upload plugin"><![CDATA[
 <h2>Upload plugin</h2>
-<p>Use this form to upload a plugin file (either a PHP file or a zipped archive). Uploaded plugins (and any assets) are stored within the ‘plugins’ directory.</p>
+<p>Use this form to upload a plugin file. Uploaded plugins (and any assets) are stored within the ‘plugins’ directory.</p>
+<p>Plugin types that may be uploaded here are:</p>
+<ul>
+<li>Textpattern PHP Template files that contain complete code, metadata, Textpack strings and help text.</li>
+<li>Textpattern compiled text files that contain complete code, metadata, Textpack strings and help text.</li>
+<li>Textpattern zip bundles that contain manifest information and code, metadata, Textpack strings, help text and supporting files.</li>
+<li>Raw PHP files (though these will not populate additional metadata and are not recommended).</li>
+</ul>
 <p>Any plugin you upload with the same name as one you have previously installed will be overwritten with the uploaded version.</p>
+<p>All uploaded plugins will go through a verification step allowing you to inspect the plugin code and contents prior to installation.</p>
         ]]></item>
     </group>
 
