@@ -84,13 +84,14 @@
     <group id="article" title="Write panel">
         <item id="article_image" title="Article image"><![CDATA[
 <h2>Article image</h2>
-<p>To associate a single image with this article, place one of the following here:</p>
+<p>To associate images with this article, place one of the following here:</p>
 <ol>
-    <li>a Textpattern image ID (e.g. <code>12</code>)</li>
-    <li>a relative URL to the image (e.g. <code>/images/my_pic.jpg</code>)</li>
-    <li>a fully-qualified URL (e.g. <code>https://example.com/path/to/images/my_pic.jpg</code>)</li>
+    <li>one or more Textpattern image IDs, comma-separated (e.g. <code>12, 25, 18</code>)</li>
+    <li>one or more relative URLs to the image, comma-separated (e.g. <code>/images/my_pic.jpg</code>)</li>
+    <li>one or more fully-qualified URLs, comma-separated (e.g. <code>https://example.com/path/to/images/my_pic.jpg</code>)</li>
 </ol>
-<p>The image can be displayed by placing a <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/article_image"><code>&lt;txp:article_image /&gt;</code> tag <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> inside an article form. It will output a complete HTML <code>&lt;img&gt;</code> tag to the chosen image.</p>
+<p>The first image can be displayed by placing a <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/article_image"><code>&lt;txp:article_image /&gt;</code> tag <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> inside an article form. By default, it will output a complete HTML <code>&lt;img&gt;</code> tag to the chosen image.</p>
+<p>You may display galleries using the <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/images"><code>&lt;txp:images /&gt;</code> tag <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a>.</p>
         ]]></item>
         <item id="body" title="Body"><![CDATA[
 <h2>Body</h2>
