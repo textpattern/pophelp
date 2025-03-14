@@ -188,7 +188,7 @@
         ]]></item>
         <item id="image_category" title="Images"><![CDATA[
 <h2>Images</h2>
-<p>Image categories are optional, and useful both for internal organization and for defining image sets that can be displayed using the <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/image_index"><code>&lt;txp:image_index /&gt;</code> <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> and <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/image_display"><code>&lt;txp:image_display /&gt;</code> <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> tags.</p>
+<p>Image categories are optional, and useful both for internal organization and for defining image sets that can be displayed using the <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/images"><code>&lt;txp:images /&gt;</code> <span class="ui-icon ui-icon-extlink">(opens an external link in a new window)</span></a> tag.</p>
         ]]></item>
         <item id="link_category" title="Links"><![CDATA[
 <h2>Links</h2>
