@@ -1011,8 +1011,8 @@ If a form template needs processing (if it contains Textpattern tags), you must 
 <p>Whether Textpattern will automatically add a trailing slash to URLs it generates. The options are:</p>
 <ul>
     <li><strong>No</strong> - Never</li>
-    <li><strong>Yes</strong> - Always</li>
     <li><strong>List</strong> - Only on list-based landing pages (i.e. not when viewing individual articles)</li>
+    <li><strong>Yes</strong> - Always</li>
 </ul>
         ]]></item>
         <item id="txp_evaluate_functions" title="PHP functions enabled in txp:evaluate"><![CDATA[
