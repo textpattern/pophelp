@@ -365,7 +365,7 @@
         <item id="site_url_mismatch" title="Site URL mismatch"><![CDATA[
 <h2>Site URL mismatch</h2>
 <p>The Site URL as set in the ‘Preferences’ panel does not match the actual URL used to visit the site.</p>
-<p>If the site can be reached through multiple different URLs, and if the site behaves as expected, this messaged can be safely ignored.</p>
+<p>If the site can be reached through multiple different URLs, and if the site behaves as expected, this message can be safely ignored.</p>
 <p>Otherwise, please check and amend the ‘Site URL’ setting in Admin Preferences as required. An educated guess of the correct Site URL is shown in the pre-flight warning message on the ‘Diagnostics’ panel.</p>
         ]]></item>
         <item id="some_php_functions_disabled" title="PHP functions […] are disabled on your server"><![CDATA[
