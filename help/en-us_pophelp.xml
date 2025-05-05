@@ -1096,7 +1096,7 @@ If a form template needs processing (if it contains Textpattern tags), you must 
         ]]></item>
         <item id="section_uses_page" title="Uses page"><![CDATA[
 <h2>Uses page</h2>
-<p>In Textpattern, sections are married to page templates. It’s kind of sweet, really…</p>
+<p>In Textpattern, sections are married to page templates.</p>
         ]]></item>
         <item id="section_uses_skin" title="Uses theme"><![CDATA[
 <h2>Uses theme</h2>
