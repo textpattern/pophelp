@@ -1105,6 +1105,14 @@ If a form template needs processing (if it contains Textpattern tags), you must 
     </group>
 
     <group id="setup" title="Setup panel">
+        <item id="setup_admin_url" title="Admin URL"><![CDATA[
+<h2>Admin URL</h2>
+<p>Placeholder - work in progress.</p>
+        ]]></item>
+    <item id="setup_cookie_domain" title="Cookie domain"><![CDATA[
+<h2>Cookie domain</h2>
+<p>Placeholder - work in progress.</p>
+        ]]></item>
         <item id="setup_user_login" title="User login"><![CDATA[
 <h2>User login</h2>
 <p>The login name of the administrator (‘Publisher’) account that you will use for administering of your site.</p>
