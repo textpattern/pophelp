@@ -766,7 +766,7 @@ If a form template needs processing (if it contains Textpattern tags), you must 
         <item id="enhanced_email" title="Use enhanced mail features"><![CDATA[
 <h2>Use enhanced mail features</h2>
 <p>Setting this to ‘No’ will route all email - such as account password reset requests, and email from plugins such as com_connect - through PHP's <code>mail()</code> function. Selecting ‘Yes’ will use the bundled PHPMailer instead, which opens up optional settings for routing mail via external SMTP servers.</p>
-<p>If you are having trouble with reception of emails (especially in online providers such as gmail, hotmail, etc), the likely culprit is because your domain is not being seen as a trusted source. Switching to ‘Yes’ can improve deliverability. Additionally, using SMTP can provide better compatibility with some email providers and further enhance deliverability.</p>
+<p>If you are having trouble with deliverability of emails (especially with online providers such as Gmail, Outlook, Yahoo!, etc), the likely culprit is because your domain is not being seen as a trusted source. Switching to ‘Yes’ can improve deliverability. Additionally, using SMTP can provide better compatibility with some email providers and further enhance deliverability.</p>
         ]]></item>
         <item id="expire_logs_after" title="Logs expire after how many days?"><![CDATA[
 <h2>Logs expire after how many days?</h2>

@@ -709,7 +709,7 @@
         <item id="enhanced_email" title="Usar características de correo mejoradas"><![CDATA[
 <h2>Usar características de correo mejoradas</h2>
 <p>Si estableces esta opción en “No”, todo el correo (como solicitudes de restablecimiento de contraseña de la cuenta y correos enviados por plugins como com_connect) se enviarán a través de la función <code>mail()</code> de PHP. Al elegir “Sí”, se utilizará en su lugar el PHPMailer incluido, lo que habilita parámetros opcionales para enviar correos a través de servidores SMTP externos.</p>
-<p>Si tienes problemas con la recepción de correos (sobre todo en proveedores en línea como Gmail, Hotmail, etc.), es probable que tu dominio no se considere una fuente fiable. Cambiar a “Sí” puede mejorar la entregabilidad. Usar SMTP a menudo mejorará aún más la entregabilidad.</p>
+<p>Si tienes problemas con la recepción de correos (sobre todo en proveedores en línea como Gmail, Outlook, Yahoo!, etc.), es probable que tu dominio no se considere una fuente fiable. Cambiar a “Sí” puede mejorar la entregabilidad. Usar SMTP a menudo mejorará aún más la entregabilidad.</p>
         ]]></item>
         <item id="expire_logs_after" title="¿En cuántos días caducan los registros?"><![CDATA[
 <h2>¿En cuántos días caducan los registros?</h2>
