@@ -832,7 +832,7 @@ Wenn eine Bausteinvorlage verarbeitet werden muss (wenn sie Textpattern-Tags ent
         ]]></item>
         <item id="smtp_host" title="SMTP-Server"><![CDATA[
 <h2>SMTP host</h2>
-<p>To improve message deliverability and take advantage of routing email via an external service (such as SendGrid, AWS SES, Mailchimp, Mailgun, etc), specify the SMTP hosting endpoint URL hier. Consult your SMTP provider to obtain this value.</p>
+<p>To improve message deliverability and take advantage of routing email via an external service (such as SendGrid, AWS SES, Mailchimp, Mailgun, etc), specify the SMTP server here. Consult your SMTP provider to obtain this value.</p>
 <p>Dieses Feld kann auch festgelegt werden, indem die Konstante <code>SMTP_HOST</code> in der config.php deklariert wird; in diesem Fall wird der Wert in den Einstellungen ausgegraut.</p>
         ]]></item>
         <item id="smtp_pass" title="SMTP-Passwort"><![CDATA[
