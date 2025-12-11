@@ -84,12 +84,12 @@
 <h2>صورة المقالة</h2>
 <p>لربط صور بهذا المقال، ضع أحد الخيارات التالية هنا:</p>
 <ol>
-    <li>معرّف أو أكثر من معرّفات صور <bdi dir="ltr">Textpattern</bdi> مفصولة بفواصل (مثلًا <code>12, 25, 18</code>)</li>
-    <li>عنوان URL نسبي واحد أو أكثر للصورة مفصول بفواصل (مثلًا <code dir="ltr">/images/my_pic.jpg</code>)</li>
-    <li>عنوان URL كامل واحد أو أكثر مفصول بفواصل (مثلًا <code dir="ltr">https://example.com/path/to/images/my_pic.jpg</code>)</li>
+    <li>معرّف أو أكثر من معرّفات صور <bdi dir="ltr">Textpattern</bdi> مفصولة بفواصل (مثلًا <code dir="ltr">12, 25, 18</code>)</li>
+    <li>عنوان <bdi dir="ltr">URL</bdi> نسبي واحد أو أكثر للصورة مفصول بفواصل (مثلًا <code dir="ltr">/images/my_pic.jpg</code>)</li>
+    <li>عنوان <bdi dir="ltr">URL</bdi> كامل واحد أو أكثر مفصول بفواصل (مثلًا <code dir="ltr">https://example.com/path/to/images/my_pic.jpg</code>)</li>
 </ol>
-<p>يمكن عرض الصورة الأولى بوضع وسم <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/article_image"><code>&lt;txp:article_image /&gt;</code> <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a> داخل نموذج المقالة. بشكل افتراضي، سيُخرِج وسم HTML كاملًا <code>&lt;img&gt;</code> يشير إلى الصورة المختارة.</p>
-<p>يمكنك أيضًا عرض معارض صور باستخدام وسم <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/images"><code>&lt;txp:images /&gt;</code> <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a>.</p>
+<p>يمكن عرض الصورة الأولى بوضع وسم <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/article_image"><code dir="ltr">&lt;txp:article_image /&gt;</code> <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a> داخل نموذج المقالة. بشكل افتراضي، سيُخرِج وسم <bdi dir="ltr">HTML</bdi> كاملًا <code dir="ltr">&lt;img&gt;</code> يشير إلى الصورة المختارة.</p>
+<p>يمكنك أيضًا عرض معارض صور باستخدام وسم <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/images"><code dir="ltr">&lt;txp:images /&gt;</code> <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a>.</p>
         ]]></item>
         <item id="body" title="النص"><![CDATA[<h2>النص</h2>
 <p>المحتوى الرئيسي للمقالة موجود في نص المقالة.</p>
@@ -115,7 +115,7 @@
 <p>الكلمات الرئيسية مفيدة لتحسين العلاقات بين المقالات بخلاف تلك التي توفرها الفئات.</p>
 <p>يجب أن تكون الكلمات الرئيسية كلمات فردية مفصولة بفواصل.</p>]]></item>
         <item id="override_form" title="تجاوز النموذج"><![CDATA[<h2>تجاوز النموذج</h2>
-<p>يمكن للمقالة استخدام نموذج مختلفًا بشكل اختياري عن ذلك المعين افتراضيًا - على سبيل المثال لإظهار مقتطف من مقالة مع <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/excerpt"><code>&lt;txp:excerpt /&gt;</code> <span class="ui-icon ui-icon-extlink">(يفتح رابط خارجي في نافذة جديدة)</span></a> بدلاً من نص المقالة بـ <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/body"><code>&lt;txp:body /&gt;</code> <span class="ui-icon ui-icon-extlink">(يفتح رابط خارجي في نافذة جديدة)</a> يمكن تعيين هذا هنا.</p>]]></item>
+<p>يمكن للمقالة استخدام نموذج مختلفًا بشكل اختياري عن ذلك المعين افتراضيًا - على سبيل المثال لإظهار مقتطف من مقالة مع <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/excerpt"><code dir="ltr">&lt;txp:excerpt /&gt;</code> <span class="ui-icon ui-icon-extlink">(يفتح رابط خارجي في نافذة جديدة)</span></a> بدلاً من نص المقالة بـ <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/body"><code dir="ltr">&lt;txp:body /&gt;</code> <span class="ui-icon ui-icon-extlink">(يفتح رابط خارجي في نافذة جديدة)</a> يمكن تعيين هذا هنا.</p>]]></item>
         <item id="publish_date" title="تاريخ النشر"><![CDATA[<h2>تاريخ النشر</h2>
 <p>الوقت الذي يتم فيه نشر مقالة أو ملف أو آخر مراجعة. يمكن ضبط الوقت على لحظة نشر العنصر ، أو على وقت عشوائي في الماضي أو المستقبل.</p>
 <p>المربعات تتوافق مع المعلومات التالية:</p>
@@ -126,13 +126,13 @@
 <p>عنصر ذو طابع زمني أكبر من الوقت الحالي (أي في المستقبل) لن يظهر على الجانب الأمامي وخلاصات <bdi dir="ltr">RSS/Atom</bdi>حتى وصول ذلك الوقت.</p>]]></item>
         <item id="status" title="الحالة"><![CDATA[
 <h2>الحالة</h2>
-<p>يحدّد حالة إتاحة النشر لهذه المقالة في Textpattern.</p>
+<p>يحدّد حالة إتاحة النشر لهذه المقالة في <bdi dir="ltr">Textpattern</bdi>.</p>
 <p>حالة النشر تكون واحدة مما يلي:</p>
 <ul>
 <li><strong>مسودة</strong>: تُعتبَر قيد الإعداد ولا يمكن عرضها خارج منطقة إدارة <bdi dir="ltr">Textpattern</bdi> (أي غير مرئية على موقع الويب ولا ضمن الخلاصات).</li>
 <li><strong>مخفية</strong>: لا يمكن عرض المقالة خارج منطقة إدارة <bdi dir="ltr">Textpattern</bdi>. مفيدة لإزالة محتوى من الموقع دون حذفه بالضرورة.</li>
 <li><strong>معلَّقة</strong>: تُعتبَر جاهزة للنشر وتنتظر الموافقة، لكنها غير قابلة للعرض خارج منطقة إدارة <bdi dir="ltr">Textpattern</bdi>.</li>
-<li><strong>منشورة (حالية)</strong>: تكون عادة قابلة للعرض خارج منطقة إدارة Textpattern (أي مرئية على موقع الويب، ومشمولة في الخلاصات إذا سمح التفضيل بذلك). إذا كانت المقالة منشورة ولها تاريخ انتهاء، فستظل الحالة «منشورة» بعد الوصول إلى ذلك التاريخ، لكن لن تظهر المقالة خارج منطقة الإدارة إلا إذا كان يُسمح بنشر المقالات منتهية الصلاحية.</li>
+<li><strong>منشورة (حالية)</strong>: تكون عادة قابلة للعرض خارج منطقة إدارة <bdi dir="ltr">Textpattern</bdi> (أي مرئية على موقع الويب، ومشمولة في الخلاصات إذا سمح التفضيل بذلك). إذا كانت المقالة منشورة ولها تاريخ انتهاء، فستظل الحالة «منشورة» بعد الوصول إلى ذلك التاريخ، لكن لن تظهر المقالة خارج منطقة الإدارة إلا إذا كان يُسمح بنشر المقالات منتهية الصلاحية.</li>
 <li><strong>مثبَّتة</strong>: تشبه المقالة <strong>المنشورة</strong> من حيث إمكانية عرضها لزوّار الموقع، لكنها <strong>لن</strong> تظهر في قوائم المقالات ما لم يتضمّن وسم <code dir="ltr">article</code> أو <code dir="ltr">article_custom</code> السمة <code dir="ltr">status</code> بالقيمة <code dir="ltr">sticky</code>.</li>
 </ul>
 <p>ملاحظة: المحتوى غير المتاح للعرض العام على الموقع يمكن مع ذلك معاينته من قِبل المستخدمين المسجَّلين دخولهم.</p>
@@ -140,7 +140,7 @@
         <item id="title" title="عنوان"><![CDATA[<h2>العنوان</h2>
 <p>أضف عنوانًا مناسبًا لهذه المقالة.</p>
 <p>عنوان المقالة محدد بحد أقصى <code dir="ltr">255</code> حرفًا.</p>]]></item>
-        <item id="url_title" title="عنوان URL فقط"><![CDATA[<h2>عنوان <bdi dir="ltr">URL</bdi> فقط</h2>
+        <item id="url_title" title="عنوان <bdi dir="ltr">URL</bdi> فقط"><![CDATA[<h2>عنوان <bdi dir="ltr">URL</bdi> فقط</h2>
 <p>لاستخدام عنوان محدد في عنوان <bdi dir="ltr">URL</bdi> للرابط الثابت لمقالة ، أدخله هنا. إذا تم تركه فارغًا ، فسيتم إنشاء عنوان <bdi dir="ltr">URL</bdi> تلقائيًا من عنوان المقالة </ 1.</p>
 <p>يكون هذا مفيدًا بشكل خاص إذا كان عنوان المقالة يستخدم أحرفًا غير <bdi dir="ltr">ASCII</bdi>.</p>]]></item>
     </group>
@@ -164,7 +164,7 @@
 <p>تعد فئات الملفات اختيارية ومفيدة لتجميع الملفات المحملة المحددة معًا.</p>]]></item>
         <item id="image_category" title="الصور"><![CDATA[
 <h2>الصور</h2>
-<p>فئات الصور اختيارية، لكنها مفيدة لكلٍّ من التنظيم الداخلي ولتعريف مجموعات صور يمكن عرضها باستخدام وسم <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/images"><code>&lt;txp:images /&gt;</code> <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a>.</p>
+<p>فئات الصور اختيارية، لكنها مفيدة لكلٍّ من التنظيم الداخلي ولتعريف مجموعات صور يمكن عرضها باستخدام وسم <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/images"><code dir="ltr">&lt;txp:images /&gt;</code> <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a>.</p>
         ]]></item>
         <item id="link_category" title="الروابط"><![CDATA[
 <h2>الروابط</h2>
@@ -181,7 +181,7 @@
 <p>إذا كانت عناوين <bdi dir="ltr">URL</bdi> غير سليمة <em>ليست</em>  فقد يعني ذلك:</p>
 <ul>
     <li>إعداد "رابط الموقع" غير صحيح، أو أن الصفحة في ذلك العنوان لا تدار بواسطة هذا المثيل من هذا النمط <bdi dir="ltr">Textpattern</bdi></li>
-    <li>يتطلب الخادم بعض التغييرات إلى <code>. الوصول إلى</code> أو توجيه خادم مماثل لجعل عناوين <bdi dir="ltr">URL</bdi> نظيفة تعمل</li>
+    <li>يتطلب الخادم بعض التغييرات إلى <code dir="ltr">. الوصول إلى</code> أو توجيه خادم مماثل لجعل عناوين <bdi dir="ltr">URL</bdi> نظيفة تعمل</li>
     <li>الخادم لا يدعم عناوين <bdi dir="ltr">URL</bdi> النظيفة على الإطلاق</li>
 </ul>
 <p>اختبار <bdi dir="ltr">URL</bdi> النظيف يحاول جلب صفحة من عنوان الويب المحدد في تفضيل "موقع <bdi dir="ltr">URL</bdi>" للتحقق من أن جميع معلمات <bdi dir="ltr">URL</bdi> النظيف تعمل بشكل صحيح. إذا كان عنوان <bdi dir="ltr">URL</bdi> هذا موقع مختلف، أو تم استبداله بصفحة ثابتة أو مشابهة، فإن الاختبار سوف يفشل. حتى يتم حل المشكلة عناوين <bdi dir="ltr">URL</bdi> الفوضى المتسببة بالخطأ (على سبيل المثال <code dir="ltr">https://example.com?s=section&amp;id=4</code>) يجب استخدامها. تأكد من تعيين "وضع الرابط الدائم" في تفضيلات المدير تبعاً لذلك.</p>
@@ -189,14 +189,14 @@
         ]]></item>
         <item id="clean_url_test_failed" title="فشل اختبار الروابط النظيفة (Clean URL)"><![CDATA[
 <h2>فشل اختبار الروابط النظيفة <bdi dir="ltr">(Clean URL)</bdi></h2>
-<p>يبدو أن عناوين URL الخاصة بالموقع (مثل <code dir="ltr">https://example.com/section/article</code>) لا تعمل حاليًا، أو أن خادم الويب لا يدعم إجراء الاختبار الذي يحدد ما إذا كانت الروابط النظيفة تعمل أم لا؛ إذا كانت الروابط النظيفة في الموقع تعمل كما هو متوقع، فيمكن تجاهل هذه الرسالة بأمان.</p>
+<p>يبدو أن عناوين <bdi dir="ltr">URL</bdi> الخاصة بالموقع (مثل <code dir="ltr">https://example.com/section/article</code>) لا تعمل حاليًا، أو أن خادم الويب لا يدعم إجراء الاختبار الذي يحدد ما إذا كانت الروابط النظيفة تعمل أم لا؛ إذا كانت الروابط النظيفة في الموقع تعمل كما هو متوقع، فيمكن تجاهل هذه الرسالة بأمان.</p>
 <p>إذا كانت الروابط النظيفة <em>لا</em> تعمل، فقد يعني ذلك أحد ما يلي:</p>
 <ul>
     <li>إعداد «عنوان الموقع <bdi dir="ltr">(Site URL)</bdi> غير صحيح، أو أن الصفحة عند هذا العنوان لا تُدار بواسطة هذا التنصيب من <bdi dir="ltr">Textpattern</bdi></li>
     <li>الخادم يحتاج إلى بعض التغييرات في ملف <code dir="ltr">.htaccess</code> أو توجيه خادم مشابه لجعل الروابط النظيفة تعمل</li>
     <li>الخادم لا يدعم الروابط النظيفة إطلاقًا</li>
 </ul>
-<p>يحاول اختبار الروابط النظيفة جلب صفحة من عنوان الويب المحدد في تفضيل <bdi dir="ltr">«Site URL»</bdi> للتحقق من أن جميع معلمات الروابط النظيفة تعمل بشكل صحيح. إذا كان عنوان URL هذا يشير إلى موقع مختلف، أو تم استبداله بصفحة ثابتة أو ما شابه، فسيفشل الاختبار. إلى أن تُحل المشكلة يجب استخدام الروابط «الفوضوية» (مثل <code>https://example.com?s=section&amp;id=4</code>). تأكد من ضبط «وضع الرابط الدائم (Permanent link mode)» في تفضيلات المشرف وفقًا لذلك.</p>
+<p>يحاول اختبار الروابط النظيفة جلب صفحة من عنوان الويب المحدد في تفضيل <bdi dir="ltr">«Site URL»</bdi> للتحقق من أن جميع معلمات الروابط النظيفة تعمل بشكل صحيح. إذا كان عنوان <bdi dir="ltr">URL</bdi> هذا يشير إلى موقع مختلف، أو تم استبداله بصفحة ثابتة أو ما شابه، فسيفشل الاختبار. إلى أن تُحل المشكلة يجب استخدام الروابط «الفوضوية» (مثل <code dir="ltr">https://example.com?s=section&amp;id=4</code>). تأكد من ضبط «وضع الرابط الدائم (Permanent link mode)» في تفضيلات المشرف وفقًا لذلك.</p>
         ]]></item>
         <item id="concurrent_user_live" title="عمليات دخول متزامنة على خادم مباشر"><![CDATA[
 <h2>عمليات دخول متزامنة على خادم مباشر</h2>
@@ -216,7 +216,7 @@
         ]]></item>
         <item id="dns_lookup_fails" title="فشل DNS"><![CDATA[
 <h2>فشل استعلام DNS</h2>
-<p>يبدو أن عنوان URL المحدَّد كعنوان للموقع غير قابل للوصول.</p>
+<p>يبدو أن عنوان <bdi dir="ltr">URL</bdi> المحدَّد كعنوان للموقع غير قابل للوصول.</p>
         ]]></item>
         <item id="file_uploads_disabled" title="رفع الملفات معطَّل"><![CDATA[
 <h2>رفع الملفات معطَّل</h2>
@@ -263,7 +263,7 @@
         ]]></item>
         <item id="mod_rewrite_missing" title="وحدة Apache mod_rewrite مفقودة"><![CDATA[
 <h2>وحدة Apache mod_rewrite مفقودة</h2>
-<p>وحدة <code>mod_rewrite</code> في Apache غير مثبَّتة أو معطَّلة. يُنصَح بتوافرها لكي يعمل <bdi dir="ltr">Textpattern</bdi> بشكل صحيح. تأكد من وجودها ومن كونها مفعَّلة، أو اتصل بمستضيف الموقع للحصول على المساعدة.</p>
+<p>وحدة <code dir="ltr">mod_rewrite</code> في Apache غير مثبَّتة أو معطَّلة. يُنصَح بتوافرها لكي يعمل <bdi dir="ltr">Textpattern</bdi> بشكل صحيح. تأكد من وجودها ومن كونها مفعَّلة، أو اتصل بمستضيف الموقع للحصول على المساعدة.</p>
         ]]></item>
         <item id="modified_files" title="ملفات معدَّلة"><![CDATA[
 <h2>ملفات معدَّلة</h2>
@@ -292,7 +292,7 @@
         ]]></item>
         <item id="php_version_required" title="متطلَّبات الإصدار الدنيا"><![CDATA[
 <h2>متطلَّبات الإصدار الدنيا</h2>
-<p>يتطلّب Textpattern وجود وظائف معيّنة في لغة البرمجة <bdi dir="ltr">PHP</bdi> وخادم قاعدة بيانات <bdi dir="ltr">MySQL</bdi>. يُرجى الرجوع إلى الجدول التالي لتحديد الحد الأدنى من متطلَّبات النظام:</p>
+<p>يتطلّب <bdi dir="ltr">Textpattern</bdi> وجود وظائف معيّنة في لغة البرمجة <bdi dir="ltr">PHP</bdi> وخادم قاعدة بيانات <bdi dir="ltr">MySQL</bdi>. يُرجى الرجوع إلى الجدول التالي لتحديد الحد الأدنى من متطلَّبات النظام:</p>
 <div class="txp-listtables">
     <table class="txp-list">
         <thead>
@@ -350,14 +350,14 @@
         ]]></item>
         <item id="site_url_mismatch" title="عدم تطابق عنوان الموقع (Site URL)"><![CDATA[
 <h2>عدم تطابق عنوان الموقع <bdi dir="ltr">(Site URL)</bdi></h2>
-<p>لا يتطابق «عنوان الموقع» كما هو مضبوط في لوحة «التفضيلات» مع عنوان URL الفعلي المستخدم لزيارة الموقع.</p>
+<p>لا يتطابق «عنوان الموقع» كما هو مضبوط في لوحة «التفضيلات» مع عنوان <bdi dir="ltr">URL</bdi> الفعلي المستخدم لزيارة الموقع.</p>
 <p>إذا كان يمكن الوصول إلى الموقع من خلال عناوين <bdi dir="ltr">URL</bdi> مختلفة متعددة، وكان الموقع يتصرّف كما هو متوقَّع، فيمكن تجاهل هذه الرسالة بأمان.</p>
 <p>خلاف ذلك، يُرجى التحقق من إعداد <bdi dir="ltr">«Site URL»</bdi> في «تفضيلات المشرف» وتعديله حسب الحاجة. يظهر تخمين مدروس للعنوان الصحيح للموقع في رسالة التحذير المبدئي في لوحة «التشخيص».</p>
         ]]></item>
         <item id="some_php_functions_disabled" title="دوال PHP […] معطَّلة على خادمك"><![CDATA[
 <h2>دوال PHP […] معطَّلة على خادمك</h2>
 <p>قام مستضيف الموقع أو مدير الخادم بتعطيل دالة واحدة أو أكثر من دوال <bdi dir="ltr">PHP</bdi>، وقد يؤثّر بعضها في تشغيل <bdi dir="ltr">Textpattern</bdi>.</p>
-<p>يُرجى الرجوع إلى <a rel="external" target="_blank" href="https://docs.textpattern.com/administration/diagnostics-panel#diagnostic-reporting-on-php-functions">توثيق مستخدم Textpattern <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a> لمزيد من المعلومات.</p>
+<p>يُرجى الرجوع إلى <a rel="external" target="_blank" href="https://docs.textpattern.com/administration/diagnostics-panel#diagnostic-reporting-on-php-functions">توثيق مستخدم <bdi dir="ltr">Textpattern</bdi> <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a> لمزيد من المعلومات.</p>
         ]]></item>
         <item id="textpattern_version_update" title="تحديث إصدار Textpattern"><![CDATA[
 <h2>تحديث إصدار <bdi dir="ltr">Textpattern</bdi></h2>
@@ -452,12 +452,12 @@
         <item id="upload_image" title="تحميل الصور"><![CDATA[
 <h2>رفع صورة</h2>
 <p>ارفع صورة واحدة أو أكثر إلى خادمك.</p>
-<p>عند الرفع إلى مجلد <code>images</code>، سيُحفَظ اسم ملف صورتك الأصلية داخليًا فقط في قاعدة بيانات <bdi dir="ltr">Textpattern</bdi> ؛ بينما يُعاد تسمية ملف الصورة نفسه إلى رقم تسلسلي + امتداد الملف.</p>
+<p>عند الرفع إلى مجلد <code dir="ltr">images</code>، سيُحفَظ اسم ملف صورتك الأصلية داخليًا فقط في قاعدة بيانات <bdi dir="ltr">Textpattern</bdi> ؛ بينما يُعاد تسمية ملف الصورة نفسه إلى رقم تسلسلي + امتداد الملف.</p>
         ]]></item>
         <item id="upload_thumbnail" title="إرسال مصغرة"><![CDATA[
 <h2>رفع صورة مصغّرة</h2>
 <p>يمكن إسناد صور مصغَّرة خاصة إلى الصور بالحجم الكامل. تُعد هذه مفيدة للربط إلى الصور بالحجم الكامل وفهرستها.</p>
-<p>إشارة الصورة المصغّرة هي نفسها تمامًا إشارة الصورة بالحجم الكامل مع إضافة الحرف <code>t</code> إلى اسم الملف. فمثلًا، للإشارة إلى صورة مصغّرة مرتبطة بصورة بالحجم الكامل مخزَّنة في <code dir="ltr">/images/12.jpg</code> ستستخدم <code dir="ltr">/images/12t.jpg</code>.</p>
+<p>إشارة الصورة المصغّرة هي نفسها تمامًا إشارة الصورة بالحجم الكامل مع إضافة الحرف <code dir="ltr">t</code> إلى اسم الملف. فمثلًا، للإشارة إلى صورة مصغّرة مرتبطة بصورة بالحجم الكامل مخزَّنة في <code dir="ltr">/images/12.jpg</code> ستستخدم <code dir="ltr">/images/12t.jpg</code>.</p>
         ]]></item>
     </group>
 
@@ -516,9 +516,9 @@
 <p>استخدم هذا النموذج لرفع ملف مكوّن إضافي. تُحفَظ المكوّنات الإضافية المرفوعة (وأي أصول تابعة لها) داخل مجلد <bdi dir="ltr">«plugins»</bdi>.</p>
 <p>أنواع المكوّنات الإضافية التي يمكن رفعها هنا هي:</p>
 <ul>
-<li>ملفات قالب PHP لـ Textpattern التي تحتوي على شيفرة كاملة وبيانات وصفية وسلاسل Textpack ونص مساعدة.</li>
-<li>ملفات نصية مُجمَّعة لـ Textpattern تحتوي على شيفرة كاملة وبيانات وصفية وسلاسل Textpack ونص مساعدة.</li>
-<li>حزم Zip لمكوّنات Textpattern الإضافية تحتوي على معلومات manifest وشيفرة وبيانات وصفية وسلاسل Textpack ونص مساعدة وملفات داعمة.</li>
+<li>ملفات قالب <bdi dir="ltr">PHP</bdi> لـ <bdi dir="ltr">Textpattern</bdi> التي تحتوي على شيفرة كاملة وبيانات وصفية وسلاسل <bdi dir="ltr">Textpack</bdi> ونص مساعدة.</li>
+<li>ملفات نصية مُجمَّعة لـ <bdi dir="ltr">Textpattern</bdi> تحتوي على شيفرة كاملة وبيانات وصفية وسلاسل <bdi dir="ltr">Textpack</bdi> ونص مساعدة.</li>
+<li>حزم Zip لمكوّنات <bdi dir="ltr">Textpattern</bdi> الإضافية تحتوي على معلومات <bdi dir="ltr">manifest</bdi> وشيفرة وبيانات وصفية وسلاسل <bdi dir="ltr">Textpack</bdi> ونص مساعدة وملفات داعمة.</li>
 <li>ملفات PHP خام (مع أنها لن تملأ البيانات الوصفية الإضافية ولا يُنصَح باستخدامها).</li>
 </ul>
 <p>أي مكوّن إضافي ترفعه بالاسم نفسه لمكوّن سبق أن ثبَّتَّه سيُستبدَل بالإصدار المرفوع.</p>
@@ -530,31 +530,31 @@
         <item id="admin_side_plugins" title="استخدام مجموعة البلوغين الإدارية؟"><![CDATA[
 <h2>استخدام مكوّنات الواجهة الإدارية؟</h2>
 <p>يمكن لمكوّنات الواجهة الإدارية الإضافية تغيير طريقة عمل واجهة الإدارة. قد ترتبط بإجراءات موجودة بالفعل، مثل تحرير المقالات أو نشرها، أو قد تضيف لوحات جديدة لوظائف مضافة أو موسَّعة.</p>
-<p>إذا كنت ترغب في معرفة المزيد عن مكوّنات الواجهة الإدارية الإضافية، يُرجى مراجعة صفحة <a rel="external" target="_blank" href="https://docs.textpattern.com/development/">تمديد Textpattern <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a> في <a rel="external" target="_blank" href="https://docs.textpattern.com/">توثيق مستخدم Textpattern <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a>. تُدرَج المكوّنات الإضافية بجميع أنواعها في موقع <a rel="external" target="_blank" href="https://plugins.textpattern.com/">مكوّنات Textpattern الإضافية <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a>.</p>
+<p>إذا كنت ترغب في معرفة المزيد عن مكوّنات الواجهة الإدارية الإضافية، يُرجى مراجعة صفحة <a rel="external" target="_blank" href="https://docs.textpattern.com/development/">تمديد <bdi dir="ltr">Textpattern</bdi> <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a> في <a rel="external" target="_blank" href="https://docs.textpattern.com/">توثيق مستخدم <bdi dir="ltr">Textpattern</bdi> <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a>. تُدرَج المكوّنات الإضافية بجميع أنواعها في موقع <a rel="external" target="_blank" href="https://plugins.textpattern.com/">مكوّنات <bdi dir="ltr">Textpattern</bdi> الإضافية <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a>.</p>
         ]]></item>
         <item id="advanced_options" title="تشكيل متقدم"><![CDATA[
 <h2>الخيارات المتقدمة</h2>
 <p>إظهار مجموعة التفضيلات المتقدمة، حيث يمكن ضبط إعدادات إضافية مثل:</p>
 <ul>
-    <li>دوال PHP المُمكَّنة في <code>txp:evaluate</code>.</li>
+    <li>دوال PHP المُمكَّنة في <code dir="ltr">txp:evaluate</code>.</li>
     <li>أنواع قوالب النماذج المخصَّصة.</li>
 </ul>
         ]]></item>
         <item id="allow_article_php_scripting" title="PHP ترخيص نظام .. في المقالات؟"><![CDATA[
-<h2>السماح بـ PHP في المقالات؟</h2>
-<p>عند تمكينه، سيسمح هذا الإعداد باستخدام PHP داخل المقالات. يجب أن يملك المؤلف صلاحيات كافية للقيام بذلك (افتراضيًا، لا يملك هذه الصلاحية إلا <a rel="external" target="_blank" href="https://docs.textpattern.com/administration/user-roles-and-privileges">«الناشرون» <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a> و<a rel="external" target="_blank" href="https://docs.textpattern.com/administration/user-roles-and-privileges">«المحررون الإداريون» <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a> و<a rel="external" target="_blank" href="https://docs.textpattern.com/administration/user-roles-and-privileges">«محررو النسخ» <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a>).</p>
-<p><strong>يُنصَح بشدّة بإيقاف هذا الخيار</strong> ما لم تكن تحتاج إلى هذه الميزة فعلًا. يمكن لأي مؤلف إضافة أي نوع من شيفرة PHP الضارّة/الخطرة التي قد تدمر موقعك أو تسرِّب معلومات إلى أطراف ثالثة، ويمكن تنفيذها من قِبل أي شخص يعرض تلك المقالة.</p>
-<p>يجب أن تُحذَف وسوم فتح وإغلاق PHP من الشيفرة، وأن تُغلَّف أيضًا داخل وسوم <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/php"><code>&lt;txp:php&gt;</code> <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a>.</p>
+<h2>السماح بـ <bdi dir="ltr">PHP</bdi> في المقالات؟</h2>
+<p>عند تمكينه، سيسمح هذا الإعداد باستخدام <bdi dir="ltr">PHP</bdi> داخل المقالات. يجب أن يملك المؤلف صلاحيات كافية للقيام بذلك (افتراضيًا، لا يملك هذه الصلاحية إلا <a rel="external" target="_blank" href="https://docs.textpattern.com/administration/user-roles-and-privileges">«الناشرون» <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a> و<a rel="external" target="_blank" href="https://docs.textpattern.com/administration/user-roles-and-privileges">«المحررون الإداريون» <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a> و<a rel="external" target="_blank" href="https://docs.textpattern.com/administration/user-roles-and-privileges">«محررو النسخ» <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a>).</p>
+<p><strong>يُنصَح بشدّة بإيقاف هذا الخيار</strong> ما لم تكن تحتاج إلى هذه الميزة فعلًا. يمكن لأي مؤلف إضافة أي نوع من شيفرة <bdi dir="ltr">PHP</bdi> الضارّة/الخطرة التي قد تدمر موقعك أو تسرِّب معلومات إلى أطراف ثالثة، ويمكن تنفيذها من قِبل أي شخص يعرض تلك المقالة.</p>
+<p>يجب أن تُحذَف وسوم فتح وإغلاق PHP من الشيفرة، وأن تُغلَّف أيضًا داخل وسوم <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/php"><code dir="ltr">&lt;txp:php&gt;</code> <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a>.</p>
         ]]></item>
         <item id="allow_form_override" title="(Form) ترخيص استعمال ؟ في المقال الواحد؟"><![CDATA[
 <h2>السماح بتجاوز النموذج؟</h2>
 <p>يسمح هذا الإعداد لمؤلفي المقالات بتجاوز النموذج المستخدم عند إظهار مقالاتهم. إذا كان مُمكَّنًا، فسيكون حقل قائمة منسدلة «تجاوز النموذج» متاحًا عند تحرير المقالة.</p>
         ]]></item>
         <item id="allow_page_php_scripting" title="PHP ترخيص نظام .. في ؟؟؟"><![CDATA[
-<h2>السماح بـ PHP في الصفحات؟</h2>
-<p>عند تمكينه، يسمح هذا الإعداد باستخدام شيفرة PHP داخل قوالب الصفحات وقوالب النماذج.</p>
-<p><strong>يُنصَح بشدّة بإيقاف هذا الخيار</strong> ما لم تكن تحتاج إلى هذه الميزة فعلًا. يمكن لأي مستخدم آخر إضافة أي نوع من شيفرة PHP الضارّة/الخطرة التي قد تدمر موقعك أو تسرِّب معلومات إلى أطراف ثالثة، ويمكن تنفيذها من قِبل مدير أو زائر موقع غير مدرك لذلك.</p>
-<p>يجب أن تُحذَف وسوم فتح وإغلاق PHP من الشيفرة، وأن تُغلَّف أيضًا داخل وسوم <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/php"><code>&lt;txp:php&gt;</code> <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a>.</p>
+<h2>السماح بـ <bdi dir="ltr">PHP</bdi> في الصفحات؟</h2>
+<p>عند تمكينه، يسمح هذا الإعداد باستخدام شيفرة <bdi dir="ltr">PHP</bdi> داخل قوالب الصفحات وقوالب النماذج.</p>
+<p><strong>يُنصَح بشدّة بإيقاف هذا الخيار</strong> ما لم تكن تحتاج إلى هذه الميزة فعلًا. يمكن لأي مستخدم آخر إضافة أي نوع من شيفرة <bdi dir="ltr">PHP</bdi> الضارّة/الخطرة التي قد تدمر موقعك أو تسرِّب معلومات إلى أطراف ثالثة، ويمكن تنفيذها من قِبل مدير أو زائر موقع غير مدرك لذلك.</p>
+<p>يجب أن تُحذَف وسوم فتح وإغلاق <bdi dir="ltr">PHP</bdi> من الشيفرة، وأن تُغلَّف أيضًا داخل وسوم <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/php"><code dir="ltr">&lt;txp:php&gt;</code> <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a>.</p>
         ]]></item>
         <item id="archive_dateformat" title="حجم تاريخ الأرشيف"><![CDATA[
 <h2>تنسيق تاريخ الأرشيف</h2>
@@ -566,16 +566,16 @@
         ]]></item>
         <item id="attach_titles_to_permalinks" title="ربط العنوان بعناوين المواقع الثابتة؟"><![CDATA[
 <h2>إلحاق العناوين بالروابط الدائمة؟</h2>
-<p>يُلحِق هذا الإعداد نسخة مُولَّدة تلقائيًا من عنوان المقالة بعنوان URL. يُولَّد هذا تلقائيًا أو يمكن تجاوزه يدويًا في حقل «عنوان URL فقط» عند تحرير مقال.</p>
-<p>لن يكون لهذا الإعداد أثر إلا عند استخدام الروابط النظيفة. في بعض اللغات قد يؤدي ذلك إلى عناوين URL طويلة وغير جميلة، وفي هذه الحالة قد ترغب في ضبط هذا الخيار على «إيقاف».</p>
+<p>يُلحِق هذا الإعداد نسخة مُولَّدة تلقائيًا من عنوان المقالة بعنوان <bdi dir="ltr">URL</bdi>. يُولَّد هذا تلقائيًا أو يمكن تجاوزه يدويًا في حقل «عنوان <bdi dir="ltr">URL</bdi> فقط» عند تحرير مقال.</p>
+<p>لن يكون لهذا الإعداد أثر إلا عند استخدام الروابط النظيفة. في بعض اللغات قد يؤدي ذلك إلى عناوين <bdi dir="ltr">URL</bdi> طويلة وغير جميلة، وفي هذه الحالة قد ترغب في ضبط هذا الخيار على «إيقاف».</p>
         ]]></item>
         <item id="auto_dst" title="ضبط إعدادات التوقيت الصيفي أوتوماتيكياً؟"><![CDATA[
 <h2>ضبط التوقيت الصيفي تلقائيًا؟</h2>
-<p>يسمح هذا الإعداد لـ Textpattern بتعديل وقت بدء وانتهاء التوقيت الصيفي (DST) في منطقتك. إذا ضُبط على «لا»، فستتمكن من تغيير تفضيل «تمكين التوقيت الصيفي» يدويًا.</p>
+<p>يسمح هذا الإعداد لـ <bdi dir="ltr">Textpattern</bdi> بتعديل وقت بدء وانتهاء التوقيت الصيفي (DST) في منطقتك. إذا ضُبط على «لا»، فستتمكن من تغيير تفضيل «تمكين التوقيت الصيفي» يدويًا.</p>
         ]]></item>
         <item id="comment_means_site_updated" title="تعليقات جديدة تفيد بان الموقع أعيد ضبطه؟"><![CDATA[
 <h2>اعتبار التعليق الجديد تحديثًا للموقع؟</h2>
-<p>تحتفظ قاعدة بيانات Textpattern بمعلومة عن وقت حدوث آخر تغيير في موقعك. عند ضبط هذا الخيار على «نعم»، سيؤدي أي تعليق جديد أيضًا إلى تحديث هذه القيمة. تُستخدم هذه القيمة مثلًا في وظيفة <code>"Send Last-Modified header"</code>.</p>
+<p>تحتفظ قاعدة بيانات <bdi dir="ltr">Textpattern</bdi> بمعلومة عن وقت حدوث آخر تغيير في موقعك. عند ضبط هذا الخيار على «نعم»، سيؤدي أي تعليق جديد أيضًا إلى تحديث هذه القيمة. تُستخدم هذه القيمة مثلًا في وظيفة <code dir="ltr">"Send Last-Modified header"</code>.</p>
         ]]></item>
         <item id="comment_nofollow" title="تطبيق rel=&quot;nofollow&quot; على التعليقات؟"><![CDATA[
 <h2>تطبيق rel="nofollow" على التعليقات؟</h2>
@@ -584,14 +584,14 @@
         ]]></item>
         <item id="comments_are_ol" title="استعراض التعليقات في شكل قائمة منتظمة"><![CDATA[
 <h2>عرض التعليقات في قائمة مرقَّمة؟</h2>
-<p>يحدّد ما إذا كانت تعليقات المقالة ستُغلَّف بوسم HTML <code>&lt;ol&gt;</code> وستُغلَّف التعليقات الفردية بوسم <code>&lt;li&gt;</code> (مما يؤدي إلى عرض التعليقات في قائمة مرقَّمة)، أو ما إذا كانت التعليقات الفردية ستُغلَّف بدلًا من ذلك بوسم <code>&lt;div&gt;</code>.</p>
-<p>بأيٍّ من القيمتين، يمكنك تجاوز الوسوم المستخدمة على مستوى كل نموذج على حدة بتعديل وسم <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/comments"><code>&lt;txp:comments /&gt;</code> <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a> في نموذج <code>comments_display</code>.</p>
+<p>يحدّد ما إذا كانت تعليقات المقالة ستُغلَّف بوسم <bdi dir="ltr">HTML</bdi> <code dir="ltr">&lt;ol&gt;</code> وستُغلَّف التعليقات الفردية بوسم <code dir="ltr">&lt;li&gt;</code> (مما يؤدي إلى عرض التعليقات في قائمة مرقَّمة)، أو ما إذا كانت التعليقات الفردية ستُغلَّف بدلًا من ذلك بوسم <code dir="ltr">&lt;div&gt;</code>.</p>
+<p>بأيٍّ من القيمتين، يمكنك تجاوز الوسوم المستخدمة على مستوى كل نموذج على حدة بتعديل وسم <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/comments"><code dir="ltr">&lt;txp:comments /&gt;</code> <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a> في نموذج <code dir="ltr">comments_display</code>.</p>
         ]]></item>
         <item id="comments_auto_append" title="إضافة التعليقات مباشرة بعد المقال"><![CDATA[
 <h2>إلحاق التعليقات بالمقالات تلقائيًا؟</h2>
-<p>يحدّد هذا الإعداد ما إذا كانت التعليقات ونموذج إدخال التعليق ستُلحَق تلقائيًا بجميع المقالات الفردية (بإدراج محتويات نموذج <code>comments_display</code> تلقائيًا).</p>
-<p>في معظم الأحيان ستفضِّل ضبط هذا الخيار على «لا»، لأنه يمنحك مرونة أكبر في وضع التعليقات ضمن تصميم موقعك. ستحتاج إلى إضافة وسم <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/comments"><code>&lt;txp:comments /&gt;</code> <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a> يدويًا في أيٍّ من قوالب المقالات التي تريد ظهور التعليقات فيها.</p>
-<p>إذا واجهت عرضًا مكرَّرًا للتعليقات في مقالة ما، فالأرجح أن قوالبك تحتوي على وسم <code>&lt;txp:comments /&gt;</code> في القالب، وفي الوقت نفسه يكون خيار «إلحاق التعليقات بالمقالات تلقائيًا؟» مضبوطًا على «نعم».</p>
+<p>يحدّد هذا الإعداد ما إذا كانت التعليقات ونموذج إدخال التعليق ستُلحَق تلقائيًا بجميع المقالات الفردية (بإدراج محتويات نموذج <code dir="ltr">comments_display</code> تلقائيًا).</p>
+<p>في معظم الأحيان ستفضِّل ضبط هذا الخيار على «لا»، لأنه يمنحك مرونة أكبر في وضع التعليقات ضمن تصميم موقعك. ستحتاج إلى إضافة وسم <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/comments"><code dir="ltr">&lt;txp:comments /&gt;</code> <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a> يدويًا في أيٍّ من قوالب المقالات التي تريد ظهور التعليقات فيها.</p>
+<p>إذا واجهت عرضًا مكرَّرًا للتعليقات في مقالة ما، فالأرجح أن قوالبك تحتوي على وسم <code dir="ltr">&lt;txp:comments /&gt;</code> في القالب، وفي الوقت نفسه يكون خيار «إلحاق التعليقات بالمقالات تلقائيًا؟» مضبوطًا على «نعم».</p>
         ]]></item>
         <item id="comments_dateformat" title="حجم تاريخ التعليقات"><![CDATA[
 <h2>تنسيق تاريخ التعليقات</h2>
@@ -619,7 +619,7 @@
         <item id="comments_mode" title="أسلوب التعليقات"><![CDATA[
 <h2>وضع التعليقات</h2>
 <p>إذا تم اختيار «nopopup» (مستحسن)، فسيُحدَّث النافذة الحالية لعرض المقالة الحالية فقط مع التعليقات أسفلها.</p>
-<p>إذا تم اختيار «popup»، فستُفتَح نافذة متصفح جديدة عند النقر على رابط التعليقات (يستخدم هذا نموذج <code>popup_comments</code>).</p>
+<p>إذا تم اختيار «popup»، فستُفتَح نافذة متصفح جديدة عند النقر على رابط التعليقات (يستخدم هذا نموذج <code dir="ltr">popup_comments</code>).</p>
         ]]></item>
         <item id="comments_moderate" title="تعديل التعليثات"><![CDATA[
 <h2>مراجعة التعليقات؟</h2>
@@ -651,9 +651,9 @@
     <li>الحواشي السفلية</li>
     <li>الجداول</li>
     <li>الشيفرة</li>
-    <li>بُنى الكتل الممتدة (<code>bc..</code>، <code>bq..</code>، إلخ)</li>
+    <li>بُنى الكتل الممتدة (<code dir="ltr">bc..</code>، <code dir="ltr">bq..</code>، إلخ)</li>
 </ul>
-<p><strong>ملاحظة:</strong> لأسباب أمنية، يُحوَّل HTML الخام إلى نص عادي.</p>
+<p><strong>ملاحظة:</strong> لأسباب أمنية، يُحوَّل <bdi dir="ltr">HTML</bdi> الخام إلى نص عادي.</p>
         ]]></item>
         <item id="concurrent_logins" title="الحسابات المسموح لها بتسجيل الدخول بالتزامن"><![CDATA[
 <h2>الحسابات المسموح لها بتسجيل الدخول بالتزامن</h2>
@@ -664,15 +664,15 @@
 <h2>أنواع قوالب النماذج المخصَّصة</h2>
 <p>بالإضافة إلى أنواع قوالب النماذج القياسية (article، file، misc، إلخ)، يمكن للناشرين تعريف أنواع مخصَّصة. الغرض من أنواع قوالب النماذج المخصَّصة مزدوج: تسهيل تصنيف قوالب النماذج وتعريف الأصول المخصَّصة.</p>
 <p>تنسيق هذا التفضيل هو <a rel="external" target="_blank" href="https://en.wikipedia.org/wiki/INI_file">INI <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a>، بحيث تتوافق كل مقطوعة (section) مع نوع من أنواع قوالب النماذج.</p>
-<p>لتعريف نوع نموذج مخصَّص (مثلًا <code>js</code>) عليك إضافة مقطوعة <code>[js]</code> (في سطر منفصل). يمكن تعيين عنوان افتراضي عبر إدخال <code>title="Javascript"</code> في المقطوعة المقابلة. إذا لزم الأمر، يمكن أيضًا إضافة عناوين مترجمة (مثلًا <code>ru="Скрипт"</code>).</p>
-<p>بالإضافة إلى ذلك، يمكن تحديد <a rel="external" target="_blank" href="https://www.iana.org/assignments/media-types/media-types.xhtml">نوع وسائط (media type) <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a> لقالب النموذج (المعروف سابقًا بنوع MIME)، مثل <code>mediatype="application/javascript"</code>. يجعل هذا قوالب النماذج من هذا النوع أصولًا مخصَّصة يمكن خدمتها بنوع الوسائط المحدَّد، إما من قاعدة البيانات أو من القرص (ملفات مسطَّحة) عبر وسم <code>&lt;txp:output_form /&gt;</code>. فمثلًا، يمكن تضمين قالب نموذج باسم <code>myscript.js</code> من نوع <code>[js]</code> وله نوع وسائط <code>application/javascript</code> في شيفرتك كما يلي:</p>
-<pre><code>&lt;txp:output_form form="myscript.js"
+<p>لتعريف نوع نموذج مخصَّص (مثلًا <code dir="ltr">js</code>) عليك إضافة مقطوعة <code dir="ltr">[js]</code> (في سطر منفصل). يمكن تعيين عنوان افتراضي عبر إدخال <code dir="ltr">title="Javascript"</code> في المقطوعة المقابلة. إذا لزم الأمر، يمكن أيضًا إضافة عناوين مترجمة (مثلًا <code dir="ltr">ru="Скрипт"</code>).</p>
+<p>بالإضافة إلى ذلك، يمكن تحديد <a rel="external" target="_blank" href="https://www.iana.org/assignments/media-types/media-types.xhtml">نوع وسائط (media type) <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a> لقالب النموذج (المعروف سابقًا بنوع MIME)، مثل <code dir="ltr">mediatype="application/javascript"</code>. يجعل هذا قوالب النماذج من هذا النوع أصولًا مخصَّصة يمكن خدمتها بنوع الوسائط المحدَّد، إما من قاعدة البيانات أو من القرص (ملفات مسطَّحة) عبر وسم <code dir="ltr">&lt;txp:output_form /&gt;</code>. فمثلًا، يمكن تضمين قالب نموذج باسم <code dir="ltr">myscript.js</code> من نوع <code dir="ltr">[js]</code> وله نوع وسائط <code dir="ltr">application/javascript</code> في شيفرتك كما يلي:</p>
+<pre><code dir="ltr">&lt;txp:output_form form="myscript.js"
     format="flat.script" /&gt;</code></pre>
-<p>سيولِّد هذا وسم HTML <code>&lt;script&gt;</code> التالي:<p>
-<pre><code>&lt;script src="path/to/flat/myscript.js"&gt;&lt;/script&gt;</code></pre>
-<p>لا يمكن تقديم قوالب النماذج كملفات مسطَّحة إلا إذا كان امتداد الاسم يتوافق مع نوعها (مثلًا <code>myscript.js</code>). في هذه الحالة، لن تُعالَج بواسطة Textpattern على الإطلاق، ويمكن الوصول إليها عبر عنوان URL الخاص بها.</p>
-If a form template needs processing (if it contains Textpattern tags), you must serve it from the database. In this case you shouldn’t add the extension to the form name - call it just <code>myscript</code> (without <code>.js</code>) to make it inaccessible via a standard URL - and include it like so:</p>
-<pre><code>&lt;txp::myscript format="script" /&gt;</code></pre>
+<p>سيولِّد هذا وسم <bdi dir="ltr">HTML</bdi> <code dir="ltr">&lt;script&gt;</code> التالي:<p>
+<pre><code dir="ltr">&lt;script src="path/to/flat/myscript.js"&gt;&lt;/script&gt;</code></pre>
+<p>لا يمكن تقديم قوالب النماذج كملفات مسطَّحة إلا إذا كان امتداد الاسم يتوافق مع نوعها (مثلًا <code dir="ltr">myscript.js</code>). في هذه الحالة، لن تُعالَج بواسطة <bdi dir="ltr">Textpattern</bdi> على الإطلاق، ويمكن الوصول إليها عبر عنوان <bdi dir="ltr">URL</bdi> الخاص بها.</p>
+If a form template needs processing (if it contains <bdi dir="ltr">Textpattern</bdi> tags), you must serve it from the database. In this case you shouldn’t add the extension to the form name - call it just <code dir="ltr">myscript</code> (without <code dir="ltr">.js</code>) to make it inaccessible via a standard <bdi dir="ltr">URL</bdi> - and include it like so:</p>
+<pre><code dir="ltr">&lt;txp::myscript format="script" /&gt;</code></pre>
         ]]></item>
         <item id="custom_overview" title="الحقول المخصَّصة"><![CDATA[
 <h2>الحقول المخصَّصة</h2>
@@ -680,7 +680,7 @@ If a form template needs processing (if it contains Textpattern tags), you must 
 <p>يمكنك تسمية الحقول بالطريقة التي تريدها، لكن انتبه لما يلي:</p>
 <ul>
 <li>استخدام المسافات يحسِّن المقروئية في لوحة «الكتابة»، لكن حينها <em>لن</em> يمكن استخدام الحقول كمعلمات للفرز أو التصفية في وسم article_custom. فكِّر في استخدام الشرطة السفلية بدلًا من ذلك إذا رغبت في هذه الإمكانية.</li>
-<li>كن حذرًا عند تسمية الحقول حتى لا تتعارض مع أسماء الحقول المحجوزة في Textpattern. مثلًا، لا تستخدم <code>title</code> أو <code>category</code> أو <code>limit</code> أو <code>status</code> إلخ، وإلا ستحصل على نتائج غريبة أو مواقع معطَّلة.</li>
+<li>كن حذرًا عند تسمية الحقول حتى لا تتعارض مع أسماء الحقول المحجوزة في <bdi dir="ltr">Textpattern</bdi>. مثلًا، لا تستخدم <code dir="ltr">title</code> أو <code dir="ltr">category</code> أو <code dir="ltr">limit</code> أو <code dir="ltr">status</code> إلخ، وإلا ستحصل على نتائج غريبة أو مواقع معطَّلة.</li>
 <li>تُحدَّد البيانات في كل حقل بـ 255 حرفًا نصيًا فقط.</li>
 </ul>
         ]]></item>
@@ -690,11 +690,11 @@ If a form template needs processing (if it contains Textpattern tags), you must 
         ]]></item>
         <item id="default_event" title="اللوحة الافتراضية"><![CDATA[
 <h2>اللوحة الافتراضية</h2>
-<p>هي لوحة واجهة إدارة Textpattern التي ستظهر أولًا عندما يسجّل أي شخص الدخول.</p>
+<p>هي لوحة واجهة إدارة <bdi dir="ltr">Textpattern</bdi> التي ستظهر أولًا عندما يسجّل أي شخص الدخول.</p>
         ]]></item>
         <item id="default_publish_status" title="حالة النشر الافتراضية"><![CDATA[
 <h2>حالة النشر الافتراضية</h2>
-<p>تحدِّد حالة إتاحة النشر للمقالات الجديدة في Textpattern.</p>
+<p>تحدِّد حالة إتاحة النشر للمقالات الجديدة في <bdi dir="ltr">Textpattern</bdi>.</p>
 <p>لاحظ أن إعداد التفضيل هذا لا يؤثّر في حالة المقالات التي أُنشِئت أو أُجرِي تعديلها قبل أي تغيير.</p>
 <p>تكون حالة النشر الافتراضية واحدة مما يلي:</p>
 <ul>
@@ -704,15 +704,15 @@ If a form template needs processing (if it contains Textpattern tags), you must 
     <li>منشورة (حالية)</li>
     <li>مثبَّتة</li>
 </ul>
-<p>تُعتبَر المقالة <strong>المسودة</strong> قيد الإعداد ولا يمكن عرضها خارج منطقة إدارة Textpattern (أي غير مرئية على واجهة Textpattern ولا ضمن الخلاصات).</p>
-<p>المقالة <strong>المخفية</strong> غير قابلة للعرض خارج منطقة إدارة Textpattern.</p>
-<p>تُعتبَر المقالة <strong>المعلَّقة</strong> جاهزة للنشر وتنتظر الموافقة، لكنها غير قابلة للعرض خارج منطقة إدارة Textpattern.</p>
-<p>تكون المقالة <strong>المنشورة</strong> عادة قابلة للعرض خارج منطقة إدارة Textpattern (أي مرئية على واجهة Textpattern، ومشمولة في الخلاصات إذا سمح التفضيل بذلك). إذا كانت المقالة منشورة ولها تاريخ انتهاء، فستظل الحالة «منشورة» بعد الوصول إلى ذلك التاريخ، لكن لن تظهر المقالة خارج منطقة الإدارة إلا إذا كان يُسمح بنشر المقالات منتهية الصلاحية.</p>
-<p>تتشابه المقالة <strong>المثبَّتة</strong> مع المقالة <strong>المنشورة</strong> من حيث إمكانية عرضها خارج منطقة إدارة Textpattern، ولكنها <strong>لن</strong> تظهر في قوائم المقالات ما لم يتضمّن وسم <code>article</code> أو <code>article_custom</code> السمة <code>status</code> بالقيمة <code>sticky</code>.</p>
+<p>تُعتبَر المقالة <strong>المسودة</strong> قيد الإعداد ولا يمكن عرضها خارج منطقة إدارة <bdi dir="ltr">Textpattern</bdi> (أي غير مرئية على واجهة <bdi dir="ltr">Textpattern</bdi> ولا ضمن الخلاصات).</p>
+<p>المقالة <strong>المخفية</strong> غير قابلة للعرض خارج منطقة إدارة <bdi dir="ltr">Textpattern</bdi>.</p>
+<p>تُعتبَر المقالة <strong>المعلَّقة</strong> جاهزة للنشر وتنتظر الموافقة، لكنها غير قابلة للعرض خارج منطقة إدارة <bdi dir="ltr">Textpattern</bdi>.</p>
+<p>تكون المقالة <strong>المنشورة</strong> عادة قابلة للعرض خارج منطقة إدارة <bdi dir="ltr">Textpattern</bdi> (أي مرئية على واجهة Textpattern، ومشمولة في الخلاصات إذا سمح التفضيل بذلك). إذا كانت المقالة منشورة ولها تاريخ انتهاء، فستظل الحالة «منشورة» بعد الوصول إلى ذلك التاريخ، لكن لن تظهر المقالة خارج منطقة الإدارة إلا إذا كان يُسمح بنشر المقالات منتهية الصلاحية.</p>
+<p>تتشابه المقالة <strong>المثبَّتة</strong> مع المقالة <strong>المنشورة</strong> من حيث إمكانية عرضها خارج منطقة إدارة Textpattern، ولكنها <strong>لن</strong> تظهر في قوائم المقالات ما لم يتضمّن وسم <code dir="ltr">article</code> أو <code dir="ltr">article_custom</code> السمة <code dir="ltr">status</code> بالقيمة <code dir="ltr">sticky</code>.</p>
         ]]></item>
         <item id="doctype" title="Doctype"><![CDATA[
 <h2>Doctype</h2>
-<p>اختر نوع HTML doctype الذي ترغب في استخدامه (إما HTML5 أو XHTML). يؤثّر هذا في نماذج إدخال التعليقات، وطريقة عرض Textile لوسوم <code>&lt;abbr&gt;</code> أو <code>&lt;acronym&gt;</code>، ووسوم <code>&lt;link&gt;</code> التي يولّدها وسم <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/css"><code>&lt;txp:css /&gt;</code> <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a>.</p>
+<p>اختر نوع <bdi dir="ltr">HTML</bdi> doctype الذي ترغب في استخدامه (إما HTML5 أو XHTML). يؤثّر هذا في نماذج إدخال التعليقات، وطريقة عرض Textile لوسوم <code dir="ltr">&lt;abbr&gt;</code> أو <code dir="ltr">&lt;acronym&gt;</code>، ووسوم <code dir="ltr">&lt;link&gt;</code> التي يولّدها وسم <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/css"><code dir="ltr">&lt;txp:css /&gt;</code> <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a>.</p>
         ]]></item>
         <item id="enable_dev_preview" title="تمكين معاينة مظهر التطوير؟"><![CDATA[
 <h2>تمكين معاينة مظهر التطوير؟</h2>
@@ -721,29 +721,29 @@ If a form template needs processing (if it contains Textpattern tags), you must 
         ]]></item>
         <item id="enable_short_tags" title="تمكين دعم الوسوم القصيرة؟"><![CDATA[
 <h2>تمكين دعم الوسوم القصيرة؟</h2>
-<p>تأتي وسوم Textpattern بالشكل <code>&lt;txp:tag_name attribute1="value" ... /&gt;</code>. يمكن تقليل كمية الكتابة المطلوبة بتمكين تدوين مختصر حيث يمكن حذف بادئة <code>txp:</code> باتباع بعض الإرشادات البسيطة. إليك بعض الأمثلة لتوضيح الفكرة:</p>
+<p>تأتي وسوم <bdi dir="ltr">Textpattern</bdi> بالشكل <code dir="ltr">&lt;txp:tag_name attribute1="value" ... /&gt;</code>. يمكن تقليل كمية الكتابة المطلوبة بتمكين تدوين مختصر حيث يمكن حذف بادئة <code dir="ltr">txp:</code> باتباع بعض الإرشادات البسيطة. إليك بعض الأمثلة لتوضيح الفكرة:</p>
 <ul>
-    <li><code>&lt;txp:article_id /&gt;</code> تصبح <code>&lt;article::id /&gt;</code></li>
-    <li><code>&lt;txp:recent_articles/&gt;</code> تصبح <code>&lt;recent::articles /&gt;</code></li>
-    <li><code>&lt;txp:file_download_list /&gt;</code> تصبح <code>&lt;file::download_list /&gt;</code></li>
-    <li><code>&lt;txp:smd_if /&gt;</code> تصبح <code>&lt;smd::if /&gt;</code></li>
-    <li><code>&lt;txp:smd_if&gt; ... &lt;txp:else /&gt; ... &lt;/txp:smd_if&gt;</code> تصبح <code>&lt;smd::if&gt; ... &lt;smd::else /&gt; ... &lt;/smd::if&gt;</code> (لاحظ أنه يمكن استخدام بادئة المكوّن الإضافي مع وسم <code>else</code>).</li>
+    <li><code dir="ltr">&lt;txp:article_id /&gt;</code> تصبح <code dir="ltr">&lt;article::id /&gt;</code></li>
+    <li><code dir="ltr">&lt;txp:recent_articles/&gt;</code> تصبح <code dir="ltr">&lt;recent::articles /&gt;</code></li>
+    <li><code dir="ltr">&lt;txp:file_download_list /&gt;</code> تصبح <code dir="ltr">&lt;file::download_list /&gt;</code></li>
+    <li><code dir="ltr">&lt;txp:smd_if /&gt;</code> تصبح <code dir="ltr">&lt;smd::if /&gt;</code></li>
+    <li><code dir="ltr">&lt;txp:smd_if&gt; ... &lt;txp:else /&gt; ... &lt;/txp:smd_if&gt;</code> تصبح <code dir="ltr">&lt;smd::if&gt; ... &lt;smd::else /&gt; ... &lt;/smd::if&gt;</code> (لاحظ أنه يمكن استخدام بادئة المكوّن الإضافي مع وسم <code dir="ltr">else</code>).</li>
 </ul>
 <p>إذا كان الوسم يحتوي على شرطة سفلية، وفعَّلت الوسوم القصيرة، فالفكرة الأساسية هي:</p>
 <ol>
-    <li>إزالة البادئة <code>txp:</code>.</li>
-    <li>استبدال أول شرطة سفلية بـ <code>::</code>.</li>
+    <li>إزالة البادئة <code dir="ltr">txp:</code>.</li>
+    <li>استبدال أول شرطة سفلية بـ <code dir="ltr">::</code>.</li>
 </ol>
-<p>لاحظ أن ضبط هذا التفضيل لا يؤثّر في إمكانية استخدام شيفرات <code>&lt;txp:output_form /&gt;</code> القصيرة لعرض مقاطع النماذج. لا تزال تستطيع استخدام <code>&lt;txp::shortcode /&gt;</code>، الذي سيُفسَّر على أنه <code>&lt;txp:output_form form="shortcode" /&gt;</code>.</p>
+<p>لاحظ أن ضبط هذا التفضيل لا يؤثّر في إمكانية استخدام شيفرات <code dir="ltr">&lt;txp:output_form /&gt;</code> القصيرة لعرض مقاطع النماذج. لا تزال تستطيع استخدام <code dir="ltr">&lt;txp::shortcode /&gt;</code>، الذي سيُفسَّر على أنه <code dir="ltr">&lt;txp:output_form form="shortcode" /&gt;</code>.</p>
         ]]></item>
         <item id="enable_xmlrpc_server" title="تمكين خادم XML-RPC؟"><![CDATA[
 <h2>تمكين خادم XML-RPC؟</h2>
-<p>إذا رغبت في استخدام <a rel="external" target="_blank" href="https://en.wikipedia.org/wiki/XML-RPC">XML-RPC <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a> للتحكم في Textpattern عن بعد (مثلًا عبر تطبيقات سطح المكتب أو تطبيقات الهاتف المحمول)، يجب تشغيل خادم XML-RPC بضبط هذا الخيار على «نعم».</p>
+<p>إذا رغبت في استخدام <a rel="external" target="_blank" href="https://en.wikipedia.org/wiki/XML-RPC">XML-RPC <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a> للتحكم في <bdi dir="ltr">Textpattern</bdi> عن بعد (مثلًا عبر تطبيقات سطح المكتب أو تطبيقات الهاتف المحمول)، يجب تشغيل خادم XML-RPC بضبط هذا الخيار على «نعم».</p>
         ]]></item>
         <item id="enhanced_email" title="استخدام ميزات البريد المحسَّنة"><![CDATA[
 <h2>استخدام ميزات البريد المحسَّنة</h2>
-<p>ضبط هذا الخيار على «لا» سيُمرِّر جميع رسائل البريد — مثل طلبات إعادة ضبط كلمة مرور الحساب، ورسائل البريد الصادرة من المكوّنات الإضافية مثل com_connect — عبر دالة <code>mail()</code> في PHP. اختيار «نعم» سيستخدم مكتبة PHPMailer المضمَّنة بدلًا من ذلك، مما يفتح إعدادات اختيارية لتوجيه البريد عبر خوادم SMTP خارجية.</p>
-<p>إذا واجهت مشكلات في تسليم رسائل البريد (خاصة مع مزودي البريد عبر الإنترنت مثل Gmail وOutlook وYahoo! وغيرها)، فمن المرجَّح أن السبب يعود إلى أن نطاقك لا يُعتبَر مصدرًا موثوقًا. يمكن أن يحسِّن التحويل إلى «نعم» من قابلية التسليم. بالإضافة إلى ذلك، يمكن أن يوفر استخدام SMTP توافقًا أفضل مع بعض مزودي خدمات البريد الإلكتروني ويزيد قابلية التسليم.</p>
+<p>ضبط هذا الخيار على «لا» سيُمرِّر جميع رسائل البريد — مثل طلبات إعادة ضبط كلمة مرور الحساب، ورسائل البريد الصادرة من المكوّنات الإضافية مثل com_connect — عبر دالة <code dir="ltr">mail()</code> في <bdi dir="ltr">PHP</bdi>. اختيار «نعم» سيستخدم مكتبة <bdi dir="ltr">PHPMailer</bdi> المضمَّنة بدلًا من ذلك، مما يفتح إعدادات اختيارية لتوجيه البريد عبر خوادم <bdi dir="ltr">SMTP</bdi> خارجية.</p>
+<p>إذا واجهت مشكلات في تسليم رسائل البريد (خاصة مع مزودي البريد عبر الإنترنت مثل Gmail وOutlook وYahoo! وغيرها)، فمن المرجَّح أن السبب يعود إلى أن نطاقك لا يُعتبَر مصدرًا موثوقًا. يمكن أن يحسِّن التحويل إلى «نعم» من قابلية التسليم. بالإضافة إلى ذلك، يمكن أن يوفر استخدام <bdi dir="ltr">SMTP</bdi> توافقًا أفضل مع بعض مزودي خدمات البريد الإلكتروني ويزيد قابلية التسليم.</p>
         ]]></item>
         <item id="expire_logs_after" title="بعد كم يوم تنتهي صلاحية السجلات؟"><![CDATA[
 <h2>بعد كم يوم تنتهي صلاحية السجلات؟</h2>
@@ -758,8 +758,8 @@ If a form template needs processing (if it contains Textpattern tags), you must 
         <item id="file_download_header" title="ترويسة تنزيل الملف"><![CDATA[
 <h2>ترويسة تنزيل الملف</h2>
 <p>تتيح لك تخصيص كيفية التعامل مع تنزيلات الملفات.</p>
-<p>عادة ما تُعامَل جميع التنزيلات كمرفقات وتُنزَّل (حسب كيفية تهيئة المتصفح للتعامل مع نوع الملف). إذا رغبت في تقديم تلميحات حول كيفية التعامل مع بعض أنواع الملفات أو جميعها، يمكنك توفير شيفرات وسوم هنا للقيام بذلك. على سبيل المثال، يمكن عرض ملفات PDF التي أضفتها إلى فئة Textpattern المسماة 'inline-pdf' داخل المتصفح بدلًا من تنزيلها:</p>
-<pre><code>&lt;txp:evaluate query='&lt;txp:file_download_category escape="quote" /&gt;="inline-pdf"'&gt;
+<p>عادة ما تُعامَل جميع التنزيلات كمرفقات وتُنزَّل (حسب كيفية تهيئة المتصفح للتعامل مع نوع الملف). إذا رغبت في تقديم تلميحات حول كيفية التعامل مع بعض أنواع الملفات أو جميعها، يمكنك توفير شيفرات وسوم هنا للقيام بذلك. على سبيل المثال، يمكن عرض ملفات PDF التي أضفتها إلى فئة <bdi dir="ltr">Textpattern</bdi> المسماة 'inline-pdf' داخل المتصفح بدلًا من تنزيلها:</p>
+<pre><code dir="ltr">&lt;txp:evaluate query='&lt;txp:file_download_category escape="quote" /&gt;="inline-pdf"'&gt;
     &lt;txp:header name="Content-Disposition" value="inline" /&gt;
     &lt;txp:header name="Content-Type" value="application/pdf" /&gt;
 &lt;/txp:evaluate&gt;
@@ -767,7 +767,7 @@ If a form template needs processing (if it contains Textpattern tags), you must 
         ]]></item>
         <item id="file_max_upload_size" title="الحد الأقصى لحجم الملفات المرفوعة (بالبايت)"><![CDATA[
 <h2>الحد الأقصى لحجم الملفات المرفوعة (بالبايت)</h2>
-<p>يمكنك تقييد الحجم الأقصى (بالبايت) لملفات الرفع. لاحظ أن هذه القيمة يحدّها أيضًا إعداد PHP. إذا اكتشف Textpattern أن إعداد PHP يحدّ حجم الرفع إلى قيمة أصغر، فسيعدِّل القيمة تلقائيًا نزولًا. إذا كنت تريد السماح برفع ملفات أكبر عبر المتصفح، فاتصل بالمستضيف (القيم ذات الصلة في <code>php.ini</code> هي <code>post_max_size</code> و<code>upload_max_filesize</code> و<code>memory_limit</code>).</p>
+<p>يمكنك تقييد الحجم الأقصى (بالبايت) لملفات الرفع. لاحظ أن هذه القيمة يحدّها أيضًا إعداد <bdi dir="ltr">PHP</bdi>. إذا اكتشف <bdi dir="ltr">Textpattern</bdi> أن إعداد <bdi dir="ltr">PHP</bdi> يحدّ حجم الرفع إلى قيمة أصغر، فسيعدِّل القيمة تلقائيًا نزولًا. إذا كنت تريد السماح برفع ملفات أكبر عبر المتصفح، فاتصل بالمستضيف (القيم ذات الصلة في <code dir="ltr">php.ini</code> هي <code dir="ltr">post_max_size</code> و<code dir="ltr">upload_max_filesize</code> و<code dir="ltr">memory_limit</code>).</p>
         ]]></item>
         <item id="gmtoffset" title="المنطقة الزمنية"><![CDATA[
 <h2>المنطقة الزمنية</h2>
@@ -775,32 +775,32 @@ If a form template needs processing (if it contains Textpattern tags), you must 
         ]]></item>
         <item id="img_dir" title="مجلد الصور"><![CDATA[
 <h2>مجلد الصور</h2>
-<p>إذا رغبت في تخصيص اسم مجلد الصور الخاص بك، يمكنك القيام بذلك هنا. يجب أولًا إنشاء المجلد في جذر تثبيت Textpattern، كما يجب التأكد من قدرة PHP على الكتابة إلى ذلك المجلد.</p>
-<p>يكون هذا المسار دائمًا <strong>مسارًا نسبيًا</strong> (بالنسبة إلى مجلد جذر تثبيت Textpattern).</p>
-<p>القيمة الافتراضية هي <code>images</code>.</p>
+<p>إذا رغبت في تخصيص اسم مجلد الصور الخاص بك، يمكنك القيام بذلك هنا. يجب أولًا إنشاء المجلد في جذر تثبيت <bdi dir="ltr">Textpattern</bdi>، كما يجب التأكد من قدرة <bdi dir="ltr">PHP</bdi> على الكتابة إلى ذلك المجلد.</p>
+<p>يكون هذا المسار دائمًا <strong>مسارًا نسبيًا</strong> (بالنسبة إلى مجلد جذر تثبيت <bdi dir="ltr">Textpattern</bdi>).</p>
+<p>القيمة الافتراضية هي <code dir="ltr">images</code>.</p>
         ]]></item>
         <item id="include_email_atom" title="إدراج عنوان البريد الإلكتروني في خلاصات Atom؟"><![CDATA[
 <h2>إدراج عنوان البريد الإلكتروني في خلاصات Atom؟</h2>
-<p>يتيح لك هذا إدراج عنوان البريد الإلكتروني لمؤلف المقالة (كما هو مضبوطة في حساب المستخدم) في جزء <code>author</code> من خلاصات Atom الخاصة بك.</p>
+<p>يتيح لك هذا إدراج عنوان البريد الإلكتروني لمؤلف المقالة (كما هو مضبوطة في حساب المستخدم) في جزء <code dir="ltr">author</code> من خلاصات Atom الخاصة بك.</p>
         ]]></item>
         <item id="is_dst" title="تمكين التوقيت الصيفي؟"><![CDATA[
 <h2>تمكين التوقيت الصيفي؟</h2>
-<p>ما إذا كان التوقيت الصيفي (DST) مفعَّلًا حاليًا لمنطقتك الزمنية.</p>
+<p>ما إذا كان التوقيت الصيفي <bdi dir="ltr">(DST)</bdi> مفعَّلًا حاليًا لمنطقتك الزمنية.</p>
         ]]></item>
         <item id="logging" title="التسجيل"><![CDATA[
 <h2>التسجيل</h2>
-<p>يمكنك اختيار مستوى تسجيل الزوّار الذي يجريه Textpattern:</p>
+<p>يمكنك اختيار مستوى تسجيل الزوّار الذي يجريه <bdi dir="ltr">Textpattern</bdi>:</p>
 <ul>
-    <li><strong>جميع الزيارات:</strong> يسجّل Textpattern جميع مشاهدات الصفحات على موقعك</li>
-    <li><strong>الإحالات فقط:</strong> يسجّل Textpattern الزيارات المُحالَة من مواقع أخرى فقط</li>
-    <li><strong>لا شيء:</strong> لا يسجّل Textpattern أي مشاهدات للصفحات</li>
+    <li><strong>جميع الزيارات:</strong> يسجّل <bdi dir="ltr">Textpattern</bdi> جميع مشاهدات الصفحات على موقعك</li>
+    <li><strong>الإحالات فقط:</strong> يسجّل <bdi dir="ltr">Textpattern</bdi> الزيارات المُحالَة من مواقع أخرى فقط</li>
+    <li><strong>لا شيء:</strong> لا يسجّل <bdi dir="ltr">Textpattern</bdi> أي مشاهدات للصفحات</li>
 </ul>
-<p>بدءًا من Textpattern 4.7.0، لا يجمع Textpattern أي معلومات عن عناوين IP للزوّار ولا يخزّنها. إذا كنت تجمع أو تخزن عناوين IP خارج Textpattern، فيُرجى اتخاذ الاحتياطات المناسبة لتخزين البيانات و/أو استخدامها بما يتوافق مع القوانين السارية، مثل <a rel="external" target="_blank" href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation">اللائحة العامة لحماية البيانات (GDPR) <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a>، وتطبيق أمان قوي في جميع جوانب خادمك وتثبيت Textpattern لتفادي تعرُّض هذه البيانات للاختراق.</p>
+<p>بدءًا من <bdi dir="ltr">Textpattern</bdi> 4.7.0، لا يجمع <bdi dir="ltr">Textpattern</bdi> أي معلومات عن عناوين <bdi dir="ltr">IP</bdi> للزوّار ولا يخزّنها. إذا كنت تجمع أو تخزن عناوين <bdi dir="ltr">IP</bdi> خارج Textpattern، فيُرجى اتخاذ الاحتياطات المناسبة لتخزين البيانات و/أو استخدامها بما يتوافق مع القوانين السارية، مثل <a rel="external" target="_blank" href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation">اللائحة العامة لحماية البيانات (GDPR) <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a>، وتطبيق أمان قوي في جميع جوانب خادمك وتثبيت <bdi dir="ltr">Textpattern</bdi> لتفادي تعرُّض هذه البيانات للاختراق.</p>
 <p>يُنصَح بشدّة بترك هذا الإعداد على قيمته الافتراضية «لا شيء»، ما لم تكن تحتاج بالفعل إلى هذه المعلومات، وبالإضافة إلى ذلك، أن تعلن علنًا عن كيفية استخدامك المتوقَّد لها.</p>
         ]]></item>
-        <item id="max_url_len" title="الطول الأقصى لعنوان URL (بعدد المحارف)"><![CDATA[
-<h2>الطول الأقصى لعنوان URL (بعدد المحارف)</h2>
-<p>يمنع هذا الإعداد عمل عناوين URL التي تتجاوز الطول المحدَّد. قد يكون ذلك مفيدًا لتقليل الأضرار وتحسين أمان الموقع.</p>
+        <item id="max_url_len" title="الطول الأقصى لعنوان <bdi dir="ltr">URL</bdi> (بعدد المحارف)"><![CDATA[
+<h2>الطول الأقصى لعنوان <bdi dir="ltr">URL</bdi> (بعدد المحارف)</h2>
+<p>يمنع هذا الإعداد عمل عناوين <bdi dir="ltr">URL</bdi> التي تتجاوز الطول المحدَّد. قد يكون ذلك مفيدًا لتقليل الأضرار وتحسين أمان الموقع.</p>
         ]]></item>
         <item id="module_pophelp" title="عرض روابط المساعدة المضمَّنة في الواجهة الإدارية"><![CDATA[
 <h2>عرض روابط المساعدة المضمَّنة في الواجهة الإدارية</h2>
@@ -813,7 +813,7 @@ If a form template needs processing (if it contains Textpattern tags), you must 
         ]]></item>
         <item id="override_emailcharset" title="استخدام ترميز ISO-8859-1 في رسائل البريد (الافتراضي UTF-8)؟"><![CDATA[
 <h2>استخدام ترميز ISO-8859-1 في رسائل البريد (الافتراضي UTF-8)؟</h2>
-<p>يستخدم Textpattern ترميز UTF-8 كلما أمكن افتراضيًا، بما في ذلك رسائل البريد الصادرة. ولكن بعض عملاء البريد الإلكتروني القدامى (بما في ذلك بعض إصدارات Microsoft Outlook) لا يمتلكون دعمًا كاملًا لـ UTF-8. إذا واجهت محارف مشوَّهة في رسائل البريد، فسيحوِّل هذا الإعداد النص إلى ترميز ISO-8859-1 قبل إرسال الرسائل.</p>
+<p>يستخدم <bdi dir="ltr">Textpattern</bdi> ترميز UTF-8 كلما أمكن افتراضيًا، بما في ذلك رسائل البريد الصادرة. ولكن بعض عملاء البريد الإلكتروني القدامى (بما في ذلك بعض إصدارات Microsoft Outlook) لا يمتلكون دعمًا كاملًا لـ UTF-8. إذا واجهت محارف مشوَّهة في رسائل البريد، فسيحوِّل هذا الإعداد النص إلى ترميز ISO-8859-1 قبل إرسال الرسائل.</p>
 <p><strong>ملاحظة:</strong> إذا كنت تستخدم لغة لا يمكن تمثيل محارفها في ISO-8859-1، فلن يساعدك هذا الإعداد. ينبغي أن تحاول العثور على عميل بريد متوافق مع UTF-8 (أو Unicode).</p>
         ]]></item>
         <item id="override_form_types" title="تجاوز أنواع النماذج"><![CDATA[
@@ -822,45 +822,45 @@ If a form template needs processing (if it contains Textpattern tags), you must 
         ]]></item>
         <item id="permlink_format" title="نمط عنوان الرابط الدائم"><![CDATA[
 <h2>نمط عنوان الرابط الدائم</h2>
-<p>يُحدّد هذا طريقة إنشاء عناوين URL للمقالات وإسنادها عند استخدام وضع غير فوضوي (non-messy).</p>
-<p>عند نشر مقالة، يُولَّد عنوان URL من عنوان المقالة ما لم يُحدَّد عنوان URL معيَّن في حقل «عنوان URL فقط».</p>
+<p>يُحدّد هذا طريقة إنشاء عناوين <bdi dir="ltr">URL</bdi> للمقالات وإسنادها عند استخدام وضع غير فوضوي (non-messy).</p>
+<p>عند نشر مقالة، يُولَّد عنوان <bdi dir="ltr">URL</bdi> من عنوان المقالة ما لم يُحدَّد عنوان <bdi dir="ltr">URL</bdi> معيَّن في حقل «عنوان <bdi dir="ltr">URL</bdi> فقط».</p>
 <p>خُذ مثال عنوان المقالة التالي: <em>Ann and Bob eat cake</em></p>
-<p>عندما يُضبَط خيار نمط عنوان الرابط الدائم على «مفصول بشرطات (title-like-this)»، سيكون عنوان URL للمقالة:</p>
-<pre><code>https://example.com/ann-and-bob-eat-cake</code></pre>
-<p>وعندما يُضبَط خيار نمط عنوان الرابط الدائم على «حروف متتالية كبيرة (TitleLikeThis)»، سيكون عنوان URL للمقالة:</p>
-<pre><code>https://example.com/AnnandBobeatcake</code></pre>
+<p>عندما يُضبَط خيار نمط عنوان الرابط الدائم على «مفصول بشرطات (title-like-this)»، سيكون عنوان <bdi dir="ltr">URL</bdi> للمقالة:</p>
+<pre><code dir="ltr">https://example.com/ann-and-bob-eat-cake</code></pre>
+<p>وعندما يُضبَط خيار نمط عنوان الرابط الدائم على «حروف متتالية كبيرة (TitleLikeThis)»، سيكون عنوان <bdi dir="ltr">URL</bdi> للمقالة:</p>
+<pre><code dir="ltr">https://example.com/AnnandBobeatcake</code></pre>
         ]]></item>
-        <item id="permlink_mode" title="نمط عنوان URL للمقالة"><![CDATA[
-<h2>نمط عنوان URL للمقالة</h2>
-<p>يُحدّد هذا الطريقة التي تُوصَل بها المقالات الفردية عبر عنوان URL الذي يُعرَض باستخدام وسم <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/permlink"><code>&lt;txp:permlink&gt;</code> <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a>.</p>
-<p>يُعتبَر وضع ‘?=messy’ الأكثر توافقًا — إذ يعمل مع قدر ضئيل من الإعداد أو حتى دون إعداد — لكنه الأقل فائدة من حيث قابلية قراءة عناوين URL وتحسين محركات البحث (SEO). في هذا الوضع ستبدو عناوين URL للمقالات على موقعك كما يلي:</p>
-<pre><code>https://example.com/index.php?id=123</code></pre>
-<p>تتطلّب جميع الأوضاع الأخرى وجود ميزة إعادة كتابة عناوين URL في خادم الويب (مثل وحدة <code>mod_rewrite</code> في Apache أو تعليمات rewrite في NGINX ضمن كتلة <code>server</code>). إذا كان خادمك لا يدعم هذه الميزة، فإما أن تتصل بمستضيف الويب أو تستخدم وضع ‘?=messy’ المبيَّن أعلاه.</p>
+        <item id="permlink_mode" title="نمط عنوان <bdi dir="ltr">URL</bdi> للمقالة"><![CDATA[
+<h2>نمط عنوان <bdi dir="ltr">URL</bdi> للمقالة</h2>
+<p>يُحدّد هذا الطريقة التي تُوصَل بها المقالات الفردية عبر عنوان <bdi dir="ltr">URL</bdi> الذي يُعرَض باستخدام وسم <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/permlink"><code dir="ltr">&lt;txp:permlink&gt;</code> <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a>.</p>
+<p>يُعتبَر وضع ‘?=messy’ الأكثر توافقًا — إذ يعمل مع قدر ضئيل من الإعداد أو حتى دون إعداد — لكنه الأقل فائدة من حيث قابلية قراءة عناوين <bdi dir="ltr">URL</bdi> وتحسين محركات البحث (SEO). في هذا الوضع ستبدو عناوين <bdi dir="ltr">URL</bdi> للمقالات على موقعك كما يلي:</p>
+<pre><code dir="ltr">https://example.com/index.php?id=123</code></pre>
+<p>تتطلّب جميع الأوضاع الأخرى وجود ميزة إعادة كتابة عناوين <bdi dir="ltr">URL</bdi> في خادم الويب (مثل وحدة <code dir="ltr">mod_rewrite</code> في Apache أو تعليمات rewrite في NGINX ضمن كتلة <code dir="ltr">server</code>). إذا كان خادمك لا يدعم هذه الميزة، فإما أن تتصل بمستضيف الويب أو تستخدم وضع ‘?=messy’ المبيَّن أعلاه.</p>
         ]]></item>
         <item id="plugin_cache_dir" title="مسار مجلد ذاكرة تخزين المكوّنات الإضافية"><![CDATA[
 <h2>مسار مجلد ذاكرة تخزين المكوّنات الإضافية</h2>
-<p>يُستخدَم هذا الإعداد أساسًا لمطوّري المكوّنات الإضافية. عند تحديده، يمكنك وضع ملف مصدر المكوّن الإضافي (غير المجمَّع) في هذا المجلد وسيحمِّله Textpattern تلقائيًا، بحيث يمكنك تعديل المكوّن الإضافي بسهولة ورؤية تأثيره فورًا دون الحاجة إلى تثبيته/تفعيله. <strong>انتبه</strong> مع ذلك إلى أنه باستخدام هذه الطريقة قد يؤدي مكوّن إضافي معطوب (يفشل في التجميع) إلى تعطيل Textpattern أيضًا!</p>
+<p>يُستخدَم هذا الإعداد أساسًا لمطوّري المكوّنات الإضافية. عند تحديده، يمكنك وضع ملف مصدر المكوّن الإضافي (غير المجمَّع) في هذا المجلد وسيحمِّله <bdi dir="ltr">Textpattern</bdi> تلقائيًا، بحيث يمكنك تعديل المكوّن الإضافي بسهولة ورؤية تأثيره فورًا دون الحاجة إلى تثبيته/تفعيله. <strong>انتبه</strong> مع ذلك إلى أنه باستخدام هذه الطريقة قد يؤدي مكوّن إضافي معطوب (يفشل في التجميع) إلى تعطيل <bdi dir="ltr">Textpattern</bdi> أيضًا!</p>
 <p>يُنصَح بتحميل المكوّنات الإضافية عبر لوحة «المكوّنات الإضافية» القياسية على موقع إنتاجي، بدلًا من استخدام مجلد ذاكرة تخزين المكوّنات الإضافية.</p>
-<p><strong>ملاحظة:</strong> لا تحدد المجلد نفسه لكلٍّ من «المؤقت» و«ذاكرة تخزين المكوّنات الإضافية»، لأن ذلك سيُسبِّب مشكلات (إذ سيحاول Textpattern تشغيل محتويات ملفات السجل المؤقتة كمكوّنات إضافية).</p>
+<p><strong>ملاحظة:</strong> لا تحدد المجلد نفسه لكلٍّ من «المؤقت» و«ذاكرة تخزين المكوّنات الإضافية»، لأن ذلك سيُسبِّب مشكلات (إذ سيحاول <bdi dir="ltr">Textpattern</bdi> تشغيل محتويات ملفات السجل المؤقتة كمكوّنات إضافية).</p>
         ]]></item>
         <item id="production_status" title="حالة الإنتاج"><![CDATA[
 <h2>حالة الإنتاج</h2>
-<p>لموقع Textpattern ثلاثة أوضاع:</p>
+<p>لموقع <bdi dir="ltr">Textpattern</bdi> ثلاثة أوضاع:</p>
 <ol>
     <li>«تصحيح الأخطاء»</li>
     <li>«اختبار»</li>
     <li>«مباشر»</li>
 </ol>
 <h3>وضع تصحيح الأخطاء</h3>
-<p>ستكون جميع رسائل أخطاء PHP على موقعك المباشر مرئية، وكذلك التحذيرات حول الشيفرات أو المكوّنات الإضافية المعطَّلة. بالإضافة إلى ذلك، ستظهر المعلومات التالية عند عرض مصدر HTML للصفحات الحية:</p>
+<p>ستكون جميع رسائل أخطاء PHP على موقعك المباشر مرئية، وكذلك التحذيرات حول الشيفرات أو المكوّنات الإضافية المعطَّلة. بالإضافة إلى ذلك، ستظهر المعلومات التالية عند عرض مصدر <bdi dir="ltr">HTML</bdi> للصفحات الحية:</p>
 <ul>
     <li>الوقت الذي استغرقه الخادم لبناء الصفحة («وقت التشغيل»)</li>
     <li>عدد استعلامات MySQL المنفَّذة</li>
     <li>أقصى استهلاك تقريبي للذاكرة</li>
-    <li>جميع وسوم Textpattern التي صودِفَت أثناء بناء الصفحة (المعروفة أيضًا بتتبُّع الوسوم)</li>
+    <li>جميع وسوم <bdi dir="ltr">Textpattern</bdi> التي صودِفَت أثناء بناء الصفحة (المعروفة أيضًا بتتبُّع الوسوم)</li>
 </ul>
 <h3>وضع الاختبار</h3>
-<p>ستكون جميع رسائل أخطاء PHP على موقعك المباشر مرئية، وكذلك التحذيرات حول الشيفرات أو المكوّنات الإضافية المعطَّلة. ستظهر المعلومات التالية عند عرض مصدر HTML للصفحات الحية:</p>
+<p>ستكون جميع رسائل أخطاء PHP على موقعك المباشر مرئية، وكذلك التحذيرات حول الشيفرات أو المكوّنات الإضافية المعطَّلة. ستظهر المعلومات التالية عند عرض مصدر <bdi dir="ltr">HTML</bdi> للصفحات الحية:</p>
 <ul>
     <li>الوقت الذي استغرقه الخادم لبناء الصفحة («وقت التشغيل»)</li>
     <li>عدد استعلامات MySQL المنفَّذة</li>
@@ -871,37 +871,37 @@ If a form template needs processing (if it contains Textpattern tags), you must 
         ]]></item>
         <item id="public_theme_name" title="مظهر الواجهة الأمامية"><![CDATA[
 <h2>مظهر الواجهة الأمامية</h2>
-<p>المظهر الافتراضي للواجهة الأمامية الذي سيُستخدَم عندما يزور أي شخص موقعك العام. يتضمَّن Textpattern مظهرًا افتراضيًا مثبتًا مسبقًا، بالإضافة إلى خيار البدء دون مظهر. يمكنك أيضًا إضافة حزم مظهر إلى مجلد <code>textpattern/themes</code> لجعلها متاحة للاستخدام.</p>
+<p>المظهر الافتراضي للواجهة الأمامية الذي سيُستخدَم عندما يزور أي شخص موقعك العام. يتضمَّن <bdi dir="ltr">Textpattern</bdi> مظهرًا افتراضيًا مثبتًا مسبقًا، بالإضافة إلى خيار البدء دون مظهر. يمكنك أيضًا إضافة حزم مظهر إلى مجلد <code dir="ltr">textpattern/themes</code> لجعلها متاحة للاستخدام.</p>
         ]]></item>
         <item id="publish_expired_articles" title="نشر المقالات منتهية الصلاحية؟"><![CDATA[
 <h2>نشر المقالات منتهية الصلاحية؟</h2>
-<p>عند ضبطه على «نعم»، ستستمر المقالات منتهية الصلاحية في الظهور على موقعك بعد تجاوز تاريخ انتهاء صلاحيتها. يمكنك استخدام وسم <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/if_expired"><code>&lt;txp:if_expired /&gt;</code> <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a> لإظهار محتوى أو وسوم بديلة للمقالات منتهية الصلاحية.</p>
+<p>عند ضبطه على «نعم»، ستستمر المقالات منتهية الصلاحية في الظهور على موقعك بعد تجاوز تاريخ انتهاء صلاحيتها. يمكنك استخدام وسم <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/if_expired"><code dir="ltr">&lt;txp:if_expired /&gt;</code> <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a> لإظهار محتوى أو وسوم بديلة للمقالات منتهية الصلاحية.</p>
 <p>عند ضبطه على «لا»، ستُزال المقالات منتهية الصلاحية من الموقع العام وتُعيد حالة HTTP "410 Gone" بدلًا من ذلك. الإعداد الافتراضي هو «لا».</p>
         ]]></item>
         <item id="publisher_email" title="إرسال تفاصيل تسجيل الدخول من عنوان البريد هذا"><![CDATA[
 <h2>إرسال تفاصيل تسجيل الدخول من عنوان البريد هذا</h2>
 <p>حدِّد عنوان بريد إلكتروني يُستخدَم كعنوان «From:» للمرسِل في الرسائل التي تحتوي على معلومات تسجيل الدخول للمستخدمين الجدد.</p>
-<p>إذا تُرِك هذا التفضيل فارغًا أو احتوى على عنوان بريد إلكتروني غير صالح، فسيستخدم Textpattern اسم وعنوان المستخدم المسجَّل دخوله حاليًا بدلًا منه.</p>
+<p>إذا تُرِك هذا التفضيل فارغًا أو احتوى على عنوان بريد إلكتروني غير صالح، فسيستخدم <bdi dir="ltr">Textpattern</bdi> اسم وعنوان المستخدم المسجَّل دخوله حاليًا بدلًا منه.</p>
         ]]></item>
         <item id="rss_how_many" title="كم عدد المقالات التي يجب تضمينها في الخلاصات؟"><![CDATA[
 <h2>كم عدد المقالات التي يجب تضمينها في الخلاصات؟</h2>
 <p>هذا هو العدد الأقصى من المقالات الحالية التي ستُنشر في آن واحد بصيغتي RSS وAtom.</p>
-<p>يُنصَح باستخدام قيمة منخفضة، مثل <code>5</code> إلى <code>15</code>.</p>
+<p>يُنصَح باستخدام قيمة منخفضة، مثل <code dir="ltr">5</code> إلى <code dir="ltr">15</code>.</p>
         ]]></item>
         <item id="secondpass" title="عدد تمريرات المحلِّل الإضافية"><![CDATA[
 <h2>عدد تمريرات المحلِّل الإضافية</h2>
-<p>عادة ما يستبدل محلِّل وسوم Textpattern جميع وسومك بمحتوى من قاعدة البيانات في تمريرة واحدة لقالب الصفحة. في بعض الحالات قد لا يكون ذلك كافيًا، مثل:</p>
+<p>عادة ما يستبدل محلِّل وسوم <bdi dir="ltr">Textpattern</bdi> جميع وسومك بمحتوى من قاعدة البيانات في تمريرة واحدة لقالب الصفحة. في بعض الحالات قد لا يكون ذلك كافيًا، مثل:</p>
 <ul>
     <li>عند استخدام مكوّنات إضافية ذات ترتيب تحميل منخفض كصفات للوسوم</li>
-    <li>استبدالات الشيفرات داخل وسوم <code>&lt;txp:php&gt;</code></li>
+    <li>استبدالات الشيفرات داخل وسوم <code dir="ltr">&lt;txp:php&gt;</code></li>
     <li>تخطّي عناصر في الصفحة في وقت مبكر لكي تستقبل محتوى مشتقًا من وسم يُعالَج لاحقًا</li>
 </ul>
-<p>اعتاد Textpattern أن يجري تمريرة إضافية واحدة (تُسمَّى «secondpass») لأسباب توافقية قديمة، لذلك تكون القيمة الافتراضية لهذا التفضيل هي <code>1</code>. لكن المزيد من التمريرات يزيد احتمال مرور وسوم غير مقصودة ومعالجتها. وقد قلَّلت التحسينات الأخيرة في محلِّل الوسوم الحاجة إلى هذه التمريرة الثانية. لذا، ما لم تكن تستخدم التمريرة الثانية لغرض معيَّن، يُرجى تقليل هذه القيمة إلى <code>0</code> لجعل موقعك أكثر أمانًا.</p>
+<p>اعتاد <bdi dir="ltr">Textpattern</bdi> أن يجري تمريرة إضافية واحدة (تُسمَّى «secondpass») لأسباب توافقية قديمة، لذلك تكون القيمة الافتراضية لهذا التفضيل هي <code dir="ltr">1</code>. لكن المزيد من التمريرات يزيد احتمال مرور وسوم غير مقصودة ومعالجتها. وقد قلَّلت التحسينات الأخيرة في محلِّل الوسوم الحاجة إلى هذه التمريرة الثانية. لذا، ما لم تكن تستخدم التمريرة الثانية لغرض معيَّن، يُرجى تقليل هذه القيمة إلى <code dir="ltr">0</code> لجعل موقعك أكثر أمانًا.</p>
 <p>إذا لاحظت لاحقًا عرض وسوم غير معالجة على موقعك (ولا توجد أخطاء وسوم أخرى ظاهرة في وضعي الاختبار/تصحيح الأخطاء بسبب أزواج وسوم غير متطابقة)، فيُرجى الاتصال بنا مع مثال عن قالب الصفحة/الشيفرة/المكوّن الإضافي. نحاول القضاء على الحاجة إلى تمريرات إضافية للمحلِّل، وهذه المعلومات ستساعدنا على تحقيق ذلك.</p>
         ]]></item>
         <item id="send_lastmod" title="إرسال ترويسة &quot;Last-Modified&quot;؟"><![CDATA[
 <h2>إرسال ترويسة "Last-Modified"؟</h2>
-<p>عند التمكين، سيقرأ Textpattern ترويسة HTTP <code>If-Modified-Since</code> الخاصة بالزائر (إن وُجِدت) ويقارنها بوقت آخر تحديث للموقع. إذا لم يتغير شيء منذ آخر مرة حمَّل فيها الزائر الصفحة (أي إذا كانت الطابع الزمني الذي يرسله المتصفح يطابق آخر تحديث للموقع)، فستُرسَل ترويسة تُخبِر متصفح الزائر باستخدام النسخة المخبأة من الصفحة.</p>
+<p>عند التمكين، سيقرأ <bdi dir="ltr">Textpattern</bdi> ترويسة HTTP <code dir="ltr">If-Modified-Since</code> الخاصة بالزائر (إن وُجِدت) ويقارنها بوقت آخر تحديث للموقع. إذا لم يتغير شيء منذ آخر مرة حمَّل فيها الزائر الصفحة (أي إذا كانت الطابع الزمني الذي يرسله المتصفح يطابق آخر تحديث للموقع)، فستُرسَل ترويسة تُخبِر متصفح الزائر باستخدام النسخة المخبأة من الصفحة.</p>
 <p>يمكن أن يقلِّل هذا من استهلاك النطاق الترددي وأوقات تحميل الصفحات وحِمل خادم الويب.</p>
         ]]></item>
         <item id="show_comment_count_in_feed" title="عرض عدد التعليقات في الخلاصات؟"><![CDATA[
@@ -919,34 +919,34 @@ If a form template needs processing (if it contains Textpattern tags), you must 
         ]]></item>
         <item id="siteurl" title="عنوان الموقع"><![CDATA[
 <h2>عنوان الموقع</h2>
-<p>هذا هو عنوان موقعك المبني على Textpattern، مثلًا <code>www.example.com</code>.</p>
-<p><strong>ملاحظة:</strong> ليست هناك حاجة إلى <code>http://</code> أو <code>https://</code> أو شرطة مائلة نهائية <code>/</code>.</p>
+<p>هذا هو عنوان موقعك المبني على Textpattern، مثلًا <code dir="ltr">www.example.com</code>.</p>
+<p><strong>ملاحظة:</strong> ليست هناك حاجة إلى <code dir="ltr">http://</code> أو <code dir="ltr">https://</code> أو شرطة مائلة نهائية <code dir="ltr">/</code>.</p>
         ]]></item>
         <item id="skin_dir" title="مجلد المظهر"><![CDATA[
 <h2>مجلد المظهر</h2>
 <p>إذا رغبت في تخصيص اسم المجلد الذي ستُحفَظ فيه ملفات المظاهر المسطَّحة للواجهة الأمامية بصفة دائمة، يمكنك القيام بذلك هنا. يجب أولًا إنشاء هذا المجلد في جذر تثبيت Textpattern، كما يجب التأكد من أن PHP يستطيع الكتابة إليه.</p>
 <p>هذا المسار دائمًا <strong>مسار نسبي</strong> (بالنسبة إلى مجلد جذر تثبيت Textpattern).</p>
-<p>القيمة الافتراضية هي <code>themes</code>.</p>
+<p>القيمة الافتراضية هي <code dir="ltr">themes</code>.</p>
         ]]></item>
         <item id="smtp_from" title="عنوان مرسل SMTP"><![CDATA[
 <h2>عنوان مرسل SMTP</h2>
-<p>يُفضَّل ترك هذا التفضيل فارغًا ما لم تواجه مشكلات في إرسال البريد في Textpattern (مثل عدم إرسال أي بريد مطلقًا). في حال حدوث هذه المشكلة، يمكنك إدخال أي عنوان بريد إلكتروني صالح هنا، ويفضَّل أن يكون ضمن النطاق نفسه للموقع الذي ثبَّتَّ عليه Textpattern (مثلًا إذا كان موقعك هو <code>https://example.com</code>، يمكنك استخدام <code>you@example.com</code>).</p>
+<p>يُفضَّل ترك هذا التفضيل فارغًا ما لم تواجه مشكلات في إرسال البريد في <bdi dir="ltr">Textpattern</bdi> (مثل عدم إرسال أي بريد مطلقًا). في حال حدوث هذه المشكلة، يمكنك إدخال أي عنوان بريد إلكتروني صالح هنا، ويفضَّل أن يكون ضمن النطاق نفسه للموقع الذي ثبَّتَّ عليه <bdi dir="ltr">Textpattern</bdi> (مثلًا إذا كان موقعك هو <code dir="ltr">https://example.com</code>، يمكنك استخدام <code dir="ltr">you@example.com</code>).</p>
 <p>للمهتمين بالتفاصيل التقنية:</p>
 <ul>
-    <li>على خوادم UNIX-like/macOS، يُستخدَم عنوان البريد المُدخَل كمعامل رابع (مسبوق بـ "-f") لدالة <code>mail()</code> في PHP</li>
-    <li>على خوادم Windows، يُستخدَم عنوان البريد المُدخَل لضبط (أو تجاوز) إعداد <code>sendmail_from</code> في php.ini</li>
+    <li>على خوادم UNIX-like/macOS، يُستخدَم عنوان البريد المُدخَل كمعامل رابع (مسبوق بـ "-f") لدالة <code dir="ltr">mail()</code> في PHP</li>
+    <li>على خوادم Windows، يُستخدَم عنوان البريد المُدخَل لضبط (أو تجاوز) إعداد <code dir="ltr">sendmail_from</code> في <bdi dir="ltr">PHP</bdi>.ini</li>
 </ul>
-<p>يضمن ذلك أن يكون عنوان مرسل مغلّف SMTP (الذي ليس بالضرورة هو نفسه ترويسة "From:" التي تراها عادة في رسائل البريد) مضبوطًا على عنوان البريد الذي أدخلته هنا، وهو مطلب لبعض خوادم الويب لإرسال البريد.</p>
+<p>يضمن ذلك أن يكون عنوان مرسل مغلّف <bdi dir="ltr">SMTP</bdi> (الذي ليس بالضرورة هو نفسه ترويسة "From:" التي تراها عادة في رسائل البريد) مضبوطًا على عنوان البريد الذي أدخلته هنا، وهو مطلب لبعض خوادم الويب لإرسال البريد.</p>
         ]]></item>
         <item id="smtp_host" title="مضيف SMTP"><![CDATA[
 <h2>مضيف SMTP</h2>
-<p>لتحسين قابلية تسليم الرسائل والاستفادة من توجيه البريد عبر خدمة خارجية (مثل SendGrid أو AWS SES أو Mailchimp أو Mailgun وغيرها)، حدِّد خادم SMTP هنا. راجع مزوِّد خدمة SMTP للحصول على هذه القيمة.</p>
-<p>يمكن توفير هذه القيمة بتعريف الثابت <code>SMTP_HOST</code> في <code>config.php</code>، وفي هذه الحالة ستظهر القيمة باللون الرمادي في لوحة التفضيلات.</p>
+<p>لتحسين قابلية تسليم الرسائل والاستفادة من توجيه البريد عبر خدمة خارجية (مثل SendGrid أو AWS SES أو Mailchimp أو Mailgun وغيرها)، حدِّد خادم <bdi dir="ltr">SMTP</bdi> هنا. راجع مزوِّد خدمة <bdi dir="ltr">SMTP</bdi> للحصول على هذه القيمة.</p>
+<p>يمكن توفير هذه القيمة بتعريف الثابت <code dir="ltr">SMTP_HOST</code> في <code dir="ltr">config.php</code>، وفي هذه الحالة ستظهر القيمة باللون الرمادي في لوحة التفضيلات.</p>
         ]]></item>
         <item id="smtp_pass" title="كلمة مرور SMTP"><![CDATA[
 <h2>كلمة مرور SMTP</h2>
-<p>إذا كان اتصال SMTP لديك يتطلّب كلمة مرور لاسم المستخدم المحدَّد، فأدخلها هنا. راجع توثيق المزوِّد للتفاصيل.</p>
-<p>ملاحظة: رغم أن كلمة المرور لن تُعرَض هنا، فإنها <em>ستُخزَّن</em> كنص عادي في جدول تفضيلات قاعدة البيانات. إذا أردت زيادة الأمان، يمكنك تعريف الثابت <code>SMTP_PASS</code> في ملف <code>config.php</code> الخاص بك بدلًا من ذلك.</p>
+<p>إذا كان اتصال <bdi dir="ltr">SMTP</bdi> لديك يتطلّب كلمة مرور لاسم المستخدم المحدَّد، فأدخلها هنا. راجع توثيق المزوِّد للتفاصيل.</p>
+<p>ملاحظة: رغم أن كلمة المرور لن تُعرَض هنا، فإنها <em>ستُخزَّن</em> كنص عادي في جدول تفضيلات قاعدة البيانات. إذا أردت زيادة الأمان، يمكنك تعريف الثابت <code dir="ltr">SMTP_PASS</code> في ملف <code dir="ltr">config.php</code> الخاص بك بدلًا من ذلك.</p>
         ]]></item>
         <item id="smtp_port" title="منفذ SMTP"><![CDATA[
 <h2>منفذ SMTP</h2>
@@ -956,22 +956,22 @@ If a form template needs processing (if it contains Textpattern tags), you must 
     <li>465 — قديم (غير رسمي) للبريد الآمن</li>
     <li>587 — الافتراضي (المستحسن) للبريد الآمن عبر TLS</li>
 </ul>
-<p>قد يستخدم مزوِّد SMTP الذي اخترته منفذًا مختلفًا، لذا راجع توثيقه.</p>
-<p>يمكن توفير هذه القيمة بتعريف الثابت <code>SMTP_PORT</code> في <code>config.php</code>، وفي هذه الحالة ستظهر القيمة باللون الرمادي في لوحة التفضيلات.</p>
+<p>قد يستخدم مزوِّد <bdi dir="ltr">SMTP</bdi> الذي اخترته منفذًا مختلفًا، لذا راجع توثيقه.</p>
+<p>يمكن توفير هذه القيمة بتعريف الثابت <code dir="ltr">SMTP_PORT</code> في <code dir="ltr">config.php</code>، وفي هذه الحالة ستظهر القيمة باللون الرمادي في لوحة التفضيلات.</p>
         ]]></item>
         <item id="smtp_sectype" title="طريقة أمان SMTP"><![CDATA[
 <h2>طريقة أمان SMTP</h2>
-<p>اختر الآلية التي يستخدمها مزوِّد SMTP كبروتوكول أمان للبريد. راجع توثيقه للتفاصيل.</p>
-<p>يمكن توفير هذه القيمة بتعريف الثابت <code>SMTP_SECTYPE</code> في <code>config.php</code>، وفي هذه الحالة ستظهر القيمة باللون الرمادي في لوحة التفضيلات.</p>
+<p>اختر الآلية التي يستخدمها مزوِّد <bdi dir="ltr">SMTP</bdi> كبروتوكول أمان للبريد. راجع توثيقه للتفاصيل.</p>
+<p>يمكن توفير هذه القيمة بتعريف الثابت <code dir="ltr">SMTP_SECTYPE</code> في <code dir="ltr">config.php</code>، وفي هذه الحالة ستظهر القيمة باللون الرمادي في لوحة التفضيلات.</p>
         ]]></item>
         <item id="smtp_user" title="اسم مستخدم SMTP"><![CDATA[
 <h2>اسم مستخدم SMTP</h2>
-<p>إذا كان اتصال SMTP لديك يتطلّب اسم مستخدم/تسجيل دخول، فأدخله هنا. راجع توثيق المزوِّد للتفاصيل.</p>
-<p>يمكن توفير هذه القيمة بتعريف الثابت <code>SMTP_USER</code> في <code>config.php</code>، وفي هذه الحالة ستظهر القيمة باللون الرمادي في لوحة التفضيلات.</p>
+<p>إذا كان اتصال <bdi dir="ltr">SMTP</bdi> لديك يتطلّب اسم مستخدم/تسجيل دخول، فأدخله هنا. راجع توثيق المزوِّد للتفاصيل.</p>
+<p>يمكن توفير هذه القيمة بتعريف الثابت <code dir="ltr">SMTP_USER</code> في <code dir="ltr">config.php</code>، وفي هذه الحالة ستظهر القيمة باللون الرمادي في لوحة التفضيلات.</p>
         ]]></item>
         <item id="spam_blocklists" title="قوائم حجب الرسائل المزعجة (مفصولة بفواصل)"><![CDATA[
 <h2>قوائم حجب الرسائل المزعجة (مفصولة بفواصل)</h2>
-<p>سيُستعلَم من مزوّدي <a rel="external" target="_blank" href="https://en.wikipedia.org/wiki/blocklisting">قوائم الحجب <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a> الواردين هنا عند إرسال تعليق إلى مدونتك، وسيُتحقَّق من عنوان IP الخاص بمَن أرسل التعليق. إذا كان عنوان IP مُسجَّلًا فهذا يعني ورد بلاغ أو أكثر عن رسائل مزعجة من هذا العنوان في الماضي، وسيُرفَض التعليق. بغضّ النظر عن نتائج الفحص، لا يخزّن Textpattern عنوان IP الخاص بمَن أرسل التعليق.</p>
+<p>سيُستعلَم من مزوّدي <a rel="external" target="_blank" href="https://en.wikipedia.org/wiki/blocklisting">قوائم الحجب <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a> الواردين هنا عند إرسال تعليق إلى مدونتك، وسيُتحقَّق من عنوان <bdi dir="ltr">IP</bdi> الخاص بمَن أرسل التعليق. إذا كان عنوان <bdi dir="ltr">IP</bdi> مُسجَّلًا فهذا يعني ورد بلاغ أو أكثر عن رسائل مزعجة من هذا العنوان في الماضي، وسيُرفَض التعليق. بغضّ النظر عن نتائج الفحص، لا يخزّن <bdi dir="ltr">Textpattern</bdi> عنوان <bdi dir="ltr">IP</bdi> الخاص بمَن أرسل التعليق.</p>
 <p>يمكنك إدخال قائمة بأسماء النطاقات هنا مفصولة بفواصل. يُرجى ملاحظة أن مسؤوليتك التأكد من ملاءمة قوائم الحجب للغرض.</p>
         ]]></item>
         <item id="syndicate_body_or_excerpt" title="نشر مقتطف المقالة &lt;strong>فقط&lt;/strong>؟"><![CDATA[
@@ -981,21 +981,21 @@ If a form template needs processing (if it contains Textpattern tags), you must 
         ]]></item>
         <item id="tempdir" title="مسار المجلد المؤقت"><![CDATA[
 <h2>مسار المجلد المؤقت</h2>
-<p>يضبط <strong>مسارًا مطلقًا</strong> إلى مجلد مؤقت (يُشار إليه أحيانًا باسم ‘tmp’ أو ‘temp’). يجب أن يكون لدى PHP صلاحية الكتابة إلى هذا المجلد. يُستخدَم هذا المجلد للملفات المؤقتة، مثل جميع أنواع الرفع (مكوّنات إضافية أو ملفات أو صور).</p>
+<p>يضبط <strong>مسارًا مطلقًا</strong> إلى مجلد مؤقت (يُشار إليه أحيانًا باسم ‘tmp’ أو ‘temp’). يجب أن يكون لدى <bdi dir="ltr">PHP</bdi> صلاحية الكتابة إلى هذا المجلد. يُستخدَم هذا المجلد للملفات المؤقتة، مثل جميع أنواع الرفع (مكوّنات إضافية أو ملفات أو صور).</p>
 <p><strong>ملاحظات:</strong>
 <ul>
-    <li>لا تحدد المجلد نفسه لكلٍّ من «المؤقت» و«ذاكرة تخزين المكوّنات الإضافية»، لأن ذلك سيُسبِّب مشكلات (إذ سيحاول Textpattern تشغيل محتويات ملفات السجل المؤقتة كمكوّنات إضافية).</li>
+    <li>لا تحدد المجلد نفسه لكلٍّ من «المؤقت» و«ذاكرة تخزين المكوّنات الإضافية»، لأن ذلك سيُسبِّب مشكلات (إذ سيحاول <bdi dir="ltr">Textpattern</bdi> تشغيل محتويات ملفات السجل المؤقتة كمكوّنات إضافية).</li>
     <li>فكِّر في نقل هذا المجلد إلى خارج جذر المستندات المتاح للعامة في موقعك، لمزيد من الأمان.</li>
 </ul>
 </p>
         ]]></item>
         <item id="theme_name" title="مظهر الواجهة الإدارية"><![CDATA[
 <h2>مظهر الواجهة الإدارية</h2>
-<p>مظهر الواجهة الإدارية الافتراضي الذي سيُستخدَم عندما يسجّل أي شخص الدخول إلى Textpattern. يتضمَّن Textpattern عددًا من مظاهر الإدارة المثبَّتة مسبقًا، ويمكنك أيضًا إضافة حزم مظهر مخصَّصة إلى مجلد <code>textpattern/admin-themes</code> لجعلها متاحة للاستخدام.</p>
+<p>مظهر الواجهة الإدارية الافتراضي الذي سيُستخدَم عندما يسجّل أي شخص الدخول إلى <bdi dir="ltr">Textpattern</bdi>. يتضمَّن <bdi dir="ltr">Textpattern</bdi> عددًا من مظاهر الإدارة المثبَّتة مسبقًا، ويمكنك أيضًا إضافة حزم مظهر مخصَّصة إلى مجلد <code dir="ltr">textpattern/admin-themes</code> لجعلها متاحة للاستخدام.</p>
         ]]></item>
         <item id="trailing_slash" title="إضافة شرطة مائلة نهائية إلى عناوين URL"><![CDATA[
 <h2>إضافة شرطة مائلة نهائية إلى عناوين URL</h2>
-<p>ما إذا كان Textpattern سيضيف تلقائيًا شرطة مائلة نهائية إلى عناوين URL التي يولّدها. الخيارات هي:</p>
+<p>ما إذا كان <bdi dir="ltr">Textpattern</bdi> سيضيف تلقائيًا شرطة مائلة نهائية إلى عناوين <bdi dir="ltr">URL</bdi> التي يولّدها. الخيارات هي:</p>
 <ul>
     <li><strong>لا</strong> — أبدًا</li>
     <li><strong>القوائم</strong> — فقط في صفحات الهبوط القائمة على القوائم (أي عند عدم عرض مقالات فردية)</li>
@@ -1004,9 +1004,9 @@ If a form template needs processing (if it contains Textpattern tags), you must 
         ]]></item>
         <item id="txp_evaluate_functions" title="دوال PHP المُمكَّنة في txp:evaluate"><![CDATA[
 <h2>دوال PHP المُمكَّنة في txp:evaluate</h2>
-<p>هذه قائمة مفصولة بفواصل من عناصر <code>function</code> أو <code>alias=function</code>، مثل <code>md5</code> و<code>replace=str_replace</code>. يمكن استخدام العناصر المحدَّدة في هذه القائمة ضمن صفة <code>query</code> في وسم <code>&lt;txp:evaluate /&gt;</code>:</p>
-<pre><code>&lt;txp:evaluate query="replace('cats', 'dogs', 'I like cats.')" /&gt;</code></pre>
-<p>يجب أن تُرجِع <code>function</code> قيمة عددية أو نصية (scalar) (<strong>لا</strong> مصفوفة أو كائن).</p>
+<p>هذه قائمة مفصولة بفواصل من عناصر <code dir="ltr">function</code> أو <code dir="ltr">alias=function</code>، مثل <code dir="ltr">md5</code> و<code dir="ltr">replace=str_replace</code>. يمكن استخدام العناصر المحدَّدة في هذه القائمة ضمن صفة <code dir="ltr">query</code> في وسم <code dir="ltr">&lt;txp:evaluate /&gt;</code>:</p>
+<pre><code dir="ltr">&lt;txp:evaluate query="replace('cats', 'dogs', 'I like cats.')" /&gt;</code></pre>
+<p>يجب أن تُرجِع <code dir="ltr">function</code> قيمة عددية أو نصية (scalar) (<strong>لا</strong> مصفوفة أو كائن).</p>
         ]]></item>
         <item id="use_comments" title="قبول التعليقات؟"><![CDATA[
 <h2>قبول التعليقات؟</h2>
@@ -1084,12 +1084,12 @@ If a form template needs processing (if it contains Textpattern tags), you must 
     <group id="setup" title="لوحة الإعداد">
         <item id="setup_admin_url" title="النطاق الفرعي للإدارة"><![CDATA[
 <h2>النطاق الفرعي للإدارة</h2>
-<p>النطاق الفرعي الذي ترغب في استخدامه للوصول إلى واجهة إدارة Textpattern (مثلًا <code>admin.example.com</code>).</p>
+<p>النطاق الفرعي الذي ترغب في استخدامه للوصول إلى واجهة إدارة <bdi dir="ltr">Textpattern</bdi> (مثلًا <code dir="ltr">admin.example.com</code>).</p>
 <p>يُرجى الرجوع إلى <a rel="external" target="_blank" href="https://docs.textpattern.com/setup/multi-site-installation">تثبيت <bdi dir="ltr">Textpattern</bdi> متعدد المواقع</a> لمزيد من التفاصيل.</p>
         ]]></item>
     <item id="setup_cookie_domain" title="نطاق الكعكات (Cookie)"><![CDATA[
 <h2>نطاق الكعكات (Cookie)</h2>
-<p>النطاق أو النطاق الفرعي الذي ترغب في استخدامه لكعكات Textpattern.</p>
+<p>النطاق أو النطاق الفرعي الذي ترغب في استخدامه لكعكات <bdi dir="ltr">Textpattern</bdi>.</p>
 <p>يُرجى الرجوع إلى <a rel="external" target="_blank" href="https://docs.textpattern.com/setup/multi-site-installation">تثبيت <bdi dir="ltr">Textpattern</bdi> متعدد المواقع</a> لمزيد من التفاصيل.</p>
         ]]></item>
         <item id="setup_user_login" title="تسجيل دخول المستخدم"><![CDATA[
@@ -1128,7 +1128,7 @@ If a form template needs processing (if it contains Textpattern tags), you must 
         ]]></item>
         <item id="skin_author_uri" title="موقع الموضوع"><![CDATA[
 <h2>موقع ويب المظهر</h2>
-<p>عنوان URL الذي يمكن العثور فيه على المعلومات الكاملة و/أو أحدث الإصدارات من هذا المظهر (اختياري).</p>
+<p>عنوان <bdi dir="ltr">URL</bdi> الذي يمكن العثور فيه على المعلومات الكاملة و/أو أحدث الإصدارات من هذا المظهر (اختياري).</p>
         ]]></item>
         <item id="skin_delete_entirely" title="حذف قوالب السمة من القرص أيضا"><![CDATA[
 <h2>حذف قوالب المظهر من القرص أيضًا</h2>
@@ -1152,7 +1152,7 @@ If a form template needs processing (if it contains Textpattern tags), you must 
 <h2>استيراد مظهر من القرص</h2>
 <p>يتيح لك هذا النموذج استيراد مظهر إلى قاعدة بيانات <bdi dir="ltr">Textpattern</bdi> من مجلد المظاهر لديك.</p>
 <p>يجب أن يتكوَّن المظهر القابل للاستيراد من مجلد أصل قابل للقراءة يستخدم اسم المظهر كاسم للمجلد، وداخل المجلد ملف <code dir="ltr">manifest.json</code> قابل للقراءة بالتنسيق المتوقَّع. يجب أن يحتوي مجلد المظهر أيضًا على صفحات ونماذج وأنماط في مجلدات فرعية تحمل الأسماء نفسها.</p>
-<p>بينما يجب أن تستخدم الصفحات والنماذج الامتداد <code>.txp</code>، من المتوقَّع أن تكون أوراق الأنماط ملفات <code>.css</code>. كما يجب تجميع النماذج حسب النوع في مجلدات مخصَّصة. سيُنشئ <bdi dir="ltr">Textpattern</bdi> أي قوالب أساسية مفقودة عند الاستيراد.</p>
+<p>بينما يجب أن تستخدم الصفحات والنماذج الامتداد <code dir="ltr">.txp</code>، من المتوقَّع أن تكون أوراق الأنماط ملفات <code dir="ltr">.css</code>. كما يجب تجميع النماذج حسب النوع في مجلدات مخصَّصة. سيُنشئ <bdi dir="ltr">Textpattern</bdi> أي قوالب أساسية مفقودة عند الاستيراد.</p>
 <p>راجع <a rel="external" target="_blank" href="https://docs.textpattern.com/themes/">توثيق المظاهر <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a> لمزيد من المعلومات حول إنشاء المظاهر وتثبيتها واستخدامها داخل <bdi dir="ltr">Textpattern CMS</bdi>.</p>
         ]]></item>
         <item id="skin_name" title="اسم الموضوع"><![CDATA[
@@ -1162,7 +1162,7 @@ If a form template needs processing (if it contains Textpattern tags), you must 
         ]]></item>
         <item id="skin_overview" title="مقدمة إلى المظاهر"><![CDATA[
 <h2>مقدمة إلى المظاهر</h2>
-<p>مظهر Textpattern هو مجموعة من الصفحات والنماذج وأوراق الأنماط. تتيح لك المظاهر فصل أصول موقعك منطقيًا في مجموعات لتسهيل التعرف عليها أو مشاركتها مع الآخرين. إن إنشاء مظهر أو استيراده، وأي أصول يحتوي عليها، <em>لا</em> يؤثّر في موقعك الحالي. يمكنك بحرية تحرير أو تعديل أي أصل غير مرتبط بقسم من أقسام موقعك دون أن يؤثر ذلك في الموقع نفسه.</p>
+<p>مظهر <bdi dir="ltr">Textpattern</bdi> هو مجموعة من الصفحات والنماذج وأوراق الأنماط. تتيح لك المظاهر فصل أصول موقعك منطقيًا في مجموعات لتسهيل التعرف عليها أو مشاركتها مع الآخرين. إن إنشاء مظهر أو استيراده، وأي أصول يحتوي عليها، <em>لا</em> يؤثّر في موقعك الحالي. يمكنك بحرية تحرير أو تعديل أي أصل غير مرتبط بقسم من أقسام موقعك دون أن يؤثر ذلك في الموقع نفسه.</p>
 <p>لتحرير الأصول في مظهر ما، زر لوحات «الصفحات» أو «النماذج» أو «الأنماط» واستخدم محدِّد القائمة المنسدلة لاختيار المظهر الذي ترغب في العمل عليه. سيُحتفَظ بالمظهر الذي تعمل عليه في جميع أنحاء منطقة الإدارة، مما يتيح لك الانتقال بسرعة وسهولة بين أنواع الأصول. يُشار إليه باسم <em>مظهر العمل</em> الخاص بك.</p>
 <p>يُرجى الرجوع إلى <a rel="external" target="_blank" href="https://docs.textpattern.com/build/themes-creating-using-and-sharing">توثيق مستخدم <bdi dir="ltr">Textpattern</bdi> <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a> لمزيد من المعلومات.</p>
         ]]></item>
