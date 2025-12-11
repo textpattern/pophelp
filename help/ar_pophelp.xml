@@ -140,7 +140,7 @@
         <item id="title" title="عنوان"><![CDATA[<h2>العنوان</h2>
 <p>أضف عنوانًا مناسبًا لهذه المقالة.</p>
 <p>عنوان المقالة محدد بحد أقصى <code dir="ltr">255</code> حرفًا.</p>]]></item>
-        <item id="url_title" title="عنوان <bdi dir="ltr">URL</bdi> فقط"><![CDATA[<h2>عنوان <bdi dir="ltr">URL</bdi> فقط</h2>
+        <item id="url_title" title="عنوان URL فقط"><![CDATA[<h2>عنوان <bdi dir="ltr">URL</bdi> فقط</h2>
 <p>لاستخدام عنوان محدد في عنوان <bdi dir="ltr">URL</bdi> للرابط الثابت لمقالة ، أدخله هنا. إذا تم تركه فارغًا ، فسيتم إنشاء عنوان <bdi dir="ltr">URL</bdi> تلقائيًا من عنوان المقالة </ 1.</p>
 <p>يكون هذا مفيدًا بشكل خاص إذا كان عنوان المقالة يستخدم أحرفًا غير <bdi dir="ltr">ASCII</bdi>.</p>]]></item>
     </group>
@@ -798,7 +798,7 @@ If a form template needs processing (if it contains <bdi dir="ltr">Textpattern</
 <p>بدءًا من <bdi dir="ltr">Textpattern</bdi> 4.7.0، لا يجمع <bdi dir="ltr">Textpattern</bdi> أي معلومات عن عناوين <bdi dir="ltr">IP</bdi> للزوّار ولا يخزّنها. إذا كنت تجمع أو تخزن عناوين <bdi dir="ltr">IP</bdi> خارج Textpattern، فيُرجى اتخاذ الاحتياطات المناسبة لتخزين البيانات و/أو استخدامها بما يتوافق مع القوانين السارية، مثل <a rel="external" target="_blank" href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation">اللائحة العامة لحماية البيانات (GDPR) <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a>، وتطبيق أمان قوي في جميع جوانب خادمك وتثبيت <bdi dir="ltr">Textpattern</bdi> لتفادي تعرُّض هذه البيانات للاختراق.</p>
 <p>يُنصَح بشدّة بترك هذا الإعداد على قيمته الافتراضية «لا شيء»، ما لم تكن تحتاج بالفعل إلى هذه المعلومات، وبالإضافة إلى ذلك، أن تعلن علنًا عن كيفية استخدامك المتوقَّد لها.</p>
         ]]></item>
-        <item id="max_url_len" title="الطول الأقصى لعنوان <bdi dir="ltr">URL</bdi> (بعدد المحارف)"><![CDATA[
+        <item id="max_url_len" title="الطول الأقصى لعنوان URL (بعدد المحارف)"><![CDATA[
 <h2>الطول الأقصى لعنوان <bdi dir="ltr">URL</bdi> (بعدد المحارف)</h2>
 <p>يمنع هذا الإعداد عمل عناوين <bdi dir="ltr">URL</bdi> التي تتجاوز الطول المحدَّد. قد يكون ذلك مفيدًا لتقليل الأضرار وتحسين أمان الموقع.</p>
         ]]></item>
@@ -830,7 +830,7 @@ If a form template needs processing (if it contains <bdi dir="ltr">Textpattern</
 <p>وعندما يُضبَط خيار نمط عنوان الرابط الدائم على «حروف متتالية كبيرة (TitleLikeThis)»، سيكون عنوان <bdi dir="ltr">URL</bdi> للمقالة:</p>
 <pre><code dir="ltr">https://example.com/AnnandBobeatcake</code></pre>
         ]]></item>
-        <item id="permlink_mode" title="نمط عنوان <bdi dir="ltr">URL</bdi> للمقالة"><![CDATA[
+        <item id="permlink_mode" title="نمط عنوان URL للمقالة"><![CDATA[
 <h2>نمط عنوان <bdi dir="ltr">URL</bdi> للمقالة</h2>
 <p>يُحدّد هذا الطريقة التي تُوصَل بها المقالات الفردية عبر عنوان <bdi dir="ltr">URL</bdi> الذي يُعرَض باستخدام وسم <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/permlink"><code dir="ltr">&lt;txp:permlink&gt;</code> <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a>.</p>
 <p>يُعتبَر وضع ‘?=messy’ الأكثر توافقًا — إذ يعمل مع قدر ضئيل من الإعداد أو حتى دون إعداد — لكنه الأقل فائدة من حيث قابلية قراءة عناوين <bdi dir="ltr">URL</bdi> وتحسين محركات البحث (SEO). في هذا الوضع ستبدو عناوين <bdi dir="ltr">URL</bdi> للمقالات على موقعك كما يلي:</p>
