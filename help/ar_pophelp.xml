@@ -84,9 +84,9 @@
 <h2>صورة المقالة</h2>
 <p>لربط صور بهذا المقال، ضع أحد الخيارات التالية هنا:</p>
 <ol>
-    <li>معرّف أو أكثر من معرّفات صور Textpattern مفصولة بفواصل (مثلًا <code>12, 25, 18</code>)</li>
-    <li>عنوان URL نسبي واحد أو أكثر للصورة مفصول بفواصل (مثلًا <code>/images/my_pic.jpg</code>)</li>
-    <li>عنوان URL كامل واحد أو أكثر مفصول بفواصل (مثلًا <code>https://example.com/path/to/images/my_pic.jpg</code>)</li>
+    <li>معرّف أو أكثر من معرّفات صور <bdi dir="ltr">Textpattern</bdi> مفصولة بفواصل (مثلًا <code>12, 25, 18</code>)</li>
+    <li>عنوان URL نسبي واحد أو أكثر للصورة مفصول بفواصل (مثلًا <code dir="ltr">/images/my_pic.jpg</code>)</li>
+    <li>عنوان URL كامل واحد أو أكثر مفصول بفواصل (مثلًا <code dir="ltr">https://example.com/path/to/images/my_pic.jpg</code>)</li>
 </ol>
 <p>يمكن عرض الصورة الأولى بوضع وسم <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/article_image"><code>&lt;txp:article_image /&gt;</code> <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a> داخل نموذج المقالة. بشكل افتراضي، سيُخرِج وسم HTML كاملًا <code>&lt;img&gt;</code> يشير إلى الصورة المختارة.</p>
 <p>يمكنك أيضًا عرض معارض صور باستخدام وسم <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/images"><code>&lt;txp:images /&gt;</code> <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a>.</p>
@@ -97,7 +97,7 @@
         <item id="description" title="وصف"><![CDATA[
 <h2>الوصف</h2>
 <p>وصف المقالة مكوّن اختياري يمكن أن يساعد محركات البحث وبرامج زحف مواقع الويب في تحديد المحتوى وفرزه بشكل أفضل.</p>
-<p>يُحدَّد وصف المقالة بحد أقصى 255 حرفًا. لاحظ أن بعض محركات البحث تضع حدًا لعدد الأحرف على طول <code>meta description</code> للصفحة من أجل ملاءمة العرض في صفحات نتائج محركات البحث (SERPs)، وقد يكون هذا الحد أقل من حد 255 حرفًا في Textpattern.</p>
+<p>يُحدَّد وصف المقالة بحد أقصى 255 حرفًا. لاحظ أن بعض محركات البحث تضع حدًا لعدد الأحرف على طول <code dir="ltr">meta description</code> للصفحة من أجل ملاءمة العرض في صفحات نتائج محركات البحث <bdi dir="ltr">(SERPs)</bdi>، وقد يكون هذا الحد أقل من حد 255 حرفًا في <bdi dir="ltr">Textpattern</bdi>.</p>
 <p>لاحظ أن وصف المقالة يختلف عن مقتطف المقالة، رغم أنهما يقبلان محتوى مشابهًا. يجب أن يكون وصف المقالة مخصَّصًا أساسًا للاستخدام مع محركات البحث وبرامج الزحف، بينما يكون مقتطف المقالة أنسب لملخَّص مقروء للبشر عن المقالة حيثما لزم الأمر.</p>
         ]]></item>
         <item id="excerpt" title="مقتطفات"><![CDATA[<h2>مقتطف</h2>
@@ -129,11 +129,11 @@
 <p>يحدّد حالة إتاحة النشر لهذه المقالة في Textpattern.</p>
 <p>حالة النشر تكون واحدة مما يلي:</p>
 <ul>
-<li><strong>مسودة</strong>: تُعتبَر قيد الإعداد ولا يمكن عرضها خارج منطقة إدارة Textpattern (أي غير مرئية على موقع الويب ولا ضمن الخلاصات).</li>
-<li><strong>مخفية</strong>: لا يمكن عرض المقالة خارج منطقة إدارة Textpattern. مفيدة لإزالة محتوى من الموقع دون حذفه بالضرورة.</li>
-<li><strong>معلَّقة</strong>: تُعتبَر جاهزة للنشر وتنتظر الموافقة، لكنها غير قابلة للعرض خارج منطقة إدارة Textpattern.</li>
+<li><strong>مسودة</strong>: تُعتبَر قيد الإعداد ولا يمكن عرضها خارج منطقة إدارة <bdi dir="ltr">Textpattern</bdi> (أي غير مرئية على موقع الويب ولا ضمن الخلاصات).</li>
+<li><strong>مخفية</strong>: لا يمكن عرض المقالة خارج منطقة إدارة <bdi dir="ltr">Textpattern</bdi>. مفيدة لإزالة محتوى من الموقع دون حذفه بالضرورة.</li>
+<li><strong>معلَّقة</strong>: تُعتبَر جاهزة للنشر وتنتظر الموافقة، لكنها غير قابلة للعرض خارج منطقة إدارة <bdi dir="ltr">Textpattern</bdi>.</li>
 <li><strong>منشورة (حالية)</strong>: تكون عادة قابلة للعرض خارج منطقة إدارة Textpattern (أي مرئية على موقع الويب، ومشمولة في الخلاصات إذا سمح التفضيل بذلك). إذا كانت المقالة منشورة ولها تاريخ انتهاء، فستظل الحالة «منشورة» بعد الوصول إلى ذلك التاريخ، لكن لن تظهر المقالة خارج منطقة الإدارة إلا إذا كان يُسمح بنشر المقالات منتهية الصلاحية.</li>
-<li><strong>مثبَّتة</strong>: تشبه المقالة <strong>المنشورة</strong> من حيث إمكانية عرضها لزوّار الموقع، لكنها <strong>لن</strong> تظهر في قوائم المقالات ما لم يتضمّن وسم <code>article</code> أو <code>article_custom</code> السمة <code>status</code> بالقيمة <code>sticky</code>.</li>
+<li><strong>مثبَّتة</strong>: تشبه المقالة <strong>المنشورة</strong> من حيث إمكانية عرضها لزوّار الموقع، لكنها <strong>لن</strong> تظهر في قوائم المقالات ما لم يتضمّن وسم <code dir="ltr">article</code> أو <code dir="ltr">article_custom</code> السمة <code dir="ltr">status</code> بالقيمة <code dir="ltr">sticky</code>.</li>
 </ul>
 <p>ملاحظة: المحتوى غير المتاح للعرض العام على الموقع يمكن مع ذلك معاينته من قِبل المستخدمين المسجَّلين دخولهم.</p>
         ]]></item>
@@ -169,34 +169,34 @@
         <item id="link_category" title="الروابط"><![CDATA[
 <h2>الروابط</h2>
 <p>فئات الروابط اختيارية، لكنها مفيدة لعرض مجموعات مختلفة من الروابط، مثل: «أصدقاء»، «رومان»، «أبناء وطني».</p>
-<p>تُخرِج قوائم الروابط الانتقائية مثل هذه باستخدام وسم <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/linklist"><code>&lt;txp:linklist /&gt;</code> <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a> كما يلي:</p>
-<pre><code>&lt;code&gt;&lt;txp:linklist category="Friends" /&gt;&lt;/code&gt;.</code></pre>
+<p>تُخرِج قوائم الروابط الانتقائية مثل هذه باستخدام وسم <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/linklist"><code dir="ltr">&lt;txp:linklist /&gt;</code> <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a> كما يلي:</p>
+<pre><code dir="ltr">&lt;code&gt;&lt;txp:linklist category="Friends" /&gt;&lt;/code&gt;.</code></pre>
         ]]></item>
     </group>
 
     <group id="diag" title="لوحة التشخيص">
         <item id="clean_url_data_failed" title="فشل إختبار العنوان الرقمي النظيف"><![CDATA[
 <h2>فشل تنظيف بيانات <bdi dir="ltr">URL</bdi></h2>
-<p>يبدو أنه إما عناوين <bdi dir="ltr">URL</bdi> للموقع (على سبيل المثال <code>https://example.com/section/Article</code>) لا يعمل حاليا أو أن خادم الويب لا يدعم إجراء الاختبار لتحديد ما إذا كانت عناوين <bdi dir="ltr">URL</bdi> النظيفة/السليمة تعمل أم لا؛ إذا كانت عناوين <bdi dir="ltr">URL</bdi> سليمة ستعمل على الموقع كما هو متوقع، يمكن تجاهل هذه الرسالة بأمان.</p>
+<p>يبدو أنه إما عناوين <bdi dir="ltr">URL</bdi> للموقع (على سبيل المثال <code dir="ltr">https://example.com/section/Article</code>) لا يعمل حاليا أو أن خادم الويب لا يدعم إجراء الاختبار لتحديد ما إذا كانت عناوين <bdi dir="ltr">URL</bdi> النظيفة/السليمة تعمل أم لا؛ إذا كانت عناوين <bdi dir="ltr">URL</bdi> سليمة ستعمل على الموقع كما هو متوقع، يمكن تجاهل هذه الرسالة بأمان.</p>
 <p>إذا كانت عناوين <bdi dir="ltr">URL</bdi> غير سليمة <em>ليست</em>  فقد يعني ذلك:</p>
 <ul>
     <li>إعداد "رابط الموقع" غير صحيح، أو أن الصفحة في ذلك العنوان لا تدار بواسطة هذا المثيل من هذا النمط <bdi dir="ltr">Textpattern</bdi></li>
     <li>يتطلب الخادم بعض التغييرات إلى <code>. الوصول إلى</code> أو توجيه خادم مماثل لجعل عناوين <bdi dir="ltr">URL</bdi> نظيفة تعمل</li>
     <li>الخادم لا يدعم عناوين <bdi dir="ltr">URL</bdi> النظيفة على الإطلاق</li>
 </ul>
-<p>اختبار <bdi dir="ltr">URL</bdi> النظيف يحاول جلب صفحة من عنوان الويب المحدد في تفضيل "موقع <bdi dir="ltr">URL</bdi>" للتحقق من أن جميع معلمات <bdi dir="ltr">URL</bdi> النظيف تعمل بشكل صحيح. إذا كان عنوان <bdi dir="ltr">URL</bdi> هذا موقع مختلف، أو تم استبداله بصفحة ثابتة أو مشابهة، فإن الاختبار سوف يفشل. حتى يتم حل المشكلة عناوين <bdi dir="ltr">URL</bdi> الفوضى المتسببة بالخطأ (على سبيل المثال <code>https://example.com?s=section&amp;id=4</code>) يجب استخدامها. تأكد من تعيين "وضع الرابط الدائم" في تفضيلات المدير تبعاً لذلك.</p>
+<p>اختبار <bdi dir="ltr">URL</bdi> النظيف يحاول جلب صفحة من عنوان الويب المحدد في تفضيل "موقع <bdi dir="ltr">URL</bdi>" للتحقق من أن جميع معلمات <bdi dir="ltr">URL</bdi> النظيف تعمل بشكل صحيح. إذا كان عنوان <bdi dir="ltr">URL</bdi> هذا موقع مختلف، أو تم استبداله بصفحة ثابتة أو مشابهة، فإن الاختبار سوف يفشل. حتى يتم حل المشكلة عناوين <bdi dir="ltr">URL</bdi> الفوضى المتسببة بالخطأ (على سبيل المثال <code dir="ltr">https://example.com?s=section&amp;id=4</code>) يجب استخدامها. تأكد من تعيين "وضع الرابط الدائم" في تفضيلات المدير تبعاً لذلك.</p>
 <p>لاحظ أن استخدام إضافة لوضع موقع في "وضع الصيانة" قد يؤدي إلى هذا التحذير.</p>
         ]]></item>
         <item id="clean_url_test_failed" title="فشل اختبار الروابط النظيفة (Clean URL)"><![CDATA[
-<h2>فشل اختبار الروابط النظيفة (Clean URL)</h2>
-<p>يبدو أن عناوين URL الخاصة بالموقع (مثل <code>https://example.com/section/article</code>) لا تعمل حاليًا، أو أن خادم الويب لا يدعم إجراء الاختبار الذي يحدد ما إذا كانت الروابط النظيفة تعمل أم لا؛ إذا كانت الروابط النظيفة في الموقع تعمل كما هو متوقع، فيمكن تجاهل هذه الرسالة بأمان.</p>
+<h2>فشل اختبار الروابط النظيفة <bdi dir="ltr">(Clean URL)</bdi></h2>
+<p>يبدو أن عناوين URL الخاصة بالموقع (مثل <code dir="ltr">https://example.com/section/article</code>) لا تعمل حاليًا، أو أن خادم الويب لا يدعم إجراء الاختبار الذي يحدد ما إذا كانت الروابط النظيفة تعمل أم لا؛ إذا كانت الروابط النظيفة في الموقع تعمل كما هو متوقع، فيمكن تجاهل هذه الرسالة بأمان.</p>
 <p>إذا كانت الروابط النظيفة <em>لا</em> تعمل، فقد يعني ذلك أحد ما يلي:</p>
 <ul>
-    <li>إعداد «عنوان الموقع (Site URL)» غير صحيح، أو أن الصفحة عند هذا العنوان لا تُدار بواسطة هذا التنصيب من Textpattern</li>
-    <li>الخادم يحتاج إلى بعض التغييرات في ملف <code>.htaccess</code> أو توجيه خادم مشابه لجعل الروابط النظيفة تعمل</li>
+    <li>إعداد «عنوان الموقع <bdi dir="ltr">(Site URL)</bdi> غير صحيح، أو أن الصفحة عند هذا العنوان لا تُدار بواسطة هذا التنصيب من <bdi dir="ltr">Textpattern</bdi></li>
+    <li>الخادم يحتاج إلى بعض التغييرات في ملف <code dir="ltr">.htaccess</code> أو توجيه خادم مشابه لجعل الروابط النظيفة تعمل</li>
     <li>الخادم لا يدعم الروابط النظيفة إطلاقًا</li>
 </ul>
-<p>يحاول اختبار الروابط النظيفة جلب صفحة من عنوان الويب المحدد في تفضيل «Site URL» للتحقق من أن جميع معلمات الروابط النظيفة تعمل بشكل صحيح. إذا كان عنوان URL هذا يشير إلى موقع مختلف، أو تم استبداله بصفحة ثابتة أو ما شابه، فسيفشل الاختبار. إلى أن تُحل المشكلة يجب استخدام الروابط «الفوضوية» (مثل <code>https://example.com?s=section&amp;id=4</code>). تأكد من ضبط «وضع الرابط الدائم (Permanent link mode)» في تفضيلات المشرف وفقًا لذلك.</p>
+<p>يحاول اختبار الروابط النظيفة جلب صفحة من عنوان الويب المحدد في تفضيل <bdi dir="ltr">«Site URL»</bdi> للتحقق من أن جميع معلمات الروابط النظيفة تعمل بشكل صحيح. إذا كان عنوان URL هذا يشير إلى موقع مختلف، أو تم استبداله بصفحة ثابتة أو ما شابه، فسيفشل الاختبار. إلى أن تُحل المشكلة يجب استخدام الروابط «الفوضوية» (مثل <code>https://example.com?s=section&amp;id=4</code>). تأكد من ضبط «وضع الرابط الدائم (Permanent link mode)» في تفضيلات المشرف وفقًا لذلك.</p>
         ]]></item>
         <item id="concurrent_user_live" title="عمليات دخول متزامنة على خادم مباشر"><![CDATA[
 <h2>عمليات دخول متزامنة على خادم مباشر</h2>
@@ -204,15 +204,15 @@
         ]]></item>
         <item id="diag_clear_private" title="إخفاء المعلومات الخاصة"><![CDATA[
 <h2>إخفاء المعلومات الخاصة</h2>
-<p>إخفاء المعلومات الخاصة لمزيد من الأمان. إذا كان من المقرَّر مشاركة معلومات التشخيص في صيغة متاحة للعامة، مثل منتدى دعم Textpattern، فإن ذلك يقلِّل من المخاطر الأمنية بحجب معلومات الخادم الحساسة.</p>
+<p>إخفاء المعلومات الخاصة لمزيد من الأمان. إذا كان من المقرَّر مشاركة معلومات التشخيص في صيغة متاحة للعامة، مثل منتدى دعم <bdi dir="ltr">Textpattern</bdi>، فإن ذلك يقلِّل من المخاطر الأمنية بحجب معلومات الخادم الحساسة.</p>
         ]]></item>
         <item id="dev_version_live" title="شيفرة تطويرية على خادم مباشر"><![CDATA[
 <h2>شيفرة تطويرية على خادم مباشر</h2>
-<p>لا يُنصَح باستخدام إصدارات Textpattern قيد التطوير على المواقع الإنتاجية. يمكن تجاهل هذا التحذير بأمان إذا كانت المخاطر مفهومة ومقبولة.</p>
+<p>لا يُنصَح باستخدام إصدارات <bdi dir="ltr">Textpattern</bdi> قيد التطوير على المواقع الإنتاجية. يمكن تجاهل هذا التحذير بأمان إذا كانت المخاطر مفهومة ومقبولة.</p>
         ]]></item>
         <item id="dir_not_writable" title="الدليل غير قابل للكتابة"><![CDATA[
 <h2>الدليل غير قابل للكتابة</h2>
-<p>لاستخدام إمكانيات رفع الملفات والصور، يجب أن تكون هذه الأدلة قابلة للكتابة من قِبل PHP عبر مستخدم خادم الويب. يمكن تنفيذ ذلك عبر عميل (S)FTP، أو بديلًا عن ذلك عبر سطر الأوامر بتنفيذ الأمر <code>chmod 755 /path/to/dir</code>.</p>
+<p>لاستخدام إمكانيات رفع الملفات والصور، يجب أن تكون هذه الأدلة قابلة للكتابة من قِبل <bdi dir="ltr">PHP</bdi> عبر مستخدم خادم الويب. يمكن تنفيذ ذلك عبر عميل <bdi dir="ltr">(S)FTP</bdi>، أو بديلًا عن ذلك عبر سطر الأوامر بتنفيذ الأمر <code dir="ltr">chmod 755 /path/to/dir</code>.</p>
         ]]></item>
         <item id="dns_lookup_fails" title="فشل DNS"><![CDATA[
 <h2>فشل استعلام DNS</h2>
@@ -220,12 +220,12 @@
         ]]></item>
         <item id="file_uploads_disabled" title="رفع الملفات معطَّل"><![CDATA[
 <h2>رفع الملفات معطَّل</h2>
-<p>تشير تهيئة الخادم الحالية إلى أن رفع الملفات معطَّل. يُرجى التحقق من إعداد <code>file_uploads</code> في <code>php.ini</code> وتعديله أو استشارة مستضيف الموقع للحصول على المساعدة.</p>
+<p>تشير تهيئة الخادم الحالية إلى أن رفع الملفات معطَّل. يُرجى التحقق من إعداد <code dir="ltr">file_uploads</code> في <code dir="ltr">php.ini</code> وتعديله أو استشارة مستضيف الموقع للحصول على المساعدة.</p>
         ]]></item>
         <item id="htaccess_missing" title="ملف .htaccess مفقود"><![CDATA[
-<h2>ملف .htaccess مفقود</h2>
-<p>يُستخدَم وضع للروابط الدائمة يتطلّب ملف <code>.htaccess</code>، ولكن لا يمكن العثور على الملف. يأتي هذا الملف مضمنًا مع Textpattern ويقيم في جذر تثبيت Textpattern بجانب <code>index.php</code> ومجلد <code>textpattern</code>. تعليمات الضبط الموصى بها هي:</p>
-<pre><code># BEGIN Textpattern
+<h2>ملف <bdi dir="ltr">.htaccess</bdi> مفقود</h2>
+<p>يُستخدَم وضع للروابط الدائمة يتطلّب ملف <code dir="ltr">.htaccess</code>، ولكن لا يمكن العثور على الملف. يأتي هذا الملف مضمنًا مع <bdi dir="ltr">Textpattern</bdi> ويقيم في جذر تثبيت <bdi dir="ltr">Textpattern</bdi> بجانب <code dir="ltr">index.php</code> ومجلد <code dir="ltr">textpattern</code>. تعليمات الضبط الموصى بها هي:</p>
+<pre><code dir="ltr"># BEGIN Textpattern
   #DirectoryIndex index.php index.html
 
   #Options +FollowSymLinks
@@ -255,27 +255,27 @@
         ]]></item>
         <item id="index_inaccessible" title="فهرس الموقع غير قابل للوصول"><![CDATA[
 <h2>فهرس الموقع غير قابل للوصول</h2>
-<p>ملف <code>index.php</code> الجذر المحدَّد كفهرس للموقع غير قابل للقراءة من قِبل الخادم. يُرجى التحقق من وجوده وصلاحياته.</p>
+<p>ملف <code dir="ltr">index.php</code> الجذر المحدَّد كفهرس للموقع غير قابل للقراءة من قِبل الخادم. يُرجى التحقق من وجوده وصلاحياته.</p>
         ]]></item>
         <item id="missing_files" title="ملفات مفقودة"><![CDATA[
 <h2>ملفات مفقودة</h2>
-<p>هناك ملف واحد أو أكثر من الملفات الأساسية مفقود من Textpattern. تأكد من وجود جميع الملفات المدرَجة على الخادم وفي المواقع الصحيحة.</p>
+<p>هناك ملف واحد أو أكثر من الملفات الأساسية مفقود من <bdi dir="ltr">Textpattern</bdi>. تأكد من وجود جميع الملفات المدرَجة على الخادم وفي المواقع الصحيحة.</p>
         ]]></item>
         <item id="mod_rewrite_missing" title="وحدة Apache mod_rewrite مفقودة"><![CDATA[
 <h2>وحدة Apache mod_rewrite مفقودة</h2>
-<p>وحدة <code>mod_rewrite</code> في Apache غير مثبَّتة أو معطَّلة. يُنصَح بتوافرها لكي يعمل Textpattern بشكل صحيح. تأكد من وجودها ومن كونها مفعَّلة، أو اتصل بمستضيف الموقع للحصول على المساعدة.</p>
+<p>وحدة <code>mod_rewrite</code> في Apache غير مثبَّتة أو معطَّلة. يُنصَح بتوافرها لكي يعمل <bdi dir="ltr">Textpattern</bdi> بشكل صحيح. تأكد من وجودها ومن كونها مفعَّلة، أو اتصل بمستضيف الموقع للحصول على المساعدة.</p>
         ]]></item>
         <item id="modified_files" title="ملفات معدَّلة"><![CDATA[
 <h2>ملفات معدَّلة</h2>
-<p>يُعتبَر الملف معدَّلًا إذا كان مجموع التحقُّق (checksum) الخاص به يختلف عن قائمة المجموعات الصحيحة المعروفة المضمَّنة مع Textpattern. إذا كان أي ملف في تثبيت Textpattern مختلفًا عما هو متوقَّع، فسيُبرَز هنا.</p>
+<p>يُعتبَر الملف معدَّلًا إذا كان مجموع التحقُّق <bdi dir="ltr">(checksum)</bdi> الخاص به يختلف عن قائمة المجموعات الصحيحة المعروفة المضمَّنة مع <bdi dir="ltr">Textpattern</bdi>. إذا كان أي ملف في تثبيت <bdi dir="ltr">Textpattern</bdi> مختلفًا عما هو متوقَّع، فسيُبرَز هنا.</p>
         ]]></item>
         <item id="mysql_table_errors" title="أخطاء جداول MySQL"><![CDATA[
 <h2>أخطاء جداول MySQL</h2>
-<p>قد يكون هناك بعض التلف أو الضرر في قاعدة بيانات MySQL الخاصة بـ Textpattern. حاول إصلاح الجدول أو الجداول المتأثرة باستخدام أداة وصول إلى MySQL مثل <a rel="external" target="_blank" href="https://www.adminer.org">Adminer <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a> أو <a rel="external" target="_blank" href="https://www.phpmyadmin.net">phpMyAdmin <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a>.</p>
+<p>قد يكون هناك بعض التلف أو الضرر في قاعدة بيانات <bdi dir="ltr">MySQL</bdi> الخاصة بـ <bdi dir="ltr">Textpattern</bdi>. حاول إصلاح الجدول أو الجداول المتأثرة باستخدام أداة وصول إلى <bdi dir="ltr">MySQL</bdi> مثل <a rel="external" target="_blank" href="https://www.adminer.org">Adminer <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a> أو <a rel="external" target="_blank" href="https://www.phpmyadmin.net">phpMyAdmin <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a>.</p>
         ]]></item>
         <item id="no_temp_dir" title="لم يُعرَّف مجلد مؤقت"><![CDATA[
 <h2>لم يُعرَّف مجلد مؤقت</h2>
-<p>رغم أن Textpattern يمكن أن يعمل دون مجلد مؤقت، فإن بعض الوظائف قد لا تعمل كما هو متوقَّع إذا لم يُضبَط هذا التفضيل. يُرجى زيارة «تفضيلات المشرف» وضبط «مسار المجلد المؤقت».</p>
+<p>رغم أن <bdi dir="ltr">Textpattern</bdi> يمكن أن يعمل دون مجلد مؤقت، فإن بعض الوظائف قد لا تعمل كما هو متوقَّع إذا لم يُضبَط هذا التفضيل. يُرجى زيارة «تفضيلات المشرف» وضبط «مسار المجلد المؤقت».</p>
         ]]></item>
         <item id="old_placeholder_exists" title="قسم يحمل الاسم نفسه للدليل"><![CDATA[
 <h2>قسم يحمل الاسم نفسه للدليل</h2>
@@ -283,23 +283,23 @@
         ]]></item>
         <item id="path_to_site_inaccessible" title="دليل الموقع غير قابل للقراءة"><![CDATA[
 <h2>دليل الموقع غير قابل للقراءة</h2>
-<p>الدليل الذي يحتوي على ملف <code>index.php</code> الجذر المحدَّد كفهرس للموقع غير قابل للقراءة من قِبل الخادم. يُرجى التحقق من الصلاحيات.</p>
+<p>الدليل الذي يحتوي على ملف <code dir="ltr">index.php</code> الجذر المحدَّد كفهرس للموقع غير قابل للقراءة من قِبل الخادم. يُرجى التحقق من الصلاحيات.</p>
         ]]></item>
         <item id="php_scripting_enabled" title="برمجة PHP مُمكَّنة"><![CDATA[
 <h2>برمجة PHP مُمكَّنة</h2>
-<p>يسمح Textpattern للمؤلفين والمديرين بتضمين شيفرة PHP داخل المقالات والصفحات/النماذج إذا كانت هذه الميزات مُمكَّنة. وبما أن هذا يمثّل مخاوف أمنية — إذ يمكن تنفيذ أي نوع من شيفرة PHP، بما في ذلك الشيفرة الضارّة/الخطرة التي قد تؤدي إلى تدمير تثبيتك أو تسريب معلومات إلى أطراف ثالثة — فيُنصَح بشدّة بإيقاف هذه الخيارات في <a href="?event=prefs#prefs_group_publish">لوحة التفضيلات</a> ما لم تكن تحتاج إليها فعلًا.</p>
-<p>يمكن الآن تنفيذ العديد من التحسينات على مواقع Textpattern التي كانت تتطلّب سابقًا مقاطع من PHP باستخدام <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/">الوسوم الأساسية</a>.</p>
+<p>يسمح <bdi dir="ltr">Textpattern</bdi> للمؤلفين والمديرين بتضمين شيفرة <bdi dir="ltr">PHP</bdi> داخل المقالات والصفحات/النماذج إذا كانت هذه الميزات مُمكَّنة. وبما أن هذا يمثّل مخاوف أمنية — إذ يمكن تنفيذ أي نوع من شيفرة <bdi dir="ltr">PHP</bdi>، بما في ذلك الشيفرة الضارّة/الخطرة التي قد تؤدي إلى تدمير تثبيتك أو تسريب معلومات إلى أطراف ثالثة — فيُنصَح بشدّة بإيقاف هذه الخيارات في <a href="?event=prefs#prefs_group_publish">لوحة التفضيلات</a> ما لم تكن تحتاج إليها فعلًا.</p>
+<p>يمكن الآن تنفيذ العديد من التحسينات على مواقع <bdi dir="ltr">Textpattern</bdi> التي كانت تتطلّب سابقًا مقاطع من <bdi dir="ltr">PHP</bdi> باستخدام <a rel="external" target="_blank" href="https://docs.textpattern.com/tags/">الوسوم الأساسية</a>.</p>
         ]]></item>
         <item id="php_version_required" title="متطلَّبات الإصدار الدنيا"><![CDATA[
 <h2>متطلَّبات الإصدار الدنيا</h2>
-<p>يتطلّب Textpattern وجود وظائف معيّنة في لغة البرمجة PHP وخادم قاعدة بيانات MySQL. يُرجى الرجوع إلى الجدول التالي لتحديد الحد الأدنى من متطلَّبات النظام:</p>
+<p>يتطلّب Textpattern وجود وظائف معيّنة في لغة البرمجة <bdi dir="ltr">PHP</bdi> وخادم قاعدة بيانات <bdi dir="ltr">MySQL</bdi>. يُرجى الرجوع إلى الجدول التالي لتحديد الحد الأدنى من متطلَّبات النظام:</p>
 <div class="txp-listtables">
     <table class="txp-list">
         <thead>
             <tr>
-                <th scope="col">إصدار Textpattern</th>
-                <th scope="col">أدنى إصدار PHP</th>
-                <th scope="col">أدنى إصدار MySQL</th>
+                <th scope="col">إصدار <bdi dir="ltr">Textpattern</bdi></th>
+                <th scope="col">أدنى إصدار <bdi dir="ltr">PHP</bdi></th>
+                <th scope="col">أدنى إصدار <bdi dir="ltr">MySQL</bdi></th>
             </tr>
         </thead>
         <tbody>
@@ -336,17 +336,17 @@
         </tbody>
     </table>
 </div>
-<p>بالإضافة إلى متطلبات النظام أعلاه، تتطلّب PHP الإضافات التالية:</p>
+<p>بالإضافة إلى متطلبات النظام أعلاه، تتطلّب <bdi dir="ltr">PHP</bdi> الإضافات التالية:</p>
 <ul>
     <li><a rel="external" target="_blank" href="https://www.php.net/manual/en/book.mysqli.php">mysqli <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a></li>
     <li><a rel="external" target="_blank" href="https://www.php.net/manual/en/book.xml.php">XML <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a></li>
     <li><a rel="external" target="_blank" href="https://www.php.net/manual/en/book.json.php">JSON <span class="ui-icon ui-icon-extlink">(يفتح رابطًا خارجيًا في نافذة جديدة)</span></a></li>
 </ul>
-<p>يجب أن يحتوي ملف <code>php.ini</code> الخاص بالموقع، سواء كان عالميًا أو محليًا، على إعداد <code>date.timezone</code>.</p>
+<p>يجب أن يحتوي ملف <code dir="ltr">php.ini</code> الخاص بالموقع، سواء كان عالميًا أو محليًا، على إعداد <code dir="ltr">date.timezone</code>.</p>
         ]]></item>
         <item id="setup_still_exists" title="مجلد الإعداد لا يزال موجودًا"><![CDATA[
 <h2>مجلد الإعداد لا يزال موجودًا</h2>
-<p>بعد تثبيت Textpattern، لا تعود هناك حاجة إلى مجلد <code>textpattern/setup</code> ومحتوياته، ويجب حذفه لأسباب أمنية.</p>
+<p>بعد تثبيت <bdi dir="ltr">Textpattern</bdi>، لا تعود هناك حاجة إلى مجلد <code dir="ltr">textpattern/setup</code> ومحتوياته، ويجب حذفه لأسباب أمنية.</p>
         ]]></item>
         <item id="site_url_mismatch" title="عدم تطابق عنوان الموقع (Site URL)"><![CDATA[
 <h2>عدم تطابق عنوان الموقع (Site URL)</h2>
