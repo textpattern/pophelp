@@ -582,7 +582,7 @@
         ]]></item>
         <item id="archive_dateformat" title="Archive date format"><![CDATA[
 <h2>Archive date format</h2>
-<p>How dates will appear on articles in sections of your site.</p>
+<p>How dates will appear on articles on the front page of your site.</p>
         ]]></item>
         <item id="articles_use_excerpts" title="Show excerpt on article edit page?"><![CDATA[
 <h2>Show excerpt on article edit page?</h2>
